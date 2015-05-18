@@ -11,7 +11,6 @@
     <meta name="viewport" content="width=device-width" />
 
     {{! Responsive Meta Tags }}
-
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
 
@@ -32,10 +31,7 @@
 
        {{{body}}}
 
-    </div>
-{{#if pagination}}
-    {{pagination}}
-{{/if}}
+
 </div><!-- container fluid END! -->
 {{> infomodal}}
 <!-- ghost footer includes jquery -->
@@ -44,14 +40,13 @@
 <!-- google analytics -->
 {{> analytics}}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="{{asset "javascripts/classie.js"}}"></script>
-
+  <script src="{{asset "javascripts/classie.js"}}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script>
             function init() {
             window.addEventListener('scroll', function(e){
                 var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                    shrinkOn = 25,
+                    shrinkOn = 75,
                     header = document.querySelector("header");
                 if (distanceY > shrinkOn) {
                     classie.add(header,"smaller");
@@ -66,8 +61,8 @@
     </script>
   </main>
   <footer>
-      <p class="blogdescription">Deze pagina wordt medemogelijk gemaakt door <a href="http://www.ghost.org/" target="_blank">Ghost</a>.
-      De site maakt daarnaast gebruik van <a href="http://https://github.com/desandro/classie" target="_blank">Classie.js</a> voor de design elementen van de header.
-      </p>
+        {{#if pagination}}
+            {{pagination}}
+        {{/if}}
 </footer>
 </html>

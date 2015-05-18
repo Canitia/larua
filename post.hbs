@@ -1,8 +1,13 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                 {{#post}}
-                                    <article>
-                                    <h1 class="text-left-title posttheme"></i>{{title}}</h1>
+                                    <article class="row card">
+                                      <img class="content-images-individual" src="{{#if image}}
+                                        {{image}}
+                                      {{else}}
+                                          {{@blog.logo}}" />
+                                          {{/if}}
+                                    <h1 class="text-left-title"></i>{{title}}</h1>
                                     <h4><p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                     {{#if tags}}
                                         <p class="text-right postdate">
@@ -11,10 +16,23 @@
                                         {{/if}}
                                     </h4>
 
+                                    <p class="text-justify">{{content}}</p>
 
-                                        <p class="text-justify">{{content}}</p><br />
+                                    <br />
 
-                                    </article>
+                                    <address itemscope itemtype="http://schema.org/Person">
+                                    {{#if author.image}}
+                                    <div class="authorimage"><img src="{{author.image}}" itemprop="image" /></div>
+                                    {{/if}}
+                                    <h4 class="authorname"><span itemprop="author">{{author.name}}</span></h4>
+                                    {{#if author.website}}
+                                    <div class="authorwebsite"><a href="{{author.website}}" itemprop="url">{{author.website}}</a></div>
+                                    {{/if}}
+                                    </address>
+                                    <div class="authorbio">
+                                    <p>{{author.bio}}</p>
+                                    </div>
                                         {{> disqus}}
+                                    </article>
                                 <hr>
                 {{/post}}

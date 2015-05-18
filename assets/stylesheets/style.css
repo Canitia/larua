@@ -145,6 +145,8 @@ footer a {
   max-width:1000px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
   padding-bottom: 0;
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
@@ -316,6 +318,11 @@ color: black;
     .content-images {
         width: 100%;
         padding-top: 20px;
+    }
+
+    .row {
+    padding-left: 30px;
+    padding-right: 30px;
     }
 
   }

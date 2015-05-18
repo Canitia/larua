@@ -1,0 +1,18 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+                    {{#foreach posts}}
+                                    <article class="col-xs-12 col-md-12">
+                                    <h4 class="text-left-title posttheme"></i><a href="{{url}}">{{title}}</a>
+                                    <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
+                                    {{#if tags}}
+                                        <p class="text-right postdate">
+                                        Tags: {{tags separator=" | "}}
+                                        </p>
+                                        {{/if}}
+                                    </h4>
+                                        <p class="text-justify">{{excerpt}}...</p><br />
+
+                                <a href="{{url}}" class="posttheme-button">Read More</a>
+                                </article>
+                                <hr>
+                    {{/foreach}}

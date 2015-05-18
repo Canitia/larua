@@ -140,20 +140,196 @@ footer .blogdescription {
 }
 
 
+/* **************************************
 
-/*  questionmark header */
-.about {
-    position: absolute;
-    right: 10px;
-    top: 10px;
+  CONTENT
+
+*****************************************/
+.row {
+  background-color: white;
+  padding: 55px;
+  text-align: justify;
+  max-width:1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.about > a {
-    color: #00bfff;
+/* look-n-feel of main container */
+.container-fluid {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 15px;
 }
-.about > a:hover {
+
+.fork {
+  position: absolute;
+  width: 120px;
+  right: 0;
+}
+
+/* big images inline */
+.content-images {
+    width: 100%;
+}
+
+/* company logos */
+img.userprofileimages {
+  max-width: 140px;
+  margin: 10px;
+}
+
+/* social media icons */
+a i {
     color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
 }
+a i:hover {
+    background: #29b6f6;
+}
+
+/* icons in table */
+.fa-2x {
+color: black;
+}
+
+.fa-2x:hover {
+  color: black;
+}
+
+
+.screenshots-home {
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+}
+
+/* Card, Dialog */
+.card {
+  position: relative;
+  vertical-align: top;
+  background-color: #fff;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+
+/* medium width devices */
+@media only screen and (max-width: 770px) {
+    header {
+        width: 100%;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    header .blogtitle {
+        margin-left: 10px;
+        margin-top: 2%;
+        font-size: 26px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    header.smaller .blogtitle {
+        margin-left: 10px;
+        margin-top: 2%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    header .blogdescription {
+        display: none;
+    }
+
+
+    footer .blogdescription {
+        color: white;
+        margin-left: 35px;
+        margin-right: 35px;
+        text-overflow: ellipsis;
+    }
+
+    .row {
+      padding: 35px;
+    }
+
+    h1 {
+    	font-family: Raleway;
+    	font-size: 28px;
+    	font-style: normal;
+    	font-variant: normal;
+    	font-weight: 500;
+    	line-height: 26.3999996185303px;
+    }
+  }
+
+
+
+  /*  questionmark header */
+  .about {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+  }
+
+  .about > a {
+      color: #00bfff;
+  }
+  .about > a:hover {
+      color: black;
+  }
+
+
+  /* post look and feel */
+  .posttheme {
+      background-color: #1e90ff;
+      color: white;
+      padding-bottom: 5px;
+      border-radius: 0px 0px 15px 15px;
+  }
+
+  .posttheme-dialog {
+      background-color: #1e90ff;
+      color: white;
+      padding-bottom: 5px;
+      margin-top: 0;
+  }
+
+  .posttheme-button {
+      float: right;
+      color: #fff;
+      margin-top: -20px;
+      padding: 10px;
+      background-color: #1e90ff;
+      border-radius: 15px 15px 0px 0px;
+  }
+  .posttheme-button:hover {
+      background-color: #00bfff;
+      color: white;
+  }
+  .postdate {
+      font-size: 16px;
+      margin-right: 5px;
+  }
+  .text-left-title a {
+      color: white;
+  }
+
+
+/* ##########################################
+
+OLD CSS
+
+############################################*/
+
 
 /* social media icons */
 #socialhead {
@@ -175,41 +351,6 @@ footer .blogdescription {
     padding-left: 40px;
     padding-top: 20px;
     font-size: 28px;
-}
-
-/* post look and feel */
-.posttheme {
-    background-color: #1e90ff;
-    color: white;
-    padding-bottom: 5px;
-    border-radius: 0px 0px 15px 15px;
-}
-
-.posttheme-dialog {
-    background-color: #1e90ff;
-    color: white;
-    padding-bottom: 5px;
-    margin-top: 0;
-}
-
-.posttheme-button {
-    float: right;
-    color: #fff;
-    margin-top: -20px;
-    padding: 10px;
-    background-color: #1e90ff;
-    border-radius: 15px 15px 0px 0px;
-}
-.posttheme-button:hover {
-    background-color: #00bfff;
-    color: white;
-}
-.postdate {
-    font-size: 16px;
-    margin-right: 5px;
-}
-.text-left-title a {
-    color: white;
 }
 
 /* general dimensions of posts/articles */

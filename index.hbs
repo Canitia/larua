@@ -1,8 +1,11 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                     {{#foreach posts}}
-                                    <article class="col-xs-12 col-md-12">
-                                    <h4 class="text-left-title posttheme"></i><a href="{{url}}">{{title}}</a>
+                    <img src={{image}} />
+                    <div class="row card">
+                                    <article>
+                                    <h1 class="text-left-title posttheme"></i><a href="{{url}}">{{title}}</a></h1>
+                                    </h4>
                                     <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                     {{#if tags}}
                                         <p class="text-right postdate">
@@ -15,4 +18,5 @@
                                 <a href="{{url}}" class="posttheme-button">Read More</a>
                                 </article>
                                 <hr>
+                      </div>
                     {{/foreach}}

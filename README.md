@@ -9,7 +9,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is based on [Material D
 - Shows post date/tags in post header
 - Shows author info at bottom of each post
 - Shows pagination when available (aka when there are enough posts)
-- Resolution-based CSS (<= 720, <= 770  and > 1200)
+- Resolution-based CSS (<= 825, > 825  and > 950)
 - Seperated parts of the code in 'partials'
 - High res users get a different look than 'low-res' users
 

@@ -23,6 +23,14 @@ mati uses the following libraries;
 #Preview
 This theme is still under development, but check the releases page for stable versions.
 
+![Homescreen high resolution](http://img.photobucket.com/albums/v385/hxkclan/github/Mati%20for%20Ghost/Screenshot%20from%202015-05-18%2023-36-41.png)
+
+![Post page with smaller header](http://img.photobucket.com/albums/v385/hxkclan/github/Mati%20for%20Ghost/Screenshot%20from%202015-05-18%2023-37-12.png)
+
+![Author and disqus below a post](http://img.photobucket.com/albums/v385/hxkclan/github/Mati%20for%20Ghost/Screenshot%20from%202015-05-18%2023-44-28.png)
+
+![Footer with social media and pagination](http://img.photobucket.com/albums/v385/hxkclan/github/Mati%20for%20Ghost/Screenshot%20from%202015-05-18%2023-45-11.png)
+
 #Use
 - Download the package
 - Place the mati theme folder inside your 'content/theme' folder

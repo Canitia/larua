@@ -357,7 +357,7 @@ padding: 40px;
 
 /* post title */
 .text-left-title {
-    padding-left: 40px;
+    padding-left: 10px;
     padding-top: 50px;
     font-size: 28px;
 }
@@ -447,7 +447,7 @@ h4 {
         margin-bottom: 30px;
     }
     .text-left-title {
-        padding-left: 40px;
+        padding-left: 10px;
         padding-top: 20px;
         margin-top: 0px;
         font-size: 18px;

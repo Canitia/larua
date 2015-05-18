@@ -193,8 +193,8 @@ article img {
 }
 
 hr {
-    border-width: 3px;
-    color: #708090;
+      border: 1px solid #eee;
+      margin: 35px;
 }
 
 h4 {

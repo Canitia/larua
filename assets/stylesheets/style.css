@@ -466,10 +466,6 @@ article.col-xs-12.col-md-12 {
         overflow: auto;
     }
 
-
-    hr {
-        display: none;
-    }
 }
 
 /* high dpi displays */
@@ -483,8 +479,4 @@ article.col-xs-12.col-md-12 {
         margin-right: 10px;
     }
 
-
-    hr {
-        display:none;
-    }
 }

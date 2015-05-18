@@ -332,8 +332,8 @@ OLD CSS
 /* social media icons */
 #socialhead {
     position: absolute;
-    top: 35%;
-    right: 45px;
+    top: 1%;
+    right: 1%;
 }
 
 #socialhead > a {

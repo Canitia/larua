@@ -108,6 +108,7 @@ header.smaller .blogdescription {
 
 .headerurl:hover {
   color:white;
+  text-decoration: none;
 }
 
 /* **************************************

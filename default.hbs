@@ -24,7 +24,7 @@
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
-<body class="{{body_class}}">
+<main class="{{body_class}}">
 
 {{> header}}
 
@@ -64,5 +64,10 @@
         }
         window.onload = init();
     </script>
-  </body>
+  </main>
+  <footer>
+      <p class="blogdescription">Deze pagina wordt medemogelijk gemaakt door <a href="http://www.ghost.org/" target="_blank">Ghost</a>.
+      De site maakt daarnaast gebruik van <a href="http://https://github.com/desandro/classie" target="_blank">Classie.js</a> voor de design elementen van de header.
+      </p>
+</footer>
 </html>

@@ -68,6 +68,12 @@ header {
 
 /* website title header */
 header .blogtitle {
+  -webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-ms-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+display: inline-block;
     font-size: 48px;
     margin-left: 5%;
     top: 50%;

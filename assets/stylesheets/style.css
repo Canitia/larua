@@ -387,6 +387,10 @@ article img {
         margin-right: 10px;
     }
 
+    header .blogtitle {
+      font-size: 72px;
+    }
+
 }
 
 /* super high resolutions */

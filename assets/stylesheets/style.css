@@ -256,12 +256,11 @@ color: black;
   color: #29b6f6;
 }
 
-
-
 /* medium width devices */
 @media only screen and (max-width: 770px) {
     header {
         width: 100%;
+        height: 150px;
         overflow: hidden;
         position: fixed;
         top: 0;

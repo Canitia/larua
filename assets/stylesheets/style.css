@@ -484,5 +484,7 @@ article.col-xs-12.col-md-12 {
       padding-left: 10%;
       padding-right: 0;
       padding-top: 80px;
+      width: 50%;
+      float:right;
   }
 }

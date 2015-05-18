@@ -47,6 +47,11 @@ pre {
 }
 
 
+/* **************************************
+
+  HEADER
+
+*****************************************/
 header {
     width: 100%;
     height: 150px;
@@ -58,23 +63,24 @@ header {
     -ms-transition: height 1.0s;
     -o-transition: height 1.0s;
     transition: height 1.0s;
-    background-color: #1e90ff;
+    background-color: #29b6f6;
 }
 
 /* website title header */
 header .blogtitle {
     font-size: 48px;
     margin-left: 5%;
-    margin-top: 35px;
+    top: 50%;
+    position: absolute;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
 }
 
 /* website subtitle header */
 header .blogdescription {
     color: white;
-    margin-left: 7%;
+    right: 10%;
+    top: 50%;
     position: absolute;
     text-overflow: ellipsis;
 }
@@ -84,27 +90,26 @@ header.smaller {
     height: 85px;
 }
 header.smaller .blogtitle {
-    margin-top: 5px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
 }
 header.smaller .blogdescription {
     position: absolute;
-    left: 150px;
-    top: 63px;
+    right: 10%;
+    top: 50%;
     color: white;
-    margin-left: 7%;
 }
 
 /* color of clickable header */
 .headerurl {
     color: white;
+    text-decoration: none;
 }
 
 .headerurl:hover {
   color:white;
 }
+
 
 /*  questionmark header */
 .about {

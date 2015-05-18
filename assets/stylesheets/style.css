@@ -256,8 +256,6 @@ color: black;
     }
   }
 
-
-
   /*  questionmark header */
   .about {
       position: absolute;
@@ -299,6 +297,22 @@ color: black;
 
   .postdate a {
     color: #29b6f6;
+  }
+
+  /* ######################################
+
+  POST related
+
+  ##########################################*/
+
+  .authorimage {
+    text-align:center;
+    border-top:1px solid rgba(0,0,0,0.12);
+    padding-top: 40px;
+  }
+
+  .authorname {
+    text-align:center;
   }
 
 

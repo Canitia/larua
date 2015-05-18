@@ -76,7 +76,7 @@ transition: all 0.3s;
 display: inline-block;
     font-size: 48px;
     margin-left: 5%;
-    top: 50%;
+    top: 38%;
     position: absolute;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -85,8 +85,8 @@ display: inline-block;
 /* website subtitle header */
 header .blogdescription {
     color: white;
-    left: 10%;
-    top: 20%;
+    left: 7%;
+    top: 70%;
     position: absolute;
     text-overflow: ellipsis;
 }
@@ -102,7 +102,7 @@ header.smaller .blogtitle {
 header.smaller .blogdescription {
     position: absolute;
     left: 7%;
-    top: 20%;
+    top: 70%;
     color: white;
 }
 
@@ -301,6 +301,7 @@ color: white;
   line-height: 26.3999996185303px;
   padding-left: 10px;
   padding-top: 50px;
+  color: #29b6f6;
 }
 
 .text-left-title a {

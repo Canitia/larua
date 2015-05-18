@@ -419,7 +419,10 @@ article img {
       padding-left: 20px;
       padding-right: 0;
       padding-top: 75px;
-      width: 50%;
+      max-width: 50%;
+      max-height:275px;
+      width: auto;
+      height: auto;
       float:right;
   }
 

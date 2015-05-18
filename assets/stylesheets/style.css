@@ -322,6 +322,7 @@ color: black;
   .postdate {
       font-size: 16px;
       margin-right: 5px;
+      color: #979797;
   }
   .text-left-title a {
       color: #29b6f6;

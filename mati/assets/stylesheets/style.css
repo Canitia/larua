@@ -58,11 +58,11 @@ header {
     overflow: hidden;
     position: fixed;
     z-index: 999;
-    -webkit-transition: height 1.0s;
-    -moz-transition: height 1.0s;
-    -ms-transition: height 1.0s;
-    -o-transition: height 1.0s;
-    transition: height 1.0s;
+    -webkit-transition: height 1.2s;
+    -moz-transition: height 1.2s;
+    -ms-transition: height 1.2s;
+    -o-transition: height 1.2s;
+    transition: height 1.2s;
     background-color: #29b6f6;
 }
 

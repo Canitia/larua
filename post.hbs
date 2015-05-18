@@ -1,8 +1,8 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                 {{#post}}
-                                    <article>
-                                    <h1 class="text-left-title posttheme"></i>{{title}}</h1>
+                                    <article class="row card">
+                                    <h1 class="text-left-title"></i>{{title}}</h1>
                                     <h4><p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                     {{#if tags}}
                                         <p class="text-right postdate">

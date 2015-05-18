@@ -212,17 +212,10 @@ color: black;
 
 
 /* post look and feel */
-.posttheme {
-    background-color: #1e90ff;
-    color: white;
-    padding-bottom: 5px;
-    border-radius: 0px 0px 15px 15px;
-}
-
 .posttheme-dialog {
-    background-color: #1e90ff;
+    background-color: #29b6f6;
     color: white;
-    padding-bottom: 5px;
+    padding: 20px;
     margin-top: 0;
 }
 
@@ -347,11 +340,10 @@ OLD CSS
 
 ############################################*/
 
-
 /* social media icons */
 #socialhead {
     text-align: center;
-    border-top: 1px solid white;
+    border-top:1px solid rgba(0,0,0,0.12);
 }
 
 #socialhead > a {

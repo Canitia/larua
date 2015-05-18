@@ -179,7 +179,7 @@ img.userprofileimages {
 
 /* social media icons */
 a i {
-    color: black;
+    color: white;
     border-radius: 10px;
     text-align: center;
     margin-left: auto;
@@ -190,7 +190,7 @@ a i {
     transition: all 0.2s ease-in-out;
 }
 a i:hover {
-    color:white;
+    color:black;
 }
 
 /* icons in table */

@@ -146,7 +146,7 @@ footer a {
   max-width:1000px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 30px;
+  padding-bottom: 0;
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
@@ -292,10 +292,6 @@ color: black;
         margin-left: 35px;
         margin-right: 35px;
         text-overflow: ellipsis;
-    }
-
-    .row {
-      padding: 0px;
     }
 
     h1 {

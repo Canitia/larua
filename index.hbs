@@ -1,7 +1,7 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                     {{#foreach posts}}
-                    <img src={{image}} />
+                    <img src={{#if image}}{{image}}{{/if}} />
                     <div class="row card">
                                     <article>
                                     <h1 class="text-left-title posttheme"></i><a href="{{url}}">{{title}}</a></h1>

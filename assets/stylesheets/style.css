@@ -210,15 +210,6 @@ color: black;
   background-color: #fff;
 }
 
-/*  questionmark header */
-
-.about > a {
-    color: #00bfff;
-}
-.about > a:hover {
-    color: black;
-}
-
 
 /* post look and feel */
 .posttheme {
@@ -359,9 +350,7 @@ OLD CSS
 
 /* social media icons */
 #socialhead {
-    position: absolute;
-    top: 1%;
-    right: 1%;
+    text-align: center;
 }
 
 #socialhead > a {

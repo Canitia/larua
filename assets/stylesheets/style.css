@@ -136,7 +136,7 @@ footer .blogdescription {
     color: white;
     margin-left: 35px;
     margin-right: 35px;
-    margin-top: 65px;
+    padding: 60px;
     text-overflow: ellipsis;
 }
 
@@ -153,7 +153,7 @@ footer .blogdescription {
   max-width:1000px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 

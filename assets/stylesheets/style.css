@@ -95,8 +95,8 @@ header.smaller .blogtitle {
 }
 header.smaller .blogdescription {
     position: absolute;
-    right: 30%;
-    top: 50%;
+    left: 10%;
+    top: 20%;
     color: white;
 }
 
@@ -349,15 +349,6 @@ article img {
     width: 100%;
 }
 
-.postfooter {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-.authorimage > img {
-    width: auto;
-}
-
 .pagination {
     display: block !important;
     text-align: center !important;
@@ -395,4 +386,20 @@ article img {
     padding-top: 80px;
 
   }
+}
+
+/* ##################################
+
+Temporary unavailable (in development)
+
+################################### */
+
+
+.postfooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.authorimage > img {
+    width: auto;
 }

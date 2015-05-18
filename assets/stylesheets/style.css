@@ -477,7 +477,7 @@ article.col-xs-12.col-md-12 {
 /* high dpi displays */
 @media only screen and (min-width: 721px) {
     .container-fluid {
-        padding-top: 230px;
+        padding-top: 190px;
     }
 
     p {

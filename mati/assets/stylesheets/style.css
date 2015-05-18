@@ -331,19 +331,23 @@ color: white;
     header .blogtitle {
         margin-left: 10px;
         margin-top: 2%;
-        font-size: 30px;
+        font-size: 32px;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
     header.smaller .blogtitle {
         margin-left: 10px;
-        margin-top: 2%;
+        top: 30%;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
 
     header .blogdescription {
-        display: none;
+      text-overflow: ellipsis;
+
+      /* Required for text-overflow to do anything */
+      white-space: nowrap;
+      overflow: hidden;
     }
 
 
@@ -413,6 +417,10 @@ color: white;
 
 .authorwebsite {
   text-align:center;
+}
+
+.authorbio {
+  text-align: center;
 }
 
 /* ##########################################

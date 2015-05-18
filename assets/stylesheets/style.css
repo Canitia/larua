@@ -68,6 +68,12 @@ header {
 
 /* website title header */
 header .blogtitle {
+  -webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-ms-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+display: inline-block;
     font-size: 48px;
     margin-left: 5%;
     top: 50%;
@@ -326,8 +332,8 @@ OLD CSS
 /* social media icons */
 #socialhead {
     position: absolute;
-    top: 35%;
-    right: 45px;
+    top: 1%;
+    right: 1%;
 }
 
 #socialhead > a {
@@ -379,6 +385,10 @@ article img {
     p {
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    header .blogtitle {
+      font-size: 56px;
     }
 
 }

@@ -195,11 +195,11 @@ a i:hover {
 
 /* icons in table */
 .fa-2x {
-color: black;
+color: white;
 }
 
 .fa-2x:hover {
-  color: white;
+  color: black;
 }
 
 .btn {

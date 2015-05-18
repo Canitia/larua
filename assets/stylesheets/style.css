@@ -146,7 +146,7 @@ footer a {
   max-width:1000px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 30px;
+  padding-bottom: 0;
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
@@ -167,7 +167,7 @@ footer a {
 /* big images inline */
 .content-images {
     width: 100%;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 /* company logos */
@@ -209,6 +209,52 @@ color: black;
   background-color: #fff;
 }
 
+/*  questionmark header */
+
+.about > a {
+    color: #00bfff;
+}
+.about > a:hover {
+    color: black;
+}
+
+
+/* post look and feel */
+.posttheme {
+    background-color: #1e90ff;
+    color: white;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.posttheme-dialog {
+    background-color: #1e90ff;
+    color: white;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.postdate {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #979797;
+}
+
+/* post title */
+.text-left-title {
+    padding-left: 10px;
+    padding-top: 50px;
+    font-size: 28px;
+}
+
+.text-left-title a {
+    color: #29b6f6;
+}
+
+.postdate a {
+  color: #29b6f6;
+}
+
 
 
 /* medium width devices */
@@ -248,10 +294,6 @@ color: black;
         text-overflow: ellipsis;
     }
 
-    .row {
-      padding: 35px;
-    }
-
     h1 {
     	font-family: Raleway;
     	font-size: 28px;
@@ -264,45 +306,22 @@ color: black;
     .container-fluid {
       padding-top: 160px
     }
+
+    /* post title */
+    .text-left-title {
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 28px;
+    }
+
+    .content-images {
+        width: 100%;
+        padding-top: 20px;
+    }
+
   }
 
-  /*  questionmark header */
 
-  .about > a {
-      color: #00bfff;
-  }
-  .about > a:hover {
-      color: black;
-  }
-
-
-  /* post look and feel */
-  .posttheme {
-      background-color: #1e90ff;
-      color: white;
-      padding-bottom: 5px;
-      border-radius: 0px 0px 15px 15px;
-  }
-
-  .posttheme-dialog {
-      background-color: #1e90ff;
-      color: white;
-      padding-bottom: 5px;
-      margin-top: 0;
-  }
-
-  .postdate {
-      font-size: 16px;
-      margin-right: 5px;
-      color: #979797;
-  }
-  .text-left-title a {
-      color: #29b6f6;
-  }
-
-  .postdate a {
-    color: #29b6f6;
-  }
 
   /* ######################################
 
@@ -348,12 +367,7 @@ OLD CSS
 padding: 40px;
 }
 
-/* post title */
-.text-left-title {
-    padding-left: 10px;
-    padding-top: 50px;
-    font-size: 28px;
-}
+
 
 /* general dimensions of posts/articles */
 article {
@@ -398,7 +412,7 @@ article img {
   .content-images {
       padding-left: 20px;
       padding-right: 0;
-      padding-top: 80px;
+      padding-top: 40px;
       width: 50%;
       float:right;
   }

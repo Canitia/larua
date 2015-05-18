@@ -54,7 +54,7 @@ pre {
 *****************************************/
 header {
     width: 100%;
-    height: 250px;
+    height: 220px;
     overflow: hidden;
     position: fixed;
     z-index: 999;
@@ -101,7 +101,7 @@ header.smaller .blogtitle {
 }
 header.smaller .blogdescription {
     position: absolute;
-    left: 10%;
+    left: 7%;
     top: 20%;
     color: white;
 }
@@ -147,7 +147,7 @@ footer a {
   margin-right: auto;
   padding-left: 55px;
   padding-right: 55px;
-  padding-bottom: 0;
+  padding-bottom: 20px;
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
@@ -210,15 +210,6 @@ color: black;
   background-color: #fff;
 }
 
-/*  questionmark header */
-
-.about > a {
-    color: #00bfff;
-}
-.about > a:hover {
-    color: black;
-}
-
 
 /* post look and feel */
 .posttheme {
@@ -243,9 +234,14 @@ color: black;
 
 /* post title */
 .text-left-title {
-    padding-left: 10px;
-    padding-top: 50px;
-    font-size: 28px;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.3999996185303px;
+  padding-left: 10px;
+  padding-top: 50px;
 }
 
 .text-left-title a {
@@ -256,12 +252,11 @@ color: black;
   color: #29b6f6;
 }
 
-
-
 /* medium width devices */
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 720px) {
     header {
         width: 100%;
+        height: 190px;
         overflow: hidden;
         position: fixed;
         top: 0;
@@ -271,7 +266,7 @@ color: black;
     header .blogtitle {
         margin-left: 10px;
         margin-top: 2%;
-        font-size: 26px;
+        font-size: 30px;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
@@ -355,9 +350,7 @@ OLD CSS
 
 /* social media icons */
 #socialhead {
-    position: absolute;
-    top: 1%;
-    right: 1%;
+    text-align: center;
 }
 
 #socialhead > a {
@@ -401,6 +394,13 @@ article img {
         padding-top: 190px;
     }
 
+    .content-images {
+      float: right;
+      width:40%;
+      margin-left:15px;
+      padding-top: 140px;
+    }
+
     p {
         margin-left: 10px;
         margin-right: 10px;
@@ -413,13 +413,16 @@ article img {
 }
 
 /* super high resolutions */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 900px) {
   /* big images inline */
   .content-images {
       padding-left: 20px;
       padding-right: 0;
       padding-top: 75px;
-      width: 50%;
+      max-width: 50%;
+      max-height:275px;
+      width: auto;
+      height: auto;
       float:right;
   }
 

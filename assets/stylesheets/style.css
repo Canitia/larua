@@ -263,11 +263,6 @@ color: black;
   }
 
   /*  questionmark header */
-  .about {
-      position: absolute;
-      right: 10px;
-      top: 35%;
-  }
 
   .about > a {
       color: #00bfff;

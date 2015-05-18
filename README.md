@@ -7,6 +7,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is based on [Material D
 - As it's material design based - it's simple, no header images and stuff, no fuss, it just works.
 - Header becomes smaller when you start scrolling (material design FTW!)
 - Shows post date/tags in post header
+- Show featured image (or your 'cover picture' when not available)
 - Shows author info at bottom of each post
 - Shows pagination when available (aka when there are enough posts)
 - Resolution-based CSS (<= 825, > 825  and > 950)

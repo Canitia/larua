@@ -262,7 +262,7 @@ color: black;
   .about {
       position: absolute;
       right: 10px;
-      top: 10px;
+      top: 35%;
   }
 
   .about > a {

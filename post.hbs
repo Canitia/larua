@@ -2,8 +2,8 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                 {{#post}}
                                     <article class="col-xs-12 col-md-12">
-                                    <h4 class="text-left-title posttheme"></i>{{title}}
-                                    <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
+                                    <h1 class="text-left-title posttheme"></i>{{title}}</h1>
+                                    <h4><p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                     {{#if tags}}
                                         <p class="text-right postdate">
                                         Tags: {{tags separator=" | "}}
@@ -13,7 +13,6 @@
 
 
                                         <p class="text-justify">{{content}}</p><br />
-
 
                                     </article>
                                         {{> disqus}}

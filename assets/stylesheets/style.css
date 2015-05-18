@@ -95,7 +95,7 @@ header.smaller .blogtitle {
 }
 header.smaller .blogdescription {
     position: absolute;
-    right: 10%;
+    right: 30%;
     top: 50%;
     color: white;
 }

@@ -33,16 +33,14 @@
 
 
 </div><!-- container fluid END! -->
-{{#if infomodal}}
+
   {{> infomodal}}
-{{/if}}
+
 <!-- ghost footer includes jquery -->
 {{ghost_foot}}
 
 <!-- google analytics -->
-{{#if analytics}}
   {{> analytics}}
-{{/if}}
 
   <script src="{{asset "javascripts/classie.js"}}"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -68,9 +66,8 @@
         {{#if pagination}}
             {{pagination}}
         {{/if}}
-        {{#if social}}
+
         {{> social}}
-        {{/if}}
 
 </footer>
 </html>

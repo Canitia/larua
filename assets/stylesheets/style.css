@@ -120,24 +120,12 @@ footer {
     width: 100%;
     overflow: hidden;
     z-index: 999;
-    -webkit-transition: height 1.0s;
-    -moz-transition: height 1.0s;
-    -ms-transition: height 1.0s;
-    -o-transition: height 1.0s;
-    transition: height 1.0s;
     background-color: #29b6f6 !important;
+    padding: 30px;
 }
 
 footer a {
   color: white !important;
-}
-
-footer .blogdescription {
-    color: white;
-    margin-left: 35px;
-    margin-right: 35px;
-    padding: 60px;
-    text-overflow: ellipsis;
 }
 
 
@@ -397,6 +385,7 @@ h4 {
     display: block !important;
     text-align: center !important;
     bottom: 0;
+    right: 30px;
 }
 .older-posts,
 .newer-posts {

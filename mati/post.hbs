@@ -32,7 +32,10 @@
                                     <div class="authorbio">
                                     <p>{{author.bio}}</p>
                                     </div>
+                                    {{#if disqus}}
                                         {{> disqus}}
+                                    {{/if}}
+
                                     </article>
                                 <hr>
                 {{/post}}

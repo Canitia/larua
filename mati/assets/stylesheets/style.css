@@ -390,14 +390,17 @@ article img {
 
 /* high dpi displays */
 @media only screen and (min-width: 825px) {
+
+  .text-left-title {
+    padding-top: 0px;
+  }
+
     .container-fluid {
-        padding-top: 140px;
+        padding-top: 190px;
     }
 
     .content-images {
-      float: right;
       margin-left:15px;
-      padding-top: 125px;
     }
 
     p {
@@ -417,7 +420,6 @@ article img {
   .content-images {
       padding-left: 20px;
       padding-right: 0;
-      padding-top: 75px;
       max-width: 50%;
       max-height:275px;
       width: auto;
@@ -429,7 +431,10 @@ article img {
     padding-left: 10px;
     padding-right: 0;
     padding-top: 80px;
+  }
 
+  .row {
+    padding-top: 20px;
   }
 }
 

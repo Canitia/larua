@@ -49,7 +49,7 @@
             function init() {
             window.addEventListener('scroll', function(e){
                 var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                    shrinkOn = 90,
+                    shrinkOn = 75,
                     header = document.querySelector("header");
                 if (distanceY > shrinkOn) {
                     classie.add(header,"smaller");

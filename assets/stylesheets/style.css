@@ -87,7 +87,7 @@ header .blogdescription {
 
 /* website title header when scrolling */
 header.smaller {
-    height: 85px;
+    height: 100px;
 }
 header.smaller .blogtitle {
     text-overflow: ellipsis;

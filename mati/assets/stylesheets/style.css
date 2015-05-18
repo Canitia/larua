@@ -308,6 +308,10 @@ color: white;
     text-decoration: none;
 }
 
+.text-left-title a:hover {
+  color: #088cc9;
+}
+
 .postdate a {
   color: #29b6f6;
 }

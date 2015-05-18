@@ -400,6 +400,13 @@ article img {
         padding-top: 190px;
     }
 
+    .content-images {
+      float: right;
+      width:40%;
+      margin-left:15px;
+      padding-top: 140px;
+    }
+
     p {
         margin-left: 10px;
         margin-right: 10px;
@@ -412,7 +419,7 @@ article img {
 }
 
 /* super high resolutions */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 900px) {
   /* big images inline */
   .content-images {
       padding-left: 20px;

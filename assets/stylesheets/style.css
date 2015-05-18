@@ -153,6 +153,7 @@ footer .blogdescription {
   max-width:1000px;
   margin-left: auto;
   margin-right: auto;
+  border-top:1px solid rgba(0,0,0,0.12);
 }
 
 /* look-n-feel of main container */
@@ -174,7 +175,6 @@ footer .blogdescription {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    border-top:1px solid rgba(0,0,0,0.12);
     padding-top: 80px;
 }
 
@@ -476,4 +476,13 @@ article.col-xs-12.col-md-12 {
         margin-right: 10px;
     }
 
+}
+
+@media only screen and (min-width: 1200px) {
+  /* big images inline */
+  .content-images {
+      padding-left: 10%;
+      padding-right: 0;
+      padding-top: 80px;
+  }
 }

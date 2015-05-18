@@ -56,3 +56,12 @@ The actual modal is called from inside /mati/partials/default.hbs (infomodal). W
 
 ##Social
 I've added the ability to add social links to the footer. In the mati/partials/social.hbs you can setup your own social media links.You can use the Font-Awesome icons that i use, it has more icons as you can see [here](http://fortawesome.github.io/Font-Awesome/icons/). Just simply add a new line and/or replace the current ones. 
+
+#Translation
+There's not much to translate, but the two things that are probably of interest are the following;
+
+##index.hbs
+Index.hbs includes the 'lees meer' (aka read more) button, so you might want to translate the text of the button
+
+##partions/pagination.hbs
+Includes dutch text to make more sense of the page indicators. So you can translate the text in here, or remove the text whatever.

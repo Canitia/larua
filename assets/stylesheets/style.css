@@ -485,7 +485,7 @@ article.col-xs-12.col-md-12 {
 @media only screen and (min-width: 1200px) {
   /* big images inline */
   .content-images {
-      padding-left: 10%;
+      padding-left: 10px;
       padding-right: 0;
       padding-top: 80px;
       width: 50%;

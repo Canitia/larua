@@ -153,7 +153,7 @@ footer .blogdescription {
   max-width:1000px;
   margin-left: auto;
   margin-right: auto;
-  border-top:1px solid rgba(0,0,0,0.12);
+  border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
 /* look-n-feel of main container */
@@ -326,7 +326,7 @@ color: black;
   }
 
   .postdate a {
-    color: #29b6f6;  
+    color: #29b6f6;
   }
 
 

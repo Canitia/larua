@@ -260,6 +260,10 @@ color: black;
     	font-weight: 500;
     	line-height: 26.3999996185303px;
     }
+
+    .container-fluid {
+      padding-top: 160px
+    }
   }
 
   /*  questionmark header */

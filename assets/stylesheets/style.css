@@ -350,6 +350,11 @@ OLD CSS
     color: black;
 }
 
+/* add some styling to disqus */
+#disqus_thread {
+padding: 40px;
+}
+
 /* post title */
 .text-left-title {
     padding-left: 40px;

@@ -63,5 +63,5 @@ There's not much to translate, but the two things that are probably of interest 
 ##index.hbs
 Index.hbs includes the 'lees meer' (aka read more) button, so you might want to translate the text of the button
 
-##partions/pagination.hbs
+##partials/pagination.hbs
 Includes dutch text to make more sense of the page indicators. So you can translate the text in here, or remove the text whatever.

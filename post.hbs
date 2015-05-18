@@ -2,7 +2,7 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                 {{#post}}
                                     <article class="row card">
-                                      <img class="content-images" src="{{#if image}}
+                                      <img class="content-images-individual" src="{{#if image}}
                                         {{image}}
                                       {{else}}
                                           {{@blog.logo}}" />

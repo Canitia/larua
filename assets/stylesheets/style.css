@@ -128,7 +128,6 @@ footer a {
   color: white !important;
 }
 
-
 /* **************************************
 
   CONTENT
@@ -184,7 +183,7 @@ a i {
     transition: all 0.2s ease-in-out;
 }
 a i:hover {
-    background: #29b6f6;
+    color:white;
 }
 
 /* icons in table */
@@ -196,12 +195,6 @@ color: black;
   color: white;
 }
 
-
-.screenshots-home {
-    margin-left: auto;
-    margin-right: auto;
-    width: 23%;
-}
 
 /* Card, Dialog */
 .card {
@@ -386,17 +379,6 @@ h4 {
     text-align: center !important;
     bottom: 0;
     right: 30px;
-}
-.older-posts,
-.newer-posts {
-    background: #1e90ff;
-    color: #fff;
-    padding: 10px;
-}
-.older-posts:hover,
-.newer-posts:hover {
-    color: #fff;
-    background-color: #00bfff;
 }
 
 /* medium width devices */

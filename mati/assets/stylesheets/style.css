@@ -572,7 +572,7 @@ article img {
 
   .row {
     float: none;
-    width: 100%;
+    width: 70%;
     padding-top: 20px;
     border-bottom:1px solid rgba(0,0,0,0.12);
     }
@@ -584,6 +584,9 @@ article img {
 
       .sidebar {
         display:block;
+        position: absolute;
+        top: 220px;
+        right: 0px;
       }
 
 }

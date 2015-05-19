@@ -8,7 +8,8 @@
                                           {{@blog.cover}} {{/if}}"/>
 
                                     <h1 class="text-left-title"></i>{{title}}</h1>
-                                    <h4><p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
+                                    <h4><p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}</p>
+                                    
                                     {{#if tags}}
                                         <p class="text-right postdate">
                                         Tags: {{tags separator=" | "}}
@@ -36,5 +37,5 @@
 
 
                                     </article>
-                                
+
                 {{/post}}

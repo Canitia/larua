@@ -313,7 +313,7 @@ color: white;
 /* post title */
 .text-left-title {
   font-family: Raleway;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
@@ -322,6 +322,7 @@ color: white;
   padding-top: 50px;
   color: #29b6f6;
   overflow: none;
+  text-align: center;
 }
 
 .text-left-title a {
@@ -331,6 +332,10 @@ color: white;
 
 .text-left-title a:hover {
   color: #088cc9;
+}
+
+.postdate {
+  text-align: center;
 }
 
 .postdate a {
@@ -422,6 +427,16 @@ color: white;
     padding-left: 30px;
     padding-right: 30px;
     }
+
+    .btn {
+      margin: 0;
+      position: absolute;
+      bottom: 10px;
+      right: 30px;
+
+    }
+
+
 
   }
 
@@ -567,7 +582,6 @@ article img {
   }
 
   .text-left-title {
-    font-size: 24px;
     text-align: center;
   }
 

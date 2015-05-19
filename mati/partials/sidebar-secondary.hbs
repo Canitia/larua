@@ -1,0 +1,12 @@
+<div class="sidebar-secondary">
+  <address itemscope itemtype="http://schema.org/Person">
+  {{#if author.image}}
+  <div class="authorimage" style="background: url({{author.cover}});"><img src="{{author.image}}" itemprop="image" /></div>
+  {{/if}}
+  <h4 class="authorname"><span itemprop="author">{{author.name}}</span></h4>
+  {{#if author.website}}
+  <div class="authorwebsite"><a href="{{author.website}}" itemprop="url">{{author.website}}</a></div>
+  {{/if}}
+  </address>
+  <p class="authorbio">{{author.bio}}</p>
+</div>

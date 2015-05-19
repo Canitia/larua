@@ -159,7 +159,6 @@ padding-right: 30px;
 .container-fluid {
     margin: 0;
     height: 100%;
-    overflow: auto;
     padding-bottom: 15px;
 }
 
@@ -483,6 +482,12 @@ article img {
 /* high dpi displays */
 @media only screen and (min-width: 800px) {
 
+  .content-images {
+    max-height: 250px;
+    width: 100%;
+
+  }
+
   .text-left-title {
     padding-top: 0px;
     white-space: nowrap;
@@ -507,6 +512,7 @@ article img {
     }
 
     p {
+      height:45px;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -522,6 +528,14 @@ article img {
       padding-left: 0;
       padding-right: 0;
     }
+
+    .btn {
+      text-decoration: none;
+      position: absolute;
+
+      float:right;
+      display: block;
+      margin: 30px auto;
 
 }
 

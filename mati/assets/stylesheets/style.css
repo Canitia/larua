@@ -306,6 +306,7 @@ color: white;
   padding-left: 10px;
   padding-top: 50px;
   color: #29b6f6;
+  overflow: none;
 }
 
 .text-left-title a {
@@ -485,6 +486,8 @@ article img {
 
     .container-fluid {
         padding-top: 190px;
+        padding-left: 0px;
+        padding-right:0px;
     }
 
     .content-images {

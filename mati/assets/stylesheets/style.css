@@ -604,8 +604,8 @@ article img {
   }
 
   .row-individualpost {
-    width: 70%;
-    margin-left: auto;
+    width: 60%;
+    margin-left: 10%;
     margin-right: auto;
     padding-left: 0px;
     padding-right: 0px;
@@ -654,7 +654,24 @@ article img {
         display:block;
         position: absolute;
         top: 220px;
-        right: 35px;
+        right: 5%;
+      }
+
+      .sidebar-secondary {
+        top: 0;
+        right: 5%;
+        top: 220px;
+        color: white;
+        position: absolute;
+        width: 20%;
+      }
+
+      .authorimage {
+        padding-top: 0;
+      }
+
+      .authorimage > img {
+        border-radius: 10px;
       }
 
 }

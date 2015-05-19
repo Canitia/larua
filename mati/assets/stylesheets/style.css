@@ -515,6 +515,10 @@ article img {
       padding-top: 50px;
     }
 
+    .content-images {
+      object-fit: contain;
+    }
+
     p {
         margin-left: 10px;
         margin-right: 10px;

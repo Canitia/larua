@@ -516,10 +516,10 @@ article img {
 
 
   .content-images-individual {
-    width: inherit;
-    padding-left: 10px;
+    width: 100%;
+    padding-left: 0;
     padding-right: 0;
-    padding-top: 50px;
+    padding-top: 0;
   }
 
   .text-left-title {
@@ -567,6 +567,15 @@ article img {
         min-width: 300px;
         padding-bottom: 20px;
         margin-left:0px;
+        background-color: white;
+      }
+
+      .row-individualpost {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
       }
 
 }

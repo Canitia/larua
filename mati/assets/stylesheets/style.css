@@ -165,6 +165,7 @@ footer a {
 }
 
 .row-individualpost {
+  width: 100%;
 padding-left: 30px;
 padding-right: 30px;
 }
@@ -507,6 +508,7 @@ article img {
     }
 
     .content-images-individual {
+      width: inherit;
       padding-left: 10px;
       padding-right: 0;
       padding-top: 50px;
@@ -541,6 +543,7 @@ article img {
         min-height: 210px;
         min-width: 300px;
         padding-bottom: 20px;
+        margin-left:0px;
       }
 
 }

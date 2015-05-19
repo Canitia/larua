@@ -493,6 +493,11 @@ article img {
     max-height: 190px;
     width: 100%;
     margin-left:15px;
+    -webkit-filter: blur(2px);
+     -moz-filter: blur(2px);
+     -o-filter: blur(2px);
+     -ms-filter: blur(2px);
+     filter: blur(2px);
   }
 
   .text-left-title {
@@ -513,15 +518,6 @@ article img {
       padding-left: 10px;
       padding-right: 0;
       padding-top: 50px;
-    }
-
-    .content-images {
-     /*  object-fit: contain; */
-     -webkit-filter: blur(2px);
-      -moz-filter: blur(2px);
-      -o-filter: blur(2px);
-      -ms-filter: blur(2px);
-      filter: blur(2px);
     }
 
     p {

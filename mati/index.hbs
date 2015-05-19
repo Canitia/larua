@@ -1,6 +1,7 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
+{{> sidebar}}
                     {{#foreach posts}}
                     <div class="row card">
                           <article>
@@ -10,7 +11,7 @@
                                 {{@blog.cover}} {{/if}}" />
                                       <h1 class="text-left-title"><a href="{{url}}">{{title}}</a></h1>
                                     <h3>
-                                    <p class="text-left postdate">{{date format='YYYY-MM-DD'}}</p>
+                                    <p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}</p>
                                     {{#if tags}}
                                         <p class="text-left postdate">
                                         Tags: {{tags separator=" | "}}

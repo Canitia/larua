@@ -117,6 +117,21 @@ header.smaller .blogdescription {
   text-decoration: none;
 }
 
+/* social media icons */
+#socialhead {
+    text-align: center;
+    border-top:1px solid rgba(0,0,0,0.12);
+}
+
+#socialhead > a {
+    color: #00bfff;
+}
+
+#socialhead > a:hover {
+    color: black;
+}
+
+
 /* **************************************
 
   FOOTER
@@ -140,7 +155,7 @@ footer a {
 
 *****************************************/
 .row {
-  max-width:1000px;
+  max-width:1100px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 55px;
@@ -149,11 +164,16 @@ footer a {
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
+.row-individualpost {
+  width: 100%;
+padding-left: 30px;
+padding-right: 30px;
+}
+
 /* look-n-feel of main container */
 .container-fluid {
     margin: 0;
     height: 100%;
-    overflow: auto;
     padding-bottom: 15px;
 }
 
@@ -300,6 +320,7 @@ color: white;
   padding-left: 10px;
   padding-top: 50px;
   color: #29b6f6;
+  overflow: none;
 }
 
 .text-left-title a {
@@ -316,7 +337,7 @@ color: white;
 }
 
 /* medium width devices */
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 799px) {
     header {
         width: 100%;
         height: 190px;
@@ -375,6 +396,9 @@ color: white;
         padding-left: 10px;
         padding-top: 10px;
         font-size: 28px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .content-images {
@@ -389,6 +413,7 @@ color: white;
     }
 
     .row {
+    width: 100%;
     padding-left: 30px;
     padding-right: 30px;
     }
@@ -421,32 +446,10 @@ color: white;
   text-align: center;
 }
 
-/* ##########################################
-
-OLD CSS
-
-############################################*/
-
-/* social media icons */
-#socialhead {
-    text-align: center;
-    border-top:1px solid rgba(0,0,0,0.12);
-}
-
-#socialhead > a {
-    color: #00bfff;
-}
-
-#socialhead > a:hover {
-    color: black;
-}
-
 /* add some styling to disqus */
 #disqus_thread {
 padding: 40px;
 }
-
-
 
 /* general dimensions of posts/articles */
 article {
@@ -470,21 +473,42 @@ article img {
 }
 
 /* high dpi displays */
-@media only screen and (min-width: 825px) {
+@media only screen and (min-width: 800px) {
+
+  .text-justify {
+    text-align: justify !important;
+    height:100px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .content-images {
+    max-height: 190px;
+    width: 100%;
+    margin-left:15px;
+    -webkit-filter: blur(2px);
+     -moz-filter: blur(2px);
+     -o-filter: blur(2px);
+     -ms-filter: blur(2px);
+     filter: blur(2px);
+  }
 
   .text-left-title {
     padding-top: 0px;
+    padding-bottom:5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
     .container-fluid {
         padding-top: 190px;
-    }
-
-    .content-images {
-      margin-left:15px;
+        padding-left: 0px;
+        padding-right:0px;
     }
 
     .content-images-individual {
+      width: inherit;
       padding-left: 10px;
       padding-right: 0;
       padding-top: 50px;
@@ -499,13 +523,35 @@ article img {
       font-size: 56px;
     }
 
+    .row {
+      width: 48%;
+      float:left;
+      border-bottom: 0px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .btn {
+      text-decoration: none;
+      position: absolute;
+      float:none;
+      right: 0px;
+      bottom: 0px;
+      }
+
+      article {
+        min-height: 210px;
+        min-width: 300px;
+        padding-bottom: 20px;
+        margin-left:0px;
+      }
+
 }
 
 /* super high resolutions */
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 1200px) {
   /* big images inline */
   .content-images {
-      padding-left: 20px;
       padding-right: 0;
       max-width: 50%;
       max-height:275px;
@@ -521,8 +567,17 @@ article img {
   }
 
   .row {
+    float: none;
+    width: 100%;
     padding-top: 20px;
-  }
+    border-bottom:1px solid rgba(0,0,0,0.12);
+    }
+
+    .btn {
+      float:right;
+      position:relative;
+      }
+
 }
 
 /* ##################################

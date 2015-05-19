@@ -675,6 +675,7 @@ article img {
         top: 0;
         right: 5%;
         top: 220px;
+        display: block;
         position: absolute;
         width: 20%;
         background-color:white;

@@ -585,6 +585,14 @@ article img {
         padding-right: 0px;
       }
 
+      .sidebar {
+        display: none;
+      }
+
+      .sidebar-secondary {
+        display: none;
+      }
+
 }
 
 /* super high resolutions */

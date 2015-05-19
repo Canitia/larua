@@ -482,14 +482,22 @@ article img {
 /* high dpi displays */
 @media only screen and (min-width: 800px) {
 
-  .content-images {
-    max-height: 230px;
-    width: 100%;
+  .text-justify {
+    text-align: justify !important;
+    height:100px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
 
+  .content-images {
+    max-height: 190px;
+    width: 100%;
+    margin-left:15px;
   }
 
   .text-left-title {
     padding-top: 0px;
+    padding-bottom:5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -499,10 +507,6 @@ article img {
         padding-top: 190px;
         padding-left: 0px;
         padding-right:0px;
-    }
-
-    .content-images {
-      margin-left:15px;
     }
 
     .content-images-individual {
@@ -540,6 +544,7 @@ article img {
         min-height: 210px;
         min-width: 300px;
         padding-bottom: 20px;
+        margin-left: 50px;
       }
 
 }

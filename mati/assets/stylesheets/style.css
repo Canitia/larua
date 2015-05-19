@@ -117,6 +117,21 @@ header.smaller .blogdescription {
   text-decoration: none;
 }
 
+/* social media icons */
+#socialhead {
+    text-align: center;
+    border-top:1px solid rgba(0,0,0,0.12);
+}
+
+#socialhead > a {
+    color: #00bfff;
+}
+
+#socialhead > a:hover {
+    color: black;
+}
+
+
 /* **************************************
 
   FOOTER
@@ -430,32 +445,10 @@ color: white;
   text-align: center;
 }
 
-/* ##########################################
-
-OLD CSS
-
-############################################*/
-
-/* social media icons */
-#socialhead {
-    text-align: center;
-    border-top:1px solid rgba(0,0,0,0.12);
-}
-
-#socialhead > a {
-    color: #00bfff;
-}
-
-#socialhead > a:hover {
-    color: black;
-}
-
 /* add some styling to disqus */
 #disqus_thread {
 padding: 40px;
 }
-
-
 
 /* general dimensions of posts/articles */
 article {

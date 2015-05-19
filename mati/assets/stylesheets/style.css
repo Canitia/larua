@@ -382,6 +382,9 @@ color: white;
         padding-left: 10px;
         padding-top: 10px;
         font-size: 28px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .content-images {

@@ -336,6 +336,10 @@ color: white;
   color: #29b6f6;
 }
 
+.sidebar {
+  display:none;
+}
+
 /* medium width devices */
 @media only screen and (max-width: 799px) {
     header {
@@ -576,6 +580,10 @@ article img {
     .btn {
       float:right;
       position:relative;
+      }
+
+      .sidebar {
+        display:block;
       }
 
 }

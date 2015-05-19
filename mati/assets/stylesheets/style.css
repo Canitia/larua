@@ -500,9 +500,11 @@ article img {
     }
 
     .row {
-      width: 50%;
+      width: 48%;
       float:left;
       border-bottom: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
 
 }

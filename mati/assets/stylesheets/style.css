@@ -661,17 +661,25 @@ article img {
         top: 0;
         right: 5%;
         top: 220px;
-        color: white;
         position: absolute;
         width: 20%;
+        background-color:white;
       }
 
       .authorimage {
         padding-top: 0;
+        height: 250px;
+        background: url("/content/images/2015/05/Screenshot-from-2015-03-13-19-18-35.png");
       }
 
       .authorimage > img {
+        margin-top: 50px;
+        height: 150px;
         border-radius: 10px;
+      }
+
+      .author-website {
+        color: black;
       }
 
 }

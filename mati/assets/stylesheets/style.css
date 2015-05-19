@@ -482,6 +482,9 @@ article img {
 
   .text-left-title {
     padding-top: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
     .container-fluid {
@@ -515,12 +518,6 @@ article img {
       border-bottom: 0px;
       padding-left: 0;
       padding-right: 0;
-    }
-
-    .text-left-title {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
     }
 
 }

@@ -441,7 +441,13 @@ color: white;
 
     }
 
+    .sidebar {
+      display: none;
+    }
 
+    .sidebar-secondary {
+      display: none;
+    }
 
   }
 
@@ -669,7 +675,6 @@ article img {
       .authorimage {
         padding-top: 0;
         height: 250px;
-        background: url("/content/images/2015/05/Screenshot-from-2015-03-13-19-18-35.png");
       }
 
       .authorimage > img {

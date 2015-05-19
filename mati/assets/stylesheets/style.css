@@ -346,6 +346,11 @@ color: white;
   display:none;
 }
 
+/* styling individual post specific */
+.text-justify-individual {
+  height:auto;
+}
+
 /* medium width devices */
 @media only screen and (max-width: 799px) {
     header {

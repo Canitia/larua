@@ -492,12 +492,19 @@ article img {
   .content-images {
     max-height: 190px;
     width: 100%;
-    margin-left:15px;
     -webkit-filter: blur(2px);
      -moz-filter: blur(2px);
      -o-filter: blur(2px);
      -ms-filter: blur(2px);
      filter: blur(2px);
+  }
+
+
+  .content-images-individual {
+    width: inherit;
+    padding-left: 10px;
+    padding-right: 0;
+    padding-top: 50px;
   }
 
   .text-left-title {
@@ -514,12 +521,6 @@ article img {
         padding-right:0px;
     }
 
-    .content-images-individual {
-      width: inherit;
-      padding-left: 10px;
-      padding-right: 0;
-      padding-top: 50px;
-    }
 
     p {
         margin-left: 10px;
@@ -534,16 +535,16 @@ article img {
       width: 48%;
       float:left;
       border-bottom: 0px;
-      padding-left: 0;
-      padding-right: 0;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     .btn {
       text-decoration: none;
       position: absolute;
-      float:none;
-      right: 0px;
-      bottom: 0px;
+      right: 20px;
+      bottom: 10px;
+      margin:0px;
       }
 
       article {
@@ -560,6 +561,9 @@ article img {
 
   .btn {
     margin: 0px;
+    right: 0;
+    bottom: 0;
+    margin:0px;
   }
 
   .text-left-title {

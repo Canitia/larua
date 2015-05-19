@@ -470,7 +470,7 @@ article img {
 }
 
 /* high dpi displays */
-@media only screen and (min-width: 825px) {
+@media only screen and (min-width: 800px) {
 
   .text-left-title {
     padding-top: 0px;

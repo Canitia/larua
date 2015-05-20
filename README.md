@@ -46,6 +46,11 @@ To use Google Analytics, please create a file (mati/partials/analytics.hbs) and 
 ##Header
 The header.hbs partial (mati/partials/header.hbs) basically consists of the blogtitle and the blog description. 
 
+##Sidebar(s)
+First sidebar (mati/partials/sidebar.hbs) is shown on the main screen. Default template is basically an empty sidebar div. Just put what you want to show inside the div and voila. 
+
+Second sidebar (mati/partials/sidebar-secondary.hbs) is shown when viewer a post. The second sidebar has support for your own images. Check your user profile and add a profile image and if you want a bit more 'wow'; add a user cover image as well.
+
 ##Pagination
 In the current release there is an custom Pagination file for tweaking. For example to translate the pagination text into a different language. The file can be found at the following location: /mati/partials/pagination.hbs. If you want to remove the (custom) pagination remove this file.
 

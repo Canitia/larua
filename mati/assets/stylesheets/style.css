@@ -240,9 +240,12 @@ color: white;
   font-weight: 500;
   line-height: 26.3999996185303px;
   padding-left: 10px;
+  padding:10px;
+  margin: 0px;
   background-color: #29b6f6;
   overflow: none;
   text-align: center;
+  color: white;
 }
 
 .text-left-title a {
@@ -251,7 +254,7 @@ color: white;
 }
 
 .text-left-title a:hover {
-  color: #088cc9;
+  color: white;
 }
 
 .postdate {
@@ -287,14 +290,20 @@ color: white;
 
     .authorname {
       text-align:center;
+      color: white;
+      padding: 10px;
+      margin: 0px;
+      background-color: #29b6f6;
     }
 
     .authorwebsite {
       text-align:center;
+      color: white;
     }
 
     .authorbio {
       text-align: center;
+      color: black;
     }
 
   /* add some styling to disqus */
@@ -501,6 +510,7 @@ color: white;
 
       .sidebar-secondary {
         background-color:white;
+        border: 1px solid gainsboro;
       }
 
       .authorimage {

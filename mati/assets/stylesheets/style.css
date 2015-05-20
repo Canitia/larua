@@ -118,10 +118,17 @@ header.smaller .blogdescription {
   text-decoration: none;
 }
 
-/* social media icons */
+/* social media icons sidebar and footer */
 .socialfooter {
-    text-align: center;
-    border-top:1px solid rgba(0,0,0,0.12);
+  background-color: #29b6f6;
+  text-align: center;
+  border-top:1px solid rgba(0,0,0,0.12);
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .socialfooter > a {
@@ -198,7 +205,7 @@ img.userprofileimages {
   margin: 10px;
 }
 
-/* social media icons */
+/* general styling of pretty much all font-awesome icons */
 a i {
     color: white;
     border-radius: 10px;

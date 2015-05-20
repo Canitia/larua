@@ -573,17 +573,19 @@ color: white;
 
       .sidebar-secondary {
         background-color:white;
+        border-radius: 15px;
       }
 
       .authorimage {
         padding-top: 0;
         height: 250px;
+        border-radius: 15px 15px 0px 0px;
       }
 
       .authorimage > img {
         margin-top: 50px;
         height: 150px;
-        border-radius: 10px;
+        border-radius: 25px;
       }
 
       .author-website a {

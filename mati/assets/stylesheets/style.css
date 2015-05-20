@@ -217,73 +217,6 @@ color: white;
   color: #ffa500;
 }
 
-.btn {
-  bottom: -25px;
-  right: -5px;
-  text-decoration: none;
-  position: relative;
-  float:right;
-  display: block;
-  padding: 0;
-  overflow: hidden;
-  border-width: 0;
-  outline: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-  background-color: #29b6f6;
-  color: white;
-  transition: background-color .3s;
-}
-
-.btn:hover, .btn:focus {
-  background-color: #088cc9;
-  color: white;
-  text-decoration: none;
-}
-
-.btn > * {
-  position: relative;
-}
-
-.btn span {
-  display: block;
-  padding: 12px 24px;
-}
-
-.btn:before {
-  content: "";
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  display: block;
-  width: 0;
-  padding-top: 0;
-
-  border-radius: 100%;
-
-  background-color: rgba(236, 240, 241, .3);
-
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.btn:active:before {
-  width: 120%;
-  padding-top: 120%;
-
-  transition: width .2s ease-out, padding-top .2s ease-out;
-}
-
-/* Styles, not important */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
 /* post look and feel */
 .posttheme-dialog {
     background-color: #29b6f6;
@@ -307,18 +240,21 @@ color: white;
   font-weight: 500;
   line-height: 26.3999996185303px;
   padding-left: 10px;
-  color: #29b6f6;
+  padding:10px;
+  margin: 0px;
+  background-color: #29b6f6;
   overflow: none;
   text-align: center;
+  color: white;
 }
 
 .text-left-title a {
-    color: #29b6f6;
+    color: white;
     text-decoration: none;
 }
 
 .text-left-title a:hover {
-  color: #088cc9;
+  color: white;
 }
 
 .postdate {
@@ -354,14 +290,20 @@ color: white;
 
     .authorname {
       text-align:center;
+      color: white;
+      padding: 10px;
+      margin: 0px;
+      background-color: #29b6f6;
     }
 
     .authorwebsite {
       text-align:center;
+      color: white;
     }
 
     .authorbio {
       text-align: center;
+      color: black;
     }
 
   /* add some styling to disqus */
@@ -568,6 +510,7 @@ color: white;
 
       .sidebar-secondary {
         background-color:white;
+        border: 1px solid gainsboro;
       }
 
       .authorimage {

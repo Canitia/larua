@@ -24,11 +24,9 @@ mati uses the following libraries;
 #Preview
 This theme is still under development, but check the releases page for stable versions.
 
-![Homescreen high resolution](http://img.photobucket.com/albums/v385/hxkclan/github/Mati%20for%20Ghost/Screenshot%20from%202015-05-20%2002-28-19.png)
+![Homescreen high resolution](http://img.photobucket.com/albums/v385/hxkclan/github/Mati%20for%20Ghost/Screenshot%20from%202015-05-20%2023-22-01.png)
 
-![Post page with smaller header and author](http://img.photobucket.com/albums/v385/hxkclan/github/Mati%20for%20Ghost/Screenshot%20from%202015-05-20%2002-28-38.png)
-
-![disqus and footer below a post](http://img.photobucket.com/albums/v385/hxkclan/github/Mati%20for%20Ghost/Screenshot%20from%202015-05-20%2002-28-50.png)
+![Post page with author info](http://img.photobucket.com/albums/v385/hxkclan/github/Mati%20for%20Ghost/Screenshot%20from%202015-05-20%2023-22-05.png)
 
 #Use
 - Download the package

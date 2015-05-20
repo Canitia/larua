@@ -611,7 +611,7 @@ color: white;
 
   .row, .row-individualpost {
     margin-left: 10%;
-    width: 60%;
+    width: 50%;
     border-bottom:1px solid rgba(0,0,0,0.12);
     }
 
@@ -638,24 +638,22 @@ color: white;
     padding-top: 0;
   }
 
-      .sidebar {
-        color: white;
-        width: 25%;
-        display:block;
-        position: absolute;
-        top: 220px;
-        right: 2%;
-      }
+  .sidebar, .sidebar-secondary {
+    width: 25%;
+    display:block;
+    position: absolute;
+    top: 220px;
+    right: 10%;
+    width: 25%;
+  }
 
-      .sidebar-secondary {
-        top: 0;
-        right: 2%;
-        top: 220px;
-        display: block;
-        position: absolute;
-        width: 25%;
-        background-color:white;
-      }
+  .sidebar {
+    color: white;
+  }
+
+  .sidebar-secondary {
+    background-color:white;
+  }
 
       .authorimage {
         padding-top: 0;

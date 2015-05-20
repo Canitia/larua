@@ -217,18 +217,18 @@ color: white;
 }
 
 .btn {
+  bottom: -25px;
+  right: -5px;
   text-decoration: none;
   position: relative;
   float:right;
   display: block;
-  margin: 30px auto;
   padding: 0;
   overflow: hidden;
   border-width: 0;
   outline: none;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-
   background-color: #29b6f6;
   color: white;
   transition: background-color .3s;
@@ -306,7 +306,6 @@ color: white;
   font-weight: 500;
   line-height: 26.3999996185303px;
   padding-left: 10px;
-  padding-top: 50px;
   color: #29b6f6;
   overflow: none;
   text-align: center;
@@ -394,7 +393,7 @@ color: white;
 
 
 /* medium width devices */
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 999px) {
     header {
         width: 100%;
         height: 190px;
@@ -458,10 +457,14 @@ color: white;
         text-overflow: ellipsis;
     }
 
+    .text-justify {
+      padding-bottom: 50px;
+    }
+
+
     .content-images {
         width: 100%;
         padding-top: 0px;
-        height: 220px;
     }
 
     .content-images-individual {
@@ -478,8 +481,9 @@ color: white;
 
     .btn {
       margin: 0;
+      bottom: -25px;
+      right: -5px;
       float: right;
-      bottom: 10px;
     }
 
     .sidebar {
@@ -503,97 +507,15 @@ color: white;
 
 
 /* high dpi displays */
-@media only screen and (min-width: 800px) {
 
-  .content-images {
-    width: 100%;
-    padding-top: 0px;
-    height: 220px;
+@media only screen and (min-width: 1000px) {
+
+  .maincontent {
+   margin-top: 220px;
   }
-
-
-  .content-images-individual {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-top: 30px;
-  }
-
-  .text-left-title {
-    padding-top: 0px;
-    padding-bottom:5px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-    .container-fluid {
-        padding-top: 190px;
-        padding-left: 0px;
-        padding-right:0px;
-    }
-
-
-    p {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    header .blogtitle {
-      font-size: 56px;
-    }
-
-    .row, .row-featured {
-      width: 50%;
-      float:left;
-      border-bottom: 0px;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 20px;
-    }
-
-    .btn {
-      float: right;
-      text-decoration: none;
-      bottom: 10px;
-      margin:0px;
-      }
-
-      article {
-        min-height: 210px;
-        min-width: 300px;
-        padding-bottom: 20px;
-        margin-left:0px;
-        background-color: white;
-      }
-
-      .row-individualpost {
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0px;
-        padding-right: 0px;
-      }
-
-      .sidebar {
-        display: none;
-      }
-
-      .sidebar-secondary {
-        display: none;
-      }
-
-}
-
-/* super high resolutions */
-@media only screen and (min-width: 1200px) {
 
   .btn {
-    margin: 0px;
-    right: 0;
-    bottom: 0;
-    margin:0px;
+
   }
 
   .text-left-title {
@@ -621,8 +543,9 @@ color: white;
   }
 
   .row, .row-individualpost, .row-featured {
-    margin-left: 10%;
-    width: 50%;
+    margin-left: 8%;
+    margin-bottom: 40px;
+    width: 53%;
     border-bottom:1px solid rgba(0,0,0,0.12);
     }
 
@@ -634,7 +557,6 @@ color: white;
       margin-top: 0px;
       margin-left: 0px;
       max-width: 100%;
-      height: 220px;
   }
 
   .content-images-individual {
@@ -646,11 +568,11 @@ color: white;
   }
 
   .sidebar, .sidebar-secondary {
-    width: 25%;
+    width: 300px;
     display:block;
     position: absolute;
     top: 220px;
-    right: 10%;
+    right: 8%;
   }
 
       .sidebar {
@@ -687,6 +609,24 @@ color: white;
 
 }
 
+@media only screen and (min-width: 1200px) {
+  .row, .row-individualpost, .row-featured {
+    margin-left: 5%;
+    margin-bottom: 40px;
+    width: 65%;
+    border-bottom:1px solid rgba(0,0,0,0.12);
+    }
+
+    .sidebar, .sidebar-secondary {
+      right: 5%;
+    }
+
+    .container-fluid, .maincontent {
+      max-width: 1400px;
+    }
+
+
+}
 /* ##################################
 
 Temporary unavailable (in development)

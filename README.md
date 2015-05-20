@@ -1,19 +1,19 @@
 # Mati theme for Ghost
 ====
 
-A [Ghost](http://github.com/tryghost/ghost/) theme which is based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
+A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
 #Design & features
 - As it's material design based - it's simple, no header images and stuff, no fuss, it just works.
-- Header becomes smaller when you start scrolling (material design FTW!)
+- Header becomes smaller when you start scrolling (material design-ish FTW!)
 - Shows post date/author/tags in post
-- Show featured image (or your main site 'cover picture' when not available)
+- Show featured image for a post (or your main site 'cover picture' when not available)
+- Has Featured Post support! (these get shown first, with an 'featured' indicator before the other posts)
 - Sidebar support! (2 of them, check further down for more info)
-- Shows author info in sidebar
 - Shows pagination when available (aka when there are enough posts) in footer
-- Resolution-based CSS (<= 800, > 800  and > 1200)
+- Resolution-based CSS (<= 1023, >= 1024, >= 1300)
 - Seperated parts of the code in 'partials'
-- High res users get a different look than 'medium-res' and 'low-res' users
+- High res users (big browser window) get a different look than 'low res' users
 
 #Stuff used
 mati uses the following libraries;
@@ -59,7 +59,7 @@ The actual modal is called from inside /mati/partials/default.hbs (infomodal). W
 - remove the question mark (aboutmodal) from mati/partials/social.hbs
 
 ##Social
-I've added the ability to add social links to the footer. In the mati/partials/social.hbs you can setup your own social media links.You can use the Font-Awesome icons that i use, it has more icons as you can see [here](http://fortawesome.github.io/Font-Awesome/icons/). Just simply add a new line and/or replace the current ones. 
+I've added the ability to add social links to the footer. In the mati/partials/social.hbs you can setup your own social media links.You can use the Font-Awesome icons that i use, it has more icons as you can see [here](http://fortawesome.github.io/Font-Awesome/icons/). Just simply add a new line and/or replace the current ones. Secondly there's a seperate social media section (at least that's what i've used it for) in partials/sidebar.hbs. 
 
 #Translation
 There's not much to translate, but the two things that are probably of interest are the following;

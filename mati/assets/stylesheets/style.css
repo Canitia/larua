@@ -630,14 +630,23 @@ article img {
     height:100% !important;
   }
 
-  .row-individualpost {
-    width: 60%;
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: auto;
-    padding-left: 0px;
-    padding-right: 0px;
+  article {
+    margin-top: 30px;
   }
+
+  .row {
+    float: left;
+  }
+
+  .row-individualpost {
+    margin-top: 30px;
+  }
+
+  .row, .row-individualpost {
+    margin-left: 10%;
+    width: 60%;
+    border-bottom:1px solid rgba(0,0,0,0.12);
+    }
 
 
   /* big images inline */
@@ -662,13 +671,6 @@ article img {
     padding-top: 0;
   }
 
-  .row {
-    margin-left: 10%;
-    float: left;
-    width: 60%;
-    padding-top: 20px;
-    border-bottom:1px solid rgba(0,0,0,0.12);
-    }
 
     .btn {
       float:right;

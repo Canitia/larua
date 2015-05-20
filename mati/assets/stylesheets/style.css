@@ -212,6 +212,10 @@ color: white;
   color: black;
 }
 
+.fa-star {
+  color: #ffa500;
+}
+
 .btn {
   text-decoration: none;
   position: relative;
@@ -457,6 +461,7 @@ color: white;
     .content-images {
         width: 100%;
         padding-top: 0px;
+        height: 220px;
     }
 
     .content-images-individual {
@@ -474,7 +479,7 @@ color: white;
     .btn {
       margin: 0;
       float: right;
-      bottom: 10px !important;
+      bottom: 10px;
     }
 
     .sidebar {
@@ -490,6 +495,10 @@ color: white;
       padding-right:0px;
     }
 
+    article {
+      margin-top: 40px;
+    }
+
   }
 
 
@@ -497,9 +506,9 @@ color: white;
 @media only screen and (min-width: 800px) {
 
   .content-images {
-    max-height: 190px;
     width: 100%;
     padding-top: 0px;
+    height: 220px;
   }
 
 
@@ -534,19 +543,19 @@ color: white;
       font-size: 56px;
     }
 
-    .row {
+    .row, .row-featured {
       width: 50%;
       float:left;
       border-bottom: 0px;
-      margin-top: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
     }
 
     .btn {
       float: right;
       text-decoration: none;
-      bottom: 10px !important;
+      bottom: 10px;
       margin:0px;
       }
 
@@ -582,7 +591,8 @@ color: white;
   .btn {
     margin: 0px;
     right: 0;
-    bottom: 10px !important;
+    bottom: 0;
+    margin:0px;
   }
 
   .text-left-title {
@@ -598,19 +608,18 @@ color: white;
   }
 
   article {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .row {
     float: left;
-    margin-top: 0px;
   }
 
   .row-individualpost {
     margin-top: 30px;
   }
 
-  .row, .row-individualpost {
+  .row, .row-individualpost, .row-featured {
     margin-left: 10%;
     width: 50%;
     border-bottom:1px solid rgba(0,0,0,0.12);
@@ -624,12 +633,7 @@ color: white;
       margin-top: 0px;
       margin-left: 0px;
       max-width: 100%;
-      max-height:450px;
-      -webkit-filter: blur(0px);
-       -moz-filter: blur(0px);
-       -o-filter: blur(0px);
-       -ms-filter: blur(0px);
-       filter: blur(0px);
+      height: 220px;
   }
 
   .content-images-individual {
@@ -645,16 +649,21 @@ color: white;
     position: absolute;
     top: 220px;
     right: 10%;
-    width: 25%;
   }
 
-  .sidebar {
-    color: white;
-  }
+      .sidebar {
+        color: white;
+      }
 
-  .sidebar-secondary {
-    background-color:white;
-  }
+      .sidebar-secondary {
+        top: 0;
+
+
+        display: block;
+        position: absolute;
+
+        background-color:white;
+      }
 
       .authorimage {
         padding-top: 0;

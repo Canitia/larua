@@ -603,6 +603,7 @@ color: white;
 
   .row {
     float: left;
+    margin-top: 0px;
   }
 
   .row-individualpost {

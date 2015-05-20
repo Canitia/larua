@@ -119,16 +119,16 @@ header.smaller .blogdescription {
 }
 
 /* social media icons */
-#socialhead {
+.socialfooter {
     text-align: center;
     border-top:1px solid rgba(0,0,0,0.12);
 }
 
-#socialhead > a {
+.socialfooter > a {
     color: #00bfff;
 }
 
-#socialhead > a:hover {
+.socialfooter > a:hover {
     color: black;
 }
 

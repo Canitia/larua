@@ -8,33 +8,23 @@
                                           {{@blog.cover}} {{/if}}"/>
 
                                     <h1 class="text-left-title"></i>{{title}}</h1>
-                                    <h4><p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
+                                    <h4><p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}</p>
+
                                     {{#if tags}}
                                         <p class="text-right postdate">
                                         Tags: {{tags separator=" | "}}
                                         </p>
                                         {{/if}}
                                     </h4>
-
-                                    <p class="text-justify">{{content}}</p>
+                                    <hr>
+                                    <p class="text-justify-individual">{{content}}</p>
 
                                     <br />
 
-                                    <address itemscope itemtype="http://schema.org/Person">
-                                    {{#if author.image}}
-                                    <div class="authorimage"><img src="{{author.image}}" itemprop="image" /></div>
-                                    {{/if}}
-                                    <h4 class="authorname"><span itemprop="author">{{author.name}}</span></h4>
-                                    {{#if author.website}}
-                                    <div class="authorwebsite"><a href="{{author.website}}" itemprop="url">{{author.website}}</a></div>
-                                    {{/if}}
-                                    </address>
-                                    <div class="authorbio">
-                                    <p>{{author.bio}}</p>
-                                    </div>
+
                                         {{> disqus}}
 
 
                                     </article>
-                                <hr>
+                                    {{> sidebar-secondary}}
                 {{/post}}

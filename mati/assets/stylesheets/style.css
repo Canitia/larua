@@ -192,13 +192,6 @@ footer a {
   width: 120px;
   right: 0;
 }
-
-/* big images inline */
-.content-images {
-    width: 100%;
-    padding-top: 40px;
-}
-
 /* company logos */
 img.userprofileimages {
   max-width: 140px;

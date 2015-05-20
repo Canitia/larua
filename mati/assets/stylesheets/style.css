@@ -2,7 +2,7 @@
 html body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    background-color: black;
+    background-color: white;
 }
 
 h1 {
@@ -376,7 +376,6 @@ color: white;
       margin-bottom: 15px;
       min-width: 300px;
       background-color: white;
-      border-radius: 15px 15px 15px 15px;
   }
 
   article img {
@@ -461,14 +460,12 @@ color: white;
     .content-images {
         width: 100%;
         padding-top: 0px;
-        border-radius: 15px 15px 0px 0px;
     }
 
     .content-images-individual {
       padding-left: 0;
       padding-right: 0;
       padding-top: 0;
-      border-radius: 15px 15px 0px 0px;
     }
 
     .row, .row-featured, .row-individualpost {
@@ -547,7 +544,6 @@ color: white;
       margin-top: 0px;
       margin-left: 0px;
       max-width: 100%;
-      border-radius: 15px 15px 0px 0px;
   }
 
   .content-images-individual {
@@ -556,7 +552,6 @@ color: white;
     padding-right: 0;
     padding-top: 0;
     margin-top: 0px;
-    border-radius: 15px 15px 0px 0px;
   }
 
   .sidebar, .sidebar-secondary {
@@ -573,13 +568,11 @@ color: white;
 
       .sidebar-secondary {
         background-color:white;
-        border-radius: 15px;
       }
 
       .authorimage {
         padding-top: 0;
         height: 250px;
-        border-radius: 15px 15px 0px 0px;
       }
 
       .authorimage > img {
@@ -599,7 +592,6 @@ color: white;
       .socialside {
         background-color: #29b6f6;
         text-align:center;
-        border-radius: 15px;
       }
 
 }

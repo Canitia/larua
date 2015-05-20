@@ -6,13 +6,14 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is based on [Material D
 #Design & features
 - As it's material design based - it's simple, no header images and stuff, no fuss, it just works.
 - Header becomes smaller when you start scrolling (material design FTW!)
-- Shows post date/tags in post header
-- Show featured image (or your 'cover picture' when not available)
-- Shows author info at bottom of each post
-- Shows pagination when available (aka when there are enough posts)
-- Resolution-based CSS (<= 825, > 825  and > 950)
+- Shows post date/author/tags in post
+- Show featured image (or your main site 'cover picture' when not available)
+- Sidebar support! (2 of them, check further down for more info)
+- Shows author info in sidebar
+- Shows pagination when available (aka when there are enough posts) in footer
+- Resolution-based CSS (<= 800, > 800  and > 1200)
 - Seperated parts of the code in 'partials'
-- High res users get a different look than 'low-res' users
+- High res users get a different look than 'medium-res' and 'low-res' users
 
 #Stuff used
 mati uses the following libraries;

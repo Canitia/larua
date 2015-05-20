@@ -385,11 +385,6 @@ color: white;
       width: 100%;
   }
 
-  .readmore {
-    position: relative;
-    bottom: 200px;
-    right: -10px;
-  }
 
   .pagination {
       display: block !important;
@@ -513,12 +508,13 @@ color: white;
       margin-top: 40px;
     }
 
+
   }
 
 
 /* high dpi displays */
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
 
   .maincontent {
    margin-top: 220px;
@@ -618,10 +614,6 @@ color: white;
     margin-bottom: 40px;
     width: 72%;
     border-bottom:1px solid rgba(0,0,0,0.12);
-    }
-
-    .sidebar, .sidebar-secondary {
-
     }
 
     .container-fluid, .maincontent {

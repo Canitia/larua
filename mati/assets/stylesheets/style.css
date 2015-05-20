@@ -187,17 +187,6 @@ footer a {
     padding-bottom: 15px;
 }
 
-.fork {
-  position: absolute;
-  width: 120px;
-  right: 0;
-}
-/* company logos */
-img.userprofileimages {
-  max-width: 140px;
-  margin: 10px;
-}
-
 /* general styling of pretty much all font-awesome icons */
 a i {
     color: white;
@@ -289,13 +278,6 @@ color: white;
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
-/* Card, Dialog */
-.card {
-  position: relative;
-  vertical-align: top;
-}
-
 
 /* post look and feel */
 .posttheme-dialog {

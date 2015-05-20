@@ -669,20 +669,20 @@ article img {
 
       .sidebar {
         color: white;
-        width: 20%;
+        width: 25%;
         display:block;
         position: absolute;
         top: 220px;
-        right: 5%;
+        right: 2%;
       }
 
       .sidebar-secondary {
         top: 0;
-        right: 5%;
+        right: 2%;
         top: 220px;
         display: block;
         position: absolute;
-        width: 20%;
+        width: 25%;
         background-color:white;
       }
 
@@ -697,8 +697,12 @@ article img {
         border-radius: 10px;
       }
 
-      .author-website {
-        color: black;
+      .author-website a {
+        color: #29b6f6;
+      }
+
+      .author-website a:hover {
+        color: #088cc9;
       }
 
 }

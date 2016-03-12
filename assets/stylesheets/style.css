@@ -230,10 +230,15 @@ a i {
 a i:hover {
     color:black;
 }
-
 a:focus, a:hover {
   color:white !important;
 }
+
+p > a:focus, p > a:hover
+{
+  color:black  !important;
+}
+
 
 /* icons in table */
 .fa-2x {

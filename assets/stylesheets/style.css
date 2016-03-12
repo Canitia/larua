@@ -91,7 +91,7 @@ body > nav > div > ul > li.dropdown.open > ul {
 /* website title header */
 header .blogtitle {
 display: inline-block;
-    font-size: 48px;
+    font-size: 36px !important;
     margin-left: 5%;
     top: 38%;
     position: absolute;

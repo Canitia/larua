@@ -7,11 +7,8 @@
 
                     <div class="card">
                           <article>
-                            <a href="{{url}}"><img class="content-images" src="{{#if image}}
-                         {{image}}
-                       {{else}}
-                           {{@blog.cover}}" />
-             {{/if}}
+                            <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
+
 
                                 </a>
 
@@ -40,10 +37,7 @@
                     {{#unless featured}}
                     <div class="card">
                           <article>
-                            <a href="{{url}}"><img class="content-images" src="{{#if image}}
-                         {{image}}
-                       {{else}}
-                           {{@blog.cover}}" />
+                            <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
                  {{/if}}
 
                                 </a>

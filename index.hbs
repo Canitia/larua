@@ -7,10 +7,7 @@
 
                     <div class="card">
                           <article>
-                            <a href="{{url}}"><img class="content-images" src="{{#if image}}
-                              {{image}}
-                            {{else}}
-                                {{@blog.cover}} {{/if}}" />
+                            <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{/if}}" />
                                 </a>
 
                                       <h1 class="text-left-title red darken-4"><a href="{{url}}">{{title}}</a></h1>
@@ -23,7 +20,9 @@
                                         {{/if}}
                                     </h3>
                                     <hr>
-                                    <p class="text-justify">{{excerpt}}...
+                                    <p class="text-justify">
+                                      {{content words="0"}}
+                                      {{excerpt}}...
                                     </p><br />
 
                                 </article>
@@ -36,10 +35,7 @@
                     {{#unless featured}}
                     <div class="card">
                           <article>
-                            <a href="{{url}}"><img class="content-images" src="{{#if image}}
-                              {{image}}
-                            {{else}}
-                                {{@blog.cover}} {{/if}}" />
+                            <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{/if}}" />
                                 </a>
 
                                       <h1 class="text-left-title red darken-4"><a href="{{url}}">{{title}}</a></h1>
@@ -52,7 +48,9 @@
                                         {{/if}}
                                     </h3>
                                     <hr>
-                                        <p class="text-justify">{{excerpt}}
+                                        <p class="text-justify">
+                                      {{content words="0"}}
+                                          {{excerpt}}
                                         </p><br />
                                         <a class="waves-effect waves-light btn red darken-4" id="read_more_custom" href="{{url}}">...</a>
                             </article>

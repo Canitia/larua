@@ -142,6 +142,10 @@ footer a {
   color: white !important;
 }
 
+footer > nav {
+  background-color: #0d47a1 !important;
+}
+
 /* **************************************
 
   CONTENT

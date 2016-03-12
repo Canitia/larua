@@ -192,9 +192,8 @@ a i:hover {
     color:black;
 }
 
-.dropdown-button a:hover {
-  text-decoration: none;
-  color:grey;
+a:focus, a:hover {
+  color:white !important;
 }
 
 /* icons in table */

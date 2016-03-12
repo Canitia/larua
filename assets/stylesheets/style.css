@@ -328,6 +328,9 @@ color: white;
 
 /* medium width devices */
 @media only screen and (max-width: 1023px) {
+  .maincontent {
+   margin-top: 20px;
+  }
     header {
         width: 100%;
         overflow: hidden;
@@ -337,7 +340,7 @@ color: white;
         z-index: 999;
     }
     header .blogtitle {
-        font-size: 32px;
+        font-size: 28px;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
@@ -361,7 +364,7 @@ color: white;
 
     h1 {
     	font-family: Raleway;
-    	font-size: 28px;
+    	font-size: 18px;
     	font-style: normal;
     	font-variant: normal;
     	font-weight: 500;
@@ -387,26 +390,6 @@ color: white;
       padding-left: 0;
       padding-right: 0;
       padding-top: 0;
-    }
-
-    .row, .row-featured, .row-individualpost {
-    width: 94%;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
-
-    }
-
-    .btn {
-      margin: 0;
-      bottom: -25px;
-      right: -5px;
-      float: right;
-    }
-
-    .row-individualpost {
-      padding-left: 0px;
-      padding-right:0px;
     }
 
     article {

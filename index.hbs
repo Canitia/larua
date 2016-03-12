@@ -7,7 +7,12 @@
 
                     <div class="card">
                           <article>
-                            <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{/if}}" />
+                            <a href="{{url}}"><img class="content-images" src="{{#if image}}
+7                         {{image}}
+8                       {{else}}
+9                           {{@blog.cover}}" />
+10             {{/if}}
+
                                 </a>
 
                                       <h1 class="text-left-title red darken-4"><a href="{{url}}">{{title}}</a></h1>
@@ -35,7 +40,12 @@
                     {{#unless featured}}
                     <div class="card">
                           <article>
-                            <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{/if}}" />
+                            <a href="{{url}}"><img class="content-images" src="{{#if image}}
+7                         {{image}}
+8                       {{else}}
+9                           {{@blog.cover}}" />
+10                 {{/if}}
+
                                 </a>
 
                                       <h1 class="text-left-title red darken-4"><a href="{{url}}">{{title}}</a></h1>

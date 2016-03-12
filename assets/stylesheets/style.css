@@ -7,15 +7,20 @@ background-color:#404040;
 
 h1 {
 	font-family: Raleway;
-	font-size: 36px !important;
+	font-size: 36px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.3999996185303px;
 }
+
+article > h1 {
+  	font-size: 36px;
+}
+
 h3 {
 	font-family: Raleway;
-	font-size: 14px !important;
+	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -86,7 +91,7 @@ body > nav > div > ul > li.dropdown.open > ul {
 /* website title header */
 header .blogtitle {
 display: inline-block;
-    font-size: 48px !important;
+    font-size: 48px;
     margin-left: 5%;
     top: 38%;
     position: absolute;
@@ -355,7 +360,7 @@ color: white;
         z-index: 999;
     }
     header .blogtitle {
-        font-size: 28px !important;
+        font-size: 28px;
         text-overflow: ellipsis;
         white-space: nowrap;
     }

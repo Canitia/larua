@@ -2,7 +2,7 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 <div class="maincontent">
                 {{#post}}
-                                    <article class="row-individualpost">
+                                    <article>
                                       <img class="content-images-individual" src="{{#if image}}
                                         {{image}}
                                       {{else}}
@@ -26,6 +26,5 @@
 
 
                                     </article>
-                                    {{> sidebar-secondary}}
                 {{/post}}
 </div>

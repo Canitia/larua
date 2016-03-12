@@ -328,8 +328,8 @@ color: white;
 
 /* medium width devices */
 @media only screen and (max-width: 1023px) {
-  .maincontent {
-   margin-top: 20px;
+  .container {
+   margin-top: 50px !important;
   }
     header {
         width: 100%;

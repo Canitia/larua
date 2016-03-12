@@ -2,7 +2,7 @@
 html body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    background-color: white;
+background-color:#404040;
 }
 
 h1 {
@@ -46,34 +46,39 @@ pre {
 	font-weight: 400;
 	line-height: 18.5714302062988px;
 }
+/* **************************************
 
+  SLIDEOUT SIDEBAR
+
+*****************************************/
+
+.side-nav full {
+    overflow:auto;
+}
+
+.side-nav li {
+
+    height: 55px;
+}
+
+body > nav > div > ul > li.dropdown.open > ul {
+    color:white;
+    background-color:black;
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+  line-height:normal; !important;
+}
 
 /* **************************************
 
   HEADER
 
 *****************************************/
-header {
-    width: 100%;
-    height: 210px;
-    overflow: hidden;
-    position: fixed;
-    z-index: 999;
-    -webkit-transition: height 1.2s;
-    -moz-transition: height 1.2s;
-    -ms-transition: height 1.2s;
-    -o-transition: height 1.2s;
-    transition: height 1.2s;
-    background-color: #29b6f6;
-}
+
 
 /* website title header */
 header .blogtitle {
-  -webkit-transition: all 0.3s;
--moz-transition: all 0.3s;
--ms-transition: all 0.3s;
--o-transition: all 0.3s;
-transition: all 0.3s;
 display: inline-block;
     font-size: 48px;
     margin-left: 5%;
@@ -92,21 +97,6 @@ header .blogdescription {
     text-overflow: ellipsis;
 }
 
-/* website title header when scrolling */
-header.smaller {
-    height: 100px;
-}
-header.smaller .blogtitle {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-header.smaller .blogdescription {
-    position: absolute;
-    left: 7%;
-    top: 70%;
-    color: white;
-}
-
 /* color of clickable header */
 .headerurl {
     color: white;
@@ -118,9 +108,9 @@ header.smaller .blogdescription {
   text-decoration: none;
 }
 
+
 /* social media icons sidebar and footer */
 .socialfooter {
-  background-color: #29b6f6;
   text-align: center;
   border-top:1px solid rgba(0,0,0,0.12);
   -webkit-border-bottom-right-radius: 5px;
@@ -149,7 +139,6 @@ footer {
     width: 100%;
     overflow: hidden;
     z-index: 999;
-    background-color: #29b6f6 !important;
     padding: 20px;
 }
 
@@ -175,9 +164,12 @@ footer a {
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
-.row-individualpost {
-  width: 100%;
-  min-width: 560px;
+#read_more_custom {
+    margin-right:20px;
+    margin-bottom:20px;
+    float:right;
+    color:white;
+        text-decoration:none;
 }
 
 
@@ -242,7 +234,6 @@ color: white;
   padding-left: 10px;
   padding:10px;
   margin: 0px;
-  background-color: #29b6f6;
   overflow: none;
   text-align: center;
   color: white;
@@ -265,9 +256,6 @@ color: white;
   color: #29b6f6;
 }
 
-.sidebar {
-  display:none;
-}
 
 /* styling individual post specific */
 .text-justify-individual {
@@ -338,7 +326,6 @@ color: white;
 @media only screen and (max-width: 1023px) {
     header {
         width: 100%;
-        height: 190px;
         overflow: hidden;
         position: fixed;
         top: 0;
@@ -346,15 +333,7 @@ color: white;
         z-index: 999;
     }
     header .blogtitle {
-        margin-left: 10px;
-        margin-top: 2%;
         font-size: 32px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    header.smaller .blogtitle {
-        margin-left: 10px;
-        top: 30%;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
@@ -383,10 +362,6 @@ color: white;
     	font-variant: normal;
     	font-weight: 500;
     	line-height: 26.3999996185303px;
-    }
-
-    .container-fluid {
-      padding-top: 160px
     }
 
     /* post title */
@@ -425,14 +400,6 @@ color: white;
       float: right;
     }
 
-    .sidebar {
-      display: none;
-    }
-
-    .sidebar-secondary {
-      display: none;
-    }
-
     .row-individualpost {
       padding-left: 0px;
       padding-right:0px;
@@ -451,7 +418,7 @@ color: white;
 @media only screen and (min-width: 1024px) {
 
   .maincontent {
-   margin-top: 220px;
+   margin-top: 20px;
   }
 
   .text-left-title {
@@ -496,22 +463,6 @@ color: white;
     margin-top: 0px;
   }
 
-  .sidebar, .sidebar-secondary {
-    width: 300px;
-    display:block;
-    float: right;
-    top: 220px;
-    margin-right: 2%;
-  }
-
-      .sidebar {
-        color: white;
-      }
-
-      .sidebar-secondary {
-        background-color:white;
-        border: 1px solid gainsboro;
-      }
 
       .authorimage {
         padding-top: 0;

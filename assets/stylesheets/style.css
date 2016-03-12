@@ -235,8 +235,7 @@ color: white;
   font-variant: normal;
   font-weight: 500;
   line-height: 26.3999996185303px;
-  padding-left: 10px;
-  padding:10px;
+  padding:20px;
   margin: 0px;
   overflow: none;
   text-align: center;
@@ -379,8 +378,7 @@ color: white;
 
     /* post title */
     .text-left-title {
-        padding-left: 10px;
-        padding-top: 10px;
+        padding:20px;
         font-size: 28px;
         white-space: nowrap;
         overflow: hidden;
@@ -389,14 +387,9 @@ color: white;
 
     .content-images {
         width: 100%;
-        padding-top: 0px;
+        padding: 10px;
     }
 
-    .content-images-individual {
-      padding-left: 0;
-      padding-right: 0;
-      padding-top: 0;
-    }
 
     article {
       margin-top: 40px;
@@ -416,6 +409,7 @@ color: white;
 
   .text-left-title {
     text-align: center;
+    padding:10px;
   }
 
   .postdate {
@@ -424,11 +418,6 @@ color: white;
 
   .text-justify {
     height:100% !important;
-  }
-
-  .row-individualpost {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .row, .row-individualpost, .row-featured {
@@ -441,19 +430,10 @@ color: white;
 
   /* big images inline */
   .content-images {
-      padding-right: 0;
-      padding-top: 0;
+      padding: 20px;
       margin-top: 0px;
       margin-left: 0px;
       max-width: 100%;
-  }
-
-  .content-images-individual {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-top: 0px;
   }
 
 
@@ -499,4 +479,6 @@ color: white;
       margin-left: auto;
       margin-right: auto;
     }
+
+
 }

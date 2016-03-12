@@ -87,6 +87,10 @@ ul li {
     height: 55px;
 }
 
+.side-nav li:hover{
+    background-color: black !important;
+}
+
 body > nav > div > ul > li.dropdown.open > ul {
     color:white;
     background-color:black;

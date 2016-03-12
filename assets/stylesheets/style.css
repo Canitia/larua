@@ -71,11 +71,11 @@ ul li {
 }
 
 .side-nav {
-  background-color: black;
+  background-color: black !important;
 }
 
 .side-nav a, .side-nav a:hover {
-  color: white;
+  color: white !important;
 }
 
 

@@ -196,6 +196,11 @@ a i:hover {
     color:black;
 }
 
+.dropdown-button a:hover {
+  text-decoration: none;
+  color:grey;
+}
+
 /* icons in table */
 .fa-2x {
 color: white;

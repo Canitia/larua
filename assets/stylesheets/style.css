@@ -74,10 +74,14 @@ ul li {
   background-color: black !important;
 }
 
-.side-nav a, .side-nav a:hover {
+.side-nav a {
   color: white !important;
 }
 
+.side-nav a:hover {
+  color:white !important;
+  background-color: #0d47a1;
+}
 
 .side-nav li {
     height: 55px;

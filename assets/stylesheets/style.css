@@ -329,7 +329,7 @@ color: white;
 /* medium width devices */
 @media only screen and (max-width: 1023px) {
   .container {
-   margin-top: 50px !important;
+   margin-top: 70px !important;
   }
     header {
         width: 100%;
@@ -481,7 +481,7 @@ color: white;
   .container {
    margin-top: 5px !important;
   }
-  
+
   .row, .row-individualpost, .row-featured {
     margin-bottom: 40px;
     width: 72%;

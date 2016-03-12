@@ -70,8 +70,16 @@ ul li {
     overflow:auto;
 }
 
-.side-nav li {
+.side-nav {
+  background-color: black;
+}
 
+.side-nav a, .side-nav a:hover {
+  color: white;
+}
+
+
+.side-nav li {
     height: 55px;
 }
 
@@ -81,7 +89,7 @@ body > nav > div > ul > li.dropdown.open > ul {
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
-  color: white;
+  color: white !important;
   background-color:#0d47a1;
 }
 

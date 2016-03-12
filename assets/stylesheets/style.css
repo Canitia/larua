@@ -328,6 +328,12 @@ color: white;
 
 /* medium width devices */
 @media only screen and (max-width: 1023px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    padding: 0 0 0 5px;
+  }
+
+
+
   .container {
    margin-top: 70px !important;
   }

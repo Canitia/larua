@@ -80,6 +80,11 @@ body > nav > div > ul > li.dropdown.open > ul {
     background-color:black;
 }
 
+.dropdown-content li > a, .dropdown-content li > span {
+  color: white;
+  background-color:#0d47a1;
+}
+
 /* **************************************
 
   HEADER

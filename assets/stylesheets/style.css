@@ -395,7 +395,7 @@ color: white;
         text-overflow: ellipsis;
     }
 
-    .content-images {
+    .content-images, .content-images-individual {
         width: 100%;
         padding: 10px;
     }
@@ -429,14 +429,6 @@ color: white;
   .text-justify {
     height:100% !important;
   }
-
-  .row, .row-individualpost, .row-featured {
-    float: left;
-    margin-bottom: 40px;
-    width: 66%;
-    border-bottom:1px solid rgba(0,0,0,0.12);
-    }
-
 
   /* big images inline */
   .content-images {

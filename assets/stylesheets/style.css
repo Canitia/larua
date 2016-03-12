@@ -47,8 +47,13 @@ pre {
 	line-height: 18.5714302062988px;
 }
 
-ul {
-  list-style-type: square;
+article > ul li {
+  list-style-type: square !important;
+  margin-left: 20px;
+}
+
+ul li {
+  list-style-type: none;
 }
 /* **************************************
 

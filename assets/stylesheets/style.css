@@ -66,10 +66,6 @@ body > nav > div > ul > li.dropdown.open > ul {
     background-color:black;
 }
 
-nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-  line-height:normal; !important;
-}
-
 /* **************************************
 
   HEADER

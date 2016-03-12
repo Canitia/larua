@@ -7,7 +7,7 @@ background-color:#404040;
 
 h1 {
 	font-family: Raleway;
-	font-size: 36px;
+	font-size: 36px !important;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -15,7 +15,7 @@ h1 {
 }
 h3 {
 	font-family: Raleway;
-	font-size: 14px;
+	font-size: 14px !important;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -23,7 +23,7 @@ h3 {
 }
 p {
 	font-family: Raleway;
-	font-size: 14px;
+	font-size: 14px !important;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -32,7 +32,7 @@ p {
 }
 blockquote {
 	font-family: Raleway;
-	font-size: 21px;
+	font-size: 21px !important;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -40,7 +40,7 @@ blockquote {
 }
 pre {
 	font-family: Raleway;
-	font-size: 13px;
+	font-size: 13px !important;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;

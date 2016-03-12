@@ -379,7 +379,7 @@ color: white;
     /* post title */
     .text-left-title {
         padding:20px;
-        font-size: 28px;
+        font-size: 18px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;

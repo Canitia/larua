@@ -404,8 +404,8 @@ color: white;
 
 @media only screen and (min-width: 1024px) {
 
-  .maincontent {
-   margin-top: 20px;
+  .container {
+   margin-top: 5px !important;
   }
 
   .text-left-title {
@@ -478,6 +478,10 @@ color: white;
 }
 
 @media only screen and (min-width: 1300px) {
+  .container {
+   margin-top: 5px !important;
+  }
+  
   .row, .row-individualpost, .row-featured {
     margin-bottom: 40px;
     width: 72%;

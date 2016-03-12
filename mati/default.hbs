@@ -16,8 +16,12 @@
 
     <!-- own stylesheet for general stuff -->
     <link rel="stylesheet" href="{{asset "stylesheets/style.css"}}">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+    <!-- jQuery, font-awesome and more -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
-      <!-- jQuery, font-awesome and more -->
+  <!-- jQuery, font-awesome and more -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
 
         {{! Ghost outputs important style and meta data with this tag }}
@@ -27,7 +31,7 @@
 
 {{> header}}
 
-   <div class="container-fluid">
+   <div class="container">
 
        {{{body}}}
 
@@ -37,36 +41,27 @@
 
 <!-- ghost footer includes jquery -->
 {{ghost_foot}}
-
 <!-- google analytics -->
   {{> analytics}}
 
-  <script src="{{asset "javascripts/classie.js"}}"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <script>
-            function init() {
-            window.addEventListener('scroll', function(e){
-                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                    shrinkOn = 30,
-                    header = document.querySelector("header");
-                if (distanceY > shrinkOn) {
-                    classie.add(header,"smaller");
-                } else {
-                    if (classie.has(header,"smaller")) {
-                        classie.remove(header,"smaller");
-                    }
-                }
-            });
-        }
-        window.onload = init();
-    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+
+  <script>
+   $(document).ready(function(){
+     // Activate the side menu
+     // Initialize collapse button
+    $(".button-collapse").sideNav();
+    });
+  </script>
   </main>
-  <footer>
-        {{#if pagination}}
-            {{pagination}}
-        {{/if}}
 
-        {{> social}}
-
+  <footer class="page-footer red darken-4">
+    {{#if pagination}}
+        {{pagination}}
+    {{/if}}
+{{> social}}
 </footer>
+
 </html>

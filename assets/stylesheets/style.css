@@ -46,6 +46,10 @@ pre {
 	font-weight: 400;
 	line-height: 18.5714302062988px;
 }
+
+ul {
+  list-style-type: square;
+}
 /* **************************************
 
   SLIDEOUT SIDEBAR

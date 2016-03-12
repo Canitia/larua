@@ -507,19 +507,3 @@ color: white;
       margin-right: auto;
     }
 }
-
-/* ##################################
-
-Temporary unavailable (in development)
-
-################################### */
-
-
-.postfooter {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-.authorimage > img {
-    width: auto;
-}

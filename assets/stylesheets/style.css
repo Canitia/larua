@@ -194,7 +194,7 @@ footer > nav {
 }
 /* fix MS Edge for featured section */
 .container .row {
-  width: 100%;
+  width: auto;
 }
 
 .row {

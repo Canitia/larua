@@ -312,6 +312,9 @@ color: white;
   text-align: center;
   color: white;
   padding:10px !important;
+  height: 70px;
+
+
   text-overflow: ellipsis;
 
 /* Required for text-overflow to do anything */

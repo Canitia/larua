@@ -2,17 +2,19 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
   <div class="maincontent">
+                        <div class="row">
                     {{#foreach posts}}
                     {{#if featured}}
 
-                    <div class="card-featured">
+
+                      <div class="col s4">
                           <article>
-                            <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
+                            <a href="{{url}}"><img class="content-images-featured" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
 
 
                                 </a>
                                 <h3>
-                                <p class="text-left postdate postdate-featured"><i class="fa fa-user">{{author}}</i><i class="fa fa-star">Featured</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}</p>
+                                <p class="text-left postdate postdate-featured"><i class="fa fa-user">{{author}}</i><i class="fa fa-star">Featured</i></p>
                                 {{#if tags}}
                                     <p class="text-left postdate">
                                     Tags: {{tags separator=" | "}}
@@ -24,9 +26,10 @@
                                 </article>
                       </div>
 
+
                     {{/if}}
                     {{/foreach}}
-
+                    </div>
                     {{#foreach posts}}
                     {{#unless featured}}
                     <div class="card">

@@ -192,12 +192,15 @@ footer > nav {
   margin-right: auto;
   max-width: 1536px;
 }
+/* fix MS Edge for featured section */
+.container .row {
+  width: 100%;
+}
 
 .row {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
-  width:100%;
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 

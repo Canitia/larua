@@ -213,7 +213,7 @@ footer > nav {
 }
 
 .content-images-featured {
-  height:200px !important;
+  max-height:200px !important;
 }
 
 #read_more_custom {
@@ -299,12 +299,32 @@ color: white;
   color: white;
 }
 
-.text-left-title a {
+/* post title */
+.text-left-title-featured {
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.3999996185303px;
+  margin: 0px;
+  overflow: none;
+  text-align: center;
+  color: white;
+  padding:10px !important;
+  text-overflow: ellipsis;
+
+/* Required for text-overflow to do anything */
+white-space: nowrap;
+overflow: hidden;
+}
+
+.text-left-title a, .text-left-title-featured a {
     color: white;
     text-decoration: none;
 }
 
-.text-left-title a:hover {
+.text-left-title a:hover, .text-left-title-featured a:hover {
   color: white;
 }
 

@@ -318,7 +318,7 @@ color: white;
   text-overflow: ellipsis;
 
 /* Required for text-overflow to do anything */
-white-space: nowrap;
+white-space: pre-wrap;
 overflow: hidden;
 }
 

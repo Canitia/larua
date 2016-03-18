@@ -190,6 +190,7 @@ footer > nav {
 .main-content {
   margin-left: auto;
   margin-right: auto;
+  max-width: 1536px;
 }
 
 .row {
@@ -203,17 +204,12 @@ footer > nav {
   float:left;
 }
 
-.card-featured {
-  width: 29%;
-  float:left;
-}
-
 .card-featured > #read_more_custom {
   display:none;
 }
 
-.card-featured > .content-images {
-  height:200px;
+.content-images-featured {
+  height:200px !important;
 }
 
 #read_more_custom {
@@ -364,7 +360,6 @@ color: white;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 15px;
-      min-width: 300px;
       background-color: white;
   }
 

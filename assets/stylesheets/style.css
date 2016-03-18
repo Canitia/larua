@@ -199,6 +199,19 @@ footer > nav {
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
+.card {
+  float:left;
+}
+
+.card-featured {
+  width: 29%;
+  float:left;
+}
+
+.card-featured > #read_more_custom {
+  display:none;
+}
+
 #read_more_custom {
     margin-right:20px;
     margin-bottom:20px;

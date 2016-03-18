@@ -212,6 +212,10 @@ footer > nav {
   display:none;
 }
 
+.card-featured > .content-images {
+  height:200px;
+}
+
 #read_more_custom {
     margin-right:20px;
     margin-bottom:20px;

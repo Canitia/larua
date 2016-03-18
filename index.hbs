@@ -5,27 +5,21 @@
                     {{#foreach posts}}
                     {{#if featured}}
 
-                    <div class="card">
+                    <div class="card-featured">
                           <article>
                             <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
 
 
                                 </a>
-
+                                <h3>
+                                <p class="text-left postdate postdate-featured"><i class="fa fa-user">{{author}}</i><i class="fa fa-star">Featured</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}</p>
+                                {{#if tags}}
+                                    <p class="text-left postdate">
+                                    Tags: {{tags separator=" | "}}
+                                    </p>
+                                    {{/if}}
+                                </h3>
                                       <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
-                                    <h3>
-                                    <p class="text-left postdate postdate-featured"><i class="fa fa-user">{{author}}</i><i class="fa fa-star">Featured</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}</p>
-                                    {{#if tags}}
-                                        <p class="text-left postdate">
-                                        Tags: {{tags separator=" | "}}
-                                        </p>
-                                        {{/if}}
-                                    </h3>
-                                    <hr>
-                                    <p class="text-justify">
-                                      {{content words="0"}}
-                                      {{excerpt}}...
-                                    </p><br />
 
                                 </article>
                       </div>

@@ -282,6 +282,11 @@ color: white;
     font-size: 16px;
     margin-right: 5px;
     color: #979797;
+    text-align: center;
+}
+
+.postdate a {
+  color: #29b6f6;
 }
 
 /* post title */
@@ -329,15 +334,6 @@ overflow: hidden;
 .text-left-title a:hover, .text-left-title-featured a:hover {
   color: white;
 }
-
-.postdate {
-  text-align: center;
-}
-
-.postdate a {
-  color: #29b6f6;
-}
-
 
 /* styling individual post specific */
 .text-justify-individual {
@@ -476,7 +472,6 @@ overflow: hidden;
     }
 
     .postdate {
-      display:none;
       margin:0;
     }
 
@@ -560,10 +555,6 @@ overflow: hidden;
       max-width: 1536px;
       margin-left: auto;
       margin-right: auto;
-    }
-
-    .postdate {
-      display:block;
     }
 
 }

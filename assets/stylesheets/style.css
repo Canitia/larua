@@ -192,12 +192,14 @@ footer > nav {
   margin-right: auto;
   max-width: 1536px;
 }
+
+.container {
+  max-width:960px;
+}
+
 /* fix MS Edge for featured section */
 .container .row {
   width: auto;
-  max-width:960px;
-  margin-left: auto !important;
-  margin-right: auto !important;
 }
 
 .row {
@@ -209,7 +211,6 @@ footer > nav {
 
 .card {
   float:left;
-  max-width:960px;
 }
 
 .card-left {

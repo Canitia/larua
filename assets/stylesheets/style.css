@@ -195,6 +195,7 @@ footer > nav {
 /* fix MS Edge for featured section */
 .container .row {
   width: auto;
+  max-width:960px;
 }
 
 .row {
@@ -206,6 +207,7 @@ footer > nav {
 
 .card {
   float:left;
+  max-width:960px;
 }
 
 .card-left {
@@ -496,83 +498,3 @@ overflow: hidden;
     }
 
   }
-
-
-/* high dpi displays */
-
-@media only screen and (min-width: 1024px) {
-
-  .postdate {
-    margin:0;
-  }
-
-  .container {
-   margin-top: 5px !important;
-  }
-
-  .text-left-title {
-    text-align: center;
-    padding:20px;
-  }
-
-  .postdate {
-    text-align: center;
-  }
-
-  .text-justify {
-    height:100% !important;
-  }
-
-  /* big images inline */
-  .content-images {
-      padding: 20px;
-      margin-top: 0px;
-      margin-left: 0px;
-      max-width: 100%;
-  }
-
-
-      .authorimage {
-        padding-top: 0;
-        height: 250px;
-      }
-
-      .authorimage > img {
-        margin-top: 50px;
-        height: 150px;
-        border-radius: 25px;
-      }
-
-      .author-website a {
-        color: #29b6f6;
-      }
-
-      .author-website a:hover {
-        color: #088cc9;
-      }
-
-      .socialside {
-        background-color: #29b6f6;
-        text-align:center;
-      }
-
-}
-
-@media only screen and (min-width: 1333px) {
-  .container {
-   margin-top: 5px !important;
-  }
-
-  .row, .row-individualpost, .row-featured {
-    margin-bottom: 40px;
-    width: 72%;
-    border-bottom:1px solid rgba(0,0,0,0.12);
-    }
-
-    .container-fluid, .maincontent {
-      max-width: 1536px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-}

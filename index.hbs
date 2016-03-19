@@ -2,8 +2,8 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
   <div class="maincontent">
-                        <div class="row featured">
-                    {{#foreach posts}}
+                    <div class="row featured">
+                    {{#foreach posts limit="3"}}
                     {{#if featured}}
 
 

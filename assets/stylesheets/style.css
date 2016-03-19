@@ -268,6 +268,16 @@ p > a:focus, p > a:hover
   color:black  !important;
 }
 
+/* tag url color */
+.chip a {
+  color:black;
+}
+
+.chip a:hover {
+      color: #979797;
+}
+
+
 
 /* icons in table */
 .fa-2x {

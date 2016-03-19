@@ -499,4 +499,9 @@ overflow: hidden;
       width:100%;
     }
 
+    .card-bottom {
+      width: 100%;
+      float:inherit;
+    }
+
   }

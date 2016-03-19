@@ -22,7 +22,6 @@
                     {{/foreach}}
                     </div>
                     {{#foreach posts}}
-                    {{#unless featured}}
                     <div class="card">
                       <article>
                         <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
@@ -49,6 +48,5 @@
                         <a class="waves-effect waves-light btn blue darken-4" id="read_more_custom" href="{{url}}">...</a>
                       </div>
                       </div>
-                      {{/unless}}
                     {{/foreach}}
                   </div>

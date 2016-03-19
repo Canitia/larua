@@ -262,9 +262,6 @@ a i {
 a i:hover {
     color:black;
 }
-a:hover {
-  color:white !important;
-}
 
 p > a:focus, p > a:hover
 {

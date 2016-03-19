@@ -477,6 +477,7 @@ overflow: hidden;
 
     .postdate {
       display:none;
+      margin:0;
     }
 
 
@@ -489,6 +490,7 @@ overflow: hidden;
 
   .postdate {
     display:none;
+    margin:0;
   }
 
   .container {
@@ -558,6 +560,10 @@ overflow: hidden;
       max-width: 1536px;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .postdate {
+      display:block;
     }
 
 }

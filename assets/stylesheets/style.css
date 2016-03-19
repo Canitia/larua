@@ -475,6 +475,10 @@ overflow: hidden;
       display: none;
     }
 
+    .postdate {
+      display:none;
+    }
+
 
   }
 
@@ -482,6 +486,10 @@ overflow: hidden;
 /* high dpi displays */
 
 @media only screen and (min-width: 1024px) {
+
+  .postdate {
+    display:none;
+  }
 
   .container {
    margin-top: 5px !important;
@@ -535,7 +543,7 @@ overflow: hidden;
 
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1333px) {
   .container {
    margin-top: 5px !important;
   }
@@ -551,6 +559,5 @@ overflow: hidden;
       margin-left: auto;
       margin-right: auto;
     }
-
 
 }

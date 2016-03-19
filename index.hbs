@@ -3,9 +3,9 @@
 
   <div class="maincontent">
                     <div class="row featured">
-                    {{#foreach posts limit="3"}}
+                    {{#foreach posts}}
                     {{#if featured}}
-
+                    {{#get "posts" filter="featured:true" limit="3" as |featured|}}
 
                       <div class="col s4">
                           <article>
@@ -19,7 +19,7 @@
                                 </article>
                       </div>
 
-
+                    {{/get}}
                     {{/if}}
                     {{/foreach}}
                     </div>

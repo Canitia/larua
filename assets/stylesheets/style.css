@@ -3,6 +3,7 @@ html body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 background-color:#404040;
+line-height: 0 !important;
 }
 
 h1 {

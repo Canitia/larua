@@ -30,8 +30,8 @@
                                 </a>
                           </div>
                           <div class="card-right">
-                                    <p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}
-                                    </p>
+                                    <p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}} 
+                                    {{#if featured}}<i class="fa fa-star">Featured</i>{{/if}}</p>
                                     <p class="text-justify">
                                           {{excerpt}}...
                                         </p>

@@ -14,15 +14,10 @@
 
                                 </a>
                                 <h3 class="postdate">
-                                <p class="text-left postdate postdate-featured"><i class="fa fa-user">{{author}}</i><i class="fa fa-star">Featured</i></p>
-                                {{#if tags}}
-                                    <p class="text-left postdate">
-                                    Tags: {{tags separator=" | "}}
-                                    </p>
-                                    {{/if}}
+                                <p class="text-left postdate postdate-featured"><i class="fa fa-user">{{author}}</i><i class="fa fa-star">Featured</i>
+                                </p>
                                 </h3>
                                       <h1 class="text-left-title-featured blue darken-4"><a href="{{url}}">{{title}}</a></h1>
-
                                 </article>
                       </div>
 
@@ -38,20 +33,22 @@
 
                                 </a>
 
-                                      <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
+                                    <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
                                     <h3>
-                                    <p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}</p>
-                                    {{#if tags}}
-                                        <p class="text-left postdate">
-                                        Tags: {{tags separator=" | "}}
-                                        </p>
-                                        {{/if}}
+                                    <p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}
+                                    </p>
                                     </h3>
                                     <hr>
                                         <p class="text-justify">
-                                      {{content words="0"}}
                                           {{excerpt}}...
                                         </p><br />
+                                        {{#if tags}}
+                                        {{#foreach tags}}
+                                            <div class="chip">
+                                            <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
+                                            </div>
+                                        {{/foreach}}
+                                        {{/if}}
                                         <a class="waves-effect waves-light btn blue darken-4" id="read_more_custom" href="{{url}}">...</a>
                             </article>
                       </div>

@@ -3,7 +3,6 @@
 
   <div class="maincontent">
                     <div class="row featured">
-                    {{#if featured}}
                     {{#get "posts" filter="featured:true" limit="3" as |featured|}}
                       {{#foreach featured}}
                       <div class="col s4">
@@ -20,7 +19,6 @@
                       {{/foreach}}
 
                     {{/get}}
-                    {{/if}}
                     </div>
                     {{#foreach posts}}
                     {{#unless featured}}

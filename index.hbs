@@ -24,7 +24,7 @@
                     {{/foreach}}
                     </div>
                     {{#foreach posts}}
-<!--                    {{#unless featured}} -->
+                    {{#unless featured}}
                     <div class="card">
                           <article>
                             <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
@@ -48,6 +48,6 @@
                                         <a class="waves-effect waves-light btn blue darken-4" id="read_more_custom" href="{{url}}">...</a>
                             </article>
                       </div>
-<!--                      {{/unless}} -->
+                      {{/unless}}
                     {{/foreach}}
                   </div>

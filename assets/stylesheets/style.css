@@ -483,6 +483,15 @@ overflow: hidden;
       margin:0;
     }
 
+    .card-left {
+      width:100%;
+      float:left;
+    }
+
+    .card-right {
+      float:right;
+      width:100%;
+    }
 
   }
 

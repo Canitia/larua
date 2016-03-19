@@ -208,6 +208,15 @@ footer > nav {
   float:left;
 }
 
+.card-left {
+  width:40%;
+  float:left;
+}
+
+.card-right {
+  float:right;
+  width:60%;
+}
 .card-featured > #read_more_custom {
   display:none;
 }

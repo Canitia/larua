@@ -262,7 +262,7 @@ a i {
 a i:hover {
     color:black;
 }
-a:focus, a:hover {
+a:hover {
   color:white !important;
 }
 
@@ -300,7 +300,11 @@ color: white;
 }
 
 .postdate a {
-  color: #29b6f6;
+  color: black;
+}
+
+.postdate a:hover {
+  color:#979797;
 }
 
 /* post title */

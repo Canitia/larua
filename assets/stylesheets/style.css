@@ -224,6 +224,11 @@ footer > nav {
   width:70%;
   padding:10px;
 }
+
+.card-bottom {
+  float:left;
+}
+
 .card-featured > #read_more_custom {
   display:none;
 }

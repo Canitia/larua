@@ -482,6 +482,7 @@ overflow: hidden;
 
     .postdate {
       margin:0;
+      display:none;
     }
 
     .card-left {
@@ -502,7 +503,6 @@ overflow: hidden;
 @media only screen and (min-width: 1024px) {
 
   .postdate {
-    display:none;
     margin:0;
   }
 

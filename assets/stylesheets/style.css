@@ -435,7 +435,7 @@ overflow: hidden;
 
 
 /* medium width devices */
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 960px) {
 
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     padding: 0 0 0 5px;
@@ -523,6 +523,10 @@ overflow: hidden;
     .card-bottom {
       width: 100%;
       float:inherit;
+    }
+
+    .chip {
+      display: none;
     }
 
   }

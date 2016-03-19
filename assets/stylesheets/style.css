@@ -438,9 +438,43 @@ overflow: hidden;
       color:white;
   }
 
+  @media only screen and (min-width: 1333px) {
+
+        .card-bottom .chip {
+          display: inline-block;
+        }
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1332px) {
+
+    .card-left {
+      width:30%;
+      float:left;
+    }
+
+    .card-right {
+      float:right;
+      width:70%;
+      padding:10px;
+    }
+
+        .featured {
+          display: block;
+        }
+
+        .postdate {
+          margin:0;
+          display:block;
+        }
+
+        .card-bottom .chip {
+          display: none;
+        }
+  }
+
 
 /* medium width devices */
-@media only screen and (max-width: 1333px) {
+@media only screen and (max-width: 1023px) {
 
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     padding: 0 0 0 5px;

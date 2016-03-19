@@ -26,11 +26,14 @@
                     {{#foreach posts}}
                     {{#unless featured}}
                     <div class="card">
-                          <article>
-                            <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
+                      <article>
+                        <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
+                            <div class="card-left">
+                              <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
                                 </a>
+                          </div>
+                          <div class="card-right">
 
-                                    <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
                                     <h3>
                                     <p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}
                                     </p>
@@ -46,7 +49,8 @@
                                         {{/foreach}}
                                         {{/if}}
                                         <a class="waves-effect waves-light btn blue darken-4" id="read_more_custom" href="{{url}}">...</a>
-                            </article>
+                          </div>
+                      </article>
                       </div>
                       {{/unless}}
                     {{/foreach}}

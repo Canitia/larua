@@ -525,7 +525,7 @@ overflow: hidden;
       float:inherit;
     }
 
-    .chip {
+    .card-bottom .chip {
       display: none;
     }
 

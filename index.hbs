@@ -36,14 +36,16 @@
                                     <p class="text-justify">
                                           {{excerpt}}...
                                         </p>
-                                        {{#if tags}}
-                                        {{#foreach tags}}
-                                            <div class="chip">
-                                            <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
-                                            </div>
-                                        {{/foreach}}
-                                        {{/if}}
-                                        <a class="waves-effect waves-light btn blue darken-4" id="read_more_custom" href="{{url}}">...</a>
+                          </div>
+                          <div class="card-bottom">
+                            {{#if tags}}
+                            {{#foreach tags}}
+                                <div class="chip">
+                                <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
+                                </div>
+                            {{/foreach}}
+                            {{/if}}   
+                            <a class="waves-effect waves-light btn blue darken-4" id="read_more_custom" href="{{url}}">...</a>
                           </div>
                       </article>
                       </div>

@@ -45,7 +45,6 @@ Not available anymore (for now).
 I've added the ability to add social links to the footer. In the mati/partials/social.hbs you can setup your own social media links.You can use the Font-Awesome icons that i use, it has more icons as you can see [here](http://fortawesome.github.io/Font-Awesome/icons/). Just simply add a new line and/or replace the current ones.
 
 #Translation
-There's not much to translate, but the two things that are probably of interest are the following;
 
 ##partials/pagination.hbs
 In the current release there is an custom Pagination file for tweaking. For example to translate the pagination text into a different language. The file can be found at the following location: /mati/partials/pagination.hbs. If you want to remove the (custom) pagination remove this file.

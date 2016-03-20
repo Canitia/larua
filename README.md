@@ -5,10 +5,10 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Ma
 
 #Design & features
 - As it's material design based - it's simple, no header images and stuff, no fuss, it just works.
-- Shows post date/author/tags in post
+- Show 3 featured posts.
+- Navigation menu can be setup using the Ghost settings panel -> navigation option.
+- Also includes a 'side swipe' menu on phones.
 - Show featured image for a post (or your main site 'cover picture' when not available)
-- Has Featured Post support! (these get shown first, with an 'featured' indicator before the other posts)
-- Sidebar support has been removed as of the next major version 0.3. 
 - Shows pagination when available (aka when there are enough posts) in footer
 - Resolution-based CSS (<= 1023, >= 1024, >= 1300)
 - Seperated parts of the code in 'partials'

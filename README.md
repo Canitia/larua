@@ -25,8 +25,7 @@ This theme is still under development, but check the releases page for stable ve
 ![Homescreen](http://img.photobucket.com/albums/v385/hxkclan/2016-03-19%206%20-%20Copy.png)
 
 #Use
-- Download the package
-- Clone the repo inside your 'content/theme' folder
+- Download the package from the releases page or clone the repo inside your Ghost's 'content/theme' folder
 - Restart your Ghost instance to see the new theme and apply it.
 
 #Customization - partials

@@ -57,6 +57,8 @@ article > ul li {
   list-style-type: square !important;
   margin-left: 20px;
   padding:10px;
+  line-height: 25px;
+
 }
 
 ul li {

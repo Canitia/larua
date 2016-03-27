@@ -478,13 +478,6 @@ overflow: hidden;
       color:white;
   }
 
-  @media only screen and (min-width: 1333px) {
-
-        .card-bottom .chip {
-          display: inline-block;
-        }
-  }
-
   @media only screen and (min-width: 1125px) and (max-width: 1332px) {
 
     .card-left {
@@ -505,10 +498,6 @@ overflow: hidden;
         .postdate {
           margin:0;
           display:block;
-        }
-
-        .card-bottom .chip {
-          display: none;
         }
   }
 
@@ -602,10 +591,6 @@ overflow: hidden;
     .card-bottom {
       width: 100%;
       float:inherit;
-    }
-
-    .card-bottom .chip {
-      display: none;
     }
 
   }

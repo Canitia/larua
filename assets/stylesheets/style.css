@@ -312,7 +312,7 @@ a i {
     padding: 15px;
     transition: all 0.2s ease-in-out;
 }
-a i:hover {
+.socialfooter > a i:hover {
     color:black;
 }
 

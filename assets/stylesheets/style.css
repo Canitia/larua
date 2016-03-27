@@ -278,8 +278,8 @@ footer > nav {
 
 #read_more_custom {
     position:absolute;
-    bottom:0;
-    right:0;
+    bottom:-10px;
+    right:10px;
     color:white;
     text-decoration:none;
 }

@@ -408,7 +408,7 @@ overflow: hidden;
 }
 
 .text-left-title a, .text-left-title-featured a {
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 

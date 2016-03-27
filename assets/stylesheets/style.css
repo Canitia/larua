@@ -49,19 +49,11 @@ font-family: 'PT Sans';
 
 
 p {
-font-family: 'PT Sans';
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
 	line-height: 20px;
   margin: 5px;
 }
 
 blockquote {
-  font-family: 'PT Sans';
-	font-size: 16px !important;
-	font-variant:normal;
-	font-weight: 400;
 	line-height: 30px;
   border-left: 5px solid grey !important;
 }
@@ -71,11 +63,6 @@ blockquote > p {
 }
 
 pre {
-font-family: 'PT Sans';
-	font-size: 13px !important;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
 	line-height: 18.5714302062988px;
 }
 
@@ -169,7 +156,7 @@ body > nav > div > ul > li.dropdown.open > ul {
 
 /* website title header */
 header .blogtitle {
-display: inline-block;
+		display: inline-block;
     font-size: 36px !important;
     margin-left: 5%;
     top: 38%;
@@ -203,12 +190,6 @@ header .blogdescription {
 .socialfooter {
   text-align: center;
   border-top:1px solid rgba(0,0,0,0.12);
-  -webkit-border-bottom-right-radius: 5px;
-  -webkit-border-bottom-left-radius: 5px;
-  -moz-border-radius-bottomright: 5px;
-  -moz-border-radius-bottomleft: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 
 .socialfooter > a {
@@ -280,7 +261,7 @@ footer > nav {
 .card-right {
   float:right;
   width:70%;
-  padding:10px;
+  padding:3px;
 }
 
 .card-bottom {

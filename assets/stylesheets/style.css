@@ -85,6 +85,12 @@ ul li {
 .chip {
   margin-left:10px;
 }
+
+.fa-user, .fa-star, .fa-calendar {
+  margin-left:20px;
+  margin-right:20px;
+}
+
 /* **************************************
 
   SLIDEOUT SIDEBAR

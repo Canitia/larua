@@ -187,12 +187,12 @@ header .blogdescription {
 
 /* color of clickable header */
 .headerurl {
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 
 .headerurl:hover {
-  color:white !important;
+  color:black !important;
   text-decoration: none;
 }
 

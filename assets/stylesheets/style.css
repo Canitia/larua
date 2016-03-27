@@ -94,7 +94,7 @@ ul li {
 
 .tags {
   text-align:center;
-  margin-top:25px;
+  margin-top:5px;
 }
 
 .chip {
@@ -261,7 +261,7 @@ footer > nav {
 .card-right {
   float:right;
   width:70%;
-  padding:3px;
+  padding:10px;
 }
 
 .card-bottom {

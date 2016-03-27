@@ -487,10 +487,6 @@ overflow: hidden;
       padding:7px;
     }
 
-        .featured {
-          display: block;
-        }
-
         .postdate {
           margin:0;
           display:block;
@@ -558,15 +554,6 @@ overflow: hidden;
 
     .content-images, .content-images-individual {
         width: 100%;
-    }
-
-
-    article {
-
-    }
-
-    .featured {
-      display: none;
     }
 
     .postdate {

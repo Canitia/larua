@@ -40,8 +40,8 @@ font-family: 'PT Sans';
 blockquote {
 font-family: 'PT Sans';
 	font-size: 14px !important;
-	font-style: normal;
-	font-variant: normal;
+	font-style: italic;
+	font-variant:normal;
 	font-weight: 400;
 	line-height: 30px;
   border-left: 5px solid grey !important;

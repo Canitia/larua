@@ -485,7 +485,7 @@ overflow: hidden;
         }
   }
 
-  @media only screen and (min-width: 1024px) and (max-width: 1332px) {
+  @media only screen and (min-width: 1080px) and (max-width: 1332px) {
 
     .card-left {
       width:30%;
@@ -514,7 +514,7 @@ overflow: hidden;
 
 
 /* medium width devices */
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1079px) {
 
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     padding: 0 0 0 5px;

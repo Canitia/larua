@@ -38,14 +38,18 @@ font-family: 'PT Sans';
   margin: 5px;
 }
 blockquote {
-font-family: 'PT Sans';
+  font-family: 'PT Sans';
 	font-size: 14px !important;
-	font-style: italic;
 	font-variant:normal;
 	font-weight: 400;
 	line-height: 30px;
   border-left: 5px solid grey !important;
 }
+
+blockquote > p {
+  	font-style: italic !important;
+}
+
 pre {
 font-family: 'PT Sans';
 	font-size: 13px !important;

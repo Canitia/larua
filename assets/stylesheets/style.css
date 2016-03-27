@@ -227,12 +227,6 @@ footer > nav {
 
 *****************************************/
 
-.main-content {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1536px;
-}
-
 .container {
   max-width:960px !important;
 }

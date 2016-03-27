@@ -23,13 +23,13 @@
                     {{#foreach posts}}
                     <div class="card">
                       <article>
-                        <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a> {{#if featured}}<i class="fa fa-star"></i>{{/if}}</h1>
+                        <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
                             <div class="card-left">
                               <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
                                 </a>
                           </div>
                           <div class="card-right">
-                                    <p class="right-align postdate"><i class="fa fa-calendar"></i>{{date format='DD-MM-YYYY'}}
+                                    <p class="right-align postdate">{{#if featured}}<i class="fa fa-star"></i>{{/if}}<i class="fa fa-calendar"></i> {{date format='DD-MM-YYYY'}}
                                     </p>
                                     <p class="text-justify">
                                           {{excerpt}}...

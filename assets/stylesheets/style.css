@@ -369,7 +369,7 @@ color: white;
 
 /* post title */
 .text-left-title {
-  font-family: Raleway;
+  font-family: 'PT Sans';
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
@@ -384,7 +384,7 @@ color: white;
 
 /* post title */
 .text-left-title-featured {
-  font-family: Raleway;
+  font-family: 'PT Sans';
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
@@ -554,7 +554,7 @@ overflow: hidden;
     }
 
     h1 {
-    	font-family: Raleway;
+  font-family: 'PT Sans';
     	font-size: 18px;
     	font-style: normal;
     	font-variant: normal;

@@ -53,6 +53,17 @@ p {
   margin: 5px;
 }
 
+p > a {
+	color: black !important;
+	text-decoration: underline;
+}
+
+p > a:focus, p > a:hover
+{
+  color:grey  !important;
+}
+
+
 blockquote {
 	line-height: 30px;
   border-left: 5px solid grey !important;
@@ -310,11 +321,6 @@ a i {
 
 a i:hover {
     color:black;
-}
-
-p > a:focus, p > a:hover
-{
-  color:black  !important;
 }
 
 /* tag url color */

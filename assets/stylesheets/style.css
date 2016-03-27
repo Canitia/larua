@@ -251,7 +251,7 @@ footer > nav {
 
 .card {
   float:left;
-	margin-bottom:30px;
+	margin-bottom:30px !important;
 }
 
 .card-left {

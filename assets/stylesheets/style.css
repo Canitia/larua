@@ -72,6 +72,11 @@ ul li {
   list-style-type: none;
 }
 
+.tags {
+  text-align:center;
+  margin-top:25px;
+}
+
 .chip {
   margin-left:10px;
 }

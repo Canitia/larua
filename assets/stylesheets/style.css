@@ -55,6 +55,10 @@ font-family: 'PT Sans';
 	line-height: 18.5714302062988px;
 }
 
+strong {
+  font-weight:700 !important;
+}
+
 article > ul li {
   list-style-type: square !important;
   margin-left: 20px;

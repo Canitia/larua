@@ -14,11 +14,13 @@
                                     <p class="text-justify-individual">{{content}}</p>
                                     <br />
                                     {{#if tags}}
+                                    <div class="tags">
                                     {{#foreach tags}}
                                         <div class="chip">
                                         <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
                                         </div>
                                     {{/foreach}}
+                                  </div>
                                     {{/if}}
                                         {{> disqus}}
 

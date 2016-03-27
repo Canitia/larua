@@ -251,6 +251,7 @@ footer > nav {
 
 .card {
   float:left;
+	margin-bottom:30px;
 }
 
 .card-left {
@@ -278,7 +279,7 @@ footer > nav {
 
 #read_more_custom {
     position:absolute;
-    bottom:-10px;
+    bottom:-20px;
     right:10px;
     color:white;
     text-decoration:none;

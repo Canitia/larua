@@ -25,7 +25,7 @@
                                       <section class="author-profile">
                                         <h4>Article written by</h4>
                                         <hr />
-                                        <img src="{{image}}" alt="author image" class="avatar"/>
+                                        <img src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" alt="author image" class="avatar"/>
                                         <h3 class="author-title">{{name}}</h3>
                                         <strong>About {{name}}</strong>
                                         <p class="author-bio">
@@ -33,7 +33,7 @@
                                         </p>
                                       </section>
                                     {{/author}}
-                                    
+
                                         {{> disqus}}
                                     </article>
                 {{/post}}

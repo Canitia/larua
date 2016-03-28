@@ -14,7 +14,7 @@
     <!-- own stylesheet for general stuff -->
     <link rel="stylesheet" href="{{asset "stylesheets/style.css"}}">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-    
+
     <!-- other used items -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
@@ -30,11 +30,7 @@
        {{{body}}}
 
 </div><!-- container fluid END! -->
-
-
-<!-- google analytics -->
-  {{> analytics}}
-  </main>
+</main>
 
   <footer class="page-footer blue darken-4">
     {{#if pagination}}
@@ -45,7 +41,8 @@
 
 <!-- ghost footer includes jquery -->
 {{ghost_foot}}
-
+<!-- google analytics -->
+  {{> analytics}}
 <!-- Compiled and minified JavaScript -->
 <script async src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>

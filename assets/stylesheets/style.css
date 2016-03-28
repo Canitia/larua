@@ -453,6 +453,23 @@ POST HEADERS
       color: #979797;
 }
 
+/* **************************************
+
+	ARTICLE: AUTHOR look-n-feel
+
+*****************************************/
+section.author-profile {
+	padding:30px;
+	background-color:#E8E8EE;
+}
+
+img.avatar {
+	width:150px;
+	float:left;
+	border-radius: 20px;
+	margin-right:20px;
+}
+
   @media only screen and (min-width: 993px) {
 
     .card-left {

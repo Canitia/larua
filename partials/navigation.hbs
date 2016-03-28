@@ -1,9 +1,16 @@
-  <header>
+<header>
     <div class="navbar-fixed">
     <nav class="blue darken-4">
-<div class="nav-wrapper">
+      <div class="nav-wrapper">
         <a href="#" data-activates="slide-out" class="button-collapse"><i class="small mdi-navigation-menu"></i></a>
-        <p class="blogtitle"><a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a></p>
+        <!-- check if a blog cover is active -->
+        {{#if @blog.logo}}
+        <img src="{{@blog.logo}}" alt="blog logo" class="logo" />
+        {{/if}}
+
+        <p class="blogtitle">
+            <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
+        </p>
 
          <ul id="nav-mobile" class="right hide-on-med-and-down">
 
@@ -13,7 +20,6 @@
            {{/foreach}}
            <!-- End the loop -->
          </ul>
-
 
 <ul id="slide-out" class="side-nav">
     <!-- Loop through the navigation items -->

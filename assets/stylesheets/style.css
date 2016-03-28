@@ -275,6 +275,19 @@ article > h1 {
     margin-left: 10px;
 }
 
+article > h2 {
+	font-size: 26px;
+}
+
+article > h3 {
+	font-size: 20px;
+}
+
+article > h4 {
+	font-size: 18px;
+}
+
+
 article > h1, article > h2, article > h3, article > h4 {
 	color: #979797;
 }

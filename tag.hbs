@@ -6,6 +6,9 @@
 </div>
 {{/tag}}
 
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
                     {{#foreach posts}}
                     <div class="card">
                       <article>
@@ -15,22 +18,13 @@
                                 </a>
                           </div>
                           <div class="card-right">
-                                    <p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}
+                                    <p class="right-align postdate">{{#if featured}}<i class="fa fa-star"></i>{{/if}}<i class="fa fa-calendar"></i> {{date format='DD-MM-YYYY'}}
                                     </p>
                                     <p class="text-justify">
                                           {{excerpt}}...
-                                        </p>
+                                    <a class="waves-effect waves-light btn blue darken-4" id="read_more_custom" href="{{url}}">...</a>
+                                    </p>
                           </div>
                       </article>
-                      <div class="card-bottom">
-                        {{#if tags}}
-                        {{#foreach tags}}
-                            <div class="chip">
-                            <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
-                            </div>
-                        {{/foreach}}
-                        {{/if}}
-                        <a class="waves-effect waves-light btn blue darken-4" id="read_more_custom" href="{{url}}">...</a>
-                      </div>
                       </div>
                     {{/foreach}}

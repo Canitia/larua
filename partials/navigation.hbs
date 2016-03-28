@@ -3,7 +3,6 @@
 <nav class="blue darken-4">
   <div class="nav-wrapper">
     <p class="blogtitle"><a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a></p>
-    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <!-- Loop through the navigation items -->
       {{#foreach navigation}}
@@ -11,12 +10,21 @@
       {{/foreach}}
       <!-- End the loop -->
     </ul>
-    <ul class="side-nav" id="mobile-demo">
+
+    <ul id="nav-mobile" class="hide-on-large-only">
       <!-- Loop through the navigation items -->
-      {{#foreach navigation}}
-      <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
-      {{/foreach}}
-      <!-- End the loop -->
+
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        {{#foreach navigation}}
+        <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+        <!-- End the loop -->
+      </ul>
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Menu</a></li>
+
+
 </ul>
   </div>
 </nav>

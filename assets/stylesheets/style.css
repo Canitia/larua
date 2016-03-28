@@ -178,6 +178,10 @@ header .blogtitle {
   text-decoration: none;
 }
 
+img.cover {
+	width:100%;
+}
+
 /* **************************************
 
   FOOTER

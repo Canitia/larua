@@ -491,9 +491,8 @@ img.avatar {
 		height:55px;
 	}
 
-	/* website title header */
-	header .blogtitle {
-	    display:none;
+	.author-title {
+		font-size: 28px;
 	}
 
 }

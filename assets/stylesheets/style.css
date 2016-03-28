@@ -161,14 +161,10 @@ ul li {
 
 /* website title header */
 header .blogtitle {
-		display: inline-block;
     font-size: 36px;
-    margin-left: 5%;
+    margin-left: 3%;
     top: 38%;
     position: absolute;
-		white-space: wrap;
-		overflow:hidden;
-		text-overflow: ellipsis;
 }
 
 /* color of clickable header */

@@ -235,6 +235,12 @@ footer > nav {
   padding:6px;
 }
 
+/* add some styling to disqus */
+#disqus_thread {
+padding: 40px;
+}
+
+
 /* **************************************
 
   ARTICLE LOOK-N-FEEL
@@ -277,7 +283,7 @@ article img {
     width: 100%;
 }
 
-
+/* read more button on featured posts */
 .card-featured > #read_more_custom {
   display:none;
 }
@@ -312,6 +318,67 @@ article img {
     text-decoration:none;
 }
 
+/* ######################################
+
+POST HEADERS
+
+##########################################*/
+
+
+/* post title */
+.text-left-title {
+	font-family: 'PT Sans';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+	padding:20px;
+	margin: 0px;
+	overflow: none;
+	text-align: center;
+	color: white;
+}
+
+/* post title */
+.text-left-title-featured {
+	font-family: 'PT Sans';
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+	margin: 0px;
+	overflow: none;
+	text-align: center;
+	color: white;
+	padding:10px !important;
+	height: 70px;
+}
+
+.text-left-title a, .text-left-title-featured a {
+		color: white !important;
+		text-decoration: none;
+}
+
+.text-left-title a:hover, .text-left-title-featured a:hover {
+	color: white;
+}
+
+/* **************************************
+
+  PAGINATION
+
+*****************************************/
+
+.pagination {
+		display: block !important;
+		text-align: center !important;
+		bottom: 0;
+		right: 30px;
+		color:white;
+}
+
 /* **************************************
 
   ARTICLE: TAGS look-n-feel
@@ -335,98 +402,6 @@ article img {
 .chip a:hover {
       color: #979797;
 }
-
-
-  /* ######################################
-
-  POST related
-
-  ##########################################*/
-
-
-	/* post title */
-	.text-left-title {
-	  font-family: 'PT Sans';
-	  font-size: 24px;
-	  font-style: normal;
-	  font-variant: normal;
-	  font-weight: 500;
-	  line-height: 26.3999996185303px;
-	  padding:20px;
-	  margin: 0px;
-	  overflow: none;
-	  text-align: center;
-	  color: white;
-	}
-
-	/* post title */
-	.text-left-title-featured {
-	  font-family: 'PT Sans';
-	  font-size: 16px;
-	  font-style: normal;
-	  font-variant: normal;
-	  font-weight: 500;
-	  line-height: 26.3999996185303px;
-	  margin: 0px;
-	  overflow: none;
-	  text-align: center;
-	  color: white;
-	  padding:10px !important;
-	  height: 70px;
-	}
-
-	.text-left-title a, .text-left-title-featured a {
-	    color: white !important;
-	    text-decoration: none;
-	}
-
-	.text-left-title a:hover, .text-left-title-featured a:hover {
-	  color: white;
-	}
-
-	/* styling individual post specific */
-	.text-justify-individual {
-	  height:auto;
-	  margin: 20px !important;
-	}
-
-  .authorimage {
-    text-align:center;
-    border-top:1px solid rgba(0,0,0,0.12);
-    padding-top: 40px;
-  }
-
-  .authorname {
-    text-align:center;
-    color: white;
-    padding: 10px;
-    margin: 0px;
-    background-color: #29b6f6;
-  }
-
-  .authorwebsite {
-    text-align:center;
-    color: white;
-  }
-
-  .authorbio {
-    text-align: center;
-    color: black;
-  }
-
-  /* add some styling to disqus */
-  #disqus_thread {
-  padding: 40px;
-  }
-
-
-  .pagination {
-      display: block !important;
-      text-align: center !important;
-      bottom: 0;
-      right: 30px;
-      color:white;
-  }
 
   @media only screen and (min-width: 993px) {
 
@@ -473,8 +448,8 @@ article img {
     }
 
     .card-left {
-      width:100%;
       float:left;
+      width:100%;
     }
 
     .card-right {

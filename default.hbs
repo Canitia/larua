@@ -22,31 +22,33 @@
     {{ghost_head}}
 </head>
 <main class="{{body_class}}">
+  <!-- main navigation -->
+  {{navigation}}
 
-{{navigation}}
-
+  <!-- check if a blog cover is active -->
 {{#if @blog.cover}}
 <img src="{{@blog.cover}}" alt="blog cover" class="cover" />
 {{/if}}
 
-   <div class="container">
+<div class="container">
 
        {{{body}}}
 
 </div><!-- container fluid END! -->
 </main>
 
-  <footer class="page-footer blue darken-4">
+<footer class="page-footer blue darken-4">
     {{#if pagination}}
         {{pagination}}
     {{/if}}
-{{> social}}
+      <!-- social media icons in footer -> partials/social.hbs -->
+    {{> social}}
 </footer>
 
 <!-- ghost footer includes jquery -->
 {{ghost_foot}}
 <!-- google analytics -->
-  {{> analytics}}
+{{> analytics}}
 <!-- Compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
@@ -60,6 +62,4 @@
 
 <!-- custom font awesome icon pack -->
 <script src="https://use.fonticons.com/c45aae0a.js"></script>
-
-
 </html>

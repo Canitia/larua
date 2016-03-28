@@ -1,0 +1,27 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+{{#author}}
+<div class="tag_heading">
+<p>Posts by: {{name}}</p>
+</div>
+{{/author}}
+
+{{#foreach posts}}
+<div class="card">
+  <article>
+    <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
+        <div class="card-left col s12 m12 l3">
+          <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
+            </a>
+      </div>
+      <div class="card-right col s12 m12 l9">
+                <p class="right-align postdate">{{#if featured}}<i class="fa fa-star"></i>{{/if}}<i class="fa fa-calendar"></i> {{date format='DD-MM-YYYY'}}
+                </p>
+                <p class="text-justify">
+                      {{excerpt}}...
+                <a class="waves-effect waves-light btn blue darken-4" id="read_more_custom" href="{{url}}">...</a>
+                </p>
+      </div>
+  </article>
+  </div>
+{{/foreach}}

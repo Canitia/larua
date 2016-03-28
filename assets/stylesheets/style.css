@@ -461,6 +461,7 @@ POST HEADERS
 section.author-profile {
 	padding:30px;
 	background-color:#E8E8EE;
+	min-height:280px;
 }
 
 img.avatar {

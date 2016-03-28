@@ -34,21 +34,9 @@
 
 </div><!-- container fluid END! -->
 
-<!-- ghost footer includes jquery -->
-{{ghost_foot}}
+
 <!-- google analytics -->
   {{> analytics}}
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-  <script>
-   $(document).ready(function(){
-     // Activate the side menu
-     // Initialize collapse button
-    $(".button-collapse").sideNav();
-    });
-  </script>
   </main>
 
   <footer class="page-footer blue darken-4">
@@ -57,5 +45,18 @@
     {{/if}}
 {{> social}}
 </footer>
+
+<!-- ghost footer includes jquery -->
+{{ghost_foot}}
+<!-- Compiled and minified JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+<script>
+ $(document).ready(function(){
+   // Activate the side menu
+   // Initialize collapse button
+  $(".button-collapse").sideNav();
+  });
+</script>
 
 </html>

@@ -1,3 +1,9 @@
+/* **************************************
+
+  GENERAL FONT / ELEMENT
+
+*****************************************/
+
 html body {
 font-family: 'PT Sans', sans-serif;
 background-color:#404040;
@@ -11,12 +17,6 @@ font-family: 'PT Sans';
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.3999996185303px;
-}
-
-article > h1 {
-  	font-size: 36px;
-    margin-left: 10px;
-    color: #979797;
 }
 
 h2 {
@@ -80,24 +80,6 @@ strong {
   font-weight:700 !important;
 }
 
-article > ul li {
-  list-style-type: square !important;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding:5px;
-  line-height: 25px;
-  text-align: justify;
-}
-
-article > ul {
-  margin-left: 30px !important;
-}
-
-article > p {
-  margin-left:20px;
-  margin-right:20px;
-}
-
 ul li {
   list-style-type: none;
 }
@@ -115,6 +97,29 @@ ul li {
   margin-left:20px;
   margin-right:20px;
 }
+
+
+.container {
+  max-width:960px !important;
+}
+
+/* **************************************
+
+  SPECIFIC RESTRICTIONS TO GUI
+
+*****************************************/
+/* fix MS Edge for featured section */
+.container .row {
+  width: auto;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  border-bottom:1px solid rgba(0,0,0,0.12);
+}
+
 
 /* **************************************
 
@@ -211,26 +216,9 @@ footer > nav {
 
 /* **************************************
 
-  CONTENT
+  ARTICLE SETUP
 
 *****************************************/
-
-.container {
-  max-width:960px !important;
-}
-
-/* fix MS Edge for featured section */
-.container .row {
-  width: auto;
-}
-
-.row {
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
-  border-bottom:1px solid rgba(0,0,0,0.12);
-}
-
 .card {
   float:left;
 	margin-bottom:30px !important;
@@ -247,89 +235,56 @@ footer > nav {
   padding:6px;
 }
 
-.card-bottom {
-  float:left;
+/* **************************************
+
+  ARTICLE LOOK-N-FEEL
+
+*****************************************/
+article > h1 {
+  	font-size: 36px;
+    margin-left: 10px;
+    color: #979797;
 }
+
+article > ul li {
+  list-style-type: square !important;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding:5px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+article > ul {
+  margin-left: 30px !important;
+}
+
+article > p {
+  margin-left:20px;
+  margin-right:20px;
+}
+
+
+/* general dimensions of posts/articles */
+article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+article img {
+    width: 100%;
+}
+
 
 .card-featured > #read_more_custom {
   display:none;
 }
 
+/* only for featured posts */
 .content-images-featured {
   max-height:200px !important;
-}
-
-#read_more_custom {
-    position:absolute;
-    bottom:-20px;
-    right:10px;
-    color:white;
-    text-decoration:none;
-}
-
-.tag_heading {
-    font-size: 18px;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 0.25rem;
-    color: white;
-}
-
-
-/* look-n-feel of main container */
-.container-fluid {
-    margin: 0;
-    height: 100%;
-    padding-bottom: 15px;
-}
-
-/* general styling of pretty much all font-awesome icons */
-a i {
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3px;
-    margin-top: 3px;
-    padding: 15px;
-    transition: all 0.2s ease-in-out;
-}
-
-a i:hover {
-    color:black;
-}
-
-/* tag url color */
-.chip a {
-  color:black;
-}
-
-.chip a:hover {
-      color: #979797;
-}
-
-
-
-/* icons in table */
-.fa-2x {
-color: white;
-}
-
-.fa-2x:hover {
-  color: black;
-}
-
-.fa-star {
-  color: #ffa500;
-}
-
-/* post look and feel */
-.posttheme-dialog {
-    background-color: #29b6f6;
-    color: white;
-    padding: 20px;
-    margin-top: 0;
 }
 
 .postdate {
@@ -347,52 +302,39 @@ color: white;
   color:#979797;
 }
 
-/* post title */
-.text-left-title {
-  font-family: 'PT Sans';
-  font-size: 24px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.3999996185303px;
-  padding:20px;
-  margin: 0px;
-  overflow: none;
-  text-align: center;
-  color: white;
+
+/* read more button on home page*/
+#read_more_custom {
+    position:absolute;
+    bottom:-20px;
+    right:10px;
+    color:white;
+    text-decoration:none;
 }
 
-/* post title */
-.text-left-title-featured {
-  font-family: 'PT Sans';
-  font-size: 16px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.3999996185303px;
-  margin: 0px;
-  overflow: none;
-  text-align: center;
-  color: white;
-  padding:10px !important;
-  height: 70px;
+/* **************************************
+
+  ARTICLE: TAGS look-n-feel
+
+*****************************************/
+
+.tag_heading {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    color: white;
 }
 
-.text-left-title a, .text-left-title-featured a {
-    color: white !important;
-    text-decoration: none;
+
+/* tag url color */
+.chip a {
+  color:black;
 }
 
-.text-left-title a:hover, .text-left-title-featured a:hover {
-  color: white;
+.chip a:hover {
+      color: #979797;
 }
-
-/* styling individual post specific */
-.text-justify-individual {
-  height:auto;
-  margin: 20px !important;
-}
-
 
 
   /* ######################################
@@ -401,45 +343,80 @@ color: white;
 
   ##########################################*/
 
-    .authorimage {
-      text-align:center;
-      border-top:1px solid rgba(0,0,0,0.12);
-      padding-top: 40px;
-    }
 
-    .authorname {
-      text-align:center;
-      color: white;
-      padding: 10px;
-      margin: 0px;
-      background-color: #29b6f6;
-    }
+	/* post title */
+	.text-left-title {
+	  font-family: 'PT Sans';
+	  font-size: 24px;
+	  font-style: normal;
+	  font-variant: normal;
+	  font-weight: 500;
+	  line-height: 26.3999996185303px;
+	  padding:20px;
+	  margin: 0px;
+	  overflow: none;
+	  text-align: center;
+	  color: white;
+	}
 
-    .authorwebsite {
-      text-align:center;
-      color: white;
-    }
+	/* post title */
+	.text-left-title-featured {
+	  font-family: 'PT Sans';
+	  font-size: 16px;
+	  font-style: normal;
+	  font-variant: normal;
+	  font-weight: 500;
+	  line-height: 26.3999996185303px;
+	  margin: 0px;
+	  overflow: none;
+	  text-align: center;
+	  color: white;
+	  padding:10px !important;
+	  height: 70px;
+	}
 
-    .authorbio {
-      text-align: center;
-      color: black;
-    }
+	.text-left-title a, .text-left-title-featured a {
+	    color: white !important;
+	    text-decoration: none;
+	}
+
+	.text-left-title a:hover, .text-left-title-featured a:hover {
+	  color: white;
+	}
+
+	/* styling individual post specific */
+	.text-justify-individual {
+	  height:auto;
+	  margin: 20px !important;
+	}
+
+  .authorimage {
+    text-align:center;
+    border-top:1px solid rgba(0,0,0,0.12);
+    padding-top: 40px;
+  }
+
+  .authorname {
+    text-align:center;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    background-color: #29b6f6;
+  }
+
+  .authorwebsite {
+    text-align:center;
+    color: white;
+  }
+
+  .authorbio {
+    text-align: center;
+    color: black;
+  }
 
   /* add some styling to disqus */
   #disqus_thread {
   padding: 40px;
-  }
-
-  /* general dimensions of posts/articles */
-  article {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 15px;
-      background-color: white;
-  }
-
-  article img {
-      width: 100%;
   }
 
 
@@ -511,3 +488,41 @@ color: white;
     }
 
   }
+
+
+	/* **************************************
+
+	  FONT AWESOME look-n-feel
+
+	*****************************************/
+
+
+	/* general styling of pretty much all font-awesome icons */
+	a i {
+	    color: white;
+	    border-radius: 10px;
+	    text-align: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 3px;
+	    margin-top: 3px;
+	    padding: 15px;
+	    transition: all 0.2s ease-in-out;
+	}
+
+	a i:hover {
+	    color:black;
+	}
+
+	/* icons in table */
+	.fa-2x {
+	color: white;
+	}
+
+	.fa-2x:hover {
+	  color: black;
+	}
+
+	.fa-star {
+	  color: #ffa500;
+	}

@@ -127,6 +127,10 @@ ul li {
 
 *****************************************/
 
+i.small.mdi-navigation-menu {
+	padding: 5px;
+}
+
 .side-nav full {
     overflow:auto;
 }
@@ -162,9 +166,8 @@ ul li {
 /* website title header */
 header .blogtitle {
     font-size: 36px;
-    margin-left: 3%;
-    top: 38%;
-    position: absolute;
+    margin-top:30px;
+    float:left;
 }
 
 /* color of clickable header */
@@ -181,6 +184,12 @@ header .blogtitle {
 img.cover {
 	width:100%;
 	margin-bottom:15px;
+}
+
+img.logo {
+	height:64px;
+	position:relative;
+	float:left;
 }
 
 /* **************************************
@@ -437,13 +446,22 @@ POST HEADERS
 
   }
 
+@media only screen and (max-width: 600px) {
+	img.logo {
+		height:55px;
+	}
+
+	/* website title header */
+	header .blogtitle {
+	    display:none;
+	}
+}
 
 /* mobile devices */
 @media only screen and (max-width: 992px) {
 
     header .blogtitle {
-        font-size: 28px;
-			margin-left: 60px;
+      font-size: 28px;
     }
 
     h1 {

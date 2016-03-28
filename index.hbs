@@ -6,7 +6,7 @@
                     {{#if featured}}
 
 
-                      <div class="col s4">
+                      <div class="col m4">
                           <article class="hoverable">
                             <a href="{{url}}"><img class="content-images-featured" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
                                 </a>
@@ -24,11 +24,11 @@
                     <div class="card">
                       <article>
                         <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
-                            <div class="card-left">
+                            <div class="card-left col s12 m3">
                               <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
                                 </a>
                           </div>
-                          <div class="card-right">
+                          <div class="card-right s12 m9">
                                     <p class="right-align postdate">{{#if featured}}<i class="fa fa-star"></i>{{/if}}<i class="fa fa-calendar"></i> {{date format='DD-MM-YYYY'}}
                                     </p>
                                     <p class="text-justify">

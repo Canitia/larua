@@ -3,7 +3,7 @@
 <nav class="blue darken-4">
   <div class="nav-wrapper">
     <p class="blogtitle"><a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a></p>
-    <ul id="nav-mobile" class="left hide-on-med-and-down">
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
       <!-- Loop through the navigation items -->
       {{#foreach navigation}}
       <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>

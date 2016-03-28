@@ -14,6 +14,9 @@
     <!-- own stylesheet for general stuff -->
     <link rel="stylesheet" href="{{asset "stylesheets/style.css"}}">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    
+    <!-- other used items -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -42,9 +45,10 @@
 
 <!-- ghost footer includes jquery -->
 {{ghost_foot}}
+
 <!-- Compiled and minified JavaScript -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+<script async src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 <script>
  $(document).ready(function(){
    // Activate the side menu
@@ -56,7 +60,5 @@
 <!-- custom font awesome icon pack -->
 <script src="https://use.fonticons.com/c45aae0a.js"></script>
 
-<!-- other used items -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
 </html>

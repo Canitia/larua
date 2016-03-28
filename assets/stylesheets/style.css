@@ -277,14 +277,17 @@ article > h1 {
 
 article > h2 {
 	font-size: 26px;
+  margin-left: 10px;
 }
 
 article > h3 {
 	font-size: 20px;
+  margin-left: 10px;
 }
 
 article > h4 {
 	font-size: 18px;
+  margin-left: 10px;
 }
 
 

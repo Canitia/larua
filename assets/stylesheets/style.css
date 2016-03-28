@@ -511,7 +511,6 @@ overflow: hidden;
   }
     header {
         width: 100%;
-        overflow: hidden;
         position: fixed;
         top: 0;
         left: 0;
@@ -521,14 +520,6 @@ overflow: hidden;
         font-size: 28px;
         text-overflow: ellipsis;
         white-space: nowrap;
-    }
-
-    header .blogdescription {
-      text-overflow: ellipsis;
-
-      /* Required for text-overflow to do anything */
-      white-space: nowrap;
-      overflow: hidden;
     }
 
 

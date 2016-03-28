@@ -120,10 +120,6 @@ ul li {
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
-.truncate {
-	white-space: wrap !important;
-}
-
 
 /* **************************************
 
@@ -170,6 +166,9 @@ header .blogtitle {
     margin-left: 5%;
     top: 38%;
     position: absolute;
+		white-space: wrap;
+		overflow:hidden;
+		text-overflow: ellipsis;
 }
 
 /* color of clickable header */
@@ -339,9 +338,12 @@ POST HEADERS
 	line-height: 26.3999996185303px;
 	padding:20px;
 	margin: 0px;
-	overflow: none;
 	text-align: center;
 	color: white;
+
+	white-space: wrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
 }
 
 /* post title */
@@ -358,6 +360,10 @@ POST HEADERS
 	color: white;
 	padding:10px !important;
 	height: 70px;
+
+	white-space: wrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
 }
 
 .text-left-title a, .text-left-title-featured a {

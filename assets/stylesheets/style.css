@@ -121,7 +121,7 @@ ul li {
 }
 
 .truncate {
-	word-wrap: wrap !important;
+	white-space: wrap !important;
 }
 
 

@@ -147,16 +147,6 @@ ul li {
     background-color: black !important;
 }
 
-body > nav > div > ul > li.dropdown.open > ul {
-    color:white;
-    background-color:black;
-}
-
-.dropdown-content li > a, .dropdown-content li > span {
-  color: white !important;
-  background-color:#0d47a1;
-}
-
 /* **************************************
 
   HEADER
@@ -167,21 +157,10 @@ body > nav > div > ul > li.dropdown.open > ul {
 /* website title header */
 header .blogtitle {
 		display: inline-block;
-    font-size: 36px !important;
+    font-size: 36px;
     margin-left: 5%;
     top: 38%;
     position: absolute;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-/* website subtitle header */
-header .blogdescription {
-    color: white;
-    left: 7%;
-    top: 70%;
-    position: absolute;
-    text-overflow: ellipsis;
 }
 
 /* color of clickable header */
@@ -194,22 +173,6 @@ header .blogdescription {
   color:black !important;
   text-decoration: none;
 }
-
-
-/* social media icons sidebar and footer */
-.socialfooter {
-  text-align: center;
-  border-top:1px solid rgba(0,0,0,0.12);
-}
-
-.socialfooter > a {
-    color: #00bfff;
-}
-
-.socialfooter > a:hover {
-    color: black;
-}
-
 
 /* **************************************
 
@@ -230,6 +193,21 @@ footer a {
 footer > nav {
   background-color: #0d47a1 !important;
 }
+
+/* social media icons sidebar and footer */
+.socialfooter {
+  text-align: center;
+  border-top:1px solid rgba(0,0,0,0.12);
+}
+
+.socialfooter > a {
+    color: #00bfff;
+}
+
+.socialfooter > a:hover {
+    color: black;
+}
+
 
 /* **************************************
 
@@ -398,12 +376,6 @@ color: white;
   color: white;
   padding:10px !important;
   height: 70px;
-
-
-  text-overflow: ellipsis;
-
-/* Required for text-overflow to do anything */
-overflow: hidden;
 }
 
 .text-left-title a, .text-left-title-featured a {
@@ -479,7 +451,7 @@ overflow: hidden;
       color:white;
   }
 
-  @media only screen and (min-width: 1125px) and (max-width: 1332px) {
+  @media only screen and (min-width: 993px) {
 
     .card-left {
       float:left;
@@ -497,53 +469,21 @@ overflow: hidden;
   }
 
 
-/* medium width devices */
-@media only screen and (max-width: 1124px) {
+/* mobile devices */
+@media only screen and (max-width: 992px) {
 
-  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    padding: 0 0 0 5px;
-  }
-
-  .container {
-   margin-top: 70px !important;
-  }
-    header {
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 999;
-    }
     header .blogtitle {
         font-size: 28px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-
-
-    footer .blogdescription {
-        color: white;
-        padding: 60px;
-        margin-left: 35px;
-        margin-right: 35px;
-        text-overflow: ellipsis;
     }
 
     h1 {
   font-family: 'PT Sans';
     	font-size: 18px;
-    	font-style: normal;
-    	font-variant: normal;
-    	font-weight: 500;
-    	line-height: 26.3999996185303px;
     }
 
     /* post title */
     .text-left-title {
         padding:20px;
-        font-size: 18px;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
 
     .content-images, .content-images-individual {

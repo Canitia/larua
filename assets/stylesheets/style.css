@@ -414,10 +414,6 @@ POST HEADERS
       padding:7px;
     }
 
-        .postdate {
-          margin:0;
-          display:block;
-        }
   }
 
 
@@ -440,11 +436,6 @@ POST HEADERS
 
     .content-images, .content-images-individual {
         width: 100%;
-    }
-
-    .postdate {
-      margin:0;
-      display:none;
     }
 
     .card-left {

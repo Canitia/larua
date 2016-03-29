@@ -436,6 +436,8 @@ POST HEADERS
 
 .chip {
   margin-left:10px;
+	height:45px !important;
+	line-height: 45px !important;
 	border-radius: 0px !important;
 }
 

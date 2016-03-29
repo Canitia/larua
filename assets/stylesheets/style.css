@@ -593,5 +593,5 @@ img.avatar {
 	}
 
 	.fa-star {
-	  color: #ffa500;
+	  color: #ffa500 !important;
 	}

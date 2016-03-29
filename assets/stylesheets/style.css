@@ -49,7 +49,8 @@ font-family: 'PT Sans';
 
 p {
 	line-height: 20px;
-  margin: 5px;
+  padding-left:15px;
+	padding-right:15px;
 	text-rendering: geometricPrecision;
 }
 
@@ -304,8 +305,8 @@ article > ul {
 }
 
 article > p {
-  margin-left:20px;
-  margin-right:20px;
+  padding-left:15px;
+  padding-right:15px;
 }
 
 

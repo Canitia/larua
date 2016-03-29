@@ -28,7 +28,7 @@
                                         {{#if image}}
                                         <img src="{{image}}" alt="author image" class="avatar"/>
                                         {{/if}}
-                                        <h3 class="author-title">{{name}}</h3>
+                                        <h3 class="author-title"><a href="{{@blog.url}}/author/{{name}}">{{name}}</a></h3>
                                         <strong>About {{name}}</strong>
                                         <p class="author-bio">
                                         {{#if bio}}{{bio}}{{else}}No bio information available{{/if}}

@@ -377,7 +377,7 @@ POST HEADERS
 	text-align: center;
 	color: white;
 
-	white-space: wrap;
+	white-space:normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
 }
@@ -391,13 +391,12 @@ POST HEADERS
 	font-weight: 500;
 	line-height: 26.3999996185303px;
 	margin: 0px;
-	overflow: none;
 	text-align: center;
 	color: white;
 	padding:10px !important;
 	height: 70px;
 
-	white-space: wrap;
+	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
 }

@@ -564,7 +564,8 @@ img.avatar {
 .card-right > .postdate > i{
 	color: #979797 !important;
 }
-.postdate > i {
+
+body > main > div > article > h4 > p > i {
 	color:white;
 }
 

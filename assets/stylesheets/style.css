@@ -162,6 +162,7 @@ i.small.mdi-navigation-menu {
 header .blogtitle {
     font-size: 36px;
     margin-top:30px;
+		margin-left:10px;
     float:left;
 }
 

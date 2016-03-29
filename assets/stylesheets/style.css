@@ -560,6 +560,10 @@ img.avatar {
 	  FONT AWESOME look-n-feel
 
 	*****************************************/
+
+.card-right > .postdate > i{
+	color: #979797 !important;
+}
 .postdate > i {
 	color:white;
 }

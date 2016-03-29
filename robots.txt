@@ -1,2 +1,3 @@
 Sitemap: https://www.miboutech.com/sitemap.xml
 User-agent: *
+Disallow: /ghost/

@@ -3,10 +3,7 @@
 {{#post}}
 <div class="card card-error big">
   <article>
-    <img class="content-images-individual" src="{{#if image}}
-      {{image}}
-    {{else}}
-        {{@blog.cover}} {{/if}}"/>
+    <img class="content-images-individual" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}"/>
     <h1 class="text-left-title blue darken-4"><a href="{{url}}">Whoops...</a></h1>
         <div class="col s12">
           <p class="text-justify-individual">{{content}}</p>

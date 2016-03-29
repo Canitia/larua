@@ -351,7 +351,7 @@ article img {
     position:absolute;
     bottom:-20px;
     right:10px;
-    color:white;
+    color:white !important;
     text-decoration:none;
 }
 

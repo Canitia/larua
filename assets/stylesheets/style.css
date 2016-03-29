@@ -67,7 +67,12 @@ p > a:focus, p > a:hover
 }
 
 hr {
-		color: #979797 !important;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #979797 !important;
+    margin: 1em 0;
+    padding: 0;
 }
 
 blockquote {

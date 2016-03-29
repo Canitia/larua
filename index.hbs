@@ -2,8 +2,9 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 <div class="row featured hide-on-small-only">
-  {{#foreach posts}}
-    {{#if featured}}
+
+{{#get "posts" limit="3" filter="featured:true" as |featured| }}
+  {{#foreach featured}}
       <div class="col m4">
           <article class="hoverable">
             <a href="{{url}}"><img class="content-images-featured" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
@@ -13,8 +14,8 @@
                       <h1 class="text-left-title-featured blue darken-4"><a href="{{url}}">{{title}}</a></h1>
                 </article>
       </div>
-  {{/if}}
  {{/foreach}}
+ {{/get}}
 </div>
 
   {{#foreach posts}}

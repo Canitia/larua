@@ -5,46 +5,51 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Ma
 
 #Design & features
 - As it's material design based - it's simple, no header images and stuff, no fuss, it just works.
-- Show 3 featured posts.
+- Ability to set your own site logo and cover image
+- Shows 3 featured posts (need the API to be enabled in Ghost Dashboard -> Labs -> API).
 - Navigation menu can be setup using the Ghost settings panel -> navigation option.
 - Also includes a 'side swipe' menu on phones.
-- Show featured image for a post (or your main site 'cover picture' when not available)
-- Shows pagination when available (aka when there are enough posts) in footer
-- Resolution-based CSS (<= 1023, >= 1024, >= 1300)
+- Custom error, tags, static page and author pages.
+- Author section at the bottom of each post incl. avatar and user bio.
+- Shows pagination when available (aka when there are enough posts) in footer.
+- Resolution-based CSS
 - Seperated parts of the code in 'partials'
 
 #Stuff used
 mati uses the following libraries;
-- [Bootstrap](https://github.com/twbs/bootstrap)
 - [jQuery](https://github.com/jquery/jquery) (included within Ghost)
 - [MaterializeCSS](https://materializecss.com)
+- [FontAwesome-custom](http://www.fortawesome.com/)
 
-#Preview
-This theme is still under development, but check the releases page for stable versions.
+#Release
+This theme is still adding features and under development, but check the releases page for stable versions.
 
-![Homescreen](http://img.photobucket.com/albums/v385/hxkclan/2016-03-19%206%20-%20Copy.png)
+![Homescreen with featured posts](http://img.photobucket.com/albums/v385/hxkclan/2016-03-30.png)
+![Post page with post image](http://img.photobucket.com/albums/v385/hxkclan/2016-03-30%201.png)
+![Post page bottom - tags, author section and disqus](http://img.photobucket.com/albums/v385/hxkclan/2016-03-30%202.png)
 
 #Use
-- Download the package from the releases page or clone the repo inside your Ghost's 'content/theme' folder
+- Download the package from the releases page and extract in your Ghost's 'content/theme' folder
 - Restart your Ghost instance to see the new theme and apply it.
 
 #Customization - partials
 ##Disqus
-To use disqus; create mati/partials/disqus.hbs. Parse the full 'disqus universal' code in there.
+The Disqus inclusion is 'forced' as i think a blog/site should have a commentssection. 
+To use disqus; create a file in the partials folder called disqus.hbs. Parse the full 'disqus universal' code in there.
 
 ##Google Analytics
-To use Google Analytics, please create a file (mati/partials/analytics.hbs) and parse your full script code in it.
+To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'. 
 
 ##Header
-The navigation.hbs partial (mati/partials/navigation.hbs) basically consists of a dynamic menu as can be entered in the ghost settings panel. Also includes the mobile (side-swipe) menu with the same menu items.
+The navigation.hbs partial (/partials/navigation.hbs) basically consists of a dynamic menu which gets generated based on the items setup in the Ghost dashboard's navigation menu. Also includes the mobile (side-swipe) menu with the same menu items.
 
 ##Sidebar(s)
 Not available anymore (for now).
 
 ##Social
-I've added the ability to add social links to the footer. In the mati/partials/social.hbs you can setup your own social media links.You can use the Font-Awesome icons that i use, it has more icons as you can see [here](http://fortawesome.github.io/Font-Awesome/icons/). Just simply add a new line and/or replace the current ones.
+I've added the ability to add social links to the footer. In the mati/partials/social.hbs you can setup your own social media links. I have included a smaller version of font-awesome in this theme. The current available options in my version are: bitbucket, lastfm, linkedin, facebook-official, github, google-plus and twitter.
 
 #Translation
 
 ##partials/pagination.hbs
-In the current release there is an custom Pagination file for tweaking. For example to translate the pagination text into a different language. The file can be found at the following location: /mati/partials/pagination.hbs. If you want to remove the (custom) pagination remove this file.
+In the current release there is an custom Pagination file. The file can be found at the following location: /partials/pagination.hbs. This file is the only one that you might want to translate. It's currently in English but if you want to change it you can do so here. 

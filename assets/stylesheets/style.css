@@ -1,7 +1,14 @@
+/* **************************************
+
+  GENERAL FONT / ELEMENT
+
+*****************************************/
+
 html body {
 font-family: 'PT Sans', sans-serif;
 background-color:#404040;
 line-height: 0 !important;
+font-size:16px;
 }
 
 h1 {
@@ -11,12 +18,6 @@ font-family: 'PT Sans';
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.3999996185303px;
-}
-
-article > h1 {
-  	font-size: 36px;
-    margin-left: 10px;
-    color: #979797;
 }
 
 h2 {
@@ -46,10 +47,13 @@ font-family: 'PT Sans';
 	line-height: 15.3999996185303px;
 }
 
-
 p {
 	line-height: 20px;
-  margin: 5px;
+  padding-left:15px;
+	padding-right:15px;
+	margin-top:0px;
+	text-align: justify;
+	text-rendering: geometricPrecision;
 }
 
 p > a {
@@ -62,6 +66,14 @@ p > a:focus, p > a:hover
   color:grey  !important;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #979797 !important;
+    margin: 1em 0;
+    padding: 0;
+}
 
 blockquote {
 	line-height: 30px;
@@ -80,47 +92,56 @@ strong {
   font-weight:700 !important;
 }
 
-article > ul li {
-  list-style-type: square !important;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding:5px;
-  line-height: 25px;
-  text-align: justify;
-}
-
-article > ul {
-  margin-left: 30px !important;
-}
-
-article > p {
-  margin-left:20px;
-  margin-right:20px;
-}
-
-ul li {
-  list-style-type: none;
+.tag_heading > hr {
+	margin-top:60px !important;
+	margin-bottom:40px !important;
 }
 
 .tags {
   text-align:center;
   margin-top:25px;
+	margin-bottom:25px;
 }
 
-.chip {
-  margin-left:10px;
-}
 
 .fa-user, .fa-star, .fa-calendar {
   margin-left:20px;
   margin-right:20px;
 }
 
+
+.container {
+  max-width:960px !important;
+	margin-top:20px !important;
+}
+
+/* **************************************
+
+  SPECIFIC RESTRICTIONS TO GUI
+
+*****************************************/
+/* fix MS Edge for featured section */
+.container .row {
+  width: auto;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  border-bottom:1px solid rgba(0,0,0,0.12);
+}
+
+
 /* **************************************
 
   SLIDEOUT SIDEBAR
 
 *****************************************/
+
+i.small.mdi-navigation-menu {
+	padding: 5px;
+}
 
 .side-nav full {
     overflow:auto;
@@ -147,16 +168,6 @@ ul li {
     background-color: black !important;
 }
 
-body > nav > div > ul > li.dropdown.open > ul {
-    color:white;
-    background-color:black;
-}
-
-.dropdown-content li > a, .dropdown-content li > span {
-  color: white !important;
-  background-color:#0d47a1;
-}
-
 /* **************************************
 
   HEADER
@@ -166,22 +177,10 @@ body > nav > div > ul > li.dropdown.open > ul {
 
 /* website title header */
 header .blogtitle {
-		display: inline-block;
-    font-size: 36px !important;
-    margin-left: 5%;
-    top: 38%;
-    position: absolute;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-/* website subtitle header */
-header .blogdescription {
-    color: white;
-    left: 7%;
-    top: 70%;
-    position: absolute;
-    text-overflow: ellipsis;
+    font-size: 36px;
+    margin-top:30px;
+		margin-left:10px;
+    float:left;
 }
 
 /* color of clickable header */
@@ -195,21 +194,16 @@ header .blogdescription {
   text-decoration: none;
 }
 
-
-/* social media icons sidebar and footer */
-.socialfooter {
-  text-align: center;
-  border-top:1px solid rgba(0,0,0,0.12);
+img.cover {
+	width:100%;
+	margin-bottom:15px;
 }
 
-.socialfooter > a {
-    color: #00bfff;
+img.logo {
+	height:64px;
+	position:relative;
+	float:left;
 }
-
-.socialfooter > a:hover {
-    color: black;
-}
-
 
 /* **************************************
 
@@ -231,31 +225,33 @@ footer > nav {
   background-color: #0d47a1 !important;
 }
 
+/* social media icons sidebar and footer */
+.socialfooter {
+  text-align: center;
+  border-top:1px solid rgba(0,0,0,0.12);
+}
+
+.socialfooter > a {
+    color: #00bfff;
+}
+
+.socialfooter > a:hover {
+    color: black;
+}
+
+
 /* **************************************
 
-  CONTENT
+  ARTICLE SETUP
 
 *****************************************/
-
-.container {
-  max-width:960px !important;
-}
-
-/* fix MS Edge for featured section */
-.container .row {
-  width: auto;
-}
-
-.row {
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
-  border-bottom:1px solid rgba(0,0,0,0.12);
-}
-
 .card {
   float:left;
-	margin-bottom:30px !important;
+	margin-bottom:40px !important;
+}
+
+.card-error {
+	float:none;
 }
 
 .card-left {
@@ -269,89 +265,76 @@ footer > nav {
   padding:6px;
 }
 
-.card-bottom {
-  float:left;
+/* add some styling to disqus */
+#disqus_thread {
+padding: 40px;
 }
 
+
+/* **************************************
+
+  ARTICLE LOOK-N-FEEL
+
+*****************************************/
+article > h1 {
+  	font-size: 36px;
+    margin-left: 10px;
+}
+
+article > h2 {
+	font-size: 26px;
+  margin-left: 10px;
+}
+
+article > h3 {
+	font-size: 20px;
+  margin-left: 10px;
+}
+
+article > h4 {
+	font-size: 18px;
+  margin-left: 10px;
+}
+
+
+article > h1, article > h2, article > h3, article > h4 {
+	color: #979797;
+}
+
+article > ul li {
+  list-style-type: square !important;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding:5px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+article > ul {
+  margin-left: 30px !important;
+}
+
+
+/* general dimensions of posts/articles */
+article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+article img {
+    width: 100%;
+}
+
+/* read more button on featured posts */
 .card-featured > #read_more_custom {
   display:none;
 }
 
+/* only for featured posts */
 .content-images-featured {
   max-height:200px !important;
-}
-
-#read_more_custom {
-    position:absolute;
-    bottom:-20px;
-    right:10px;
-    color:white;
-    text-decoration:none;
-}
-
-.tag_heading {
-    font-size: 18px;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 0.25rem;
-    color: white;
-}
-
-
-/* look-n-feel of main container */
-.container-fluid {
-    margin: 0;
-    height: 100%;
-    padding-bottom: 15px;
-}
-
-/* general styling of pretty much all font-awesome icons */
-a i {
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3px;
-    margin-top: 3px;
-    padding: 15px;
-    transition: all 0.2s ease-in-out;
-}
-
-a i:hover {
-    color:black;
-}
-
-/* tag url color */
-.chip a {
-  color:black;
-}
-
-.chip a:hover {
-      color: #979797;
-}
-
-
-
-/* icons in table */
-.fa-2x {
-color: white;
-}
-
-.fa-2x:hover {
-  color: black;
-}
-
-.fa-star {
-  color: #ffa500;
-}
-
-/* post look and feel */
-.posttheme-dialog {
-    background-color: #29b6f6;
-    color: white;
-    padding: 20px;
-    margin-top: 0;
 }
 
 .postdate {
@@ -369,197 +352,214 @@ color: white;
   color:#979797;
 }
 
+
+/* read more button on home page*/
+#read_more_custom {
+    position:absolute;
+    bottom:-30px;
+    right:10px;
+		height:45px !important;
+		line-height:45px !important;
+    color:white !important;
+    text-decoration:none;
+}
+
+/* ######################################
+
+POST HEADERS
+
+##########################################*/
+
+
 /* post title */
 .text-left-title {
-  font-family: 'PT Sans';
-  font-size: 24px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.3999996185303px;
-  padding:20px;
-  margin: 0px;
-  overflow: none;
-  text-align: center;
-  color: white;
+	font-family: 'PT Sans';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+	padding:20px;
+	margin: 0px;
+	text-align: center;
+	color: white;
+
+	white-space:normal;
+	overflow:hidden;
+	text-overflow: ellipsis;
 }
 
 /* post title */
 .text-left-title-featured {
-  font-family: 'PT Sans';
-  font-size: 16px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.3999996185303px;
-  margin: 0px;
-  overflow: none;
-  text-align: center;
-  color: white;
-  padding:10px !important;
-  height: 70px;
+	font-family: 'PT Sans';
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+	margin: 0px;
+	text-align: center;
+	color: white;
+	padding:10px !important;
+	height: 70px;
 
-
-  text-overflow: ellipsis;
-
-/* Required for text-overflow to do anything */
-overflow: hidden;
+	white-space: normal;
+	overflow:hidden;
+	text-overflow: ellipsis;
 }
 
 .text-left-title a, .text-left-title-featured a {
-    color: white !important;
-    text-decoration: none;
+		color: white !important;
+		text-decoration: none;
 }
 
 .text-left-title a:hover, .text-left-title-featured a:hover {
-  color: white;
+	color: white;
 }
 
-/* styling individual post specific */
-.text-justify-individual {
-  height:auto;
-  margin: 20px !important;
+/* **************************************
+
+  PAGINATION
+
+*****************************************/
+
+.pagination {
+		display: block !important;
+		text-align: center !important;
+		bottom: 0;
+		right: 30px;
+		color:white;
+}
+
+.pagination > a {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.pagination > a > i:hover {
+	color:black;
+}
+
+/* **************************************
+
+  ARTICLE: TAGS look-n-feel
+
+*****************************************/
+
+.tag_heading {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    color: white;
 }
 
 
+.chip {
+  margin-left:10px;
+	height:45px !important;
+	line-height: 45px !important;
+	border-radius: 0px !important;
+}
 
-  /* ######################################
+/* tag url color */
+.chip a {
+  color:white !important;
+}
 
-  POST related
+.chip a:hover {
+      color: #979797 !important;
+}
 
-  ##########################################*/
+/* **************************************
 
-    .authorimage {
-      text-align:center;
-      border-top:1px solid rgba(0,0,0,0.12);
-      padding-top: 40px;
-    }
+	ARTICLE: AUTHOR look-n-feel
 
-    .authorname {
-      text-align:center;
-      color: white;
-      padding: 10px;
-      margin: 0px;
-      background-color: #29b6f6;
-    }
+*****************************************/
+section.author-profile {
+	padding:30px;
+	background-color:#E8E8EE;
+	min-height:280px;
+}
 
-    .authorwebsite {
-      text-align:center;
-      color: white;
-    }
+.author-title h3 {
+	color: #979797;
+}
 
-    .authorbio {
-      text-align: center;
-      color: black;
-    }
+.author-title > a {
+	color: black  !important;
+	text-decoration: underline;
+}
 
-  /* add some styling to disqus */
-  #disqus_thread {
-  padding: 40px;
-  }
+img.avatar {
+	width:150px;
+	float:left;
+	border-radius: 20px;
+	margin-left:15px;
+	margin-right:20px;
+	margin-top:15px;
+}
 
-  /* general dimensions of posts/articles */
-  article {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 15px;
-      background-color: white;
-  }
+.avatar-page {
+	width:150px;
+	float:none;
+	border-radius: 20px;
+	margin-right:20px;
+	margin-top:15px;
+}
 
-  article img {
-      width: 100%;
-  }
+p.author-bio {
+	margin-top:7px;
+}
 
-
-  .pagination {
-      display: block !important;
-      text-align: center !important;
-      bottom: 0;
-      right: 30px;
-      color:white;
-  }
-
-  @media only screen and (min-width: 1125px) and (max-width: 1332px) {
+  @media only screen and (min-width: 993px) {
 
     .card-left {
-      width:30%;
       float:left;
     }
 
     .card-right {
       float:right;
-      width:70%;
       padding:7px;
     }
 
-        .postdate {
-          margin:0;
-          display:block;
-        }
   }
 
+@media only screen and (max-width: 600px) {
+	img.logo {
+		height:55px;
+	}
 
-/* medium width devices */
-@media only screen and (max-width: 1124px) {
+	.author-title {
+		font-size: 28px;
+	}
 
-  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    padding: 0 0 0 5px;
-  }
+}
 
-  .container {
-   margin-top: 70px !important;
-  }
-    header {
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 999;
-    }
+/* mobile devices */
+@media only screen and (max-width: 992px) {
+
     header .blogtitle {
-        font-size: 28px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-
-
-    footer .blogdescription {
-        color: white;
-        padding: 60px;
-        margin-left: 35px;
-        margin-right: 35px;
-        text-overflow: ellipsis;
+      font-size: 28px;
     }
 
     h1 {
   font-family: 'PT Sans';
     	font-size: 18px;
-    	font-style: normal;
-    	font-variant: normal;
-    	font-weight: 500;
-    	line-height: 26.3999996185303px;
     }
 
     /* post title */
     .text-left-title {
         padding:20px;
-        font-size: 18px;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
 
     .content-images, .content-images-individual {
         width: 100%;
     }
 
-    .postdate {
-      margin:0;
-      display:none;
-    }
-
     .card-left {
-      width:100%;
       float:left;
+      width:100%;
     }
 
     .card-right {
@@ -573,3 +573,50 @@ overflow: hidden;
     }
 
   }
+
+
+	/* **************************************
+
+	  FONT AWESOME look-n-feel
+
+	*****************************************/
+
+.card-right > .postdate > i{
+	color: #979797 !important;
+}
+
+body > main > div > article > h4 > p > i {
+	color:white;
+}
+
+.postdate > a i {
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	padding: 15px;
+}
+
+	/* general styling of pretty much all font-awesome icons */
+	.socialfooter > a i {
+	    color: white;
+	    border-radius: 10px;
+	    text-align: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 3px;
+	    margin-top: 3px;
+	    padding: 15px;
+	    transition: all 0.2s ease-in-out;
+	}
+
+	.socialfooter > a i:hover {
+	    color:black;
+	}
+
+	.fa-star {
+	  color: #ffa500 !important;
+	}

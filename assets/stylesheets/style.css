@@ -350,8 +350,10 @@ article img {
 /* read more button on home page*/
 #read_more_custom {
     position:absolute;
-    bottom:-20px;
+    bottom:-30px;
     right:10px;
+		height:45px !important;
+		line-height:45px !important;
     color:white !important;
     text-decoration:none;
 }

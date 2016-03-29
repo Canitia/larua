@@ -419,6 +419,11 @@ POST HEADERS
 		color:white;
 }
 
+.pagination > a {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
 .pagination > a > i:hover {
 	color:black;
 }

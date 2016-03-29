@@ -81,10 +81,6 @@ strong {
   font-weight:700 !important;
 }
 
-ul li {
-  list-style-type: none;
-}
-
 .tags {
   text-align:center;
   margin-top:25px;

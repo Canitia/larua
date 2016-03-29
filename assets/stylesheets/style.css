@@ -84,6 +84,12 @@ strong {
   font-weight:700 !important;
 }
 
+.tag_heading > hr {
+	margin-top:60px;
+	margin-bottom:40px;
+	color: #979797 !important;
+}
+
 .tags {
   text-align:center;
   margin-top:25px;

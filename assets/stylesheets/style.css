@@ -47,10 +47,10 @@ font-family: 'PT Sans';
 	line-height: 15.3999996185303px;
 }
 
-
 p {
 	line-height: 20px;
   margin: 5px;
+	text-rendering: geometricPrecision;
 }
 
 p > a {
@@ -463,6 +463,10 @@ section.author-profile {
 	padding:30px;
 	background-color:#E8E8EE;
 	min-height:280px;
+}
+
+.author-title h3 {
+	color: #979797;
 }
 
 .author-title > a {

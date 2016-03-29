@@ -17,7 +17,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Ma
 
 #Stuff used
 mati uses the following libraries;
-- [jQuery](https://github.com/jquery/jquery) (included within Ghost)
+- [jQuery](https://github.com/jquery/jquery)
 - [MaterializeCSS](https://materializecss.com)
 - [FontAwesome-custom](http://www.fortawesome.com/)
 

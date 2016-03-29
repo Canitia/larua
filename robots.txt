@@ -1,4 +1,0 @@
-Sitemap: {{@blog.url}}/sitemap.xml
-User-agent: *
-Disallow: /ghost/
-Disallow: /ghost

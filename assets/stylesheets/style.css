@@ -560,6 +560,9 @@ img.avatar {
 	  FONT AWESOME look-n-feel
 
 	*****************************************/
+.postdate > i {
+	color:white;
+}
 
 .postdate > a i {
 	color: white;

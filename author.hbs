@@ -2,6 +2,7 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 {{#author}}
 <div class="tag_heading">
+<img src="{{#if image}}{{image}}{{/if}}" class="avatar-page center-align" />
 <p>Posts by: {{name}}</p>
 </div>
 {{/author}}

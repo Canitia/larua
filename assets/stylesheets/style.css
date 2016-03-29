@@ -470,6 +470,10 @@ section.author-profile {
 	text-decoration: underline;
 }
 
+.author-profile > h4 {
+      color: #979797;
+}
+
 img.avatar {
 	width:150px;
 	float:left;

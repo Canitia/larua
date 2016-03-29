@@ -559,9 +559,19 @@ img.avatar {
 
 	*****************************************/
 
+.postdate > a i {
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	padding: 15px;
+}
 
 	/* general styling of pretty much all font-awesome icons */
-	a i {
+	.socialfooter > a i {
 	    color: white;
 	    border-radius: 10px;
 	    text-align: center;
@@ -573,17 +583,8 @@ img.avatar {
 	    transition: all 0.2s ease-in-out;
 	}
 
-	a i:hover {
+	.socialfooter > a i:hover {
 	    color:black;
-	}
-
-	/* icons in table */
-	.fa-2x {
-	color: white;
-	}
-
-	.fa-2x:hover {
-	  color: black;
 	}
 
 	.fa-star {

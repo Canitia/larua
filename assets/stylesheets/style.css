@@ -241,12 +241,6 @@ footer > nav {
 	float:none;
 }
 
-.error-p {
-	font-size:30px;
-	font-style:italic;
-	line-height: normal;
-}
-
 .card-left {
   width:30%;
   float:left;

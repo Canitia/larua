@@ -87,9 +87,6 @@ strong {
 	margin-bottom:25px;
 }
 
-.chip {
-  margin-left:10px;
-}
 
 .fa-user, .fa-star, .fa-calendar {
   margin-left:20px;
@@ -441,13 +438,18 @@ POST HEADERS
 }
 
 
+.chip {
+  margin-left:10px;
+	border-radius: 0px !important;
+}
+
 /* tag url color */
 .chip a {
-  color:black;
+  color:white !important;
 }
 
 .chip a:hover {
-      color: #979797;
+      color: #979797 !important;
 }
 
 /* **************************************

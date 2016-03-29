@@ -465,6 +465,11 @@ section.author-profile {
 	min-height:280px;
 }
 
+.author-title > a {
+	color: black  !important;
+	text-decoration: underline;
+}
+
 img.avatar {
 	width:150px;
 	float:left;

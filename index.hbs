@@ -3,7 +3,7 @@
 
 <div class="row featured hide-on-small-only">
 
-{{#get "posts" limit="3" filter="featured:true" as |featured| }}
+{{#get "posts" limit="3" filter="featured:true" order="published_at desc" as |featured| }}
   {{#foreach featured}}
       <div class="col m4">
           <article class="hoverable">

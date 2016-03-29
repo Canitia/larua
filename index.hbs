@@ -7,12 +7,7 @@
   {{#foreach featured}}
       <div class="col m4">
           <article class="hoverable">
-            <a href="{{url}}">
-              {{#if image}}
-              <img class="content-images-featured" src="{{image}}" />
-              {{else}}
-              <img class="content-images-featured" src="{{asset "images/no-pic-available.jpg"}}" />
-              {{/if}}
+            <a href="{{url}}"><img class="content-images-featured" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
                 </a>
                 <p class="text-left postdate postdate-featured blue darken-4"><i class="fa fa-star">Featured</i>
                 </p>
@@ -28,12 +23,7 @@
     <article>
       <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
           <div class="card-left col s12 m12 l3">
-            <a href="{{url}}">
-              {{#if image}}
-              <img class="content-images-featured" src="{{image}}" />
-              {{else}}
-              <img class="content-images-featured" src="{{asset "images/no-pic-available.jpg"}}" />
-              {{/if}}
+            <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
               </a>
         </div>
         <div class="card-right col s12 m12 l9">

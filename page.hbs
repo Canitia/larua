@@ -1,17 +1,40 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-                    <div class="card">
-                      <article>
-                        <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
-                            <div class="card-left">
-                              <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
-                                </a>
-                          </div>
-                          <div class="card-right">
-                                    <p class="text-left postdate"><i class="fa fa-user">{{author}}</i> <i class="fa fa-calendar"></i> {{date format='YYYY-MM-DD'}}
-                                    </p>
-                                    <p class="text-justify">
-                                          {{content}}...
-                                        </p>
-                          </div>
-                      </article>
+{{#post}}
+<div class="card card-error big">
+  <article>
+    <img class="content-images-individual" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}"/>
+    <h1 class="text-left-title blue darken-4"><a href="{{url}}">Whoops...</a></h1>
+        <div class="col s12">
+          <p class="text-justify-individual">{{content}}</p>
+
+              {{#if tags}}
+                <div class="tags">
+                    {{#foreach tags}}
+                        <div class="chip blue darken-4">
+                        <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
+                        </div>
+                    {{/foreach}}
+                </div>
+              {{/if}}
+
+              {{#author}}
+                <section class="author-profile">
+                  <h4 class="text-left-title blue darken-4">Article written by</h4>
+                  {{#if image}}
+                  <img src="{{image}}" alt="author image" class="avatar"/>
+                  {{/if}}
+                  <h3 class="author-title"><a href="{{url}}">{{name}}</a></h3>
+                  <strong>About {{name}}</strong>
+                  <p class="author-bio">
+                  {{#if bio}}{{bio}}{{else}}No bio information available{{/if}}
+                  </p>
+                </section>
+              {{/author}}
+
+              {{> disqus}}
+      </div>
+
+  </article>
+  </div>
+{{/post}}

@@ -12,7 +12,7 @@
   <article>
     <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
         <div class="card-left col s12 m12 l3">
-          <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{@blog.cover}}{{/if}}" />
+          <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
             </a>
       </div>
       <div class="card-right col s12 m12 l9">

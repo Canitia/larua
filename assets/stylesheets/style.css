@@ -419,6 +419,10 @@ POST HEADERS
 		color:white;
 }
 
+.pagination > a > i:hover {
+	color:black;
+}
+
 /* **************************************
 
   ARTICLE: TAGS look-n-feel

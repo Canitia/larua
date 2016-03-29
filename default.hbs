@@ -12,49 +12,53 @@
 
     {{! Responsive Meta Tags }}
     <!-- own stylesheet for general stuff -->
-    <link rel="stylesheet" href="{{asset "stylesheets/style.css"}}">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="{{asset "stylesheets/style.min.css"}}">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
-<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <!-- other used items -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
 <main class="{{body_class}}">
+  <!-- main navigation -->
+  {{navigation}}
 
-{{navigation}}
+  <!-- check if a blog cover is active -->
+{{#if @blog.cover}}
+<img src="{{@blog.cover}}" alt="blog cover" class="cover" />
+{{/if}}
 
-   <div class="container">
+<div class="container">
 
        {{{body}}}
 
 </div><!-- container fluid END! -->
+</main>
 
-<!-- ghost footer includes jquery -->
-{{ghost_foot}}
-<!-- google analytics -->
-  {{> analytics}}
-
-
-  <script>
-   $(document).ready(function(){
-     // Activate the side menu
-     // Initialize collapse button
-    $(".button-collapse").sideNav();
-    });
-  </script>
-  </main>
-
-  <footer class="page-footer blue darken-4">
+<footer class="page-footer blue darken-4">
     {{#if pagination}}
         {{pagination}}
     {{/if}}
-{{> social}}
+      <!-- social media icons in footer -> partials/social.hbs -->
+    {{> social}}
 </footer>
 
+<!-- ghost footer includes jquery -->
+{{ghost_foot}}
+
+<!-- Compiled and minified JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+<script>
+ $(document).ready(function(){
+   // Activate the side menu
+   // Initialize collapse button
+  $(".button-collapse").sideNav();
+  });
+</script>
+
+<!-- custom font awesome icon pack -->
+<script src="https://use.fonticons.com/c45aae0a.js"></script>
 </html>

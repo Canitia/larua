@@ -112,12 +112,6 @@ strong {
   margin-right:20px;
 }
 
-main.home-template {
-	max-width: 1200px;
-	margin-left:auto;
-	margin-right:auto;
-}
-
 /* **************************************
 
   SPECIFIC RESTRICTIONS TO GUI
@@ -141,6 +135,13 @@ main.home-template {
 
 .main-content {
 	max-width:800px !important;
+}
+
+
+.home-template, .post-template, .tag-template, .author-template, .error-template {
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .post-template {
@@ -370,7 +371,7 @@ article > h4 {
 
 
 article > h1, article > h2, article > h3, article > h4 {
-	color: #979797;
+	color: #979797 !important;
 }
 
 article > ul li {
@@ -459,8 +460,7 @@ POST HEADERS
 	padding:20px;
 	margin: 0px;
 	text-align: center;
-	color: white;
-
+	color:white;
 	white-space:normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
@@ -476,18 +476,25 @@ POST HEADERS
 	line-height: 26.3999996185303px;
 	margin: 0px;
 	text-align: center;
-	color: white;
 	padding:10px !important;
-	height: 70px;
+	color:white;
 
 	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
 }
 
-.text-left-title a, .text-left-title-featured a {
-		color: white !important;
+.main-content > .text-left-title, .main-content > .text-left-title-featured  {
+	color:#979797 !important;
+}
+
+.text-left-title a {
+		color: #979797 !important;
 		text-decoration: none;
+}
+
+.text-left-title-featured a {
+	color: white !important;
 }
 
 .text-left-title a:hover, .text-left-title-featured a:hover {
@@ -560,6 +567,7 @@ section.author-profile {
 }
 
 .author-profile h4 a {
+	color:white !important;
 	text-decoration: underline;
 }
 

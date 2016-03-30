@@ -590,6 +590,10 @@ p.author-bio {
 		height:55px;
 	}
 
+	.text-left-title {
+		font-size:16px;
+	}
+
 }
 
 /* mobile devices */

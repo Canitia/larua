@@ -560,11 +560,6 @@ section.author-profile {
 	text-decoration: underline;
 }
 
-.author-title > a {
-	color: #979797  !important;
-	text-decoration: underline;
-}
-
 img.avatar {
 	width:150px;
 	float:left;
@@ -589,10 +584,6 @@ p.author-bio {
 @media only screen and (max-width: 600px) {
 	img.logo {
 		height:55px;
-	}
-
-	.author-title {
-		font-size: 28px;
 	}
 
 }

@@ -150,10 +150,12 @@ strong {
 
 .previous-post {
 	float:left;
+	max-width:45%;
 }
 
 .next-post {
 	float:right;
+	max-width:45%;
 }
 
 .btn-flat {

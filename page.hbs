@@ -1,5 +1,7 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+<div class="row">
+<div class="col s12 m12 l9">
 {{#post}}
 <div class="card card-error big">
   <article>
@@ -38,3 +40,6 @@
   </article>
   </div>
 {{/post}}
+</div>
+{{> sidebar}}
+</div>

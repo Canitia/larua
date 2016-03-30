@@ -222,6 +222,15 @@ i.small.mdi-navigation-menu {
 	width:100%;
 }
 
+.sidebar-img {
+	width:113px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right:5px;
+	float:left;
+}
+
 /* **************************************
 
   HEADER

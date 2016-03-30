@@ -132,6 +132,41 @@ strong {
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
+/* **************************************
+
+  SWITCH POSTS
+
+*****************************************/
+.post-switcher {
+	width:100%;
+	padding:40px;
+	margin-bottom: 25px;
+}
+
+.post-switcher a {
+	color:white !important;
+}
+
+.previous-post {
+	float:left;
+	max-width:45%;
+}
+
+.next-post {
+	float:right;
+	max-width:45%;
+}
+
+.next-post > a i {
+	float:right;
+	margin-left: 5px;
+}
+
+.btn-flat {
+	line-height: 45px !important;
+	height: 45px !important;
+}
+
 
 /* **************************************
 
@@ -262,7 +297,7 @@ footer > nav {
 .card-right {
   float:right;
   width:70%;
-  padding:6px;
+  padding:4px;
 }
 
 /* add some styling to disqus */
@@ -321,6 +356,7 @@ article {
     margin-right: auto;
     margin-bottom: 15px;
     background-color: white;
+		word-wrap: break-word;
 }
 
 article img {
@@ -482,12 +518,16 @@ section.author-profile {
 	min-height:280px;
 }
 
+.author-profile h4 a {
+	text-decoration: underline;
+}
+
 .author-title h3 {
 	color: #979797;
 }
 
 .author-title > a {
-	color: black  !important;
+	color: white  !important;
 	text-decoration: underline;
 }
 
@@ -509,7 +549,7 @@ img.avatar {
 }
 
 p.author-bio {
-	margin-top:7px;
+	padding:20px;
 }
 
   @media only screen and (min-width: 993px) {

@@ -1,3 +1,5 @@
+//This code is slightly changed but comes from Matthew Jones's post at http://www.exceptionnotfound.net/using-ghosts-public-api-to-select-five-random-posts/
+
     $(document).ready(function () {
         $.get(ghost.url.api('posts', {limit: 'all',filter: "featured:false+image:-null"})
         ).done(onSuccess);

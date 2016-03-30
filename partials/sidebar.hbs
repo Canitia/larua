@@ -3,17 +3,14 @@
   <div class="card card-sidebar">
     <article>
       <h1 class="text-left-title blue darken-4">Recent posts</h1>
-        <div>
                     {{#get "posts" limit="6" order="published_at desc" as |recent| }}
                     {{#foreach recent}}
                     <p>
-                      <a href="{{url}}" alt="{{title}}"><img class="sidebar-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
+                      <a href="{{url}}" alt="{{title}}"><img class="sidebar-img hoverable" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
                       </a>
                     </p>
                    {{/foreach}}
                   {{/get}}
-
-        </div>
     </article>
     </div>
 </div>

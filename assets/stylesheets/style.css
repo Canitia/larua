@@ -132,7 +132,6 @@ strong {
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
-
 /* **************************************
 
   SWITCH POSTS
@@ -298,7 +297,7 @@ footer > nav {
 .card-right {
   float:right;
   width:70%;
-  padding:6px;
+  padding:4px;
 }
 
 /* add some styling to disqus */

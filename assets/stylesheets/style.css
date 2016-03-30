@@ -56,6 +56,10 @@ p {
 	text-rendering: geometricPrecision;
 }
 
+p.text-justify {
+	padding: 20px;
+}
+
 p > a {
 	color: black !important;
 	text-decoration: underline;
@@ -109,10 +113,10 @@ strong {
   margin-right:20px;
 }
 
-
-.container {
-  max-width:960px !important;
-	margin-top:20px !important;
+main.home-template {
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /* **************************************
@@ -123,6 +127,10 @@ strong {
 /* fix MS Edge for featured section */
 .container .row {
   width: auto;
+}
+
+.container-fluid {
+	margin-top:25px !important;
 }
 
 .row {
@@ -201,6 +209,17 @@ i.small.mdi-navigation-menu {
 
 .side-nav li:hover{
     background-color: black !important;
+}
+
+/* **************************************
+
+  SITE/CONTENT SIDEBAR
+
+*****************************************/
+
+.card-sidebar {
+	margin: 0px !important;
+	width:100%;
 }
 
 /* **************************************

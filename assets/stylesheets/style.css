@@ -135,11 +135,6 @@ strong {
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
-.main-content {
-	max-width:800px !important;
-}
-
-
 .home-template, .post-template, .tag-template, .author-template, .error-template {
 	max-width: 1200px;
 	margin-left:auto;

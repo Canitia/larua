@@ -139,6 +139,16 @@ main.home-template {
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
+.main-content {
+	max-width:800px !important;
+}
+
+.post-template {
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 /* **************************************
 
   SWITCH POSTS
@@ -222,13 +232,13 @@ i.small.mdi-navigation-menu {
 }
 
 .sidebar-img {
-	width:113px;
-	margin-top:20px;
-	margin-bottom: 20px;
-	margin-left: 5px;
-	margin-right:5px;
 	float:left;
 }
+
+.sidebar-img:hover {
+    opacity: .7;
+}
+
 
 /* **************************************
 
@@ -393,6 +403,10 @@ article img {
 /* read more button on featured posts */
 .card-featured > #read_more_custom {
   display:none;
+}
+
+.content-images:hover {
+	    opacity: .7;
 }
 
 /* only for featured posts */

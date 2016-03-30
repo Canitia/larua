@@ -2,6 +2,9 @@
 <div class="col s12 m12 l4 hide-on-med-and-down">
   <div class="card card-sidebar">
     <h1 class="text-left-title-featured blue darken-4">Recent posts</h1>
+    <ul id="random-posts-list">
+
+    </ul>
     <article>
           {{#get "posts" limit="4" order="published_at desc" as |recent| }}
           {{#foreach recent}}

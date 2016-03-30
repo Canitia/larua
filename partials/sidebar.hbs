@@ -4,17 +4,15 @@
     <article>
       <h1 class="text-left-title blue darken-4">Recent posts</h1>
         <div>
-                  <p class="sidebar-p">
-                    {{#get "posts" limit="5" order="published_at desc" as |recent| }}
+                    {{#get "posts" limit="6" order="published_at desc" as |recent| }}
                     {{#foreach recent}}
                     <p>
-                      <a href="{{url}}"><img class="sidebar-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
+                      <a href="{{url}}" alt="{{title}}"><img class="sidebar-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
                       </a>
-                      {{title}}
                     </p>
                    {{/foreach}}
                   {{/get}}
-                  </p>
+
         </div>
     </article>
     </div>

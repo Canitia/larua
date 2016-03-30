@@ -11,7 +11,7 @@
         var displayPosts = sortedPosts.slice(0,2);
         $.each(displayPosts, function (i, post) {
             $result.append(
-                '<a title="' + post.title + '"href="https://www.miboutech.com' + post.url + '"><img class="sidebar-img" src="' + post.image + '"/></a>'
+                '<a href="https://www.miboutech.com' + post.url + '"><img class="sidebar-img" src="' + post.image + '" title="' + post.title + '"/></a>'
             );
         });
     }

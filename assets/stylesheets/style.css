@@ -327,17 +327,6 @@ footer > nav {
 	float:none;
 }
 
-.card-left {
-  width:30%;
-  float:left;
-}
-
-.card-right {
-  float:right;
-  width:70%;
-  padding:4px;
-}
-
 /* add some styling to disqus */
 #disqus_thread {
 padding: 40px;
@@ -571,12 +560,8 @@ section.author-profile {
 	text-decoration: underline;
 }
 
-.author-title h3 {
-	color: #979797;
-}
-
 .author-title > a {
-	color: white  !important;
+	color: #979797  !important;
 	text-decoration: underline;
 }
 
@@ -600,19 +585,6 @@ img.avatar {
 p.author-bio {
 	padding:20px;
 }
-
-  @media only screen and (min-width: 993px) {
-
-    .card-left {
-      float:left;
-    }
-
-    .card-right {
-      float:right;
-      padding:7px;
-    }
-
-  }
 
 @media only screen and (max-width: 600px) {
 	img.logo {
@@ -646,21 +618,6 @@ p.author-bio {
         width: 100%;
     }
 
-    .card-left {
-      float:left;
-      width:100%;
-    }
-
-    .card-right {
-      float:right;
-      width:100%;
-    }
-
-    .card-bottom {
-      width: 100%;
-      float:inherit;
-    }
-
   }
 
 
@@ -669,10 +626,6 @@ p.author-bio {
 	  FONT AWESOME look-n-feel
 
 	*****************************************/
-
-.card-right > .postdate > i{
-	color: #979797 !important;
-}
 
 body > main > div > article > h4 > p > i {
 	color:white;

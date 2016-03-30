@@ -392,6 +392,9 @@ article {
 article img {
     width: 100%;
 }
+.individual-post {
+	padding:0px !important;
+}
 
 /* read more button on featured posts */
 .card-featured > #read_more_custom {

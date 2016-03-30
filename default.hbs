@@ -21,16 +21,15 @@
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
+<!-- main navigation -->
+{{navigation}}
 <main class="{{body_class}}">
-  <!-- main navigation -->
-  {{navigation}}
-
   <!-- check if a blog cover is active -->
 {{#if @blog.cover}}
 <img src="{{@blog.cover}}" alt="blog cover" class="cover" />
 {{/if}}
 
-<div class="container">
+<div class="container-fluid">
 
        {{{body}}}
 

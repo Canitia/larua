@@ -1,12 +1,11 @@
 {{#author}}
   <section class="author-profile">
-    <h4 class="text-left-title blue darken-4">Article written by</h4>
+    <h4 class="text-left-title blue darken-4">Article written by <a href="{{url}}">{{name}}</a></h4>
     {{#if image}}
     <img src="{{image}}" alt="author image" class="avatar"/>
     {{/if}}
-    <h3 class="author-title"><a href="{{url}}">{{name}}</a></h3>
-    <strong>About {{name}}</strong>
     <p class="author-bio">
+    <strong>About {{name}}</strong><br />
     {{#if bio}}{{bio}}{{else}}No bio information available{{/if}}
     </p>
   </section>

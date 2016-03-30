@@ -581,7 +581,7 @@ p.author-bio {
 	padding:20px;
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
 
 	img.logo {
 		height:55px;

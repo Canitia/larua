@@ -4,15 +4,16 @@
 <div class="main-content col s12 m12 l9">
 {{#author}}
 <div class="tag_heading">
-<img src="{{#if image}}{{image}}{{/if}}" class="avatar-page center-align" />
-<p>Posts by: {{name}}</p>
+  <img src="{{#if image}}{{image}}{{/if}}" class="avatar-page center-align" />
+<h1>Posts by: {{name}}</h1>
+<hr />
 </div>
 {{/author}}
 
 {{#foreach posts}}
 <div class="card">
   <article>
-    <h1 class="text-left-title blue darken-4"><a href="{{url}}">{{title}}</a></h1>
+    <h1 class="text-left-title"><a href="{{url}}">{{title}}</a></h1>
         <div class="card-left col s12 m12 l3">
           <a href="{{url}}"><img class="content-images" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
             </a>

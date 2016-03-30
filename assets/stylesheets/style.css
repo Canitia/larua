@@ -135,6 +135,25 @@ strong {
 
 /* **************************************
 
+  SPECIFIC RESTRICTIONS TO GUI
+
+*****************************************/
+.post-switcher {
+	width:100%;
+	padding:40px;
+}
+
+.previous-post {
+	float:left;
+}
+
+.next-post {
+	float:right;
+}
+
+
+/* **************************************
+
   SLIDEOUT SIDEBAR
 
 *****************************************/

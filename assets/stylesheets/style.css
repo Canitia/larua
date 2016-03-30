@@ -493,7 +493,7 @@ POST HEADERS
 }
 
 .text-left-title-featured a {
-	color: white !important;
+	color: white;
 }
 
 .text-left-title a:hover, .text-left-title-featured a:hover {
@@ -559,6 +559,11 @@ POST HEADERS
 	ARTICLE: AUTHOR look-n-feel
 
 *****************************************/
+.author-url-post-head {
+		color: #979797;
+}
+
+
 section.author-profile {
 	padding:30px
 	background-color:#E8E8EE;

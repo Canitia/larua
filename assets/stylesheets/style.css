@@ -181,7 +181,6 @@ strong {
 .article-footer-img {
 	float:left;
 	width:50%;
-	margin-bottom:20px;
 }
 
 .article-footer-img a:hover {
@@ -189,7 +188,7 @@ strong {
 }
 
 #random-posts-list {
-	height:185px;
+	height:160px;
 }
 
 
@@ -561,7 +560,10 @@ POST HEADERS
 
 *****************************************/
 section.author-profile {
-	padding:30px;
+	padding-top:0px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:30px;
 	background-color:#E8E8EE;
 	min-height:280px;
 }

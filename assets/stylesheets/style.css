@@ -158,6 +158,11 @@ strong {
 	max-width:45%;
 }
 
+.next-post > a i {
+	float:right;
+	margin-left: 5px;
+}
+
 .btn-flat {
 	line-height: 45px !important;
 	height: 45px !important;

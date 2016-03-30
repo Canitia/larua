@@ -181,6 +181,11 @@ strong {
 .article-footer-img {
 	float:left;
 	width:50%;
+	margin-bottom:20px;
+}
+
+.article-footer-img a:hover {
+	opacity: 0.85;
 }
 
 

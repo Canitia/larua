@@ -352,6 +352,7 @@ article {
     margin-right: auto;
     margin-bottom: 15px;
     background-color: white;
+		word-wrap: break-word;
 }
 
 article img {

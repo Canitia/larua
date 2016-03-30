@@ -122,12 +122,6 @@ strong {
   width: auto;
 }
 
-.container-fluid {
-	margin-top:25px !important;
-	margin-left: 50px !important;
-	margin-right: 50px !important;
-}
-
 .row {
   margin-left: auto;
   margin-right: auto;
@@ -587,13 +581,21 @@ p.author-bio {
 	padding:20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+
 	img.logo {
 		height:55px;
 	}
 
 	.text-left-title {
 		font-size:22px;
+	}
+
+
+	.container-fluid {
+		margin-top:25px;
+		margin-left: 25px;
+		margin-right: 25px;
 	}
 
 }
@@ -622,7 +624,23 @@ p.author-bio {
         width: 100%;
     }
 
+
+			.container-fluid {
+				margin-top:25px;
+				margin-left: 65px;
+				margin-right: 65px;
+			}
+
   }
+
+	/* mobile devices */
+	@media only screen and (min-width: 993px) {
+	.container-fluid {
+		margin-top:25px;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}
 
 
 	/* **************************************

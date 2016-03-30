@@ -560,12 +560,8 @@ POST HEADERS
 
 *****************************************/
 section.author-profile {
-	padding-top:0px;
-	padding-left:30px;
-	padding-right:30px;
-	padding-bottom:30px;
+	padding:30px
 	background-color:#E8E8EE;
-	min-height:280px;
 }
 
 .author-profile h4 {

@@ -19,19 +19,6 @@
                                   </div>
                                     {{/if}}
 
-                                    <div class="post-switcher">
-                                    <div class="previous-post">
-                                      {{#prev_post}}
-                                        <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}"><i class="fa fa-arrow-left fa-2x"></i> {{title}}</a>
-                                      {{/prev_post}}
-                                    </div>
-                                    <div class="next-post">
-                                      {{#next_post}}
-                                        <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}">{{title}} <i class="fa fa-arrow-right fa-2x"></i></a>
-                                      {{/next_post}}
-                                    </div>
-                                  </div>
-
                                     {{#author}}
                                       <section class="author-profile">
                                         <h4 class="text-left-title blue darken-4">Article written by <a href="{{url}}"> {{name}}</a></h4>
@@ -44,7 +31,18 @@
                                         </p>
                                       </section>
                                     {{/author}}
-
+                                  <div class="post-switcher">
+                                  <div class="previous-post">
+                                    {{#prev_post}}
+                                      <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}"><i class="fa fa-arrow-left fa-2x"></i> {{title}}</a>
+                                    {{/prev_post}}
+                                  </div>
+                                  <div class="next-post">
+                                    {{#next_post}}
+                                      <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}">{{title}} <i class="fa fa-arrow-right fa-2x"></i></a>
+                                    {{/next_post}}
+                                  </div>
+                                </div>
                                         {{> disqus}}
                                     </article>
                 {{/post}}

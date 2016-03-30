@@ -20,7 +20,18 @@
                                     {{/foreach}}
                                   </div>
                                     {{/if}}
-
+                                    <div class="post-switcher">
+                                    <div class="previous-post">
+                                      {{#prev_post}}
+                                        <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}"><i class="fa fa-arrow-left fa-2x"></i> {{title}}</a>
+                                      {{/prev_post}}
+                                    </div>
+                                    <div class="next-post">
+                                      {{#next_post}}
+                                        <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}"><i class="fa fa-arrow-right fa-2x"></i> {{title}}</a>
+                                      {{/next_post}}
+                                    </div>
+                                  </div>
 
                                       <div>
                                         <h1 class="text-left-title-featured blue darken-4"></i>Need something else to read?</h1>
@@ -30,18 +41,6 @@
                                       </div>
 
               {{> author-section}}
-                                  <div class="post-switcher">
-                                  <div class="previous-post">
-                                    {{#prev_post}}
-                                      <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}"><i class="fa fa-arrow-left fa-2x"></i> {{title}}</a>
-                                    {{/prev_post}}
-                                  </div>
-                                  <div class="next-post">
-                                    {{#next_post}}
-                                      <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}"><i class="fa fa-arrow-right fa-2x"></i> {{title}}</a>
-                                    {{/next_post}}
-                                  </div>
-                                </div>
                                         {{> disqus}}
                                     </article>
                 {{/post}}

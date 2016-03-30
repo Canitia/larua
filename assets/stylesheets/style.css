@@ -183,12 +183,12 @@ strong {
 	width:50%;
 }
 
-.article-footer-img img:hover {
+.article-footer-img:hover {
 	opacity: 0.85;
 }
 
 #random-posts-list {
-	height:160px;
+	height:158px;
 }
 
 

@@ -1,16 +1,16 @@
 
 <div class="col s12 m12 l3 hide-on-med-and-down">
   <div class="card card-sidebar">
+    <h1 class="text-left-title-featured blue darken-4">Recent posts</h1>
     <article>
-      <h1 class="text-left-title-featured blue darken-4">Recent posts</h1>
-                    {{#get "posts" limit="4" order="published_at desc" as |recent| }}
-                    {{#foreach recent}}
-                    <div>
-                      <a href="{{url}}" title="{{title}}"><img class="sidebar-img hoverable" alt="{{title}}" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
-                      </a>
-                    </div>
-                   {{/foreach}}
-                  {{/get}}
+          {{#get "posts" limit="4" order="published_at desc" as |recent| }}
+          {{#foreach recent}}
+          <div>
+            <a href="{{url}}" title="{{title}}"><img class="sidebar-img hoverable" alt="{{title}}" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
+            </a>
+          </div>
+         {{/foreach}}
+        {{/get}}
     </article>
   </div>
 </div>

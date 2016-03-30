@@ -5,9 +5,9 @@
 
     <div class="row featured hide-on-small-only">
 
-    {{#get "posts" limit="3" filter="featured:true" order="published_at desc" as |featured| }}
+    {{#get "posts" limit="4" filter="featured:true" order="published_at desc" as |featured| }}
       {{#foreach featured}}
-          <div class="col m4">
+          <div class="col m6">
               <article class="hoverable">
                 <a href="{{url}}"><img class="content-images-featured" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
                     </a>

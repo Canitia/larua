@@ -11,9 +11,9 @@
               <article class="hoverable">
                 <a href="{{url}}"><img class="content-images-featured" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
                     </a>
-                    <p class="text-left postdate postdate-featured blue darken-4"><i class="fa fa-star"> Featured</i><span class="disqus-comment-count" data-disqus-identifier="miboutech"> <!-- Count will be inserted here --> </span>
+                    <p class="text-left postdate postdate-featured blue darken-4"><i class="fa fa-star"> Featured</i>
                     </p>
-                          <h1 class="text-left-title-featured blue darken-4"><a href="{{url}}#disqus_thread">{{title}}</a></h1>
+                          <h1 class="text-left-title-featured blue darken-4"><a href="{{url}}">{{title}}</a></h1>
                     </article>
           </div>
      {{/foreach}}
@@ -28,7 +28,7 @@
                   </a>
             </div>
             <div>
-                      <h1 class="text-left-title"><a href="{{url}}#disqus_thread">{{title}}</a></h1>
+                      <h1 class="text-left-title"><a href="{{url}}">{{title}}</a></h1>
                       <p class="text-left postdate">{{#if featured}}<i class="fa fa-star"></i>{{/if}} <i class="fa fa-calendar"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time></p>
                       <p class="text-justify">
                             {{excerpt}}...

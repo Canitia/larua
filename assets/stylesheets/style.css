@@ -511,12 +511,16 @@ section.author-profile {
 	min-height:280px;
 }
 
+.author-profile h4 a {
+	text-decoration: underline;
+}
+
 .author-title h3 {
 	color: #979797;
 }
 
 .author-title > a {
-	color: black  !important;
+	color: white  !important;
 	text-decoration: underline;
 }
 
@@ -538,7 +542,7 @@ img.avatar {
 }
 
 p.author-bio {
-	margin-top:7px;
+	padding:20px;
 }
 
   @media only screen and (min-width: 993px) {

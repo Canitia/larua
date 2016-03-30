@@ -135,12 +135,17 @@ strong {
 
 /* **************************************
 
-  SPECIFIC RESTRICTIONS TO GUI
+  SWITCH POSTS
 
 *****************************************/
 .post-switcher {
 	width:100%;
 	padding:40px;
+	margin-bottom: 25px;
+}
+
+.post-switcher a {
+	color:white !important;
 }
 
 .previous-post {
@@ -149,6 +154,11 @@ strong {
 
 .next-post {
 	float:right;
+}
+
+.btn-flat {
+	line-height: 45px !important;
+	height: 45px !important;
 }
 
 

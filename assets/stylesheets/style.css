@@ -124,6 +124,8 @@ strong {
 
 .container-fluid {
 	margin-top:25px !important;
+	margin-left: 50px !important;
+	margin-right: 50px !important;
 }
 
 .row {

@@ -2,10 +2,7 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                 {{#post}}
                                     <article>
-                                      <img class="content-images-individual" src="{{#if image}}
-                                        {{image}}
-                                      {{else}}
-                                          {{@blog.cover}} {{/if}}"/>
+                                      <img class="content-images-individual" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}"/>
 
                                     <h1 class="text-left-title blue darken-4"></i>{{title}}</h1>
                                     <h4 class="text-left-title-featured blue darken-4"><p class="text-left postdate">{{#if featured}}<i class="fa fa-star fa-2x"> Featured</i>{{/if}} <i class="fa fa-calendar fa-2x"></i>{{date format='DD-MM-YYYY'}}</p>

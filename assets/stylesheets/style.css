@@ -441,7 +441,7 @@ POST HEADERS
 /* post title */
 .text-left-title {
 	font-family: 'PT Sans';
-	font-size: 30px;
+	font-size: 36px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -591,7 +591,7 @@ p.author-bio {
 	}
 
 	.text-left-title {
-		font-size:16px;
+		font-size:22px;
 	}
 
 }
@@ -610,6 +610,7 @@ p.author-bio {
 
     /* post title */
     .text-left-title {
+				font-size:30px;
         padding:20px;
     }
 

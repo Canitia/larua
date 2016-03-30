@@ -6,7 +6,7 @@
                     {{#get "posts" limit="6" order="published_at desc" as |recent| }}
                     {{#foreach recent}}
                     <p>
-                      <a href="{{url}}" alt="{{title}}"><img class="sidebar-img hoverable" alt="{{title}}" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
+                      <a href="{{url}}" title="{{title}}"><img class="sidebar-img hoverable" alt="{{title}}" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" />
                       </a>
                     </p>
                    {{/foreach}}

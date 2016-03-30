@@ -179,6 +179,12 @@ strong {
 }
 
 
+.article-footer-img {
+	float:left;
+	width:50%;
+}
+
+
 /* **************************************
 
   SLIDEOUT SIDEBAR

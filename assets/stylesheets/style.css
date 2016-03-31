@@ -405,13 +405,13 @@ article img {
   display:none;
 }
 
-.content-images:hover {
-	    opacity: .7;
-}
-
 /* only for featured posts */
 .content-images-featured {
   max-height:200px !important;
+}
+
+img.content-images-featured:hover, img.content-images:hover {
+	opacity:0.85;
 }
 
 .postdate {

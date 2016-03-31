@@ -205,6 +205,7 @@ i.small.mdi-navigation-menu {
 
 .side-nav li {
     height: 55px;
+		padding:0 !important;
 }
 
 .side-nav li:hover{
@@ -220,15 +221,6 @@ i.small.mdi-navigation-menu {
 .card-sidebar {
 	margin: 0px !important;
 	width:100%;
-}
-
-.sidebar-img {
-	float:left;
-	width:100%;
-}
-
-.sidebar-img:hover {
-    opacity: .85;
 }
 
 /* ######################################

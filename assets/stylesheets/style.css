@@ -319,7 +319,6 @@ article > h4 {
   margin-left: 10px;
 }
 
-
 article > h1, article > h2, article > h3, article > h4 {
 	color: #979797 !important;
 }
@@ -364,6 +363,20 @@ img.content-images-featured:hover, img.content-images:hover {
 	opacity:0.85;
 }
 
+.btn-flat {
+	line-height: 45px !important;
+	height: 45px !important;
+}
+
+.article-footer-img {
+	float:left;
+	width:50%;
+}
+
+.article-footer-img:hover {
+	opacity: 0.85;
+}
+
 .postdate {
     font-size: 16px;
     color: #979797;
@@ -402,49 +415,6 @@ padding: 40px;
 	height:158px;
 }
 
-/* **************************************
-
-  SWITCH POSTS
-
-*****************************************/
-.post-switcher {
-	width:100%;
-	padding:40px;
-	margin-bottom: 25px;
-}
-
-.post-switcher a {
-	color:white !important;
-}
-
-.previous-post {
-	float:left;
-	max-width:45%;
-}
-
-.next-post {
-	float:right;
-	max-width:45%;
-}
-
-.next-post > a i {
-	float:right;
-	margin-left: 5px;
-}
-
-.btn-flat {
-	line-height: 45px !important;
-	height: 45px !important;
-}
-
-.article-footer-img {
-	float:left;
-	width:50%;
-}
-
-.article-footer-img:hover {
-	opacity: 0.85;
-}
 
 /* **************************************
 

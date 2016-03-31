@@ -2,7 +2,6 @@
     <div class="navbar-fixed">
     <nav class="blue darken-4">
       <div class="nav-wrapper">
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="small mdi-navigation-menu"></i></a>
         <!-- check if a blog cover is active -->
         {{#if @blog.logo}}
         <img src="{{@blog.logo}}" alt="blog logo" class="logo" />
@@ -20,6 +19,7 @@
            {{/foreach}}
            <!-- End the loop -->
          </ul>
+         <a href="#" data-activates="slide-out" class="button-collapse right"><i class="small mdi-navigation-menu"></i></a>
 
 <ul id="slide-out" class="side-nav">
     <!-- Loop through the navigation items -->

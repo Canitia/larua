@@ -388,19 +388,6 @@ img.content-images-featured:hover, img.content-images:hover {
   color:#979797;
 }
 
-
-/* read more button on home page*/
-#read_more_custom {
-    position:absolute;
-    bottom:-30px;
-    right:10px;
-		height:45px !important;
-		line-height:45px !important;
-    color:white !important;
-    text-decoration:none;
-}
-
-
 /* add some styling to disqus */
 #disqus_thread {
 padding: 40px;

@@ -255,8 +255,12 @@ POST/ARTICLE HEADERS
 	text-overflow: ellipsis;
 }
 
-h1.text-left-title a:hover, h1.text-left-title-featured a:hover  {
+h1.text-left-title a:hover  {
 	color:black !important;
+}
+
+h1.text-left-title-featured a:hover {
+	color:#979797 !important;
 }
 
 /* post title */

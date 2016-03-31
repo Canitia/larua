@@ -2,48 +2,34 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 <div class="row">
 <div class="col s12 m12 l8 main-content">
-                {{#post}}
-                                    <article>
-                                      <img class="content-images-individual" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}"/>
+{{#post}}
+      <article>
+      <img class="content-images-individual" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}"/>
 
-                                    <h1 class="text-left-title"></i>{{title}}</h1>
-                                    <h4 class="text-left-title-featured"><p class="text-left postdate">{{#if featured}}<i class="fa fa-star"> Featured</i>{{/if}} <i class="fa fa-calendar"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time><i class="fa fa-user-secret"></i>{{#author}}<a class="author-url-post-head" href="{{url}}">{{name}}</a>{{/author}}</p>
-                                    </h4>
-                                    <p class="text-justify-individual">{{content}}</p>
-                                    <br />
-                                    {{#if tags}}
-                                    <div class="tags">
-                                    {{#foreach tags}}
-                                        <div class="chip blue darken-4">
-                                        <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
-                                        </div>
-                                    {{/foreach}}
-                                  </div>
-                                    {{/if}}
-                                    <div class="post-switcher">
-                                    <div class="previous-post">
-                                      {{#prev_post}}
-                                        <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}"><i class="fa fa-arrow-left fa-2x"></i> {{title}}</a>
-                                      {{/prev_post}}
-                                    </div>
-                                    <div class="next-post">
-                                      {{#next_post}}
-                                        <a class="waves-effect waves-teal btn-flat blue darken-4" href="{{url}}"><i class="fa fa-arrow-right fa-2x"></i> {{title}}</a>
-                                      {{/next_post}}
-                                    </div>
-                                  </div>
-              {{> author-section}}
-                                      <div>
-                                        <h1 class="text-left-title-featured blue darken-4"></i>Need something else to read?</h1>
-                                        <div id="random-posts-list">
-                                          <!-- content of 'randompost.js' gets entered here! -->
-                                        </div>
-                                      </div>
-
-
-                                        {{> disqus}}
-                                    </article>
-                {{/post}}
+      <h1 class="text-left-title"></i>{{title}}</h1>
+      <h4 class="text-left-title-featured"><p class="text-left postdate">{{#if featured}}<i class="fa fa-star"> Featured</i>{{/if}} <i class="fa fa-calendar"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time><i class="fa fa-user-secret"></i>{{#author}}<a class="author-url-post-head" href="{{url}}">{{name}}</a>{{/author}}</p>
+      </h4>
+      <p class="text-justify-individual">{{content}}</p>
+      <br />
+      {{#if tags}}
+      <div class="tags">
+      {{#foreach tags}}
+          <div class="chip blue darken-4">
+          <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
+          </div>
+      {{/foreach}}
+    </div>
+      {{/if}}
+    {{> author-section}}
+        <div>
+          <h1 class="text-left-title-featured blue darken-4"></i>Need something else to read?</h1>
+          <div id="random-posts-list">
+            <!-- content of 'randompost.js' gets entered here! -->
+          </div>
+        </div>
+          {{> disqus}}
+      </article>
+{{/post}}
 </div>
     {{> sidebar}}
 </div>

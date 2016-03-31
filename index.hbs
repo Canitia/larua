@@ -4,7 +4,7 @@
 <div class="main-content col s12 m12 l8">
 
     <div class="row featured hide-on-small-only">
-
+    <h1 class="text-left-title-featured blue darken-4">Trending</h1>
     {{#get "posts" limit="4" filter="featured:true" order="published_at desc" as |featured| }}
       {{#foreach featured}}
           <div class="col m6">

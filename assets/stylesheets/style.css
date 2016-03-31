@@ -483,8 +483,12 @@ POST HEADERS
 	text-overflow: ellipsis;
 }
 
-.main-content > .text-left-title, .main-content > .text-left-title-featured  {
+.main-content > .text-left-title  {
 	color:#979797 !important;
+}
+
+.latest-header {
+	color:white;
 }
 
 .text-left-title a {

@@ -95,23 +95,6 @@ strong {
   font-weight:700 !important;
 }
 
-.tag_heading > hr {
-	margin-top:60px !important;
-	margin-bottom:40px !important;
-}
-
-.tags {
-  text-align:center;
-  margin-top:25px;
-	margin-bottom:25px;
-	line-height: 60px;
-}
-
-.fa-user-secret, .fa-star, .fa-calendar {
-  margin-left:20px;
-  margin-right:20px;
-}
-
 /* **************************************
 
   SPECIFIC RESTRICTIONS TO GUI
@@ -143,58 +126,55 @@ strong {
 	margin-right:auto;
 }
 
+.card {
+  float:left;
+	margin-bottom:40px !important;
+}
+
+.card-error {
+	float:none;
+}
+
+/* read more button on featured posts */
+.card-featured > #read_more_custom {
+  display:none;
+}
+
 /* **************************************
 
-  SWITCH POSTS
+  HEADER
 
 *****************************************/
-.post-switcher {
+
+/* website title header */
+header .blogtitle {
+    font-size: 36px;
+    margin-top:30px;
+		margin-left:10px;
+    float:left;
+}
+
+/* color of clickable header */
+.headerurl {
+    color: white !important;
+    text-decoration: none;
+}
+
+.headerurl:hover {
+  color:black !important;
+  text-decoration: none;
+}
+
+img.cover {
 	width:100%;
-	padding:40px;
-	margin-bottom: 25px;
+	margin-bottom:15px;
 }
 
-.post-switcher a {
-	color:white !important;
-}
-
-.previous-post {
+img.logo {
+	height:64px;
+	position:relative;
 	float:left;
-	max-width:45%;
 }
-
-.next-post {
-	float:right;
-	max-width:45%;
-}
-
-.next-post > a i {
-	float:right;
-	margin-left: 5px;
-}
-
-.btn-flat {
-	line-height: 45px !important;
-	height: 45px !important;
-}
-
-.article-footer-img {
-	float:left;
-	width:50%;
-}
-
-.article-footer-img:hover {
-	opacity: 0.85;
-}
-
-#random-posts-list {
-	height:158px;
-}
-
-.need-more {
-	width:50%;
-}
-
 
 /* **************************************
 
@@ -251,203 +231,9 @@ i.small.mdi-navigation-menu {
     opacity: .85;
 }
 
-
-/* **************************************
-
-  HEADER
-
-*****************************************/
-
-
-/* website title header */
-header .blogtitle {
-    font-size: 36px;
-    margin-top:30px;
-		margin-left:10px;
-    float:left;
-}
-
-/* color of clickable header */
-.headerurl {
-    color: white !important;
-    text-decoration: none;
-}
-
-.headerurl:hover {
-  color:black !important;
-  text-decoration: none;
-}
-
-img.cover {
-	width:100%;
-	margin-bottom:15px;
-}
-
-img.logo {
-	height:64px;
-	position:relative;
-	float:left;
-}
-
-/* **************************************
-
-  FOOTER
-
-*****************************************/
-footer {
-    width: 100%;
-    overflow: hidden;
-    z-index: 999;
-    padding: 20px;
-}
-
-footer a {
-  color: white !important;
-}
-
-footer > nav {
-  background-color: #0d47a1 !important;
-}
-
-/* social media icons sidebar and footer */
-.socialfooter {
-  text-align: center;
-  border-top:1px solid rgba(0,0,0,0.12);
-}
-
-.socialfooter > a {
-    color: #00bfff;
-}
-
-.socialfooter > a:hover {
-    color: black;
-}
-
-
-/* **************************************
-
-  ARTICLE SETUP
-
-*****************************************/
-.card {
-  float:left;
-	margin-bottom:40px !important;
-}
-
-.card-error {
-	float:none;
-}
-
-/* add some styling to disqus */
-#disqus_thread {
-padding: 40px;
-}
-
-
-/* **************************************
-
-  ARTICLE LOOK-N-FEEL
-
-*****************************************/
-article > h1 {
-  	font-size: 30px;
-    margin-left: 10px;
-}
-
-article > h2 {
-	font-size: 22px;
-  margin-left: 10px;
-}
-
-article > h3 {
-	font-size: 20px;
-  margin-left: 10px;
-}
-
-article > h4 {
-	font-size: 18px;
-  margin-left: 10px;
-}
-
-
-article > h1, article > h2, article > h3, article > h4 {
-	color: #979797 !important;
-}
-
-article > ul li {
-  list-style-type: square !important;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding:5px;
-  line-height: 25px;
-  text-align: justify;
-}
-
-article > ul {
-  margin-left: 30px !important;
-}
-
-
-/* general dimensions of posts/articles */
-article {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-    background-color: white;
-		word-wrap: break-word;
-}
-
-article img {
-    width: 100%;
-}
-.individual-post {
-	padding:0px !important;
-}
-
-/* read more button on featured posts */
-.card-featured > #read_more_custom {
-  display:none;
-}
-
-/* only for featured posts */
-.content-images-featured {
-  max-height:200px !important;
-}
-
-img.content-images-featured:hover, img.content-images:hover {
-	opacity:0.85;
-}
-
-.postdate {
-    font-size: 16px;
-    color: #979797;
-    text-align: center;
-    margin:0px;
-}
-
-.postdate a {
-  color: white;
-}
-
-.postdate a:hover {
-  color:#979797;
-}
-
-
-/* read more button on home page*/
-#read_more_custom {
-    position:absolute;
-    bottom:-30px;
-    right:10px;
-		height:45px !important;
-		line-height:45px !important;
-    color:white !important;
-    text-decoration:none;
-}
-
 /* ######################################
 
-POST HEADERS
+POST/ARTICLE HEADERS
 
 ##########################################*/
 
@@ -510,25 +296,154 @@ POST HEADERS
 
 /* **************************************
 
-  PAGINATION
+  ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-
-.pagination {
-		display: block !important;
-		text-align: center !important;
-		bottom: 0;
-		right: 30px;
-		color:white;
+article > h1 {
+  	font-size: 30px;
+    margin-left: 10px;
 }
 
-.pagination > a {
-	margin-left: 7px;
-	margin-right: 7px;
+article > h2 {
+	font-size: 22px;
+  margin-left: 10px;
 }
 
-.pagination > a > i:hover {
-	color:black;
+article > h3 {
+	font-size: 20px;
+  margin-left: 10px;
+}
+
+article > h4 {
+	font-size: 18px;
+  margin-left: 10px;
+}
+
+
+article > h1, article > h2, article > h3, article > h4 {
+	color: #979797 !important;
+}
+
+article > ul li {
+  list-style-type: square !important;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding:5px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+article > ul {
+  margin-left: 30px !important;
+}
+
+
+/* general dimensions of posts/articles */
+article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: white;
+		word-wrap: break-word;
+}
+
+article img {
+    width: 100%;
+}
+.individual-post {
+	padding:0px !important;
+}
+
+
+/* only for featured posts */
+.content-images-featured {
+  max-height:200px !important;
+}
+
+img.content-images-featured:hover, img.content-images:hover {
+	opacity:0.85;
+}
+
+.postdate {
+    font-size: 16px;
+    color: #979797;
+    text-align: center;
+    margin:0px;
+}
+
+.postdate a {
+  color: white;
+}
+
+.postdate a:hover {
+  color:#979797;
+}
+
+
+/* read more button on home page*/
+#read_more_custom {
+    position:absolute;
+    bottom:-30px;
+    right:10px;
+		height:45px !important;
+		line-height:45px !important;
+    color:white !important;
+    text-decoration:none;
+}
+
+
+/* add some styling to disqus */
+#disqus_thread {
+padding: 40px;
+}
+
+/* random posts section at bottom of a post */
+#random-posts-list {
+	height:158px;
+}
+
+/* **************************************
+
+  SWITCH POSTS
+
+*****************************************/
+.post-switcher {
+	width:100%;
+	padding:40px;
+	margin-bottom: 25px;
+}
+
+.post-switcher a {
+	color:white !important;
+}
+
+.previous-post {
+	float:left;
+	max-width:45%;
+}
+
+.next-post {
+	float:right;
+	max-width:45%;
+}
+
+.next-post > a i {
+	float:right;
+	margin-left: 5px;
+}
+
+.btn-flat {
+	line-height: 45px !important;
+	height: 45px !important;
+}
+
+.article-footer-img {
+	float:left;
+	width:50%;
+}
+
+.article-footer-img:hover {
+	opacity: 0.85;
 }
 
 /* **************************************
@@ -544,6 +459,18 @@ POST HEADERS
     color: white;
 }
 
+
+.tag_heading > hr {
+	margin-top:60px !important;
+	margin-bottom:40px !important;
+}
+
+.tags {
+  text-align:center;
+  margin-top:25px;
+	margin-bottom:25px;
+	line-height: 60px;
+}
 
 .chip {
   margin-left:10px;
@@ -606,8 +533,73 @@ p.author-bio {
 	padding:20px;
 }
 
+/* **************************************
+
+  PAGINATION
+
+*****************************************/
+
+.pagination {
+		display: block !important;
+		text-align: center !important;
+		bottom: 0;
+		right: 30px;
+		color:white;
+}
+
+.pagination > a {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.pagination > a > i:hover {
+	color:black;
+}
+
+/* **************************************
+
+  FOOTER
+
+*****************************************/
+footer {
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+    padding: 20px;
+}
+
+footer a {
+  color: white !important;
+}
+
+footer > nav {
+  background-color: #0d47a1 !important;
+}
+
+/* social media icons sidebar and footer */
+.socialfooter {
+  text-align: center;
+  border-top:1px solid rgba(0,0,0,0.12);
+}
+
+.socialfooter > a {
+    color: #00bfff;
+}
+
+.socialfooter > a:hover {
+    color: black;
+}
+
+/* **************************************
+
+	SOME MINOR WIDTH BASED TWEAKS
+
+*****************************************/
+
+/* For the people that have phones reporting very low resolutions */
 @media (max-width:640px) and (min-width:400px) {
 
+	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {
 		height:55px;
 	}
@@ -616,7 +608,7 @@ p.author-bio {
 		font-size:22px;
 	}
 
-
+/* Smaller margins to the page gets fit to nearly the full screen */
 	.container-fluid {
 		margin-top:25px;
 		margin-left: 25px;
@@ -655,7 +647,7 @@ p.author-bio {
 
   }
 
-	/* mobile devices */
+	/* tablet devices */
 	@media only screen and (min-width: 993px) {
 	.container-fluid {
 		margin-top:25px;
@@ -670,6 +662,10 @@ p.author-bio {
 	  FONT AWESOME look-n-feel
 
 	*****************************************/
+.fa-user-secret, .fa-star, .fa-calendar {
+  margin-left:20px;
+  margin-right:20px;
+}
 
 body > main > div > article > h4 > p > i {
 	color:white;

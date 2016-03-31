@@ -1,2 +1,2 @@
-partials/analytics.hbs
-partials/disqus.hbs
+partials/thirdparty/analytics.hbs
+partials/thirdparty/disqus.hbs

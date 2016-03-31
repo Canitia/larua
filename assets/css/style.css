@@ -127,7 +127,6 @@ strong {
 }
 
 .card {
-  float:left;
 	margin-bottom:40px !important;
 }
 
@@ -151,7 +150,6 @@ header .blogtitle {
     font-size: 36px;
     margin-top:30px;
 		margin-left:10px;
-    float:left;
 }
 
 /* color of clickable header */
@@ -173,7 +171,6 @@ img.cover {
 img.logo {
 	height:64px;
 	position:relative;
-	float:left;
 }
 
 /* **************************************
@@ -457,7 +454,6 @@ section.author-profile {
 
 img.avatar {
 	width:150px;
-	float:left;
 	border-radius: 20px;
 	margin-left:15px;
 	margin-right:20px;

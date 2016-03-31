@@ -585,6 +585,10 @@ footer > nav {
 		margin-right: 25px;
 	}
 
+	.latest-header {
+		display:none;
+	}
+
 }
 
 /* mobile devices */

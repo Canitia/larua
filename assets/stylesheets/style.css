@@ -259,10 +259,6 @@ h1.text-left-title a:hover  {
 	color:black !important;
 }
 
-h1.text-left-title-featured a:hover {
-	color:#979797 !important;
-}
-
 /* post title */
 .text-left-title-featured {
 	font-family: 'Roboto', sans-serif;

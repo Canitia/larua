@@ -240,7 +240,6 @@ POST/ARTICLE HEADERS
 	line-height: 26.3999996185303px;
 	padding:20px;
 	margin: 0px;
-	text-align: center;
 	color:white;
 	white-space:normal;
 	overflow:hidden;
@@ -260,7 +259,6 @@ h1.text-left-title a:hover  {
 	font-weight: 400;
 	line-height: 26.3999996185303px;
 	margin: 0px;
-	text-align: center;
 	padding:10px !important;
 	color:white;
 
@@ -372,7 +370,6 @@ img.content-images-featured:hover, img.content-images:hover {
 .postdate {
     font-size: 16px;
     color: #979797;
-    text-align: center;
     margin:0px;
 }
 
@@ -403,7 +400,6 @@ padding: 40px;
 
 .tag_heading {
     padding: 20px;
-    text-align: center;
     margin-bottom: 0.25rem;
     color: white;
 }
@@ -415,7 +411,6 @@ padding: 40px;
 }
 
 .tags {
-  text-align:center;
   margin-top:25px;
 	margin-bottom:25px;
 	line-height: 60px;
@@ -490,7 +485,6 @@ p.author-bio {
 
 .pagination {
 		display: block !important;
-		text-align: center !important;
 		bottom: 0;
 		right: 30px;
 		color:white;
@@ -527,7 +521,6 @@ footer > nav {
 
 /* social media icons sidebar and footer */
 .socialfooter {
-  text-align: center;
   border-top:1px solid rgba(0,0,0,0.12);
 }
 
@@ -626,7 +619,6 @@ body > main > div > article > h4 > p > i {
 .postdate > a i {
 	color: white;
 	border-radius: 10px;
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 3px;
@@ -638,7 +630,6 @@ body > main > div > article > h4 > p > i {
 	.socialfooter > a i {
 	    color: white;
 	    border-radius: 10px;
-	    text-align: center;
 	    margin-left: auto;
 	    margin-right: auto;
 	    margin-bottom: 3px;

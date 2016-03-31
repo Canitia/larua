@@ -273,10 +273,6 @@ h1.text-left-title a:hover  {
 	color:#979797 !important;
 }
 
-.latest-header {
-	color:white;
-}
-
 .text-left-title a {
 		color: #979797 !important;
 		text-decoration: none;
@@ -571,11 +567,6 @@ footer > nav {
 		margin-left: 25px;
 		margin-right: 25px;
 	}
-
-	.latest-header {
-		display:none;
-	}
-
 }
 
 /* mobile devices */

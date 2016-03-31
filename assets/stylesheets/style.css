@@ -255,6 +255,10 @@ POST/ARTICLE HEADERS
 	text-overflow: ellipsis;
 }
 
+h1.text-left-title a:hover {
+	color:black !important;
+}
+
 /* post title */
 .text-left-title-featured {
 	font-family: 'Roboto', sans-serif;

@@ -1,0 +1,11 @@
+{{#author}}
+  <section class="author-profile">
+    {{#if image}}
+    <img src="{{image}}" alt="author image" class="avatar left"/>
+    {{/if}}
+    <p class="author-bio">
+    <strong>About {{name}}</strong><br />
+    {{#if bio}}{{bio}}{{else}}No bio information available{{/if}}
+  </p><br />
+  </section>
+{{/author}}

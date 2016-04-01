@@ -12,8 +12,8 @@
 
     {{! Responsive Meta Tags }}
     <!-- own stylesheet for general stuff -->
-    <link rel="stylesheet" href="{{asset "stylesheets/style.min.css"}}">
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{asset "css/style.min.css"}}">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
 
     <!-- other used items -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
@@ -21,16 +21,15 @@
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
+<!-- main navigation -->
+{{navigation}}
 <main class="{{body_class}}">
-  <!-- main navigation -->
-  {{navigation}}
-
   <!-- check if a blog cover is active -->
 {{#if @blog.cover}}
 <img src="{{@blog.cover}}" alt="blog cover" class="cover" />
 {{/if}}
 
-<div class="container">
+<div class="container-fluid">
 
        {{{body}}}
 
@@ -42,21 +41,17 @@
         {{pagination}}
     {{/if}}
       <!-- social media icons in footer -> partials/social.hbs -->
-    {{> social}}
+    {{> 'ui/footer'}}
 </footer>
 
-<!-- ghost footer includes jquery -->
 {{ghost_foot}}
-
 <!-- Compiled and minified JavaScript -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+<script src="{{asset "js/sidenav.js"}}"></script>
+<script src="{{asset "js/randompost.js"}}"></script>
 <script>
- $(document).ready(function(){
-   // Activate the side menu
-   // Initialize collapse button
-  $(".button-collapse").sideNav();
-  });
+
 </script>
 
 <!-- custom font awesome icon pack -->

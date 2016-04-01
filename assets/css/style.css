@@ -347,7 +347,7 @@ article img {
 }
 
 img.content-images-featured:hover, img.content-images:hover {
-	opacity:0.85;
+	opacity:0.9;
 }
 
 .btn-flat {
@@ -360,7 +360,7 @@ img.content-images-featured:hover, img.content-images:hover {
 }
 
 .article-footer-img:hover {
-	opacity: 0.85;
+	opacity: 0.9;
 }
 
 .postdate {

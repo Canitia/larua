@@ -1,2 +1,3 @@
 partials/thirdparty/analytics.hbs
 partials/thirdparty/disqus.hbs
+partials/ui/footer-own.hbs

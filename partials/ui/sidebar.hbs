@@ -11,7 +11,7 @@
 
 <div class="card card-sidebar"><!-- start of a sidebar item -->
   <h1 class="text-left-title-featured blue darken-4 center-align">Most used tags</h1>
-  <article style="article:first-child">
+  <article>
     <ul class="collection">
     {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}
           {{#foreach tags}}

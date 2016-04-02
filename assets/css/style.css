@@ -145,14 +145,6 @@ strong {
   HEADER
 
 *****************************************/
-
-/* website title header */
-header .blogtitle {
-    font-size: 36px;
-    margin-top:30px;
-		margin-left:10px;
-}
-
 /* color of clickable header */
 .headerurl {
     color: white !important;
@@ -524,11 +516,6 @@ footer > nav {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:640px) and (min-width:200px) {
-	header .blogtitle {
-		font-size: 28px;
-	}
-
-
 	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {
 		height:55px;
@@ -548,10 +535,6 @@ footer > nav {
 
 /* mobile devices */
 @media (max-width:992px) and (min-width:601px) {
-    header .blogtitle {
-      font-size: 28px;
-    }
-
     h1 {
 			font-family: 'Roboto', sans-serif;
     	font-size: 18px;

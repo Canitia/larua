@@ -24,7 +24,7 @@ mati uses the following libraries;
 #Release
 This theme is still adding features and under development, but check the releases page for stable versions.
 
-![Homescreen with featured posts, sidebar and regulat posts](http://img.photobucket.com/albums/v385/hxkclan/2016-04-02%201.png)
+![Homescreen with featured posts, sidebar and regulat posts](http://img.photobucket.com/albums/v385/hxkclan/2016-04-02%203.png)
 ![Post UI om homescreen](http://img.photobucket.com/albums/v385/hxkclan/2016-04-01%203.png)
 ![Post page bottom - tags, author section and disqus](http://img.photobucket.com/albums/v385/hxkclan/2016-04-02%202.png)
 

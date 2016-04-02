@@ -9,10 +9,16 @@
   </div>
 -->
 
-  <div class="card card-sidebar"> <!-- start of a sidebar item -->
-    <h1 class="text-left-title-featured blue darken-4 center-align">Title</h1>
-    <article>
-        <p>Empty Sidebar</p>
-    </article>
-  </div> <!-- end of sidebar item -->
+<div class="card card-sidebar"><!-- start of a sidebar item -->
+  <h1 class="text-left-title-featured blue darken-4 center-align">Most used tags</h1>
+  <article>
+    <ul class="collection">
+    {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}
+          {{#foreach tags}}
+              <li class="collection-item"><a href="/tag/{{slug}}">{{name}} <span class="badge">{{count.posts}}</span></a></li>
+          {{/foreach}}
+    {{/get}}
+  </ul>
+  </article>
+</div><!-- end of sidebar item -->
 </div>

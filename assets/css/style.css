@@ -145,14 +145,6 @@ strong {
   HEADER
 
 *****************************************/
-
-/* website title header */
-header .blogtitle {
-    font-size: 36px;
-    margin-top:30px;
-		margin-left:10px;
-}
-
 /* color of clickable header */
 .headerurl {
     color: white !important;
@@ -219,6 +211,14 @@ i.small.mdi-navigation-menu {
 .card-sidebar {
 	margin: 0px !important;
 	width:100%;
+}
+
+.collection .collection-item a {
+	color:#979797 !important;
+}
+
+.collection .collection-item a:hover {
+	color:black !important;
 }
 
 /* ######################################
@@ -320,11 +320,6 @@ article > ul li {
   text-align: justify;
 }
 
-article > ul {
-  margin-left: 30px !important;
-}
-
-
 /* general dimensions of posts/articles */
 article {
     margin-left: auto;
@@ -339,12 +334,6 @@ article img {
 }
 .individual-post {
 	padding:0px !important;
-}
-
-
-/* only for featured posts */
-.content-images-featured {
-  max-height:200px !important;
 }
 
 img.content-images-featured:hover, img.content-images:hover {
@@ -399,12 +388,6 @@ padding: 40px;
     padding: 20px;
     margin-bottom: 0.25rem;
     color: white;
-}
-
-
-.tag_heading > hr {
-	margin-top:60px !important;
-	margin-bottom:40px !important;
 }
 
 .tags {
@@ -536,11 +519,6 @@ footer > nav {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:640px) and (min-width:200px) {
-	header .blogtitle {
-		font-size: 28px;
-	}
-
-
 	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {
 		height:55px;
@@ -560,10 +538,6 @@ footer > nav {
 
 /* mobile devices */
 @media (max-width:992px) and (min-width:601px) {
-    header .blogtitle {
-      font-size: 28px;
-    }
-
     h1 {
 			font-family: 'Roboto', sans-serif;
     	font-size: 18px;

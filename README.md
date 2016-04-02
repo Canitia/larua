@@ -4,7 +4,7 @@
 A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
 #Design & features
-- As it's material design based - it's simple, no header images and stuff, no fuss, it just works.
+- material design based.
 - Ability to set your own site logo and cover image
 - Shows 3 featured posts (need the API to be enabled in Ghost Dashboard -> Labs -> API).
 - Navigation menu can be setup using the Ghost settings panel -> navigation option.

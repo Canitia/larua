@@ -31,10 +31,16 @@ This theme is still adding features and under development, but check the release
 #Use
 - Download the package from the releases page and extract in your Ghost's 'content/theme' folder
 - Restart your Ghost instance to see the new theme and apply it.
+- 
+#Requirement
+To make full use of this theme you need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API. 
+
+#Must do
+In the folder 'assets/js/randompost.js' you need to enter your own website url (at the result.append ... section). This is the url it uses to connect to your API. 
 
 #Customization - partials
 ##Disqus
-To use disqus; create a file in the partials folder called disqus.hbs. Parse the full 'disqus universal' code in there. After that open the post.hbs file and search for 'disqus' you should find a long comment showing where to load the disqus.hbs. You load this file by including: {{> disqus}}.  
+To use disqus; create a file in the partials folder called disqus.hbs. Parse the full 'disqus universal' code in there. After that open the post.hbs file and search for 'disqus' you should find a long comment showing where to load the disqus.hbs. You load this file by including: {{> disqus}} at the location. 
 
 ##Google Analytics
 To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'. 

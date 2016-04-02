@@ -346,7 +346,10 @@ img.content-images-featured:hover, img.content-images:hover {
 }
 
 .article-footer-img {
-	width:50%;
+	width:auto;
+	max-width:50%;
+	max-height:100%;
+
 }
 
 .article-footer-img:hover {
@@ -370,11 +373,6 @@ img.content-images-featured:hover, img.content-images:hover {
 /* add some styling to disqus */
 #disqus_thread {
 padding: 40px;
-}
-
-/* random posts section at bottom of a post */
-#random-posts-list {
-	height:158px;
 }
 
 

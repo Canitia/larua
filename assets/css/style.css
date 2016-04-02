@@ -341,12 +341,6 @@ article img {
 	padding:0px !important;
 }
 
-
-/* only for featured posts */
-.content-images-featured {
-  max-height:200px !important;
-}
-
 img.content-images-featured:hover, img.content-images:hover {
 	opacity:0.9;
 }

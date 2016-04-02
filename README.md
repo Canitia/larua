@@ -31,7 +31,7 @@ This theme is still adding features and under development, but check the release
 #Use
 - Download the package from the releases page and extract in your Ghost's 'content/theme' folder
 - Restart your Ghost instance to see the new theme and apply it.
-- 
+
 #Requirement
 To make full use of this theme you need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API. 
 

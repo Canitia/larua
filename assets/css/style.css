@@ -213,6 +213,14 @@ i.small.mdi-navigation-menu {
 	width:100%;
 }
 
+.collection .collection-item a {
+	color:#979797 !important;
+}
+
+.collection .collection-item a:hover {
+	color:black !important;
+}
+
 /* ######################################
 
 POST/ARTICLE HEADERS

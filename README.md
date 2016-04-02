@@ -34,7 +34,7 @@ This theme is still adding features and under development, but check the release
 
 #Customization - partials
 ##Disqus
-To use disqus; create a file in the partials folder called disqus.hbs. Parse the full 'disqus universal' code in there. After that open the post.hbs file and search for 'disqus' you should find a long comment showing a example how to enable disqus. 
+To use disqus; create a file in the partials folder called disqus.hbs. Parse the full 'disqus universal' code in there. After that open the post.hbs file and search for 'disqus' you should find a long comment showing where to load the disqus.hbs. You load this file by including: {{> disqus}}.  
 
 ##Google Analytics
 To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'. 

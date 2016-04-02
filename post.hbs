@@ -7,7 +7,12 @@
       <img class="content-images-individual" title="{{title}}" alt="{{title}}" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}"/>
 
       <h1 class="text-left-title center-align"></i>{{title}}</h1>
-      <h4 class="text-left-title-featured center-align"><p class="postdate center-align">{{#if featured}}<i class="fa fa-star"> Featured</i>{{/if}} <i class="fa fa-calendar"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time><i class="fa fa-user-secret"></i>{{#author}}<a class="author-url-post-head" href="{{url}}">{{name}}</a>{{/author}}</p>
+      <h4 class="text-left-title-featured center-align">
+        <p class="postdate center-align">
+          {{#if featured}}<i class="fa fa-star"> Featured</i>{{/if}}
+          <i class="fa fa-calendar"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+          <i class="fa fa-user-secret"></i>{{#author}}<a class="author-url-post-head" href="{{url}}">{{name}}</a>{{/author}}
+        </p>
       </h4>
       <p class="text-justify-individual">{{content}}</p>
       <br />

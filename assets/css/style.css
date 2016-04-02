@@ -312,11 +312,6 @@ article > ul li {
   text-align: justify;
 }
 
-article > ul {
-  margin-left: 30px !important;
-}
-
-
 /* general dimensions of posts/articles */
 article {
     margin-left: auto;

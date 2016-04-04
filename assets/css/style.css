@@ -5,13 +5,11 @@
 *****************************************/
 
 html body {
-	font-family: 'Roboto', sans-serif;
 line-height: 0 !important;
 font-size:16px;
 }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
@@ -20,7 +18,6 @@ h1 {
 }
 
 h2 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 26px;
 	font-style: normal;
 	font-variant: normal;
@@ -29,7 +26,6 @@ h2 {
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
@@ -38,7 +34,6 @@ h3 {
 }
 
 h4 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
@@ -206,7 +201,6 @@ POST/ARTICLE HEADERS
 
 /* post title */
 .text-left-title {
-	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
@@ -222,7 +216,6 @@ POST/ARTICLE HEADERS
 
 /* post title */
 .text-left-title-featured {
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
@@ -449,7 +442,6 @@ footer {
 /* mobile devices */
 @media (max-width:992px) and (min-width:601px) {
     h1 {
-			font-family: 'Roboto', sans-serif;
     	font-size: 18px;
     }
 

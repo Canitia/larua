@@ -289,6 +289,10 @@ article img {
 	padding:0px !important;
 }
 
+.slider {
+	margin-bottom: 25px !important;
+}
+
 .slider .slides li .caption {
 	bottom:0% !important;
 	top:unset !important;

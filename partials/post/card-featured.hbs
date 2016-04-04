@@ -1,13 +1,15 @@
-<div class="row featured hide-on-small-only">
-{{#get "posts" limit="2" filter="featured:true" order="published_at desc" as |featured| }}
-  {{#foreach featured}}
-      <div class="col m6">
-          <article class="hoverable">
-            <a href="{{url}}"><img class="content-images-featured" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
-            </a>
-                      <h1 class="text-left-title-featured center-align blue darken-3 truncate"><a href="{{url}}">{{title}}</a></h1>
-          </article>
-      </div>
- {{/foreach}}
- {{/get}}
-</div>
+<div class="slider hide-on-small-only">
+    <ul class="slides">
+      {{#get "posts" limit="4" filter="featured:true" order="published_at desc" as |featured| }}
+        {{#foreach featured}}
+      <li>
+        <a href="{{url}}"><img class="content-images-featured" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+        </a>
+        <div class="caption center-align">
+          <h3 class="text-left-title-featured blue darken-3">{{title}}</h3>
+        </div>
+      </li>
+      {{/foreach}}
+      {{/get}}
+    </ul>
+  </div>

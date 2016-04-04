@@ -213,12 +213,20 @@ i.small.mdi-navigation-menu {
 	width:100%;
 }
 
+.collection {
+	margin:0px !important;
+}
+
 .collection .collection-item a {
-	color:#979797 !important;
+	color:black !important;
+}
+
+.collection .collection-item:hover {
+	background-color: #e0e0e0 !important;
 }
 
 .collection .collection-item a:hover {
-	color:black !important;
+	color:#979797 !important;
 }
 
 /* ######################################

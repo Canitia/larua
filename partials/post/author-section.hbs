@@ -4,8 +4,9 @@
     <img src="{{image}}" class="avatar left" title="{{title}}" alt="Image of {{name}}"/>
     {{/if}}
     <p class="author-bio">
-    <strong>About {{name}}</strong><br />
-    {{#if bio}}{{bio}}{{else}}No bio information available{{/if}}
-  </p><br />
+    <strong>{{name}}</strong><br />
+    {{#if bio}}{{bio}}{{else}}-{{/if}}
+  </p>
+  <br />
   </section>
 {{/author}}

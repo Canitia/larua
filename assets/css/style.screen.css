@@ -125,6 +125,26 @@ section.author-profile {
   		color:white;
 }
 
+.pagination li a {
+	color:white !important;
+}
+
+.pagination li:hover {
+		background-color: #0D47A1 !important;
+}
+
+.pagination li.active {
+	background-color: #0D47A1 !important;
+}
+
+li.pagination-arrows:hover {
+	background-color: #1565C0 !important;
+}
+
+li.pagination-arrows a i:hover {
+	color:black;
+}
+
 
 footer a {
   color: white !important;

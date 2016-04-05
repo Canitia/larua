@@ -5,14 +5,11 @@
 *****************************************/
 
 html body {
-	font-family: 'Roboto', sans-serif;
-background-color:dimgrey;
 line-height: 0 !important;
 font-size:16px;
 }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
@@ -21,7 +18,6 @@ h1 {
 }
 
 h2 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 26px;
 	font-style: normal;
 	font-variant: normal;
@@ -30,7 +26,6 @@ h2 {
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
@@ -39,7 +34,6 @@ h3 {
 }
 
 h4 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
@@ -60,13 +54,7 @@ p.text-justify {
 }
 
 p > a {
-	color: black !important;
 	text-decoration: underline;
-}
-
-p > a:focus, p > a:hover
-{
-  color:grey  !important;
 }
 
 hr {
@@ -147,12 +135,10 @@ strong {
 *****************************************/
 /* color of clickable header */
 .headerurl {
-    color: white !important;
     text-decoration: none;
 }
 
 .headerurl:hover {
-  color:black !important;
   text-decoration: none;
 }
 
@@ -180,27 +166,15 @@ i.small.mdi-navigation-menu {
     overflow:auto;
 }
 
-.side-nav {
-  background-color: black !important;
-}
 
-.side-nav a {
-  color: white !important;
-}
 
-.side-nav a:hover {
-  color:white !important;
-  background-color: #0d47a1;
-}
 
 .side-nav li {
     height: 55px;
 		padding:0 !important;
 }
 
-.side-nav li:hover{
-    background-color: black !important;
-}
+
 
 /* **************************************
 
@@ -213,13 +187,10 @@ i.small.mdi-navigation-menu {
 	width:100%;
 }
 
-.collection .collection-item a {
-	color:#979797 !important;
+.collection {
+	margin:0px !important;
 }
 
-.collection .collection-item a:hover {
-	color:black !important;
-}
 
 /* ######################################
 
@@ -230,7 +201,6 @@ POST/ARTICLE HEADERS
 
 /* post title */
 .text-left-title {
-	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
@@ -244,13 +214,8 @@ POST/ARTICLE HEADERS
 	text-overflow: ellipsis;
 }
 
-h1.text-left-title a:hover  {
-	color:black !important;
-}
-
 /* post title */
 .text-left-title-featured {
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
@@ -258,28 +223,14 @@ h1.text-left-title a:hover  {
 	line-height: 26.3999996185303px;
 	margin: 0px;
 	padding:10px !important;
-	color:white;
 
 	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
 }
 
-.main-content > .text-left-title  {
-	color:#979797 !important;
-}
-
 .text-left-title a {
-		color: #979797 !important;
 		text-decoration: none;
-}
-
-.text-left-title-featured a {
-	color: white;
-}
-
-.text-left-title a:hover, .text-left-title-featured a:hover {
-	color: white;
 }
 
 /* **************************************
@@ -307,10 +258,6 @@ article > h4 {
   margin-left: 10px;
 }
 
-article > h1, article > h2, article > h3, article > h4 {
-	color: #979797 !important;
-}
-
 article > ul li {
   list-style-type: square !important;
   margin-left: 40px;
@@ -325,7 +272,6 @@ article {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
-    background-color: white;
 		word-wrap: break-word;
 }
 
@@ -335,6 +281,18 @@ article img {
 .individual-post {
 	padding:0px !important;
 }
+
+.slider {
+	margin-bottom: 25px !important;
+}
+
+.slider .slides li .caption {
+	bottom:0% !important;
+	top:unset !important;
+	left:unset !important;
+	width: 100% !important;
+}
+
 
 img.content-images-featured:hover, img.content-images:hover {
 	opacity:0.9;
@@ -358,16 +316,7 @@ img.content-images-featured:hover, img.content-images:hover {
 
 .postdate {
     font-size: 16px;
-    color: #979797;
     margin:0px;
-}
-
-.postdate a {
-  color: white;
-}
-
-.postdate a:hover {
-  color:#979797;
 }
 
 /* add some styling to disqus */
@@ -385,7 +334,6 @@ padding: 40px;
 .tag_heading {
     padding: 20px;
     margin-bottom: 0.25rem;
-    color: white;
 }
 
 .tags {
@@ -401,36 +349,18 @@ padding: 40px;
 	border-radius: 0px !important;
 }
 
-/* tag url color */
-.chip a {
-  color:white !important;
-}
-
-.chip a:hover {
-      color: #979797 !important;
-}
-
 /* **************************************
 
 	ARTICLE: AUTHOR look-n-feel
 
 *****************************************/
-.author-url-post-head {
-		color: #979797;
-}
 
 
 section.author-profile {
 	padding:30px;
-	background-color:#E8E8EE;
-}
-
-.author-profile h4 {
-	color:#979797 !important;
 }
 
 .author-profile h4 a {
-	color:black !important;
 	text-decoration: underline;
 }
 
@@ -461,19 +391,7 @@ p.author-bio {
 *****************************************/
 
 .pagination {
-		display: block !important;
-		bottom: 0;
-		right: 30px;
-		color:white;
-}
-
-.pagination > a {
-	margin-left: 7px;
-	margin-right: 7px;
-}
-
-.pagination > a > i:hover {
-	color:black;
+		padding:15px;
 }
 
 /* **************************************
@@ -486,27 +404,6 @@ footer {
     overflow: hidden;
     z-index: 999;
     padding: 20px;
-}
-
-footer a {
-  color: white !important;
-}
-
-footer > nav {
-  background-color: #0d47a1 !important;
-}
-
-/* social media icons sidebar and footer */
-.socialfooter {
-  border-top:1px solid rgba(0,0,0,0.12);
-}
-
-.socialfooter > a {
-    color: #00bfff;
-}
-
-.socialfooter > a:hover {
-    color: black;
 }
 
 /* **************************************
@@ -537,7 +434,6 @@ footer > nav {
 /* mobile devices */
 @media (max-width:992px) and (min-width:601px) {
     h1 {
-			font-family: 'Roboto', sans-serif;
     	font-size: 18px;
     }
 
@@ -550,7 +446,6 @@ footer > nav {
     .content-images, .content-images-individual {
         width: 100%;
     }
-
 
 			.container-fluid {
 				margin-top:25px;
@@ -569,7 +464,6 @@ footer > nav {
 	}
 }
 
-
 	/* **************************************
 
 	  FONT AWESOME look-n-feel
@@ -578,10 +472,6 @@ footer > nav {
 .fa-user-secret, .fa-star, .fa-calendar {
   margin-left:20px;
   margin-right:20px;
-}
-
-body > main > div > article > h4 > p > i {
-	color:white;
 }
 
 .postdate > a i {
@@ -604,12 +494,4 @@ body > main > div > article > h4 > p > i {
 	    margin-top: 3px;
 	    padding: 15px;
 	    transition: all 0.2s ease-in-out;
-	}
-
-	.socialfooter > a i:hover {
-	    color:black;
-	}
-
-	.fa-star {
-	  color: #ffa500 !important;
 	}

@@ -1,0 +1,181 @@
+html body {
+  background-color: dimgrey;
+}
+
+p > a {
+	color: black !important;
+}
+
+
+p > a:focus, p > a:hover
+{
+  color:grey  !important;
+}
+
+.headerurl {
+      color: white !important;
+}
+
+.headerurl:hover, .side-nav li:hover, h1.text-left-title a:hover, .pagination > a > i:hover {
+    color:black !important;
+}
+
+.side-nav {
+  background-color: black !important;
+}
+
+.side-nav a {
+  color: white !important;
+}
+
+.side-nav a:hover {
+  color:white !important;
+  background-color: #0d47a1;
+}
+
+
+.collection .collection-item a {
+	color:black !important;
+}
+
+.collection .collection-item:hover {
+	background-color: #e0e0e0 !important;
+}
+
+.collection .collection-item a:hover {
+	color:#979797 !important;
+}
+
+.text-left-title-featured {
+  color:white;
+}
+
+.main-content > .text-left-title  {
+	color:#979797 !important;
+}
+
+
+.text-left-title a {
+		color: #979797 !important;
+}
+
+.text-left-title-featured a {
+	color: white;
+}
+
+.text-left-title a:hover, .text-left-title-featured a:hover {
+	color: white;
+}
+
+article > h1, article > h2, article > h3, article > h4 {
+	color: #979797 !important;
+}
+
+article {
+      background-color: white;
+}
+
+.slider .indicators .indicator-item.active {
+	color: #979797 !important;
+}
+
+.postdate {
+    color: #979797;
+}
+
+
+.postdate a {
+  color: white;
+}
+
+.postdate a:hover {
+  color:#979797;
+}
+
+.tag_heading {
+      color: white;
+}
+
+/* tag url color */
+.chip a {
+  color:white !important;
+}
+
+.chip a:hover {
+      color: #979797 !important;
+}
+
+.author-url-post-head {
+		color: #979797;
+}
+
+section.author-profile {
+	background-color:whitesmoke;
+}
+
+.author-profile h4 {
+	color:#979797 !important;
+}
+
+.author-profile h4 a {
+	color:black !important;
+}
+
+.pagination {
+  		color:white;
+}
+
+.pagination li a {
+	color:white !important;
+}
+
+.pagination li:hover {
+		background-color: #0D47A1 !important;
+}
+
+.pagination li.active {
+	background-color: #0D47A1 !important;
+}
+
+li.pagination-arrows:hover {
+	background-color: #1565C0 !important;
+}
+
+li.pagination-arrows a i:hover {
+	color:black;
+}
+
+
+footer a {
+  color: white !important;
+}
+
+footer > nav {
+  background-color: #0d47a1 !important;
+}
+
+/* social media icons sidebar and footer */
+.socialfooter {
+  border-top:1px solid rgba(0,0,0,0.12);
+}
+
+.socialfooter > a {
+    color: #00bfff;
+}
+
+.socialfooter > a:hover {
+    color: black;
+}
+
+body > main > div > article > h4 > p > i {
+	color:white;
+}
+
+
+	.socialfooter > a i:hover {
+	    color:black;
+	}
+
+	.fa-star {
+	  color: #ffa500 !important;
+	}

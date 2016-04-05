@@ -401,6 +401,10 @@ p.author-bio {
 	margin-right: 7px;
 }
 
+.pagination li.active {
+	background-color: #0D47A1 !important;
+}
+
 
 /* **************************************
 

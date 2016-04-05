@@ -1,9 +1,12 @@
-<nav class="pagination blue darken-3 center-align" role="pagination">
+<ul class="pagination blue darken-3 center-align" role="pagination">
     {{#if prev}}
-        <a class="newer-posts" href="{{page_url prev}}"><i class="fa fa-arrow-left fa-2x"></i></a>
+        <li class="pagination-arrows"><a class="newer-posts" href="{{page_url prev}}"><i class="fa fa-arrow-left fa-2x"></i></a></li>
+        <li><a href="{{page_url prev}}">{{prev}}</a></li>
     {{/if}}
-    <span class="page-number">Page {{page}} of {{pages}}</span>
+
+    <li class="active">{{page}}</li>
     {{#if next}}
-        <a class="older-posts" href="{{page_url next}}"><i class="fa fa-arrow-right fa-2x"></i></a>
+        <li><a href="{{page_url next}}">{{next}}</a></li>
+        <li class="pagination-arrows"><a class="older-posts" href="{{page_url next}}"><i class="fa fa-arrow-right fa-2x"></i></a></li>
     {{/if}}
-</nav>
+</ul>

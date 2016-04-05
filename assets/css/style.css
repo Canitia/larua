@@ -391,20 +391,8 @@ p.author-bio {
 *****************************************/
 
 .pagination {
-		display: block !important;
-		bottom: 0;
-		right: 30px;
+		padding:15px;
 }
-
-.pagination > a {
-	margin-left: 7px;
-	margin-right: 7px;
-}
-
-.pagination li.active {
-	background-color: #0D47A1 !important;
-}
-
 
 /* **************************************
 

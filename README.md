@@ -4,7 +4,6 @@
 A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
 #Design & features
-- material design based.
 - Ability to set your own site logo and cover image
 - Shows 3 featured posts (need the API to be enabled in Ghost Dashboard -> Labs -> API).
 - Navigation menu can be setup using the Ghost settings panel -> navigation option.
@@ -50,17 +49,5 @@ Included again as of version 0.8. Only shows on medium and high resolutions (~10
 
 ##Social
 I've added the ability to add social links to the footer. In the partials/ui/footer.hbs you can setup your own social media links. I have included a smaller version of font-awesome in this theme so the available icons are limited unless you add the full font-awesome (in default.hbs). The current available options in my version are: bitbucket, lastfm, linkedin, facebook-official, github, google-plus, rss, arrow-left, arrow-right and twitter.
-
-#Translation
-There are a few places where a static (English) text has been placed if you want to translate these check the sections below.
-
-##partials/pagination.hbs
-In the current release there is an custom Pagination file. The file can be found at the following location: /partials/pagination.hbs. 
-
-##partials/post/author-section.hbs
-Includes 'about' and 'no bio available' text. 
-
-##partials/ui/sidebar.hbs
-If you keep the 'most used tags' included in the sidebar by default you may want to translate the 'most used tags' text in the h1 tag. 
 
 

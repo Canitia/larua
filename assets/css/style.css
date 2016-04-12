@@ -78,6 +78,11 @@ blockquote > p {
 
 pre {
 	line-height: 18.5714302062988px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color: #f5f7f8;
 }
 
 strong {

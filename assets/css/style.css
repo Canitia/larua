@@ -267,6 +267,14 @@ article > ul li {
   text-align: justify;
 }
 
+article > ol li {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding:5px;
+  line-height: 25px;
+  text-align: justify;
+}
+
 /* general dimensions of posts/articles */
 article {
     margin-left: auto;

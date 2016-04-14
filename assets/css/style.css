@@ -141,6 +141,7 @@ strong {
 /* color of clickable header */
 .headerurl {
     text-decoration: none;
+		margin-left:55px;
 }
 
 .headerurl:hover {
@@ -442,6 +443,7 @@ footer {
 		margin-left: 25px;
 		margin-right: 25px;
 	}
+
 }
 
 /* mobile devices */

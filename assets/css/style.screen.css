@@ -1,4 +1,27 @@
-html body {
+/* ##############################
+
+  SET OVERALL ACCENT color
+
+  #############################*/
+.accentcolor {
+background-color: #0d47a1 !important;
+}
+
+.accentcolor2 {
+  background-color: #1565c0 !important;
+}
+
+.accentcolor-error {
+  background-color: red !important;
+}
+
+
+  /* ##############################
+
+    OTHER COLORS
+
+    #############################*/
+  html body {
   background-color: dimgrey;
 }
 

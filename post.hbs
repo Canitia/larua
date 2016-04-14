@@ -19,7 +19,7 @@
       {{#if tags}}
       <div class="tags center-align">
       {{#foreach tags}}
-          <div class="chip blue darken-4">
+          <div class="chip accentcolor">
           <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
           </div>
       {{/foreach}}
@@ -27,7 +27,7 @@
       {{/if}}
     {{> 'post/author-section'}}
         <div>
-          <h1 class="text-left-title-featured blue darken-4 center-align"></i>Need something else to read?</h1>
+          <h1 class="text-left-title-featured accentcolor center-align"></i>Need something else to read?</h1>
           <div id="random-posts-list">
             {{! content of 'randompost.js' gets entered here! }}
           </div>

@@ -7,7 +7,7 @@
 background-color: #0d47a1 !important;
 }
 
-.accentcolor2 {
+.accentcolor2, .side-nav li:hover {
   background-color: #1565c0 !important;
 }
 
@@ -25,7 +25,7 @@ background-color: #0d47a1 !important;
   background-color: dimgrey;
 }
 
-p > a, .headerurl:hover, .side-nav li:hover, h1.text-left-title a:hover, .pagination > a > i:hover, .collection .collection-item a, .author-profile h4 a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
+p > a, .headerurl:hover, h1.text-left-title a:hover, .pagination > a > i:hover, .collection .collection-item a, .author-profile h4 a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
 	color: black !important;
 }
 

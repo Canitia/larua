@@ -51,7 +51,7 @@ p > a:focus, p > a:hover
 	background-color: #e0e0e0 !important;
 }
 
-.collection .collection-item a:hover, .main-content > .text-left-title, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate, .postdate a:hover, .chip a:hover, .author-url-post-head  {
+.collection .collection-item a:hover, .main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate, .postdate a:hover, .chip a:hover, .author-url-post-head  {
 	color:#979797 !important;
 }
 

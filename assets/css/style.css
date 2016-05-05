@@ -164,16 +164,13 @@ img.logo {
 
 *****************************************/
 
-i.small.mdi-navigation-menu {
-	padding: 5px;
+i.fa.fa-bars {
+	margin-right:15px;
 }
 
 .side-nav full {
     overflow:auto;
 }
-
-
-
 
 .side-nav li {
     height: 55px;
@@ -305,8 +302,14 @@ article img {
 	top:unset !important;
 	left:unset !important;
 	width: 100% !important;
+	padding: 20px;
 }
 
+.slider .slides li img {
+	height: 400px !important;
+	width: 960px !important;
+	background-repeat:no-repeat !important;
+}
 
 img.content-images-featured:hover, img.content-images:hover {
 	opacity:0.9;

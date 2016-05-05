@@ -7,7 +7,7 @@
 background-color: #0d47a1 !important;
 }
 
-.accentcolor2 {
+.accentcolor2, .side-nav li:hover {
   background-color: #1565c0 !important;
 }
 
@@ -25,7 +25,7 @@ background-color: #0d47a1 !important;
   background-color: dimgrey;
 }
 
-p > a, .headerurl:hover, .side-nav li:hover, h1.text-left-title a:hover, .pagination > a > i:hover, .collection .collection-item a, .author-profile h4 a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
+p > a, .headerurl:hover, h1.text-left-title a:hover, .pagination > a > i:hover, .collection .collection-item a, .author-profile h4 a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
 	color: black !important;
 }
 
@@ -51,7 +51,7 @@ p > a:focus, p > a:hover
 	background-color: #e0e0e0 !important;
 }
 
-.collection .collection-item a:hover, .main-content > .text-left-title, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate, .postdate a:hover, .chip a:hover, .author-url-post-head  {
+.collection .collection-item a:hover, .main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate, .postdate a:hover, .chip a:hover, .author-url-post-head  {
 	color:#979797 !important;
 }
 

@@ -306,8 +306,8 @@ article img {
 }
 
 .slider .slides li img {
-	height: auto !important;
-	width: 100% !important;
+	height: 400px !important;
+	width: 960px !important;
 	background-repeat:no-repeat !important;
 }
 

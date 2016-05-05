@@ -311,10 +311,6 @@ article img {
 	background-repeat:no-repeat !important;
 }
 
-.slider .slides li img {
-	height: auto !important;
-}
-
 img.content-images-featured:hover, img.content-images:hover {
 	opacity:0.9;
 }

@@ -172,9 +172,6 @@ i.fa.fa-bars {
     overflow:auto;
 }
 
-
-
-
 .side-nav li {
     height: 55px;
 		padding:0 !important;
@@ -305,6 +302,7 @@ article img {
 	top:unset !important;
 	left:unset !important;
 	width: 100% !important;
+	padding: 20px;
 }
 
 

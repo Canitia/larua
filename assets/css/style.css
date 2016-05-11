@@ -320,6 +320,10 @@ img.content-images-featured:hover, img.content-images:hover {
 	height: 45px !important;
 }
 
+iframe {
+	max-width: 100% !important;
+}
+
 .article-footer-img {
 	width:auto;
 	max-width:50%;

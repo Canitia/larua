@@ -50,7 +50,7 @@ p {
 }
 
 p.text-justify {
-	padding: 20px;
+	padding: 25px;
 }
 
 p > a {
@@ -190,6 +190,10 @@ i.fa.fa-bars {
 	width:100%;
 }
 
+.sidebar {
+	margin-top: 0px !important;
+}
+
 .collection {
 	margin:0px !important;
 }
@@ -209,27 +213,29 @@ POST/ARTICLE HEADERS
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 26.3999996185303px;
-	padding:20px;
-	margin: 0px;
 	color:white;
 	white-space:normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
+	padding: 7px;
 }
 
 /* post title */
-.text-left-title-featured {
+.text-left-title-featured, .text-left-title-featured-sidebar {
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 26.3999996185303px;
-	margin: 0px;
 	padding:10px !important;
-
+	margin-top:5px;
 	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
+}
+
+.text-left-title-featured-sidebar {
+	margin-bottom: 0px;
 }
 
 .text-left-title a {
@@ -267,7 +273,6 @@ article > ul li {
   margin-right: 40px;
   padding:5px;
   line-height: 25px;
-  text-align: justify;
 }
 
 article > ol li {

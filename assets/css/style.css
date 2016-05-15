@@ -233,6 +233,10 @@ POST/ARTICLE HEADERS
 	text-overflow: ellipsis;
 }
 
+.text-left-title-featured-sidebar {
+	margin-bottom: 0px;
+}
+
 .text-left-title a {
 		text-decoration: none;
 }

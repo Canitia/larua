@@ -190,6 +190,10 @@ i.fa.fa-bars {
 	width:100%;
 }
 
+.sidebar {
+	margin-top: 0px !important;
+}
+
 .collection {
 	margin:0px !important;
 }
@@ -223,7 +227,7 @@ POST/ARTICLE HEADERS
 	font-weight: 400;
 	line-height: 26.3999996185303px;
 	padding:10px !important;
-
+	margin-top:5px;
 	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;

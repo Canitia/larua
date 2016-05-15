@@ -23,9 +23,7 @@ mati uses the following libraries;
 #Release
 This theme is still adding features and under development, but check the releases page for stable versions.
 
-![Homescreen with featured posts, sidebar and regulat posts](http://img.photobucket.com/albums/v385/hxkclan/2016-04-02%203.png)
-![Post UI om homescreen](http://img.photobucket.com/albums/v385/hxkclan/2016-04-01%203.png)
-![Post page bottom - tags, author section and disqus](http://img.photobucket.com/albums/v385/hxkclan/2016-04-02%202.png)
+![Homescreen with featured posts, sidebar and regular posts](https://u8zxna.dm2303.livefilestore.com/y3mX3WZWKlc5_H-_t8ExOYJ3upzB4wzlKPUE93RdXSNaoBYZUr4uH6Diu0L-Zeiz12u8uhtkOibdAUsvRW0quwRckEjZzN5CH_qESsByMK3LkndWuyC9uYgiBnSZi4ThdME3ATEArV-IC0JLKnLiC550w?width=1206&height=1147&cropmode=none)
 
 #Use
 - Download the package from the releases page and extract in your Ghost's 'content/theme' folder

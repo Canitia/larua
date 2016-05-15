@@ -1,4 +1,4 @@
-<div class="col s12 m12 l4 hide-on-med-and-down">
+<div class="col s12 m12 l4 hide-on-med-and-down sidebar">
   <!-- each sidebar 'card' should be formatted like this
 
   <div class="card card-sidebar">
@@ -8,9 +8,22 @@
     </article>
   </div>
 -->
+<div class="card card-sidebar"><!-- start of a sidebar item -->
+  <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Recent</h1>
+  <article>
+    <ul class="collection">
+    {{#get "posts" limit="4" as |recents|}}
+          {{#foreach recents}}
+              <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
+          {{/foreach}}
+    {{/get}}
+  </ul>
+  </article>
+</div><!-- end of sidebar item -->
+
 
 <div class="card card-sidebar"><!-- start of a sidebar item -->
-  <h1 class="text-left-title-featured accentcolor2 center-align">Most used tags</h1>
+  <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Most used tags</h1>
   <article>
     <ul class="collection">
     {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}

@@ -33,6 +33,7 @@ background-color: #0d47a1 !important;
  .text-left-title-featured-sidebar {
    opacity: 1;
    background-color: #1565c0 !important;
+   color:white !important;
  }
 
 p > a, .headerurl:hover, h1.text-left-title a:hover, .pagination > a > i:hover, .collection .collection-item a, .author-profile h4 a, li.pagination-arrows a i:hover, .socialfooter > a:hover {

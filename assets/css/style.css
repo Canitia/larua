@@ -217,6 +217,7 @@ POST/ARTICLE HEADERS
 	white-space:normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
+	padding: 7px;
 }
 
 /* post title */

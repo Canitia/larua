@@ -209,8 +209,6 @@ POST/ARTICLE HEADERS
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 26.3999996185303px;
-	padding:20px;
-	margin: 0px;
 	color:white;
 	white-space:normal;
 	overflow:hidden;
@@ -224,7 +222,6 @@ POST/ARTICLE HEADERS
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 26.3999996185303px;
-	margin: 0px;
 	padding:10px !important;
 
 	white-space: normal;

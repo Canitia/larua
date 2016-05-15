@@ -13,7 +13,7 @@
   <article>
     <ul class="collection">
     {{#get "posts" limit="4" as |recents|}}
-          {{#foreach tags}}
+          {{#foreach recents}}
               <li class="collection-item"><a href="{{url}}">{{name}}</a></li>
           {{/foreach}}
     {{/get}}

@@ -25,6 +25,10 @@ background-color: #0d47a1 !important;
   background-color: dimgrey;
 }
 
+blockquote {
+  background-color: whitesmoke;
+}
+
  .text-left-title-featured {
   opacity: 0.7;
   background-color: black !important;

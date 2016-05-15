@@ -23,7 +23,7 @@ mati uses the following libraries;
 #Release
 This theme is still adding features and under development, but check the releases page for stable versions.
 
-![Homescreen with featured posts, sidebar and regular posts](https://u8zxna.dm2303.livefilestore.com/y3mg8rf-VBoE0kIkcdNKDOKhGKtbhKQKpuhwz_eO8Y-kcxs_s5b6c6CvMYLSDgbu1No8sc_rSKfntx-Gf-vQFJHGNkdAgAMaq_D-dP9wz5Jk0qZ3s3Xu0kbqIzebA4K7wRVNGUTSFSemzg8onAJUD8Qng?width=1206&height=1147&cropmode=none)
+![Homescreen with featured posts, sidebar and regular posts](https://u8zxna.dm2303.livefilestore.com/y3mX3WZWKlc5_H-_t8ExOYJ3upzB4wzlKPUE93RdXSNaoBYZUr4uH6Diu0L-Zeiz12u8uhtkOibdAUsvRW0quwRckEjZzN5CH_qESsByMK3LkndWuyC9uYgiBnSZi4ThdME3ATEArV-IC0JLKnLiC550w?width=1206&height=1147&cropmode=none)
 
 #Use
 - Download the package from the releases page and extract in your Ghost's 'content/theme' folder

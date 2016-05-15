@@ -9,7 +9,7 @@
   </div>
 -->
 <div class="card card-sidebar"><!-- start of a sidebar item -->
-  <h1 class="text-left-title-featured accentcolor2 center-align">Recent</h1>
+  <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Recent</h1>
   <article>
     <ul class="collection">
     {{#get "posts" limit="4" as |recents|}}
@@ -23,7 +23,7 @@
 
 
 <div class="card card-sidebar"><!-- start of a sidebar item -->
-  <h1 class="text-left-title-featured accentcolor2 center-align">Most used tags</h1>
+  <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Most used tags</h1>
   <article>
     <ul class="collection">
     {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}

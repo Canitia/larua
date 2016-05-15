@@ -7,9 +7,10 @@
       <img class="content-images-individual" title="{{title}}" alt="{{title}}" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}"/>
 
       <h1 class="text-left-title center-align"></i>{{title}}</h1>
-      <h4 class="text-left-title-featured center-align">
+      <h4 class="text-left-title-featured-slider center-align">
         <p class="postdate center-align">
-          {{#if featured}}<i class="fa fa-star"> Featured</i>{{/if}}
+          {{#if featured}}
+          <i class="fa fa-star"> Featured</i>{{/if}}
           <i class="fa fa-calendar"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
           <i class="fa fa-user-secret"></i>{{#author}}<a class="author-url-post-head" href="{{url}}">{{name}}</a>{{/author}}
         </p>
@@ -26,13 +27,13 @@
     </div>
       {{/if}}
     {{> 'post/author-section'}}
-        <div>
-          <h1 class="text-left-title-featured accentcolor center-align"></i>Need something else to read?</h1>
+<!--        <div>
+          <h1 class="text-left-title-featured-sidebar accentcolor center-align"></i>Need something else to read?</h1>
           <div id="random-posts-list">
             {{! content of 'randompost.js' gets entered here! }}
           </div>
         </div>
-
+-->
 {{! Disqus should be included right below this tag; for more information about this check the readme }}
       </article>
 {{/post}}

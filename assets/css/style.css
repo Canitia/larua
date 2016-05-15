@@ -69,6 +69,8 @@ hr {
 blockquote {
 	line-height: 30px;
   border-left: 5px solid grey !important;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 blockquote > p {

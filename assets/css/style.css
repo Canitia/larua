@@ -7,6 +7,7 @@
 html body {
 line-height: 0 !important;
 font-size:16px;
+font-family: Segoe UI, Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
 }
 
 h1 {
@@ -50,6 +51,7 @@ p {
 
 p.text-justify {
 	padding: 25px;
+	margin:0px;
 }
 
 p > a {
@@ -67,7 +69,6 @@ hr {
 
 blockquote {
 	line-height: 30px;
-  border-left: 5px solid grey !important;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -218,7 +219,8 @@ POST/ARTICLE HEADERS
 	white-space:normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
-	padding: 7px;
+	padding:15px;
+	margin:0px;
 }
 
 /* post title */
@@ -312,9 +314,10 @@ article img {
 }
 
 .slider .slides li img {
-	height: 400px !important;
-	width: 960px !important;
-	background-repeat:no-repeat !important;
+	width: 100%;
+	height: auto !important;
+	max-height:400px;
+	object-fit: cover;
 }
 
 img.content-images-featured:hover, img.content-images:hover {
@@ -344,6 +347,7 @@ iframe {
 .postdate {
     font-size: 16px;
     margin:0px;
+		padding: 15px;
 }
 
 /* add some styling to disqus */
@@ -364,8 +368,6 @@ padding: 40px;
 }
 
 .tags {
-  margin-top:25px;
-	margin-bottom:25px;
 	line-height: 60px;
 }
 
@@ -384,7 +386,7 @@ padding: 40px;
 
 
 section.author-profile {
-	padding:30px;
+	padding-bottom:20px;
 }
 
 .author-profile h4 a {
@@ -448,19 +450,45 @@ footer {
 
 	.text-left-title {
 		font-size:22px;
+		padding:3px;
+		margin:10px;
+	}
+
+	.headerurl {
+		margin-left: 0px;
 	}
 
 /* Smaller margins to the page gets fit to nearly the full screen */
 	.container-fluid {
-		margin-top:25px;
-		margin-left: 25px;
-		margin-right: 25px;
+		margin-top:0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	p.text-justify {
+		padding-top: 0px;
+		padding-left:15px;
+		padding-right:15px;
+		padding-bottom:15px;
+	}
+
+	.postdate {
+		padding:5px;
+	}
+
+	.mobile-menu{
+		position:absolute;
+		bottom:0 !important;
+	}
+
+	.pagination, .main-content {
+		margin-bottom: 32px;
 	}
 
 }
 
 /* mobile devices */
-@media (max-width:992px) and (min-width:601px) {
+@media (max-width:992px) and (min-width:640px) {
     h1 {
     	font-size: 18px;
     }
@@ -468,11 +496,12 @@ footer {
     /* post title */
     .text-left-title {
 				font-size:30px;
-        padding:20px;
+        padding:15px;
+				margin:0px;
     }
 
     .content-images, .content-images-individual {
-        width: 100%;
+				object-fit: cover;
     }
 
 			.container-fluid {
@@ -523,3 +552,7 @@ footer {
 	    padding: 15px;
 	    transition: all 0.2s ease-in-out;
 	}
+
+		.socialfooter > a i:hover {
+			color:black;
+		}

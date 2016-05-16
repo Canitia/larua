@@ -479,7 +479,7 @@ footer {
 }
 
 /* mobile devices */
-@media (max-width:992px) and (min-width:601px) {
+@media (max-width:992px) and (min-width:640px) {
     h1 {
     	font-size: 18px;
     }
@@ -488,6 +488,7 @@ footer {
     .text-left-title {
 				font-size:30px;
         padding:20px;
+				margin:0px;
     }
 
     .content-images, .content-images-individual {

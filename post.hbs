@@ -20,13 +20,12 @@
       {{#if tags}}
       <div class="tags center-align">
       {{#foreach tags}}
-          <div class="chip accentcolor">
+          <div class="waves-effect waves-light btn accentcolor">
           <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
           </div>
       {{/foreach}}
     </div>
       {{/if}}
-    {{> 'post/author-section'}}
 <!--        <div>
           <h1 class="text-left-title-featured-sidebar accentcolor center-align"></i>Need something else to read?</h1>
           <div id="random-posts-list">

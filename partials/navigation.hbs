@@ -1,7 +1,8 @@
 <header>
     <div class="navbar-fixed">
     <nav class="accentcolor">
-      <div class="nav-wrapper">
+      <!-- navbar for tablets and up -->
+      <div class="nav-wrapper hide-on-small-only">
         <!-- check if a blog cover is active -->
         {{#if @blog.logo}}
         <img src="{{@blog.logo}}" alt="blog logo" class="logo left" />
@@ -29,8 +30,19 @@
     <!-- End the loop -->
 </ul>
 
-</div>
-</nav>
+  </div>
+  </nav>
+
+
+
+  <nav class="navbar-fixed accentcolor hide-on-med-and-up">
+    <div class="nav-wrapper">
+      {{#if @blog.logo}}
+      <img src="{{@blog.logo}}" alt="blog logo" class="logo center" />
+      {{/if}}
+    </ul>
+  </div>
+  </nav>
 
 </div>
 

@@ -481,7 +481,7 @@ footer {
 		bottom:0 !important;
 	}
 
-	.pagination {
+	.pagination, .main-content {
 		margin-bottom: 32px;
 	}
 

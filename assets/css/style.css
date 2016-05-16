@@ -312,9 +312,10 @@ article img {
 }
 
 .slider .slides li img {
-	height: 400px !important;
-	width: 960px !important;
-	background-repeat:no-repeat !important;
+	width: 100%;
+	height: auto !important;
+	max-height:400px;
+	object-fit: cover;
 }
 
 img.content-images-featured:hover, img.content-images:hover {

@@ -12,11 +12,12 @@
           {{#if featured}}
           <i class="fa fa-star"> Featured</i>{{/if}}
           <i class="fa fa-calendar"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
-          {{#author}}
           <div class="chip">
+          {{#author}}
+
               <img alt="Contact Person" src="{{image}}"><a href="{{url}}">{{name}}</a>
-          </div>
           {{/author}}
+          </div>
         </p>
       </h4>
       <p class="text-justify-individual">{{content}}</p>

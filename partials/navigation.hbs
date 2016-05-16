@@ -46,10 +46,12 @@
 
   <nav class="mobile-menu navbar-fixed accentcolor hide-on-med-and-up">
     <div class="nav-wrapper">
-      <div class="socialfooter center-align">
+      <div class="center-align">
+        <ul>
         {{#foreach navigation}}
         <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
         {{/foreach}}
+      </ul>
       </div>
     </ul>
   </div>

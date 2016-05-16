@@ -51,6 +51,7 @@ p {
 
 p.text-justify {
 	padding: 25px;
+	margin:0px;
 }
 
 p > a {

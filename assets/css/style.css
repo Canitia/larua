@@ -501,8 +501,6 @@ footer {
     }
 
     .content-images, .content-images-individual {
-        width: 100%;
-				max-height:400px;
 				object-fit: cover;
     }
 

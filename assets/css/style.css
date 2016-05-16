@@ -218,7 +218,8 @@ POST/ARTICLE HEADERS
 	white-space:normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
-	padding: 7px;
+	padding:15px;
+	margin:0px;
 }
 
 /* post title */
@@ -492,7 +493,7 @@ footer {
     /* post title */
     .text-left-title {
 				font-size:30px;
-        padding:20px;
+        padding:15px;
 				margin:0px;
     }
 

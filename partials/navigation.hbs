@@ -1,8 +1,7 @@
 <header>
     <div class="navbar-fixed">
     <nav class="accentcolor">
-      <!-- navbar for tablets and up -->
-      <div class="nav-wrapper hide-on-small-only">
+      <div class="nav-wrapper">
         <!-- check if a blog cover is active -->
         {{#if @blog.logo}}
         <img src="{{@blog.logo}}" alt="blog logo" class="logo left" />
@@ -30,32 +29,8 @@
     <!-- End the loop -->
 </ul>
 
-  </div>
-  </nav>
-
-
-
-  <nav class="navbar-fixed accentcolor hide-on-med-and-up">
-    <div class="nav-wrapper">
-      <p class="brand-logo center">
-          <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
-      </p>
-    </ul>
-  </div>
-  </nav>
-
-  <nav class="mobile-menu navbar-fixed accentcolor hide-on-med-and-up">
-    <div class="nav-wrapper">
-      <div class="center-align">
-        <ul>
-        {{#foreach navigation}}
-        <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
-        {{/foreach}}
-      </ul>
-      </div>
-    </ul>
-  </div>
-  </nav>
+</div>
+</nav>
 
 </div>
 

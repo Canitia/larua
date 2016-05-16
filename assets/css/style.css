@@ -481,6 +481,10 @@ footer {
 		bottom:0 !important;
 	}
 
+	.pagination {
+		margin-bottom: 32px;
+	}
+
 }
 
 /* mobile devices */

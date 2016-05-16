@@ -453,6 +453,10 @@ footer {
 		margin:10px;
 	}
 
+	.headerurl {
+		margin-left: 0px;
+	}
+
 /* Smaller margins to the page gets fit to nearly the full screen */
 	.container-fluid {
 		margin-top:0px;

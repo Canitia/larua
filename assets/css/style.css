@@ -471,6 +471,11 @@ footer {
 		padding:5px;
 	}
 
+	.mobile-menu{
+		position:absolute;
+		bottom:0 !important;
+	}
+
 }
 
 /* mobile devices */

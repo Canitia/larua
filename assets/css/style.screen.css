@@ -109,6 +109,10 @@ footer > nav {
     color: black;
 }
 
+.postdate > .chip {
+  background-color: white;
+}
+
 body > main > div > article > h4 > p > i {
 	color:white;
 }

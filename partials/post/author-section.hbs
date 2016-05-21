@@ -3,8 +3,10 @@
     {{#if image}}
     <img src="{{image}}" class="avatar left" title="{{title}}" alt="Image of {{name}}"/>
     {{/if}}
+    <div class="socialauthor">
     {{#if twitter}}<i class="fa fa-twitter"></i><a href="{{twitter_url}}" target="_blank">{{twitter}}</a>{{/if}}
     {{#if facebook}}<i class="fa fa-facebook"></i><a href="{{facebook_url}}" target="_blank">{{facebook}}</a>{{/if}}
+    </div>
     <p class="author-bio">
     <strong>{{name}}</strong><br />
     {{#if bio}}{{bio}}{{else}}-{{/if}}

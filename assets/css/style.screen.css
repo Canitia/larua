@@ -120,3 +120,8 @@ body > main > div > article > h4 > p > i {
 .fa-star {
   color: #ffa500 !important;
 }
+
+p.author-bio {
+	color:white;
+	background-color:black;
+}

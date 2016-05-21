@@ -413,7 +413,8 @@ img.avatar {
 
 p.author-bio {
 	padding:20px;
-	margin-left: 30%;
+	background-color: whitesmoke;
+	opacity:0.9;
 }
 
 .socialauthor {

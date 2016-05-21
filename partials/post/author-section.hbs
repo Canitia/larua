@@ -2,8 +2,8 @@
   <section class="author-profile" style="background-image: url('{{cover}}'); opacity: 0.9;">
     {{#if image}}
     <div class="avatar-section">
+    <img src="{{image}}" class="avatar left" title="{{title}}" alt="Image of {{name}}"/>
       <div class="socialauthor">
-        <img src="{{image}}" class="avatar left" title="{{title}}" alt="Image of {{name}}"/>
         <ul>
         {{#if twitter}}<li><i class="fa fa-twitter"></i><a href="{{twitter_url}}" target="_blank">{{twitter}}</a></li>{{/if}}
         {{#if facebook}}<li><i class="fa fa-facebook"></i><a href="{{facebook_url}}" target="_blank">{{facebook}}</a></li>{{/if}}

@@ -382,7 +382,10 @@ padding: 40px;
 	ARTICLE: AUTHOR look-n-feel
 
 *****************************************/
-
+.avatar-section {
+	float:left;
+	width:30%;
+}
 
 section.author-profile {
 	padding-bottom:20px;
@@ -393,7 +396,7 @@ section.author-profile {
 }
 
 img.avatar {
-	width:150px;
+	width:100%;
 	border-radius: 20px;
 	margin-left:15px;
 	margin-right:20px;

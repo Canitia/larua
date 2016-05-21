@@ -9,7 +9,7 @@
       <h1 class="text-left-title center-align"></i>{{title}}</h1>
       <h4 class="text-left-title-featured-slider center-align">
         <p class="postdate center-align">
-          {{#author}}{{#if twitter}}<a href="{{twitter_url}}">{{twitter}}</a>{{/if}}{{/author}}
+          {{#author}}{{#if twitter}}<a href="{{twitter_url}}"><i class="fa fa-twitter">{{twitter}}</i></a>{{/if}}{{/author}}
           <i class="fa fa-calendar"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
           <i class="fa fa-user-secret"></i>{{#author}}<a class="author-url-post-head" href="{{url}}">{{name}}</a>{{/author}}
         </p>

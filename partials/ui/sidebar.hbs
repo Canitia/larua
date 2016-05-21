@@ -7,9 +7,11 @@
       Enter your content here
     </article>
   </div>
+
+
 -->
 
-  {{#if @labs.publicAPI}}
+{{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
 <div class="card card-sidebar"><!-- start of a sidebar item -->
   <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Recent</h1>
   <article>
@@ -24,7 +26,7 @@
 </div><!-- end of sidebar item -->
 {{/if}}
 
-  {{#if @labs.publicAPI}}
+  {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
 <div class="card card-sidebar"><!-- start of a sidebar item -->
   <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Most used tags</h1>
   <article>

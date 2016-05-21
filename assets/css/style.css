@@ -294,9 +294,6 @@ article {
 		word-wrap: break-word;
 }
 
-article img {
-    width: 100%;
-}
 .individual-post {
 	padding:0px !important;
 }
@@ -314,8 +311,6 @@ article img {
 }
 
 .slider .slides li img {
-	width: 100%;
-	height: auto !important;
 	max-height:400px;
 	object-fit: cover;
 }

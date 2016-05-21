@@ -526,7 +526,7 @@ footer {
 	  FONT AWESOME look-n-feel
 
 	*****************************************/
-.fa-user-secret, .fa-star, .fa-calendar {
+.fa-user-secret, .fa-star, .fa-calendar, .fa-twitter, .fa-facebook {
   margin-left:20px;
   margin-right:20px;
 }

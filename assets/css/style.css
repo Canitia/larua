@@ -382,11 +382,6 @@ padding: 40px;
 	ARTICLE: AUTHOR look-n-feel
 
 *****************************************/
-.avatar-section {
-	float:left;
-	width:30%;
-}
-
 .author-profile h4 a {
 	text-decoration: underline;
 }

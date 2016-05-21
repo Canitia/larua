@@ -8,6 +8,8 @@
     </article>
   </div>
 -->
+
+  {{#if @labs.publicAPI}}
 <div class="card card-sidebar"><!-- start of a sidebar item -->
   <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Recent</h1>
   <article>
@@ -20,8 +22,9 @@
   </ul>
   </article>
 </div><!-- end of sidebar item -->
+{{/if}}
 
-
+  {{#if @labs.publicAPI}}
 <div class="card card-sidebar"><!-- start of a sidebar item -->
   <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Most used tags</h1>
   <article>
@@ -34,4 +37,5 @@
   </ul>
   </article>
 </div><!-- end of sidebar item -->
+{{/if}}
 </div>

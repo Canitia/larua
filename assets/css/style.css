@@ -294,6 +294,10 @@ article {
 		word-wrap: break-word;
 }
 
+article > img {
+	max-width: 100%;
+}
+
 .individual-post {
 	padding:0px !important;
 }

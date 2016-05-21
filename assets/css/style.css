@@ -416,9 +416,7 @@ p.author-bio {
 }
 
 .socialauthor {
-	float: right;
 	padding: 15px;
-	margin-right: 8%;
 }
 
 .socialauthor > ul > li {

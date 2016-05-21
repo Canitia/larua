@@ -386,6 +386,13 @@ padding: 40px;
 	text-decoration: underline;
 }
 
+.author-profile {
+	background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; 
+}
+
 img.avatar {
 	border-radius: 10px;
 	max-height:100px;

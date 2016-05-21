@@ -387,10 +387,11 @@ padding: 40px;
 }
 
 .author-profile {
+	opacity: 0.9;
 	background-size: cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
--o-background-size: cover; 
+-o-background-size: cover;
 }
 
 img.avatar {

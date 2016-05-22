@@ -139,7 +139,7 @@ strong {
 }
 
 .card .card-image img {
-	top:-100px !important;
+	top:-150px !important;
 }
 
 /* **************************************
@@ -492,13 +492,9 @@ footer {
 		display:none;
 	}
 
-
 	.avatar {
 		display:none;
 	}
-
-
-
 }
 
 /* mobile devices */

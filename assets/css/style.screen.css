@@ -77,6 +77,9 @@ p > a:focus, p > a:hover, .btn > a:hover
   width: 100%;
 }
 
+.posttitle > a {
+	color: white;
+}
 
 article {
       background-color: white;

@@ -44,14 +44,7 @@ h4 {
 
 p {
 	line-height: 20px;
-  padding-left:25px;
-	padding-right:25px;
 	text-rendering: geometricPrecision;
-}
-
-p.text-justify {
-	padding: 25px;
-	margin:0px;
 }
 
 p > a {

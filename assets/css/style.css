@@ -145,6 +145,10 @@ strong {
   display:none;
 }
 
+.card .card-image img {
+	top:-100px !important;
+}
+
 /* **************************************
 
   HEADER

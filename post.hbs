@@ -1,9 +1,9 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 <div class="row">
-<div class="col s12 m12 l8 main-content card">
+<div class="col s12 m12 l8 main-content">
 {{#post}}
-      <article>
+      <article class="card">
       <img class="content-images-individual responsive-img" title="{{title}}" alt="{{title}}" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}"/>
 
       <h1 class="text-left-title center-align"></i>{{title}}</h1>

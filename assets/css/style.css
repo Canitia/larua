@@ -44,14 +44,7 @@ h4 {
 
 p {
 	line-height: 20px;
-  padding-left:25px;
-	padding-right:25px;
 	text-rendering: geometricPrecision;
-}
-
-p.text-justify {
-	padding: 25px;
-	margin:0px;
 }
 
 p > a {
@@ -122,8 +115,22 @@ strong {
 	margin-right:auto;
 }
 
+.posttitle {
+	margin:0;
+	float:left;
+	padding-top:12px;
+}
+
 .card {
 	margin-bottom:40px !important;
+}
+
+.card.large {
+	height: auto !important;
+}
+
+.card-title {
+	padding:5px !important;
 }
 
 .card-error {
@@ -207,22 +214,6 @@ POST/ARTICLE HEADERS
 
 ##########################################*/
 
-
-/* post title */
-.text-left-title {
-	font-size: 28px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 26.3999996185303px;
-	color:white;
-	white-space:normal;
-	overflow:hidden;
-	text-overflow: ellipsis;
-	padding:15px;
-	margin:0px;
-}
-
 /* post title */
 .text-left-title-featured, .text-left-title-featured-sidebar {
 	font-size: 16px;
@@ -250,27 +241,27 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-article > h1 {
+.card-content > h1 {
   	font-size: 30px;
     margin-left: 10px;
 }
 
-article > h2 {
+.card-content > h2 {
 	font-size: 22px;
   margin-left: 10px;
 }
 
-article > h3 {
+.card-content > h3 {
 	font-size: 20px;
   margin-left: 10px;
 }
 
-article > h4 {
+.card-content > h4 {
 	font-size: 18px;
   margin-left: 10px;
 }
 
-article > ul li {
+.card-content > ul li {
   list-style-type: square !important;
   margin-left: 40px;
   margin-right: 40px;
@@ -278,7 +269,7 @@ article > ul li {
   line-height: 25px;
 }
 
-article > ol li {
+.card-content > ol li {
   margin-left: 40px;
   margin-right: 40px;
   padding:5px;
@@ -294,11 +285,8 @@ article {
 		word-wrap: break-word;
 }
 
-article img {
-    width: 100%;
-}
-.individual-post {
-	padding:0px !important;
+.card-content > img, .card-content > p > img, img {
+	max-width: 100%;
 }
 
 .slider {
@@ -314,8 +302,6 @@ article img {
 }
 
 .slider .slides li img {
-	width: 100%;
-	height: auto !important;
 	max-height:400px;
 	object-fit: cover;
 }
@@ -383,22 +369,31 @@ padding: 40px;
 	ARTICLE: AUTHOR look-n-feel
 
 *****************************************/
-
-
-section.author-profile {
-	padding-bottom:20px;
-}
-
 .author-profile h4 a {
 	text-decoration: underline;
 }
 
+.author-profile {
+	min-height:150px;
+	background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+.author-bio a i {
+	color: white;
+}
+
 img.avatar {
-	width:150px;
-	border-radius: 20px;
-	margin-left:15px;
-	margin-right:20px;
-	margin-top:15px;
+	border-radius: 50px;
+	max-height:100px;
+	float:left;
+	margin-left:5px;
+	margin-right:10px;
+	position:relative;
+	top: 42px;
+	z-index:200;
 }
 
 .avatar-page {
@@ -411,6 +406,18 @@ img.avatar {
 
 p.author-bio {
 	padding:20px;
+	opacity:0.7;
+	min-height:150px;
+	padding-left:160px;
+}
+
+.socialauthor {
+	padding: 15px;
+}
+
+.socialauthor > ul > li {
+	margin-top: 10px;
+	margin-bottom:10px;
 }
 
 /* **************************************
@@ -482,22 +489,22 @@ footer {
 	}
 
 	.pagination, .main-content {
-		margin-bottom: 32px;
+		margin-bottom: 12px;
 	}
 
+	.author-profile {
+		display:none;
+	}
+
+	.avatar {
+		display:none;
+	}
 }
 
 /* mobile devices */
 @media (max-width:992px) and (min-width:640px) {
     h1 {
     	font-size: 18px;
-    }
-
-    /* post title */
-    .text-left-title {
-				font-size:30px;
-        padding:15px;
-				margin:0px;
     }
 
     .content-images, .content-images-individual {
@@ -526,19 +533,21 @@ footer {
 	  FONT AWESOME look-n-feel
 
 	*****************************************/
-.fa-user-secret, .fa-star, .fa-calendar {
+.fa-user-secret, .fa-star, .fa-calendar, .fa-twitter, .fa-facebook {
   margin-left:20px;
   margin-right:20px;
 }
 
+.postdate i {
+	margin-right: 5px;
+}
+
 .postdate > a i {
-	color: white;
 	border-radius: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 3px;
 	margin-top: 3px;
-	padding: 15px;
 }
 
 	/* general styling of pretty much all font-awesome icons */

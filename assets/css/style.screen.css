@@ -67,8 +67,23 @@ p > a:focus, p > a:hover, .btn > a:hover
 	background-color: #e0e0e0 !important;
 }
 
-.collection .collection-item a:hover, .main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate, .postdate a:hover, .chip a:hover, .author-url-post-head  {
+.collection .collection-item a:hover, .main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate a:hover, .chip a:hover, .author-url-post-head  {
 	color:#979797 !important;
+}
+
+.card-title {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.posttitle > a {
+	color: white !important;
+  text-decoration: none;
+}
+
+.posttitle > a:hover {
+  text-decoration: none;
 }
 
 article {
@@ -119,4 +134,9 @@ body > main > div > article > h4 > p > i {
 
 .fa-star {
   color: #ffa500 !important;
+}
+
+p.author-bio {
+	color:white;
+	background-color:black;
 }

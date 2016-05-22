@@ -71,6 +71,13 @@ p > a:focus, p > a:hover, .btn > a:hover
 	color:#979797 !important;
 }
 
+.card-title {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+}
+
+
 article {
       background-color: white;
 }

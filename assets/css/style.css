@@ -125,6 +125,10 @@ strong {
 	margin-bottom:40px !important;
 }
 
+.card.large {
+	height: auto !important;
+}
+
 .card-title {
 	padding:5px !important;
 }

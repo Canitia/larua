@@ -7,11 +7,11 @@
         <article>
       <div class="card-image">
         <img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
-        <span class="card-title"><p class="posttitle">{{title}}</p> <p class="postdate right"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+        <span class="card-title">
+          <p class="posttitle">{{title}}</p> <p class="postdate right">{{#if featured}}<i class="fa fa-star"></i> {{/if}} <i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
           {{#author}}{{#if twitter}}<a href="{{twitter_url}}" target="_blank"><i class="fa fa-twitter"></i></a>{{/if}}{{/author}}
           {{#author}}{{#if facebook}}<a href="{{facebook_url}}" target="_blank"><i class="fa fa-facebook"></i></a>{{/if}}{{/author}}</p></span>
           <i class="fa fa-user-secret"></i>{{#author}}<a class="author-url-post-head" href="{{url}}">{{name}}</a>{{/author}}
-          {{#if featured}}<i class="fa fa-star"></i>{{/if}} 
 
       </div>
       <div class="card-content">

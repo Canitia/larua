@@ -5,7 +5,7 @@
 {{#post}}
       <article class="card">
       <div class="card-image">
-        <a href="{{url}}"><img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" /></a>
+        <img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
         <span class="card-title"><p class="posttitle"><a href="{{url}}">{{title}}</a></p> <p class="postdate right"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
           {{#author}}{{#if twitter}}<a href="{{twitter_url}}" target="_blank"><i class="fa fa-twitter"></i></a>{{/if}}{{/author}}
           {{#author}}{{#if facebook}}<a href="{{facebook_url}}" target="_blank"><i class="fa fa-facebook"></i></a>{{/if}}{{/author}}</p></span>

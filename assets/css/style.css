@@ -217,22 +217,6 @@ POST/ARTICLE HEADERS
 
 ##########################################*/
 
-
-/* post title */
-.text-left-title {
-	font-size: 28px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 26.3999996185303px;
-	color:white;
-	white-space:normal;
-	overflow:hidden;
-	text-overflow: ellipsis;
-	padding:15px;
-	margin:0px;
-}
-
 /* post title */
 .text-left-title-featured, .text-left-title-featured-sidebar {
 	font-size: 16px;
@@ -260,27 +244,27 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-article > h1 {
+.card-content > h1 {
   	font-size: 30px;
     margin-left: 10px;
 }
 
-article > h2 {
+.card-content > h2 {
 	font-size: 22px;
   margin-left: 10px;
 }
 
-article > h3 {
+.card-content > h3 {
 	font-size: 20px;
   margin-left: 10px;
 }
 
-article > h4 {
+.card-content > h4 {
 	font-size: 18px;
   margin-left: 10px;
 }
 
-article > ul li {
+.card-content > ul li {
   list-style-type: square !important;
   margin-left: 40px;
   margin-right: 40px;
@@ -288,7 +272,7 @@ article > ul li {
   line-height: 25px;
 }
 
-article > ol li {
+.card-content > ol li {
   margin-left: 40px;
   margin-right: 40px;
   padding:5px;
@@ -306,10 +290,6 @@ article {
 
 .card-content > img, .card-content > p > img, img {
 	max-width: 100%;
-}
-
-.individual-post {
-	padding:0px !important;
 }
 
 .slider {
@@ -528,13 +508,6 @@ footer {
 @media (max-width:992px) and (min-width:640px) {
     h1 {
     	font-size: 18px;
-    }
-
-    /* post title */
-    .text-left-title {
-				font-size:30px;
-        padding:15px;
-				margin:0px;
     }
 
     .content-images, .content-images-individual {

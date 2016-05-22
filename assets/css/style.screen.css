@@ -78,7 +78,7 @@ p > a:focus, p > a:hover, .btn > a:hover
 }
 
 .posttitle > a {
-	color: white;
+	color: white !important;
 }
 
 article {

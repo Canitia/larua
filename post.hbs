@@ -4,8 +4,6 @@
 <div class="col s12 m12 l8 main-content">
 {{#post}}
       <article class="card">
-      <img class="content-images-individual responsive-img" title="{{title}}" alt="{{title}}" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}"/>
-
       <div class="card-image">
         <a href="{{url}}"><img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" /></a>
         <span class="card-title"><p class="posttitle"><a href="{{url}}">{{title}}</a></p> <p class="postdate right"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>

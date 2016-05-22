@@ -304,7 +304,7 @@ article {
 		word-wrap: break-word;
 }
 
-article > img, article > p > img {
+article > img, article > p > img, img {
 	max-width: 100%;
 }
 

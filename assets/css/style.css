@@ -99,7 +99,6 @@ strong {
   margin-right: auto;
 	max-width:960px !important;
   padding-bottom: 20px;
-  border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
 
@@ -338,7 +337,8 @@ iframe {
 
 /* add some styling to disqus */
 #disqus_thread {
-padding: 40px;
+padding-left: 40px;
+padding-right: 40px;
 }
 
 

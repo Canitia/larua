@@ -122,6 +122,12 @@ strong {
 	margin-right:auto;
 }
 
+.posttitle {
+	margin:0;
+	float:left;
+	padding-top:12px;
+}
+
 .card {
 	margin-bottom:40px !important;
 }

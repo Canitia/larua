@@ -1,17 +1,14 @@
 {{#foreach posts}}
-<div class="card large hoverable">
-  <article>
-    <div class="card-image">
-      <a href="{{url}}"><img class="content-images responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
-        </a>
-      <span class="card-title">{{title}}</span>
-    </div>
-    <div class="card-content">
-      <p class="text-justify">{{excerpt}}...</p>
-    </div>
-    <div class="card-action">
-      <p class="postdate center-align"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}"> {{date published_at timeago="true"}}</time></p>
-    </div>
-  </article>
-  </div>
+  <div class="card large">
+              <div class="card-image">
+                <a href="{{url}}"><img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+                <span class="card-title">>{{title}}</span>
+              </div>
+              <div class="card-content">
+                <p>{{excerpt}}...</p>
+              </div>
+              <div class="card-action">
+                <p class="postdate center-align"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}"> {{date published_at timeago="true"}}</time></p>
+              </div>
+          </div>
 {{/foreach}}

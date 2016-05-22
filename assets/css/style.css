@@ -400,6 +400,9 @@ img.avatar {
 	max-height:100px;
 	float:left;
 	margin-right:10px;
+	position:relative;
+	top: 42px;
+	z-index:200;
 }
 
 .avatar-page {

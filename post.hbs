@@ -11,6 +11,8 @@
           {{#author}}{{#if twitter}}<a href="{{twitter_url}}" target="_blank"><i class="fa fa-twitter"></i></a>{{/if}}{{/author}}
           {{#author}}{{#if facebook}}<a href="{{facebook_url}}" target="_blank"><i class="fa fa-facebook"></i></a>{{/if}}{{/author}}</p></span>
           <i class="fa fa-user-secret"></i>{{#author}}<a class="author-url-post-head" href="{{url}}">{{name}}</a>{{/author}}
+          {{#if featured}}<i class="fa fa-star"></i>{{/if}} 
+
       </div>
       <div class="card-content">
         <p>{{content}}</p>

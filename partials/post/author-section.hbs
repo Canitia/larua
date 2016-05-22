@@ -1,7 +1,7 @@
 {{#author}}
+  {{#if image}}<img src="{{image}}" class="avatar responsive-img" title="{{title}}" alt="Image of {{name}}"/>{{/if}}
   <section class="author-profile" style="background-image: url('{{cover}}');">
     <p class="author-bio">
-    {{#if image}}<img src="{{image}}" class="avatar responsive-img" title="{{title}}" alt="Image of {{name}}"/>{{/if}}
     <strong>{{name}}</strong><br />
     {{#if bio}}{{bio}}{{else}}-{{/if}}
   </p>

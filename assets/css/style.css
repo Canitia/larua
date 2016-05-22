@@ -132,6 +132,10 @@ strong {
 	margin-bottom:40px !important;
 }
 
+.card-title {
+	padding:5px !important;
+}
+
 .card-error {
 	float:none;
 }

@@ -253,6 +253,7 @@ POST/ARTICLE HEADERS
 }
 
 .text-left-title-featured-sidebar {
+	margin-top:0px;
 	margin-bottom: 0px;
 }
 
@@ -436,6 +437,7 @@ p.author-bio {
 	opacity:0.7;
 	min-height:150px;
 	padding-left:160px;
+	margin-bottom: 0px;
 }
 
 .socialauthor {

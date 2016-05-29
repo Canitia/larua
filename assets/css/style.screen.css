@@ -31,7 +31,8 @@ blockquote {
 }
 
  .text-left-title-featured {
-  opacity: 0.7;
+  font-family: 'Slabo 27px';
+  opacity: 0.8;
   background-color: black !important;
   margin:0px;
   padding:25px !important;

@@ -11,7 +11,7 @@
         var displayPosts = sortedPosts.slice(0,2);
         $.each(displayPosts, function (i, post) {
             $result.append(
-                '<a href="' + post.url + '"><img class="article-footer-img" src="' + post.image + '" title="' + post.title + '"/></a>'
+                '<li class="collection-item"><a href="' + post.url + '">' + post.title + '</a></li>';
             );
         });
     }

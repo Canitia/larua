@@ -64,10 +64,11 @@ blockquote {
 	position:relative;
 	line-height: 30px;
   padding:10px 45px;
+	margin-left:30px;
 }
 
 blockquote:before, blockquote:after {
-    color:#EBB1B2;
+    color:black;
     content:'\f10d';
     font-family:'FontAwesome';
     font-size:30px;

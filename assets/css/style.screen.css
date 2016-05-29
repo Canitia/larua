@@ -33,6 +33,7 @@ blockquote {
  .text-left-title-featured {
   opacity: 0.7;
   background-color: black !important;
+  margin:0px;
  }
 
  .text-left-title-featured-sidebar {

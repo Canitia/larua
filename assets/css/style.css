@@ -61,9 +61,27 @@ hr {
 }
 
 blockquote {
+	position:relative;
 	line-height: 30px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  padding:10px 45px;
+}
+
+blockquote:before, blockquote:after {
+    color:#EBB1B2;
+    content:'\f10d';
+    font-family:'FontAwesome';
+    font-size:30px;
+    position:absolute;
+    top:5px;
+    left:8px;
+    display:block;
+}
+blockquote:after {
+    content:'\f10e';
+    bottom:0;
+    right:8px;
+    top:auto;
+    left:auto;
 }
 
 blockquote > p {

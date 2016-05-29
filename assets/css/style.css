@@ -47,7 +47,7 @@ h4 {
 }
 
 p {
-	line-height: 20px;
+	line-height: normal;
 	text-rendering: geometricPrecision;
 }
 

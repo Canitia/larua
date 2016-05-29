@@ -11,6 +11,7 @@ font-family: 'Poppins', Segoe UI, Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,
 }
 
 h1 {
+	font-family:'Slabo';
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
@@ -19,6 +20,7 @@ h1 {
 }
 
 h2 {
+	font-family:'Slabo';
 	font-size: 26px;
 	font-style: normal;
 	font-variant: normal;
@@ -27,6 +29,7 @@ h2 {
 }
 
 h3 {
+	font-family:'Slabo';
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
@@ -35,6 +38,7 @@ h3 {
 }
 
 h4 {
+	font-family:'Slabo';
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
@@ -99,6 +103,7 @@ pre {
 }
 
 strong {
+	font-family:'Slabo';
   font-weight: 700 !important;
 }
 
@@ -137,6 +142,7 @@ strong {
 	margin-left:15px;
 	float:left;
 	padding-top:12px;
+	font-family:'Slabo';
 }
 
 .card {
@@ -170,6 +176,7 @@ strong {
 .headerurl {
     text-decoration: none;
 		margin-left:20px;
+		font-family:'Slabo';
 }
 
 .headerurl:hover {

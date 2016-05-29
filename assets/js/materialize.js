@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     $('.slider').slider({
       indicators: false,
-      Transition: 750,
-      Interval: 7500
+      transition: 750,
+      interval: 7500
     });
  });

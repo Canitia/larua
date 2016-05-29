@@ -151,8 +151,9 @@ strong {
 	padding:5px !important;
 }
 
-.card-error {
-	float:none;
+/* forbidden icon from error page */
+.card-image > .fa-ban {
+	font-size:20em;
 }
 
 /* read more button on featured posts */

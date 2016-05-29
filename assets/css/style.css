@@ -540,6 +540,12 @@ footer {
 		margin-right: 100px;
 	}
 
+	.brand-logo {
+		float:left !important;
+		margin-left: 75px !important;
+		left: unset !important;
+	}
+
 
 }
 

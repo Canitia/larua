@@ -293,14 +293,14 @@ POST/ARTICLE HEADERS
   margin-left: 40px;
   margin-right: 40px;
   padding:5px;
-  line-height: 25px;
+  line-height: normal;
 }
 
 .card-content > ol li {
   margin-left: 40px;
   margin-right: 40px;
   padding:5px;
-  line-height: 25px;
+  line-height: normal;
   text-align: justify;
 }
 

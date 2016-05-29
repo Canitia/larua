@@ -25,12 +25,11 @@
     </div>
       {{/if}}
 
+      {{> 'post/author-section'}}
+
       {{#if @labs.publicAPI}}
         {{> 'post/randompost'}}
       {{/if}}
-
-
-  {{> 'post/author-section'}}
 {{! Disqus should be included right below this tag; for more information about this check the readme }}
       </article>
     </div>

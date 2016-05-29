@@ -134,6 +134,7 @@ strong {
 
 .posttitle {
 	margin:0;
+	margin-left:15px;
 	float:left;
 	padding-top:12px;
 }

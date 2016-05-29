@@ -177,6 +177,10 @@ i.fa.fa-bars {
 	margin-right:15px;
 }
 
+nav .button-collapse i {
+	font-size: 1em !important;
+}
+
 .side-nav full {
     overflow:auto;
 }

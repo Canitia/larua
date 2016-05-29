@@ -139,7 +139,6 @@ strong {
 }
 
 .posttitle {
-	margin:0;
 	margin-left:15px;
 	float:left;
 	font-family:'Slabo 27px';
@@ -529,6 +528,7 @@ footer {
 				margin-left: 65px;
 				margin-right: 65px;
 			}
+
   }
 
 	/* tablet devices */

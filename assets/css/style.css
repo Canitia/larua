@@ -356,6 +356,7 @@ iframe {
 		top:30px;
 		right:30px;
 		opacity:0.5;
+		z-index:1;
 }
 
 /* add some styling to disqus */

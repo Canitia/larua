@@ -176,6 +176,10 @@ strong {
   text-decoration: none;
 }
 
+nav .brand-logo {
+	line-height:5px;
+}
+
 img.cover {
 	width:100%;
 	margin-bottom:15px;

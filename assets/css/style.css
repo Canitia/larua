@@ -337,11 +337,6 @@ img.content-images-featured:hover, img.content-images:hover {
 	opacity:0.9;
 }
 
-.btn-flat {
-	line-height: 45px !important;
-	height: 45px !important;
-}
-
 iframe {
 	max-width: 100% !important;
 }

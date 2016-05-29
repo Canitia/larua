@@ -4,10 +4,12 @@ $(document).ready(function(){
   $('.button-collapse').sideNav({
         edge: 'right', // Choose the horizontal origin
         closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-        Transition: 750,
-        Interval: 7500
       }
     );
 
-    $('.slider').slider({indicators: false});
+    $('.slider').slider({
+      indicators: false,
+      Transition: 750,
+      Interval: 7500
+    });
  });

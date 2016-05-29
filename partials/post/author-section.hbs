@@ -2,8 +2,8 @@
   {{#if image}}<img src="{{image}}" class="avatar" title="{{title}}" alt="Image of {{name}}"/>{{/if}}
   <section class="author-profile" style="background-image: url('{{cover}}');">
     <p class="author-bio">
-    <strong>{{name}}</strong>
-    Website: {{website}} <br />
+    <strong>{{name}}</strong> <br />
+    {{#if website}}Website: {{website}} <br />{{/if}}
     {{#if twitter}}<a href="{{twitter_url}}" target="_blank"><i class="fa fa-twitter"></i></a>{{/if}}
     {{#if facebook}}<a href="{{facebook_url}}" target="_blank"><i class="fa fa-facebook"></i></a>{{/if}}
     <br />

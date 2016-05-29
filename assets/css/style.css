@@ -452,7 +452,7 @@ footer {
 *****************************************/
 
 /* For the people that have phones reporting very low resolutions */
-@media (max-width:640px) and (min-width:200px) {
+@media (max-width:600px) and (min-width:200px) {
 	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {
 		height:55px;
@@ -505,7 +505,7 @@ footer {
 }
 
 /* mobile devices */
-@media (max-width:992px) and (min-width:640px) {
+@media (max-width:992px) and (min-width:601px) {
     h1 {
     	font-size: 18px;
     }

@@ -257,7 +257,7 @@ POST/ARTICLE HEADERS
 	font-variant: normal;
 	font-weight: 400;
 	padding:10px !important;
-	margin:0px;
+	margin-top:5px;
 	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;

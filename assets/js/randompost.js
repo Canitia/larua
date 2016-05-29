@@ -8,7 +8,7 @@
     function onSuccess(data) {
         var $result = $('#random-posts-list');
         var sortedPosts = shuffleArray(data.posts);
-        var displayPosts = sortedPosts.slice(0,2);
+        var displayPosts = sortedPosts.slice(0,3);
         $.each(displayPosts, function (i, post) {
             $result.append(
                 '<li class="collection-item"><a href="' + post.url + '">' + post.title + '</a></li>';

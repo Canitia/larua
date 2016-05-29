@@ -27,6 +27,7 @@ background-color: #0d47a1 !important;
 
 blockquote {
   background-color: whitesmoke;
+  border-left: 0 !important;
 }
 
  .text-left-title-featured {

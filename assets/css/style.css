@@ -99,7 +99,6 @@ strong {
   margin-right: auto;
 	max-width:960px !important;
   padding-bottom: 20px;
-  border-bottom:1px solid rgba(0,0,0,0.12);
 }
 
 
@@ -150,7 +149,7 @@ strong {
 /* color of clickable header */
 .headerurl {
     text-decoration: none;
-		margin-left:55px;
+		margin-left:20px;
 }
 
 .headerurl:hover {
@@ -165,6 +164,7 @@ img.cover {
 img.logo {
 	height:64px;
 	position:relative;
+	margin-left:1%;
 }
 
 /* **************************************
@@ -338,7 +338,8 @@ iframe {
 
 /* add some styling to disqus */
 #disqus_thread {
-padding: 40px;
+padding-left: 40px;
+padding-right: 40px;
 }
 
 
@@ -451,7 +452,7 @@ footer {
 *****************************************/
 
 /* For the people that have phones reporting very low resolutions */
-@media (max-width:640px) and (min-width:200px) {
+@media (max-width:600px) and (min-width:200px) {
 	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {
 		height:55px;
@@ -464,7 +465,7 @@ footer {
 	}
 
 	.headerurl {
-		margin-left: 0px;
+		margin-left: 60px;
 	}
 
 /* Smaller margins to the page gets fit to nearly the full screen */
@@ -504,7 +505,7 @@ footer {
 }
 
 /* mobile devices */
-@media (max-width:992px) and (min-width:640px) {
+@media (max-width:992px) and (min-width:601px) {
     h1 {
     	font-size: 18px;
     }
@@ -517,6 +518,10 @@ footer {
 				margin-top:25px;
 				margin-left: 65px;
 				margin-right: 65px;
+			}
+
+			.headerurl {
+				margin-left: 75px;
 			}
 
   }

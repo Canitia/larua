@@ -548,6 +548,20 @@ footer {
 		margin-left: 100px;
 		margin-right: 100px;
 	}
+
+	.card .card-title {
+		height:50px;
+		width:100%;
+	}
+
+	.card > .row .col.l8 {
+		padding: 0 !important;
+	}
+
+	.card > .row .col.l4 {
+		padding: 0 !important;
+	}
+
 }
 
 	/* **************************************

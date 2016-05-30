@@ -402,12 +402,6 @@ footer {
 		height:55px;
 	}
 
-	.text-left-title {
-		font-size:24px;
-		padding:3px;
-		margin:10px;
-	}
-
 /* Smaller margins to the page gets fit to nearly the full screen */
 	.container-fluid {
 		margin-top:0px;

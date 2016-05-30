@@ -423,7 +423,7 @@ footer {
 	.postdate {
 		padding:5px;
 	}
-	
+
 	.pagination, .main-content {
 		margin-bottom: 12px;
 	}
@@ -449,8 +449,8 @@ footer {
 
 			.container-fluid {
 				margin-top:25px;
-				margin-left: 65px;
-				margin-right: 65px;
+				margin-left: 45px;
+				margin-right: 45px;
 			}
 
   }

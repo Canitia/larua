@@ -543,7 +543,7 @@ footer {
 	.brand-logo {
 		float:left !important;
 		left: auto !important;
-		left:80px !important;
+		margin-left:80px !important;
 	}
 
 

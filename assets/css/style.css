@@ -10,7 +10,7 @@ font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 34px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-	font-size: 26px;
+	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -34,7 +34,7 @@ h3 {
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -269,22 +269,22 @@ POST/ARTICLE HEADERS
 
 *****************************************/
 .card-content > h1 {
-  	font-size: 30px;
+  	font-size: 34px;
     margin-left: 10px;
 }
 
 .card-content > h2 {
-	font-size: 26px;
+	font-size: 30px;
   margin-left: 10px;
 }
 
 .card-content > h3 {
-	font-size: 20px;
+	font-size: 25px;
   margin-left: 10px;
 }
 
 .card-content > h4 {
-	font-size: 18px;
+	font-size: 20px;
   margin-left: 10px;
 }
 
@@ -469,7 +469,7 @@ footer {
 	}
 
 	.text-left-title {
-		font-size:22px;
+		font-size:24px;
 		padding:3px;
 		margin:10px;
 	}
@@ -517,7 +517,7 @@ footer {
 /* mobile devices */
 @media (max-width:992px) and (min-width:601px) {
     h1 {
-    	font-size: 18px;
+    	font-size: 20px;
     }
 
     .content-images, .content-images-individual {

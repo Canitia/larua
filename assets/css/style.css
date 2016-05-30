@@ -186,7 +186,6 @@ POST/ARTICLE HEADERS
 .text-left-title-featured, .text-left-title-featured-sidebar {
 	font-size: 120%;
 	padding:15px !important;
-	margin-top:5px;
 	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;

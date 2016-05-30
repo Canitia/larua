@@ -97,10 +97,6 @@ section.author-profile {
 	background-color:whitesmoke;
 }
 
-.pagination li:hover {
-		background-color: #0D47A1 !important;
-}
-
 .pagination li.active {
 	background-color: #0D47A1 !important;
 }

@@ -226,10 +226,7 @@ POST/ARTICLE HEADERS
 
 /* post title */
 .text-left-title-featured, .text-left-title-featured-sidebar {
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
+	font-size: 120%;
 	padding:10px !important;
 	margin-top:5px;
 	white-space: normal;

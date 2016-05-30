@@ -5,10 +5,11 @@
 {{#post}}
       <div class="card">
         <article>
+        <p class="postdate right"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
       <div class="card-image">
         <img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
         <span class="card-title">
-          <p class="posttitle">{{title}}</p> <p class="postdate right">{{#if featured}}<i class="fa fa-star"></i> {{/if}} <i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+          <p class="posttitle">{{title}}</p>
           </p></span>
       </div>
       <div class="card-content">
@@ -18,20 +19,19 @@
       {{#if tags}}
       <div class="tags center-align">
       {{#foreach tags}}
-          <div class="waves-effect waves-light btn accentcolor2">
+          <div class="waves-effect waves-light chip accentcolor2">
           <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
           </div>
       {{/foreach}}
     </div>
       {{/if}}
-        <div>
-          <h1 class="text-left-title-featured-sidebar accentcolor center-align"></i>Need something else to read?</h1>
-          <div id="random-posts-list">
-            {{! content of 'randompost.js' gets entered here! }}
-          </div>
-        </div>
 
-  {{> 'post/author-section'}}
+      {{> 'post/author-section'}}
+
+        <h1 class="text-left-title-featured-sidebar accentcolor center-align"></i>Need something else to read?</h1>
+        <ul class="collection" id="random-posts-list">
+          {{! content of 'randompost.js' gets entered here! }}
+        </ul>
 {{! Disqus should be included right below this tag; for more information about this check the readme }}
       </article>
     </div>

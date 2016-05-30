@@ -496,6 +496,10 @@ footer {
 		padding-bottom:15px;
 	}
 
+	.posttitle {
+		margin:10px;
+	}
+
 	.postdate {
 		padding:5px;
 	}

@@ -322,8 +322,8 @@ article {
 
 .slider .slides li .caption {
 	bottom:0% !important;
-	top:unset !important;
-	left:unset !important;
+	top:auto !important;
+	left:auto !important;
 	width: 100% !important;
 }
 

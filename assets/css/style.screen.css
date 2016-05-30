@@ -38,10 +38,11 @@ blockquote {
  }
 
  .text-left-title-featured-sidebar {
+   background-color: #1565c0 !important;
    color:white !important;
  }
 
-p > a, .headerurl:hover, .pagination > a > i:hover, li.pagination-arrows a i:hover, .socialfooter > a:hover {
+p > a, .headerurl:hover, .pagination > a > i:hover, .collection .collection-item a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
 	color: black !important;
 }
 

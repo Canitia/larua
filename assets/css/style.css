@@ -423,12 +423,7 @@ footer {
 	.postdate {
 		padding:5px;
 	}
-
-	.mobile-menu{
-		position:absolute;
-		bottom:0 !important;
-	}
-
+	
 	.pagination, .main-content {
 		margin-bottom: 12px;
 	}

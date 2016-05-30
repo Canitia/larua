@@ -28,10 +28,12 @@
 
       {{> 'post/author-section'}}
 
+      {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
         <h1 class="text-left-title-featured-sidebar accentcolor center-align"></i>Need something else to read?</h1>
         <ul class="collection" id="random-posts-list">
           {{! content of 'randompost.js' gets entered here! }}
         </ul>
+      {{/if}}
 {{! Disqus should be included right below this tag; for more information about this check the readme }}
       </article>
     </div>

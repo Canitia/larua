@@ -88,11 +88,6 @@ p > a:focus, p > a:hover, .btn > a:hover
   text-decoration: none;
 }
 
-article {
-      background-color: white;
-}
-
-
 section.author-profile {
 	background-color:whitesmoke;
 }

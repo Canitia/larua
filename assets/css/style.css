@@ -542,9 +542,8 @@ footer {
 
 	.brand-logo {
 		float:left !important;
-		margin-left: 75px !important;
-		left: unset !important;
-		left:75px !important;
+		left: auto !important;
+		left:80px !important;
 	}
 
 

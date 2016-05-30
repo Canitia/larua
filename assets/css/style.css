@@ -3,6 +3,31 @@
   GENERAL FONT / ELEMENT
 
 *****************************************/
+@font-face {
+  font-family: 'Slabo 27px';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Slabo 27px'), local('Slabo27px-Regular'), url(https://www.miboutech.com/assets/fonts/Slabo27px.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins'), local('Poppins-Regular'), url(https://www.miboutech.com/assets/fonts/SFusu2OSFiUt40t5QNWvnA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(https://www.miboutech.com/assets/fonts/yQWaOD4iNU5NTY0apN-qjxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Poppins Bold'), local('Poppins-Bold'), url(https://www.miboutech.com/assets/fonts/57TQ-anwthzkETEIO4jESBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
 
 html body {
 line-height: 0 !important;

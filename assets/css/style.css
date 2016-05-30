@@ -504,11 +504,6 @@ footer {
 	/* general styling of pretty much all font-awesome icons */
 	.socialfooter > a i {
 	    color: white;
-	    border-radius: 10px;
-	    margin-left: auto;
-	    margin-right: auto;
-	    margin-bottom: 3px;
-	    margin-top: 3px;
 	    padding: 15px;
 	    transition: all 0.2s ease-in-out;
 	}

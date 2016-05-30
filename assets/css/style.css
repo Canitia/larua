@@ -117,11 +117,6 @@ strong {
 	font-size:20em;
 }
 
-/* read more button on featured posts */
-.card-featured > #read_more_custom {
-  display:none;
-}
-
 /* **************************************
 
   HEADER

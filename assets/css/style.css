@@ -305,6 +305,11 @@ padding-right: 40px;
 	line-height:40px;
 }
 
+.chip {
+	height: 40px !important;
+	line-height:40px !important;
+}
+
 /* **************************************
 
 	ARTICLE: AUTHOR look-n-feel

@@ -43,7 +43,7 @@ blockquote {
    color:white !important;
  }
 
-p > a, .headerurl:hover, .pagination > a > i:hover, .author-profile h4 a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
+p > a, .headerurl:hover, .pagination > a > i:hover, li.pagination-arrows a i:hover, .socialfooter > a:hover {
 	color: black !important;
 }
 

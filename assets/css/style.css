@@ -432,6 +432,10 @@ footer {
 		display:none;
 	}
 
+	.tags {
+		line-height: 50px;
+		padding-bottom: 10px !important;
+	}
 
 	.chip {
 		height: 40px !important;

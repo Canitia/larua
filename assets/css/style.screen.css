@@ -114,10 +114,6 @@ footer > nav {
 }
 
 /* social media icons sidebar and footer */
-.socialfooter {
-  border-top:1px solid rgba(0,0,0,0.12);
-}
-
 .socialfooter > a {
     color: #00bfff;
 }

@@ -191,6 +191,7 @@ POST/ARTICLE HEADERS
 	text-overflow: ellipsis;
 }
 
+/* aligns the sidebar to the top of the page and adapts the content within it */
 .text-left-title-featured-sidebar {
 	margin-top:0px;
 	margin-bottom: 0px;

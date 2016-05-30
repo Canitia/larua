@@ -246,7 +246,7 @@ article {
 		word-wrap: break-word;
 }
 
-.card-content > img, .card-content > p > img, img {
+.card-content > img, .card-content > p > img {
 	max-width: 100%;
 	display:block;
 	margin-left:auto;

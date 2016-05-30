@@ -42,7 +42,7 @@ h4 {
 }
 
 p {
-	line-height: normal;
+	line-height: 30px;
 	text-rendering: geometricPrecision;
 }
 
@@ -293,14 +293,14 @@ POST/ARTICLE HEADERS
   margin-left: 40px;
   margin-right: 40px;
   padding:5px;
-  line-height: normal;
+  line-height: 35px;
 }
 
 .card-content > ol li {
   margin-left: 40px;
   margin-right: 40px;
   padding:5px;
-  line-height: normal;
+  line-height: 35px;
   text-align: justify;
 }
 

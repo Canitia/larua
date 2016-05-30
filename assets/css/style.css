@@ -278,8 +278,7 @@ iframe {
 }
 
 .postdate {
-    font-size: 14px;
-    margin:0px;
+    font-size: 80%;
 		padding: 15px;
 		position:absolute;
 		top:30px;

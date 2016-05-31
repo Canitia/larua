@@ -390,6 +390,10 @@ footer {
     z-index: 999;
 }
 
+.socialfooter > .right > a {
+	margin: 15px;
+}
+
 /* **************************************
 
 	SOME MINOR WIDTH BASED TWEAKS

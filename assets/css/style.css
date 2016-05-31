@@ -43,6 +43,10 @@ hr {
     padding: 0;
 }
 
+pre {
+	line-height: 30px;
+}
+
 blockquote {
 	position:relative;
 	padding-top:20px;

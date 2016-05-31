@@ -5,20 +5,20 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Ma
 
 #Design & features
 - Ability to set your own site logo and cover image
-- Shows 3 featured posts (need the API to be enabled in Ghost Dashboard -> Labs -> API).
+- Shows last 5 featured posts in a slider (need the API to be enabled in Ghost Dashboard -> Labs -> API).
 - Navigation menu can be setup using the Ghost settings panel -> navigation option.
-- Also includes a 'side swipe' menu on phones.
-- Custom error, tags, static page and author pages.
-- Author section at the bottom of each post incl. avatar and user bio.
+- Also includes a 'side swipe' hamburgermenu on phones.
+- Custom error, tag and author pages.
+- Author section at the bottom of each post incl. avatar, user bio, website and social icons.
 - Shows pagination when available (aka when there are enough posts) in footer.
-- Resolution-based CSS
+- Optimised for different form factors
 - Seperated parts of the code in 'partials'
 
 #Stuff used
 mati uses the following libraries;
 - [jQuery](https://github.com/jquery/jquery)
 - [MaterializeCSS](https://materializecss.com)
-- [FontAwesome-custom](http://www.fortawesome.com/)
+- [FontAwesome](http://www.fontawesome.com/)
 
 #Release
 This theme is still adding features and under development, but check the releases page for stable versions.
@@ -26,26 +26,21 @@ This theme is still adding features and under development, but check the release
 ![Homescreen with featured posts, sidebar and regular posts](https://u8zxna.dm2303.livefilestore.com/y3mX3WZWKlc5_H-_t8ExOYJ3upzB4wzlKPUE93RdXSNaoBYZUr4uH6Diu0L-Zeiz12u8uhtkOibdAUsvRW0quwRckEjZzN5CH_qESsByMK3LkndWuyC9uYgiBnSZi4ThdME3ATEArV-IC0JLKnLiC550w?width=1206&height=1147&cropmode=none)
 
 #Use
-- Download the package from the releases page and extract in your Ghost's 'content/theme' folder
+- Download the package from the releases page and extract in your Ghost' 'content/theme' folder
 - Restart your Ghost instance to see the new theme and apply it.
 
 #Requirement
-To make full use of this theme you need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API. 
+To make full use of this theme you need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API.
 
 #Customization - partials
 ##Disqus
-To use disqus; create a file in the partials folder called disqus.hbs. Parse the full 'disqus universal' code in there. After that open the post.hbs file and search for 'disqus' you should find a long comment showing where to load the disqus.hbs. You load this file by including: {{> disqus}} at the location. 
+To use disqus; create a file in the partials/thirdparty folder called disqus.hbs. Parse the full 'disqus universal' code in there. After that open the post.hbs file and search for 'disqus' you should find a long comment showing where to load the disqus.hbs. You load this file by including: {{> disqus}} at the location. 
 
 ##Google Analytics
-To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'. 
-
-##Header
-The navigation.hbs partial (/partials/navigation.hbs) basically consists of a dynamic menu which gets generated based on the items setup in the Ghost dashboard's navigation menu. Also includes the mobile (side-swipe) menu with the same menu items.
+To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'.
 
 ##Sidebar(s)
-Included again as of version 0.8. Only shows on medium and high resolutions (~1000 and up horizontal). By default i have included a 'most used tags' section but you can easily add your own in 'partials/ui/sidebar.hbs'. 
+Included again as of version 0.8. Only shows on high resolutions (~1000px and up horizontal). By default i have included a 'recent posts' and a 'most used tags' section but you can easily add your own (or remove the included ones) in 'partials/ui/sidebar.hbs'.
 
 ##Social
-I've added the ability to add social links to the footer. In the partials/ui/footer.hbs you can setup your own social media links. I have included a smaller version of font-awesome in this theme so the available icons are limited unless you add the full font-awesome (in default.hbs). The current available options in my version are: bitbucket, lastfm, linkedin, facebook-official, github, google-plus, rss, arrow-left, arrow-right and twitter.
-
-
+I've added the ability to add social links to the footer. You can include Facebook and Twitter profiles from the Ghost admin page (website-wide) and enter Twitter and Facebook urls for specific user profiles

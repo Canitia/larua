@@ -27,21 +27,22 @@ background-color: #0d47a1 !important;
 
 blockquote {
   background-color: whitesmoke;
-  border-left: 5px solid #979797 !important;
+  border-left: 0 !important;
 }
 
  .text-left-title-featured {
-  opacity: 0.7;
+  opacity: 0.8;
   background-color: black !important;
+  margin:0px;
+  padding:25px !important;
  }
 
  .text-left-title-featured-sidebar {
-   opacity: 1;
    background-color: #1565c0 !important;
    color:white !important;
  }
 
-p > a, .headerurl:hover, h1.text-left-title a:hover, .pagination > a > i:hover, .collection .collection-item a, .author-profile h4 a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
+p > a, .headerurl:hover, .pagination > a > i:hover, .collection .collection-item a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
 	color: black !important;
 }
 
@@ -86,17 +87,8 @@ p > a:focus, p > a:hover, .btn > a:hover
   text-decoration: none;
 }
 
-article {
-      background-color: white;
-}
-
-
 section.author-profile {
 	background-color:whitesmoke;
-}
-
-.pagination li:hover {
-		background-color: #0D47A1 !important;
 }
 
 .pagination li.active {
@@ -107,15 +99,7 @@ li.pagination-arrows:hover {
 	background-color: #1565C0 !important;
 }
 
-footer > nav {
-  background-color: #0d47a1 !important;
-}
-
 /* social media icons sidebar and footer */
-.socialfooter {
-  border-top:1px solid rgba(0,0,0,0.12);
-}
-
 .socialfooter > a {
     color: #00bfff;
 }
@@ -124,16 +108,9 @@ footer > nav {
     color: black;
 }
 
-.postdate > .chip {
-  background-color: white;
-}
-
-body > main > div > article > h4 > p > i {
-	color:white;
-}
-
-.fa-star {
-  color: #ffa500 !important;
+.postdate {
+  background-color:black;
+  color:white;
 }
 
 p.author-bio {

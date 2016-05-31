@@ -4,10 +4,10 @@
       <div class="nav-wrapper">
         <!-- check if a blog cover is active -->
         {{#if @blog.logo}}
-        <img src="{{@blog.logo}}" alt="blog logo" class="logo left" />
+        <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
         {{/if}}
 
-        <p class="brand-logo left">
+        <p class="brand-logo center">
             <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
         </p>
 
@@ -19,7 +19,7 @@
            {{/foreach}}
            <!-- End the loop -->
          </ul>
-         <a href="#" data-activates="slide-out" class="button-collapse right"><i class="fa fa-bars" aria-hidden="true"></i></a>
+         <a href="#" data-activates="slide-out" class="button-collapse right"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
 
 <ul id="slide-out" class="side-nav">
     <!-- Loop through the navigation items -->

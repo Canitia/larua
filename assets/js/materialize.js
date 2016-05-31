@@ -7,5 +7,9 @@ $(document).ready(function(){
       }
     );
 
-    $('.slider').slider({indicators: false});
+    $('.slider').slider({
+      indicators: false,
+      transition: 750,
+      interval: 7500
+    });
  });

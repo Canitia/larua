@@ -1,10 +1,10 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 <div class="row">
-    {{#if @labs.publicAPI}}
-      {{> 'post/card-featured'}}
-    {{/if}}
 <div class="main-content col s12 m12 l8">
+  {{#if @labs.publicAPI}}
+    {{> 'post/card-featured'}}
+  {{/if}}
     {{> 'post/card-basic'}}
     {{#if pagination}}
         {{pagination}}

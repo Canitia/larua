@@ -508,6 +508,11 @@ footer {
   margin-right:20px;
 }
 
+.slides > li > p > .fa-star {
+	margin-right: 20px !important;
+	color: orange;
+}
+
 .postdate i {
 	margin-right: 5px;
 }

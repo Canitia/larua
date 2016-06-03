@@ -181,7 +181,7 @@ i.fa.fa-bars {
 }
 
 .card-sidebar {
-	margin-top: 0px;
+	margin-top: 0px !important;
 }
 
 

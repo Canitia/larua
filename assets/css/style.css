@@ -121,6 +121,11 @@ strong {
 	font-size:20em;
 }
 
+.slider .indicators {
+	position: relative !important;
+	margin-top: 20px !important;
+}
+
 /* **************************************
 
   HEADER
@@ -261,6 +266,10 @@ article {
 	margin-right:auto;
 	margin-bottom: 20px;
 	margin-top:20px;
+}
+
+.slider {
+	height: 400px !important;
 }
 
 .slider .slides {

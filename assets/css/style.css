@@ -263,6 +263,10 @@ article {
 	margin-bottom: 25px !important;
 }
 
+.slider .slides {
+	height: 350px !important;
+}
+
 .slider .slides li .caption {
 	bottom:0% !important;
 	top:auto !important;
@@ -272,7 +276,6 @@ article {
 
 .slider .slides li img {
 	object-fit: cover;
-	height: 400px !important;
 	background-size: contain !important;
 	background-position: center !important;
 	background-color: black !important;

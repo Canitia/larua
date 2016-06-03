@@ -548,3 +548,9 @@ footer {
 		.socialfooter > a i:hover {
 			color:black;
 		}
+
+
+.twitter-tweet {
+	margin-left:auto;
+	margin-right: auto;
+}

@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     $('.slider').slider({
       indicators: true,
-      transition: 750,
+      transition: 350,
       interval: 7500
     });
  });

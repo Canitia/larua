@@ -8,7 +8,7 @@ $(document).ready(function(){
     );
 
     $('.slider').slider({
-      indicators: false,
+      indicators: true,
       transition: 750,
       interval: 7500
     });

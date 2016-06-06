@@ -218,21 +218,25 @@ POST/ARTICLE HEADERS
 .card-content > h1 {
   	font-size: 250%;
     margin-left: 10px;
+		font-family:'Slabo 27px', serif;
 }
 
 .card-content > h2 {
 	font-size: 200%;
   margin-left: 10px;
+	font-family:'Slabo 27px', serif;
 }
 
 .card-content > h3 {
 	font-size: 175%;
   margin-left: 10px;
+	font-family:'Slabo 27px', serif;
 }
 
 .card-content > h4 {
 	font-size: 140%;
   margin-left: 10px;
+	font-family:'Slabo 27px', serif;
 }
 
 .card-content > ul li {

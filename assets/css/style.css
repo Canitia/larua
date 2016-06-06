@@ -113,6 +113,7 @@ strong {
 }
 
 .card-title {
+	font-size:125% !important;
 	padding:5px !important;
 }
 

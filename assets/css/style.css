@@ -113,12 +113,18 @@ strong {
 }
 
 .card-title {
+	font-size:125% !important;
 	padding:5px !important;
 }
 
 /* forbidden icon from error page */
 .card-image > .fa-ban {
 	font-size:20em;
+}
+
+.slider .indicators {
+	position: relative !important;
+	margin-top: 20px !important;
 }
 
 /* **************************************
@@ -129,7 +135,7 @@ strong {
 /* color of clickable header */
 .headerurl {
     text-decoration: none;
-		margin-left:20px;
+		margin-left:40px;
 }
 
 .headerurl:hover {
@@ -175,6 +181,10 @@ i.fa.fa-bars {
 	margin:0px !important;
 }
 
+.card-sidebar {
+	margin-top: 0px !important;
+}
+
 
 /* ######################################
 
@@ -209,21 +219,25 @@ POST/ARTICLE HEADERS
 .card-content > h1 {
   	font-size: 250%;
     margin-left: 10px;
+		font-family:'Slabo 27px', serif;
 }
 
 .card-content > h2 {
 	font-size: 200%;
   margin-left: 10px;
+	font-family:'Slabo 27px', serif;
 }
 
 .card-content > h3 {
 	font-size: 175%;
   margin-left: 10px;
+	font-family:'Slabo 27px', serif;
 }
 
 .card-content > h4 {
 	font-size: 140%;
   margin-left: 10px;
+	font-family:'Slabo 27px', serif;
 }
 
 .card-content > ul li {
@@ -260,7 +274,11 @@ article {
 }
 
 .slider {
-	margin-bottom: 25px !important;
+	height: 400px !important;
+}
+
+.slider .slides {
+	height: 350px !important;
 }
 
 .slider .slides li .caption {
@@ -272,6 +290,10 @@ article {
 
 .slider .slides li img {
 	object-fit: cover;
+	background-size: contain !important;
+	background-position: center !important;
+	background-color: dimgrey !important;
+	background-repeat: no-repeat !important;
 }
 
 img.content-images-featured:hover, img.content-images:hover {
@@ -280,6 +302,11 @@ img.content-images-featured:hover, img.content-images:hover {
 
 iframe {
 	max-width: 100% !important;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:20px;
+	margin-bottom:20px;
 }
 
 .postdate {
@@ -396,6 +423,7 @@ footer {
 
 .socialfooter > .right > a {
 	margin: 15px;
+	font-size: 70%;
 }
 
 /* **************************************
@@ -502,6 +530,12 @@ footer {
   margin-right:20px;
 }
 
+.slides > li > p > .fa-star {
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+	color: orange;
+}
+
 .postdate i {
 	margin-right: 5px;
 }
@@ -524,3 +558,9 @@ footer {
 		.socialfooter > a i:hover {
 			color:black;
 		}
+
+
+.twitter-tweet {
+	margin-left:auto;
+	margin-right: auto;
+}

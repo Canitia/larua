@@ -8,8 +8,8 @@ $(document).ready(function(){
     );
 
     $('.slider').slider({
-      indicators: false,
-      transition: 750,
+      indicators: true,
+      transition: 350,
       interval: 7500
     });
  });

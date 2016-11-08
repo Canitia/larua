@@ -7,7 +7,7 @@
 background-color: #0d47a1 !important;
 }
 
-.accentcolor2, .side-nav a:hover {
+.accentcolor2, .side-nav a:hover, .slider .indicators .indicator-item.active {
   background-color: #1565c0 !important;
 }
 

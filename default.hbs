@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset "css/style.min.css"}}">
     <link rel="stylesheet" href="{{asset "css/style.screen.min.css"}}">
     <!-- other used items -->
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         {{! Ghost outputs important style and meta data with this tag }}
@@ -41,7 +42,7 @@
 </footer>
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js">\x3C/script>')</script>
+<script>window.jQuery || document.write('<script src="{{asset "js/jquery-2.2.4.min.js"}}">\x3C/script>')</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 <script async src="{{asset "js/materialize.min.js"}}"></script>
 <script async src="{{asset "js/randompost.min.js"}}"></script>

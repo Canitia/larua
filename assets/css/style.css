@@ -410,6 +410,10 @@ p.author-bio {
 		padding:15px;
 }
 
+.pagination > .active {
+	padding: 15px;
+}
+
 /* **************************************
 
   FOOTER

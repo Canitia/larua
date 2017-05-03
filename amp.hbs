@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html amp>
+  <head>
+    <meta charset="utf-8">
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="viewport" content="width=device-width" />
+
+
+    <style amp-custom>
+        .posttitle {
+            margin-left:15px;
+            float:left;
+        }
+
+        .card-title {
+            font-size:125% !important;
+            padding:5px !important;
+        }
+
+        /* **************************************
+
+        HEADER
+
+        *****************************************/
+        /* color of clickable header */
+        .headerurl {
+            text-decoration: none;
+                margin-left:40px;
+        }
+
+        .headerurl:hover {
+        text-decoration: none;
+        }
+
+        nav .brand-logo {
+            line-height:5px;
+        }
+
+        img.cover {
+            width:100%;
+            margin-bottom:15px;
+        }
+
+        img.logo {
+            height:64px;
+            position:relative;
+            margin-left:1%;
+        }
+
+        /* ######################################
+
+        POST/ARTICLE HEADERS
+
+        ##########################################*/
+
+        /* post title */
+        .text-left-title-featured, .text-left-title-featured-sidebar {
+            font-size: 120%;
+            padding:15px !important;
+            white-space: normal;
+            overflow:hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* aligns the sidebar to the top of the page and adapts the content within it */
+        .text-left-title-featured-sidebar {
+            margin-top:0px;
+            margin-bottom: 0px;
+        }
+
+        .text-left-title a {
+                text-decoration: none;
+        }
+    </style>
+
+        {{! Ghost outputs important style and meta data with this tag }}
+     {{amp_ghost_head}}
+
+<style amp-boilerplate></style><noscript><style amp-boilerplate></style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    {{amp_components}}
+</head>
+<body class="amp-template">
+    {{#post}}
+    <header class="main-header">
+        <nav class="blog-title">
+            <a href="{{@blog.url}}">{{@blog.title}}</a>
+        </nav>
+    </header>
+    <main class="content" role="main">
+        <article class="post">
+            <header class="post-header">
+                <h1 class="post-title">{{title}}</h1>
+                <section class="post-meta">
+                    {{#author}}
+                    <p class="author">by <a href="{{url}}">{{name}}</a></p>
+                    {{/author}}
+                    <time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="YYYY-MM-DD"}}</time>
+                </section>
+            </header>
+            {{#if image}}
+            <figure class="post-image">
+                <amp-img src="{{image absolute="true"}}" width="600" height="400" layout="responsive"></amp-img>
+            </figure>
+            {{/if}}
+            <section class="post-content">
+                {{amp_content}}
+            </section>
+       </article>
+    </main>
+    {{/post}}
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+        <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+    </footer>
+</body>
+</html>

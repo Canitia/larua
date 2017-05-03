@@ -85,6 +85,9 @@
     {{amp_components}}
 </head>
 <body class="amp-template">
+{{#if @blog.cover}}
+<img src="{{@blog.cover}}" alt="blog cover" class="cover responsive-img" />
+{{/if}}
     {{#post}}
     <header class="main-header">
         <nav class="blog-title">

@@ -100,7 +100,7 @@ li.pagination-arrows:hover {
 }
 
 /* social media icons sidebar and footer */
-.footer > .page-footer {
+.footer.page-footer {
   position: relative !important;
 }
 

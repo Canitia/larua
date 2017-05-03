@@ -100,6 +100,11 @@ li.pagination-arrows:hover {
 }
 
 /* social media icons sidebar and footer */
+.footer > .page-footer {
+  position: relative !important;
+}
+
+
 .socialfooter > a {
     color: #00bfff;
 }

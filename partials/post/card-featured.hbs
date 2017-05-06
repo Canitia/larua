@@ -1,6 +1,6 @@
+{{#get "posts" limit="5" filter="featured:true" order="published_at desc" as |featured| }}
 <div class="slider">
     <ul class="slides">
-      {{#get "posts" limit="5" filter="featured:true" order="published_at desc" as |featured| }}
         {{#foreach featured}}
       <li>
         <p class="postdate right"><i class="fa fa-star"></i> Featured</p>
@@ -11,6 +11,6 @@
         </div>
       </li>
       {{/foreach}}
-      {{/get}}
     </ul>
   </div>
+{{/get}}

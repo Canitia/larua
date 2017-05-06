@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html ⚡>
+<head>
+    {{!-- Document Settings --}}
+    <meta charset="utf-8">
+
+    {{!-- Page Meta --}}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    {{!-- Mobile Meta --}}
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    {{!-- Brand icon --}}
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+    {{amp_ghost_head}}
+
+    {{!-- Styles'n'Scripts --}}
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,600,400" />
+    <style amp-custom>
+            html body {
+            font-size:16px;
+            font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+            }
+
+            h1 {
+                font-size: 250%;
+            }
+
+            h2 {
+                font-size: 200%;
+            }
+
+            h3 {
+                font-size: 175%;
+            }
+
+            h4 {
+                font-size: 140%;
+            }
+
+            p {
+                line-height: 30px;
+                text-rendering: geometricPrecision;
+            }
+
+            p > a {
+                text-decoration: underline;
+            }
+
+            hr {
+                display: block;
+                height: 1px;
+                border: 0;
+                border-top: 1px solid #979797 !important;
+                margin: 1em 0;
+                padding: 0;
+            }
+
+            pre {
+                line-height: 30px;
+            }
+
+            blockquote {
+                position:relative;
+                padding-top:20px;
+                padding-bottom:20px;
+            }
+
+            blockquote:before, blockquote:after {
+                color:black;
+                content:'\f10d';
+                font-family:'FontAwesome';
+                font-size:30px;
+                position:absolute;
+                top:5px;
+                left:8px;
+                display:block;
+            }
+            blockquote:after {
+                content:'\f10e';
+                bottom:0;
+                right:8px;
+                top:auto;
+                left:auto;
+            }
+
+            blockquote > p {
+                font-style: italic !important;
+                    text-align:left;
+                    margin-left:30px !important;
+            }
+
+            pre {
+                padding-left:30px;
+                padding-right:30px;
+                padding-top:5px;
+                padding-bottom:5px;
+                background-color: #f5f7f8;
+            }
+
+            strong {
+            font-weight: 700 !important;
+            }  
+
+            /* **************************************
+
+            HEADER
+
+            *****************************************/
+            /* color of clickable header */
+            .headerurl {
+                text-decoration: none;
+                    margin-left:40px;
+            }
+
+            .headerurl:hover {
+            text-decoration: none;
+            }
+
+            nav .brand-logo {
+                line-height:5px;
+            }
+
+            img.cover {
+                width:100%;
+                margin-bottom:15px;
+            }
+
+            img.logo {
+                height:64px;
+                position:relative;
+                margin-left:1%;
+            }
+
+            /* ######################################
+
+            POST/ARTICLE HEADERS
+
+            ##########################################*/
+
+            /* post title */
+            .text-left-title-featured, .text-left-title-featured-sidebar {
+                font-size: 120%;
+                padding:15px !important;
+                white-space: normal;
+                overflow:hidden;
+                text-overflow: ellipsis;
+            }
+
+            /* aligns the sidebar to the top of the page and adapts the content within it */
+            .text-left-title-featured-sidebar {
+                margin-top:0px;
+                margin-bottom: 0px;
+            }
+
+            .text-left-title a {
+                    text-decoration: none;
+            }
+
+
+            /* **************************************
+
+            ARTICLE/POST LOOK-N-FEEL
+
+            *****************************************/
+            .card-content > h1 {
+                font-size: 250%;
+                margin-left: 10px;
+                    font-family:'Slabo 27px', serif;
+            }
+
+            .card-content > h2 {
+                font-size: 200%;
+            margin-left: 10px;
+                font-family:'Slabo 27px', serif;
+            }
+
+            .card-content > h3 {
+                font-size: 175%;
+            margin-left: 10px;
+                font-family:'Slabo 27px', serif;
+            }
+
+            .card-content > h4 {
+                font-size: 140%;
+            margin-left: 10px;
+                font-family:'Slabo 27px', serif;
+            }
+
+            .card-content > ul li {
+            list-style-type: square !important;
+            margin-left: 40px;
+            margin-right: 40px;
+            padding:5px;
+            line-height: 35px;
+            }
+
+            .card-content > ol li {
+            margin-left: 40px;
+            margin-right: 40px;
+            padding:5px;
+            line-height: 35px;
+            text-align: justify;
+            }
+
+
+            /* general dimensions of posts/articles */
+            article {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 15px;
+                    word-wrap: break-word;
+            }
+
+            .card-content > img, .card-content > p > img {
+                max-width: 100%;
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+                margin-bottom: 20px;
+                margin-top:20px;
+            }
+
+            /* ##############################
+
+            SET OVERALL ACCENT color
+
+            #############################*/
+            .accentcolor {
+            background-color: #0d47a1 !important;
+            }
+
+            .accentcolor2, .side-nav a:hover, .slider .indicators .indicator-item.active {
+            background-color: #1565c0 !important;
+            }
+
+            .accentcolor-error {
+            background-color: red !important;
+            }
+
+            blockquote {
+            background-color: whitesmoke;
+            border-left: 0 !important;
+            }
+
+            p > a, .headerurl:hover, .pagination > a > i:hover, .collection .collection-item a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
+                color: black !important;
+            }
+
+
+            p > a:focus, p > a:hover, .btn > a:hover
+            {
+            color:grey  !important;
+            }
+
+            .headerurl, .side-nav a, .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, .pagination, .pagination li a, footer a, .btn > a  {
+                color: white !important;
+            }
+
+            .postdate {
+            background-color:black;
+            color:white;
+            }
+
+            p.author-bio {
+                color:white;
+                background-color:black;
+            }
+
+            nav.blog-title {
+                font-size: 200%;
+                padding: 15px;
+            }
+
+            article.post {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+
+            .post-date{
+                text-align:right;
+            }
+
+            .card-title {
+            font-size:125% !important;
+            padding:5px !important;
+            background-color: black;
+            opacity: 0.8;
+            width: 100%;
+            display:block;
+            color:white;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .socialfooter > a {
+            color: #00bfff;
+        }
+
+        .socialfooter > a:hover {
+            color: black;
+        }
+
+        /* **************************************
+
+        FOOTER
+
+        *****************************************/
+        footer {
+            width: 100%;
+            overflow: hidden;
+            z-index: 999;
+        }
+
+        .socialfooter > .right > a {
+            margin: 15px;
+            font-size: 70%;
+        }
+    </style>
+
+    {{!-- The AMP boilerplate --}}
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    {{amp_components}}
+
+</head>
+
+<body class="amp-template">
+    <header class="main-header accentcolor">
+        <nav class="blog-title">
+            <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
+        </nav>
+    </header>
+
+    <main class="content" role="main">
+    {{#post}}
+        <article class="post">
+
+            <header class="post-header">
+                <h1 class="text-left-title">{{title}}</h1>
+                <section class="post-meta">
+                    <span class="card-title">
+                    <p class="posttitle">{{title}}</p>
+                    <time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="YYYY-MM-DD"}}</time>
+                    </span>
+                </section>
+            </header>
+            {{#if image}}
+            <figure class="post-image">
+                <amp-img src="{{image absolute="true"}}" width="600" height="400" layout="responsive"></amp-img>
+            </figure>
+            {{/if}}
+            <section class="card-content">
+
+                {{amp_content}}
+
+            </section>
+
+        </article>
+ {{/post}}
+    </main>
+    <footer class="page-footer accentcolor">
+    <div class="socialfooter">
+            <p class="right">
+            <a href="https://michaelboumann.info/collection/#mati" target="_blank">powered by: Mati for Ghost</a>
+            </p>
+    </div>
+    </footer>
+</body>
+</html>

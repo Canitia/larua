@@ -279,6 +279,20 @@
                 margin-left: 5%;
                 margin-right: 5%;
             }
+
+            .post-date{
+                text-align:right;
+            }
+
+            .card-title {
+            font-size:125% !important;
+            padding:5px !important;
+            background-color: black;
+            opacity: 0.8;
+            width: 100%;
+            display:block;
+            color:white;
+        }
     </style>
 
     {{!-- The AMP boilerplate --}}
@@ -303,10 +317,10 @@
             <header class="post-header">
                 <h1 class="text-left-title">{{title}}</h1>
                 <section class="post-meta">
-                    {{#author}}
-                    <p class="author">by <a href="{{url}}">{{name}}</a></p>
-                    {{/author}}
+                    <span class="card-title">
+                    <p class="posttitle">{{title}}</p>
                     <time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="YYYY-MM-DD"}}</time>
+                    </span>
                 </section>
             </header>
             {{#if image}}

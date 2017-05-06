@@ -25,18 +25,22 @@
       {{/foreach}}
     </div>
       {{/if}}
-
-      {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
-        <h1 class="text-left-title-featured-sidebar accentcolor center-align"></i>Need something else to read?</h1>
-        <ul class="collection" id="random-posts-list">
-          {{! content of 'randompost.js' gets entered here! }}
-        </ul>
-      {{/if}}
-
 {{! Disqus should be included right below this tag; for more information about this check the readme }}
       </article>
     </div>
 {{/post}}
+
+      {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
+   <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Related posts</h1>       
+          <ul class="collection">
+            {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
+                    {{#foreach related}}
+                          
+                          <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
+                    {{/foreach}}
+            {{/get}}
+          </ul>
+      {{/if}}
 </div>
     {{> 'ui/sidebar'}}
 </div>

@@ -148,6 +148,7 @@ nav .brand-logo {
 
 img.cover {
 	width:100%;
+	max-height:250px;
 	margin-bottom:15px;
 }
 

@@ -25,7 +25,10 @@ This theme is still adding features and under development, but check the release
 **New requirement as of 0.9.5**
 Limits cover/header image size to 250px in height. So make sure you have an image that aligns correctly. 
 
-![Homescreen with featured posts, sidebar and regular posts](https://u8zxna.dm2303.livefilestore.com/y3mX3WZWKlc5_H-_t8ExOYJ3upzB4wzlKPUE93RdXSNaoBYZUr4uH6Diu0L-Zeiz12u8uhtkOibdAUsvRW0quwRckEjZzN5CH_qESsByMK3LkndWuyC9uYgiBnSZi4ThdME3ATEArV-IC0JLKnLiC550w?width=1206&height=1147&cropmode=none)
+**New requirement as of 0.9**
+As of previous version there has been a 'limit' to the site name overall. It's a bug that i haven't felt like fixing yet, but it basically limits your site/blog name to ~12 characters. Anything higher will screw up it's alignment. So just a FYI for now. 
+
+![Homescreen with featured posts, sidebar and regular posts](https://michaelboumann.info/collection/ceruleanforghost.png)
 
 # Use
 - Download the package from the releases page and extract in your Ghost' 'content/theme' folder

@@ -13,6 +13,11 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Ma
 - Optimised for different form factors
 - Seperated parts of the code in 'partials'
 
+**Image of the theme**
+An image of the latest version is included in the theme as you can see in Cerulean.png.
+
+![Cerulean Theme](https://github.com/boumannm/cerulean-for-ghost/blob/master/cerulean.png)
+
 # Stuff used
 Cerulean for Ghost uses the following libraries;
 - [jQuery](https://github.com/jquery/jquery)
@@ -22,21 +27,18 @@ Cerulean for Ghost uses the following libraries;
 # Release
 This theme is still adding features and under development, but check the releases page for stable versions.
 
-**New requirement as of 0.9.5**
-Limits cover/header image size to 250px in height. So make sure you have an image that aligns correctly. 
-
-**New requirement as of 0.9**
-As of previous version there has been a 'limit' to the site name overall. It's a bug that i haven't felt like fixing yet, but it basically limits your site/blog name to ~12 characters. Anything higher will screw up it's alignment. So just a FYI for now. 
-
-**Image of the theme**
-An image of the latest version is included in the theme as you can see in Cerulean.png.
-
 # Use
 - Download the package from the releases page and extract in your Ghost' 'content/theme' folder
 - Restart your Ghost instance to see the new theme and apply it.
 
 # Requirement
 To make full use of this theme you need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API.
+
+**New requirement as of 0.9.5**
+Limits cover/header image size to 250px in height. So make sure you have an image that aligns correctly. 
+
+**New requirement as of 0.9**
+As of previous version there has been a 'limit' to the site name overall. It's a bug that i haven't felt like fixing yet, but it basically limits your site/blog name to ~12 characters. Anything higher will screw up it's alignment. So just a FYI for now. 
 
 # Customization - partials
 ## Disqus

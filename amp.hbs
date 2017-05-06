@@ -332,7 +332,6 @@
 </head>
 
 <body class="amp-template">
-    {{#post}}
     <header class="main-header accentcolor">
         <nav class="blog-title">
             <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
@@ -340,6 +339,7 @@
     </header>
 
     <main class="content" role="main">
+    {{#post}}
         <article class="post">
 
             <header class="post-header">
@@ -363,8 +363,8 @@
             </section>
 
         </article>
+ {{/post}}
     </main>
-    {{/post}}
     <footer class="page-footer accentcolor">
     <div class="socialfooter">
             <p class="right">

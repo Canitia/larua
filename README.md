@@ -13,6 +13,9 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Ma
 - Optimised for different form factors
 - Seperated parts of the code in 'partials'
 
+**Image of the theme**
+An image of the latest version is included in the theme as you can see in Cerulean.png.
+
 # Stuff used
 Cerulean for Ghost uses the following libraries;
 - [jQuery](https://github.com/jquery/jquery)
@@ -27,9 +30,6 @@ Limits cover/header image size to 250px in height. So make sure you have an imag
 
 **New requirement as of 0.9**
 As of previous version there has been a 'limit' to the site name overall. It's a bug that i haven't felt like fixing yet, but it basically limits your site/blog name to ~12 characters. Anything higher will screw up it's alignment. So just a FYI for now. 
-
-**Image of the theme**
-An image of the latest version is included in the theme as you can see in Cerulean.png.
 
 # Use
 - Download the package from the releases page and extract in your Ghost' 'content/theme' folder

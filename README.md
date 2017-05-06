@@ -1,4 +1,4 @@
-# Mati theme for Ghost
+# Cerulean for Ghost
 
 A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
@@ -14,7 +14,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Ma
 - Seperated parts of the code in 'partials'
 
 # Stuff used
-mati uses the following libraries;
+Cerulean for Ghost uses the following libraries;
 - [jQuery](https://github.com/jquery/jquery)
 - [MaterializeCSS](https://materializecss.com)
 - [FontAwesome](http://www.fontawesome.com/)

@@ -28,7 +28,8 @@ Limits cover/header image size to 250px in height. So make sure you have an imag
 **New requirement as of 0.9**
 As of previous version there has been a 'limit' to the site name overall. It's a bug that i haven't felt like fixing yet, but it basically limits your site/blog name to ~12 characters. Anything higher will screw up it's alignment. So just a FYI for now. 
 
-![Homescreen with featured posts, sidebar and regular posts](https://michaelboumann.info/collection/ceruleanforghost.png)
+**Image of the theme**
+An image of the latest version is included in the theme as you can see in Cerulean.png.
 
 # Use
 - Download the package from the releases page and extract in your Ghost' 'content/theme' folder

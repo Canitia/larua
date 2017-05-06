@@ -16,6 +16,8 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Ma
 **Image of the theme**
 An image of the latest version is included in the theme as you can see in Cerulean.png.
 
+![Cerulean Theme](https://github.com/boumannm/cerulean-for-ghost/blob/master/cerulean.png)
+
 # Stuff used
 Cerulean for Ghost uses the following libraries;
 - [jQuery](https://github.com/jquery/jquery)

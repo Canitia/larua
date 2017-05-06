@@ -22,6 +22,9 @@ mati uses the following libraries;
 # Release
 This theme is still adding features and under development, but check the releases page for stable versions.
 
+**New requirement as of 0.9.5**
+Limits cover/header image size to 250px in height. So make sure you have an image that aligns correctly. 
+
 ![Homescreen with featured posts, sidebar and regular posts](https://u8zxna.dm2303.livefilestore.com/y3mX3WZWKlc5_H-_t8ExOYJ3upzB4wzlKPUE93RdXSNaoBYZUr4uH6Diu0L-Zeiz12u8uhtkOibdAUsvRW0quwRckEjZzN5CH_qESsByMK3LkndWuyC9uYgiBnSZi4ThdME3ATEArV-IC0JLKnLiC550w?width=1206&height=1147&cropmode=none)
 
 # Use

@@ -293,6 +293,34 @@
             display:block;
             color:white;
         }
+
+        .right {
+            text-align: right;
+        }
+
+        .socialfooter > a {
+            color: #00bfff;
+        }
+
+        .socialfooter > a:hover {
+            color: black;
+        }
+
+        /* **************************************
+
+        FOOTER
+
+        *****************************************/
+        footer {
+            width: 100%;
+            overflow: hidden;
+            z-index: 999;
+        }
+
+        .socialfooter > .right > a {
+            margin: 15px;
+            font-size: 70%;
+        }
     </style>
 
     {{!-- The AMP boilerplate --}}
@@ -338,8 +366,11 @@
     </main>
     {{/post}}
     <footer class="page-footer accentcolor">
-        <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-        <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+    <div class="socialfooter">
+            <p class="right">
+            <a href="https://michaelboumann.info/collection/#mati" target="_blank">powered by: Mati for Ghost</a>
+            </p>
+    </div>
     </footer>
 </body>
 </html>

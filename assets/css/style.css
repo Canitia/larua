@@ -292,6 +292,13 @@ article {
 	width: 100% !important;
 }
 
+img.content-images-featured.responsive-img {
+	width: 970px !important;
+	margin-left:auto !important;
+	margin-right: auto !important;
+	display:block !important;
+}
+
 .slider .slides li img {
 	background-position: center !important;
 	background-color: dimgrey !important;

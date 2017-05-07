@@ -278,6 +278,7 @@ article {
 
 .slider {
 	height: 375px !important;
+	padding: 0 .75rem !important;
 }
 
 .slider .slides {

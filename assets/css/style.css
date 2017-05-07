@@ -293,8 +293,6 @@ article {
 }
 
 .slider .slides li img {
-	object-fit: cover;
-	background-size: contain !important;
 	background-position: center !important;
 	background-color: dimgrey !important;
 	background-repeat: no-repeat !important;

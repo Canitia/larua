@@ -1,12 +1,6 @@
+<h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Latest</h1>
+<ul class="collection">
 {{#foreach posts}}
-  <div class="card large">
-    <p class="postdate right"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}"> {{date published_at timeago="true"}}</time></p>
-              <div class="card-image">
-                <a href="{{url}}"><img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" /></a>
-                <span class="card-title"><p class="posttitle"><a href="{{url}}">{{title}}</a></p></span>
-              </div>
-              <div class="card-content">
-                <p>{{excerpt characters="240"}}...</p>
-              </div>
-          </div>
+<li class="collection-item"><a href="{{url}}">{{title}}<span class="badge"><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time></span></a></li>
 {{/foreach}}
+</ul>

@@ -99,11 +99,6 @@ strong {
   width: auto;
 }
 
-.posttitle {
-	margin-left:15px;
-	float:left;
-}
-
 .card {
 	margin-bottom:40px !important;
 }
@@ -123,7 +118,9 @@ strong {
 }
 
 .slider .indicators {
-	position: relative !important;
+	position: absolute !important;
+	top: 20px !important;
+	z-index:200 !important;
 	margin-top: 20px !important;
 }
 
@@ -177,6 +174,10 @@ i.fa.fa-bars {
   CONTENT SIDEBAR
 
 *****************************************/
+#sidenav-overlay {
+	right: 300px !important;
+}
+
 
 .collection {
 	margin:0px !important;
@@ -185,6 +186,8 @@ i.fa.fa-bars {
 .card-sidebar {
 	margin-top: 0px !important;
 }
+
+
 
 
 /* ######################################
@@ -217,6 +220,8 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
+
+
 .card-content > h1 {
   	font-size: 250%;
     margin-left: 10px;
@@ -275,7 +280,7 @@ article {
 }
 
 .slider {
-	height: 400px !important;
+	height: 375px !important;
 }
 
 .slider .slides {
@@ -409,6 +414,7 @@ p.author-bio {
 
 .pagination {
 		padding:15px;
+		margin-top: 0px !important;
 }
 
 .pagination > .active {
@@ -424,6 +430,10 @@ footer {
     width: 100%;
     overflow: hidden;
     z-index: 999;
+}
+
+.page-footer {
+	position: absolute !important;
 }
 
 .socialfooter > .right > a {

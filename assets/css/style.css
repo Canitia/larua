@@ -132,15 +132,10 @@ strong {
 /* color of clickable header */
 .headerurl {
     text-decoration: none;
-		margin-left:40px;
 }
 
 .headerurl:hover {
   text-decoration: none;
-}
-
-nav .brand-logo {
-	line-height:5px;
 }
 
 img.cover {
@@ -525,14 +520,6 @@ footer {
 		margin-right: auto;
 		width:992px;
 	}
-
-	.brand-logo {
-		float:left !important;
-		left: auto !important;
-		margin-left:80px !important;
-	}
-
-
 }
 
 	/* **************************************

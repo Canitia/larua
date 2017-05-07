@@ -99,10 +99,6 @@ strong {
   width: auto;
 }
 
-.card {
-	margin-bottom:40px !important;
-}
-
 .card.large {
 	height: auto !important;
 }

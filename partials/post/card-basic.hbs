@@ -2,11 +2,10 @@
   <div class="card large">
     <p class="postdate right"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}"> {{date published_at timeago="true"}}</time></p>
               <div class="card-image">
-                <a href="{{url}}"><img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" /></a>
-                <span class="card-title"><p class="posttitle"><a href="{{url}}">{{title}}</a></p></span>
+                <a href="{{url}}"><img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" /></a>             
               </div>
               <div class="card-content">
-                <p>{{excerpt characters="240"}}...</p>
+                <span class="card-title"><p class="posttitle"><a href="{{url}}">{{title}}</a></p></span>
               </div>
           </div>
 {{/foreach}}

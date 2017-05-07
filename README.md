@@ -3,12 +3,12 @@
 A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
 # Design & features
-- Ability to set your own site logo and cover image
+- Ability to set your own site logo ~~and cover image~~ (cover image has been removed as of 0.9.8)
 - Shows last 5 featured posts in a slider (need the API to be enabled in Ghost Dashboard -> Labs -> API).
 - Navigation menu can be setup using the Ghost settings panel -> navigation option.
 - Also includes a 'side swipe' hamburgermenu on phones.
 - Custom error, tag and author pages.
-- Author section at the bottom of each post incl. avatar, user bio, website and social icons.
+- ~~Author section at the bottom of each post incl. avatar, user bio, website and social icons.~~ (Temporarily disabled since 0.9.8)
 - Shows pagination when available (aka when there are enough posts) in footer.
 - Optimised for different form factors
 - Seperated parts of the code in 'partials'
@@ -34,11 +34,8 @@ This theme is still adding features and under development, but check the release
 # Requirement
 To make full use of this theme you need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API.
 
-**New requirement as of 0.9.5**
-Limits cover/header image size to 250px in height. So make sure you have an image that aligns correctly. 
-
-**New requirement as of 0.9**
-As of previous version there has been a 'limit' to the site name overall. It's a bug that i haven't felt like fixing yet, but it basically limits your site/blog name to ~12 characters. Anything higher will screw up it's alignment. So just a FYI for now. 
+**New as of 0.9.8**
+You can only set a site logo, no cover image for now. Doesn't seem to fit well with the theme in my opinion. 
 
 # Customization - partials
 ## Disqus

@@ -98,7 +98,6 @@ strong {
 .container .row {
   width: auto;
 }
-
 .card.large {
 	height: auto !important;
 }
@@ -185,6 +184,14 @@ i.fa.fa-bars {
 POST/ARTICLE HEADERS
 
 ##########################################*/
+
+.text-left-title-featured {
+	  padding:25px !important;
+	  margin-left: auto !important;
+	  margin-right: auto !important;
+	  margin-bottom:0px !important;
+	  width:970px !important;
+}
 
 /* post title */
 .text-left-title-featured, .text-left-title-featured-sidebar {

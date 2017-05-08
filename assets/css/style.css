@@ -110,7 +110,7 @@ strong {
   font-weight: 700 !important;
 }
 
-p > a, .pagination > a > i:hover, .collection .collection-item a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
+p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
 	color: black !important;
 }
 
@@ -119,7 +119,7 @@ p > a:focus, p > a:hover, .btn > a:hover
   color:grey  !important;
 }
 
-.headerurl, .side-nav a, .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, .pagination, .pagination li a, footer a, .btn > a  {
+.headerurl, .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, .pagination, .pagination li a, footer a, .btn > a  {
       color: white !important;
 }
 

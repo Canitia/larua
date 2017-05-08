@@ -1,12 +1,31 @@
+/* ##############################
+
+  SET OVERALL ACCENT color
+
+  #############################*/
+.accentcolor {
+background-color: #0d47a1 !important;
+}
+
+.accentcolor2, .side-nav a:hover, .slider .indicators .indicator-item.active {
+  background-color: #1565c0 !important;
+}
+
+.accentcolor-error {
+  background-color: red !important;
+}
+
+
 /* **************************************
 
   GENERAL FONT / ELEMENT
 
 *****************************************/
 html body {
-line-height: 0 !important;
-font-size:16px;
-font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	line-height: 0 !important;
+	font-size:16px;
+	font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	background-color: dimgrey;
 }
 
 h1 {
@@ -51,6 +70,8 @@ blockquote {
 	position:relative;
 	padding-top:20px;
 	padding-bottom:20px;
+	background-color: whitesmoke;
+  	border-left: 0 !important;
 }
 
 blockquote:before, blockquote:after {
@@ -89,6 +110,28 @@ strong {
   font-weight: 700 !important;
 }
 
+p > a, .headerurl:hover, .pagination > a > i:hover, .collection .collection-item a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
+	color: black !important;
+}
+
+p > a:focus, p > a:hover, .btn > a:hover
+{
+  color:grey  !important;
+}
+
+.headerurl, .side-nav a, .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, .pagination, .pagination li a, footer a, .btn > a  {
+      color: white !important;
+}
+
+.posttitle > a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.posttitle > a:hover {
+  text-decoration: none;
+}
+
 /* **************************************
 
   SPECIFIC RESTRICTIONS TO GUI
@@ -105,6 +148,9 @@ strong {
 .card-title {
 	font-size:125% !important;
 	padding:5px !important;
+	background-color: black;
+	opacity: 0.8;
+	width: 100%;	
 }
 
 /* forbidden icon from error page */
@@ -154,13 +200,21 @@ i.fa.fa-bars {
 	margin-right:35px;
 }
 
+.side-nav {
+  background-color: black !important;
+}
+
+.side-nav a:hover {
+  background-color: #0d47a1;
+}
+
 .side-nav full {
     overflow:auto;
 }
 
 /* **************************************
 
-  CONTENT SIDEBAR
+  CONTENT SIDEBAR / MAIN
 
 *****************************************/
 #sidenav-overlay {
@@ -172,12 +226,17 @@ i.fa.fa-bars {
 	margin:0px !important;
 }
 
+.collection .collection-item:hover {
+	background-color: #e0e0e0 !important;
+}
+
+.collection .collection-item a:hover, .main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate a:hover, .chip a:hover, .author-url-post-head  {
+	color:#979797 !important;
+}
+
 .card-sidebar {
 	margin-top: 0px !important;
 }
-
-
-
 
 /* ######################################
 
@@ -191,6 +250,8 @@ POST/ARTICLE HEADERS
 	  margin-right: auto !important;
 	  margin-bottom:0px !important;
 	  width:970px !important;
+	  opacity: 0.8;
+  	  background-color: black !important;
 }
 
 /* post title */
@@ -206,6 +267,8 @@ POST/ARTICLE HEADERS
 .text-left-title-featured-sidebar {
 	margin-top:0px;
 	margin-bottom: 0px;
+	background-color: #1565c0 !important;
+    color:white !important;
 }
 
 .text-left-title a {
@@ -319,13 +382,15 @@ iframe {
 }
 
 .postdate {
-    font-size: 80%;
-		padding: 10px;
-		position:absolute;
-		top:30px;
-		right:30px;
-		opacity:0.7;
-		z-index:1;
+	font-size: 80%;
+	padding: 10px;
+	position:absolute;
+	top:30px;
+	right:30px;
+	opacity:0.7;
+	z-index:1;
+	background-color:black;
+	color:white;
 }
 
 /* add some styling to disqus */
@@ -365,6 +430,15 @@ padding-right: 40px;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
+}
+
+section.author-profile {
+	background-color:whitesmoke;
+}
+
+p.author-bio {
+	color:white;
+	background-color:black;
 }
 
 .author-bio a i {
@@ -424,6 +498,14 @@ p.author-bio {
 	padding: 15px;
 }
 
+.pagination li.active {
+	background-color: #0D47A1 !important;
+}
+
+li.pagination-arrows:hover {
+	background-color: #1565C0 !important;
+}
+
 /* **************************************
 
   FOOTER
@@ -443,6 +525,20 @@ footer {
 	margin: 15px;
 	font-size: 70%;
 }
+
+.footer.page-footer {
+  position: relative !important;
+}
+
+
+.socialfooter > a {
+    color: #00bfff;
+}
+
+.socialfooter > a:hover {
+    color: black;
+}
+
 
 /* **************************************
 

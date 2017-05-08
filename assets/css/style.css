@@ -145,14 +145,6 @@ p > a:focus, p > a:hover, .btn > a:hover
 	height: auto !important;
 }
 
-.card-title {
-	font-size:125% !important;
-	padding:5px !important;
-	background-color: black;
-	opacity: 0.8;
-	width: 100%;	
-}
-
 /* forbidden icon from error page */
 .card-image > .fa-ban {
 	font-size:20em;

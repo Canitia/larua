@@ -414,6 +414,8 @@ img.content-images-featured:hover, img.content-images:hover {
 .chip {
 	color:white !important;
 	border-radius: 0px !important;
+	margin-bottom: 0px !important;
+	margin-right: 0px !important;
 }
 
 .chip:hover {

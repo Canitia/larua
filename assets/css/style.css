@@ -655,6 +655,10 @@ EXTERNAL libraries look-n-feel
   margin-right:20px;
 }
 
+.fa-clock, .fa-user {
+	margin-right: 10px;
+}
+
 .slides > li > p > .fa-star {
 	margin-left: 5px !important;
 	margin-right: 5px !important;

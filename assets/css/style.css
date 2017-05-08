@@ -57,8 +57,8 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #979797 !important;
-    margin: 1em 0;
+    border-top: 1px solid #e0e0e0 !important;
+    margin: 15px;
     padding: 0;
 }
 
@@ -412,8 +412,16 @@ img.content-images-featured:hover, img.content-images:hover {
 }
 
 .chip {
-	color:white;
+	color:white !important;
 	border-radius: 0px !important;
+}
+
+.chip:hover {
+	background-color: #1565c0 !important;
+}
+
+.chip > a:hover {
+	color: white !important;
 }
 /* **************************************
 

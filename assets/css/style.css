@@ -350,7 +350,8 @@ article {
 }
 
 .card .card-content p {
-	margin:16px !important;
+	margin-top: 16px !important;
+	margin-bottom: 16px !important;
 }
 
 .posthead-image {

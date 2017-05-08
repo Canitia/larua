@@ -18,8 +18,11 @@
       <br />
       {{#if tags}}
       <div class="tags center-align">
-      {{#foreach tags}}
           <div class="waves-effect waves-light chip accentcolor2">
+          Tags:
+          </div>
+      {{#foreach tags}}
+          <div class="waves-effect waves-light chip grey">
           <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
           </div>
       {{/foreach}}

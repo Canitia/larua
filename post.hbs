@@ -8,10 +8,10 @@
         <p class="postdate right"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
       <div class="card-image">
         <img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
-        <span class="card-title">
-          <p class="posttitle center">{{title}}</p>
-        </span>
       </div>
+      <span class="card-title">
+        <p class="posttitle center">{{title}}</p>
+      </span>
       <div class="card-content">
         <p>{{content}}</p>
       </div>

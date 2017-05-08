@@ -138,6 +138,10 @@ p > a:focus, p > a:hover, .btn > a:hover
 	color:#979797;
 }
 
+.posttitle {
+	font-size:200%;
+}
+
 .posttitle > a:hover {
   text-decoration: none;
 }
@@ -295,19 +299,19 @@ POST/ARTICLE HEADERS
 
 *****************************************/
 .card-content > h1 {
-  	font-size: 250%;
+  	font-size: 210%;
     margin-left: 10px;
 	font-family:'Slabo 27px', serif;
 }
 
 .card-content > h2 {
-	font-size: 200%;
+	font-size: 180%;
   	margin-left: 10px;
 	font-family:'Slabo 27px', serif;
 }
 
 .card-content > h3 {
-	font-size: 175%;
+	font-size: 165%;
   	margin-left: 10px;
 	font-family:'Slabo 27px', serif;
 }

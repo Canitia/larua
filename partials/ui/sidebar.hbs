@@ -1,6 +1,25 @@
 <div class="col s12 m12 l4 hide-on-med-and-down sidebar">
+
+   {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
+
+   {{#is "post, page"}}
+
+<div><!-- start of a sidebar item -->
+   <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Related</h1>       
+          <ul class="collection">
+            {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
+                    {{#foreach related}}
+                          
+                          <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
+                    {{/foreach}}
+            {{/get}}
+          </ul>
+  </div><!-- end of sidebar item -->
+  {{/is}}
+      {{/if}}
+
 {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
-<div class="card card-sidebar"><!-- start of a sidebar item -->
+<div><!-- start of a sidebar item -->
   <h1 class="text-left-title-featured-sidebar accentcolor2">Recent</h1>
     <ul class="collection">
     {{#get "posts" limit="4" as |recents|}}
@@ -13,7 +32,7 @@
 {{/if}}
 
   {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
-<div class="card card-sidebar"><!-- start of a sidebar item -->
+<div><!-- start of a sidebar item -->
   <h1 class="text-left-title-featured-sidebar accentcolor2">Most used tags</h1>
     <ul class="collection">
     {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}
@@ -23,5 +42,6 @@
     {{/get}}
   </ul>
 </div><!-- end of sidebar item -->
-{{/if}}
+  {{/if}}
+
 </div>

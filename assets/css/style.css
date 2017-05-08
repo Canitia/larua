@@ -526,6 +526,7 @@ p.author-bio {
 
 .pagination > .active {
 	padding: 15px;
+	line-height: 2px; 
 }
 
 .pagination li.active {

@@ -256,7 +256,8 @@ POST/ARTICLE HEADERS
 
 /* post title */
 .text-left-title-featured, .text-left-title-featured-sidebar {
-	font-size: 120%;
+	font-size: 150%;
+	font-weight: 300;
 	padding:15px !important;
 	white-space: normal;
 	overflow:hidden;
@@ -266,8 +267,6 @@ POST/ARTICLE HEADERS
 /* aligns the sidebar to the top of the page and adapts the content within it */
 .text-left-title-featured-sidebar {
 	margin-bottom: 0px;
-	background-color: #1565c0 !important;
-    color:white !important;
 }
 
 .text-left-title a {

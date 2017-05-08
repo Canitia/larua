@@ -552,6 +552,7 @@ footer {
 .socialfooter > .right > a {
 	margin: 15px;
 	font-size: 70%;
+	color:black !important;
 }
 
 .footer.page-footer {
@@ -564,7 +565,7 @@ footer {
 }
 
 .socialfooter > a:hover {
-    color: black;
+    color: #979797;
 }
 
 

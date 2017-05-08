@@ -198,7 +198,10 @@ img.logo {
 
 .side-nav a:hover {
   background-color: #0d47a1;
-  color: white;
+}
+
+.side-nav li>a:hover {
+	color: white;
 }
 
 .side-nav full {

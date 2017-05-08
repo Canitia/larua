@@ -221,7 +221,6 @@ i.fa.fa-bars {
 	right: 300px !important;
 }
 
-
 .collection {
 	margin:0px !important;
 }
@@ -285,6 +284,12 @@ POST/ARTICLE HEADERS
 	z-index:1;
 	background-color:black;
 	color:white;
+}
+
+.main-content > .collection > .collection-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* **************************************

@@ -670,6 +670,10 @@ EXTERNAL libraries look-n-feel
 	margin-right: 10px;
 }
 
+.fa-bars {
+	color: black;
+}
+
 .slides > li > p > .fa-star {
 	margin-left: 5px !important;
 	margin-right: 5px !important;

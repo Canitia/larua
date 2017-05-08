@@ -705,8 +705,12 @@ EXTERNAL libraries look-n-feel
 	transition: all 0.2s ease-in-out;
 }
 
+.socialfooter > a i {
+	color: black;
+}
+
 .socialfooter > a i:hover {
-	color:black;
+	color:#979797;
 }
 
 .twitter-tweet {

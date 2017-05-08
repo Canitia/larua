@@ -1,9 +1,9 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-<div class="row">
-<div class="col s12 m12 l12 main-content">
-{{#post}}
-      <div class="card">
+<div class="row row-post">
+<div class="card">
+  {{#post}}
+          <div class="col s12 m12 l8">
         <article>
       <span class="card-title">
         <p class="posttitle center">{{title}}</p>
@@ -31,18 +31,8 @@
       </article>
     </div>
 {{/post}}
-
-      {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
-   <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Related posts</h1>       
-          <ul class="collection">
-            {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
-                    {{#foreach related}}
-                          
-                          <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
-                    {{/foreach}}
-            {{/get}}
-          </ul>
-      {{/if}}
+        {{> 'ui/sidebar'}}
       {{! Disqus should be included right below this tag; for more information about this check the readme }}
+
 </div>
 </div>

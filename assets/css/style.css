@@ -24,7 +24,7 @@ background-color: #0d47a1 !important;
 html body {
 	font-size:16px;
 	font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-	background-color: dimgrey;
+	background-color: #dfe3e5;
 }
 
 h1 {
@@ -138,6 +138,7 @@ p > a:focus, p > a:hover, .btn > a:hover
 
 .posttitle {
 	font-size:150%;
+	margin: 10px !important;
 }
 
 .posttitle > a:hover {
@@ -149,10 +150,10 @@ p > a:focus, p > a:hover, .btn > a:hover
   SPECIFIC RESTRICTIONS TO GUI
 
 *****************************************/
-/* fix MS Edge for featured section */
-.container .row {
-  width: auto;
+.row.row-post {
+  background-color: white !important;
 }
+
 .card.large {
 	height: auto !important;
 }
@@ -263,7 +264,6 @@ POST/ARTICLE HEADERS
 
 /* aligns the sidebar to the top of the page and adapts the content within it */
 .text-left-title-featured-sidebar {
-	margin-top:0px;
 	margin-bottom: 0px;
 	background-color: #1565c0 !important;
     color:white !important;
@@ -337,7 +337,6 @@ POST/ARTICLE HEADERS
 }
 
 article {
-	margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
@@ -351,7 +350,10 @@ article {
 }
 
 .posthead-image {
-	width: 100%;
+	width: 85%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .card-content > img, .card-content > p > img {
@@ -600,10 +602,6 @@ footer {
 		padding-bottom:15px;
 	}
 
-	.posttitle {
-		margin:10px;
-	}
-
 	.postdate {
 		padding:5px;
 	}
@@ -650,7 +648,7 @@ footer {
 /* tablet devices */
 @media only screen and (min-width: 993px) {
 	.container-fluid {
-		margin-top:25px;
+		margin-top:-15px;
 		margin-left: auto;
 		margin-right: auto;
 		width:992px;

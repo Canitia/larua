@@ -5,13 +5,17 @@
 {{#post}}
       <div class="card">
         <article>
-        <p class="postdate right"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+        <p class="postdate right">
       <div class="card-image">
         <img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
       </div>
       <span class="card-title">
         <p class="posttitle center">{{title}}</p>
       </span>
+      <div class="post-subitems center">
+        <i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+        <i class="fa fa-user" aria-hidden="true"></i>{{author}}
+      </div>
       <div class="card-content">
         <p>{{content}}</p>
       </div>

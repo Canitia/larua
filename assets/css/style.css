@@ -128,6 +128,11 @@ p > a:focus, p > a:hover, .btn > a:hover
   text-decoration: none;
 }
 
+.post-subitems.center {
+	color: #979797;
+	font-weight: 300;
+}
+
 .posttitle > a:hover {
   text-decoration: none;
 }

@@ -411,6 +411,10 @@ img.content-images-featured:hover, img.content-images:hover {
 	line-height:40px;
 }
 
+.chip {
+	color:white;
+	border-radius: 0px !important;
+}
 /* **************************************
 
 	ARTICLE: AUTHOR look-n-feel

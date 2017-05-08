@@ -347,6 +347,10 @@ article {
 	word-wrap: break-word;
 }
 
+.posthead-image {
+	width: 100%;
+}
+
 .card-content > img, .card-content > p > img {
 	width: 100%;
 	height:auto;

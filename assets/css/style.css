@@ -224,6 +224,7 @@ nav ul a {
 
 .collection {
 	margin:0px !important;
+	border: 0 !important;
 }
 
 .collection .collection-item:hover {
@@ -350,7 +351,8 @@ article {
 }
 
 .posthead-image {
-	width: 85%;
+	width: 100%;
+	max-width:1200px;
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
@@ -382,7 +384,7 @@ iframe {
 *****************************************/
 
 .slider {
-	height: 375px !important;
+	height: 350px !important;
 	padding: 0 .75rem !important;
 }
 
@@ -639,10 +641,16 @@ footer {
 				object-fit: cover;
     }
 
-		.container-fluid {
-			margin-left: auto;
-			margin-right: auto;
-		}
+	.container-fluid {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.sidebar {
+		margin-bottom: 20px;
+	}
+
 }
 
 /* tablet devices */
@@ -651,7 +659,11 @@ footer {
 		margin-top:-15px;
 		margin-left: auto;
 		margin-right: auto;
-		width:992px;
+		max-width:1200px;
+	}
+
+	.sidebar {
+		margin-bottom: 20px;
 	}
 }
 

@@ -9,8 +9,7 @@
           <ul class="collection">
             {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
                     {{#foreach related}}
-                          
-                          <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
+                         <a href="{{url}}"><li class="collection-item">{{title}}</li></a>
                     {{/foreach}}
             {{/get}}
           </ul>
@@ -24,7 +23,7 @@
     <ul class="collection">
     {{#get "posts" limit="4" as |recents|}}
           {{#foreach recents}}
-              <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
+              <a href="{{url}}"><li class="collection-item">{{title}}</li></a>
           {{/foreach}}
     {{/get}}
   </ul>
@@ -38,7 +37,7 @@
     <ul class="collection">
     {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}
           {{#foreach tags}}
-              <li class="collection-item"><i class="fa fa-tag" aria-hidden="true"></i><a href="/tag/{{slug}}">{{name}} <span class="badge">{{count.posts}}</span></a></li>
+              <a href="/tag/{{slug}}"><li class="collection-item"><i class="fa fa-tag" aria-hidden="true"></i>{{name}} <span class="badge">{{count.posts}}</span></li></a>
           {{/foreach}}
     {{/get}}
   </ul>

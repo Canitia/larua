@@ -613,7 +613,7 @@ footer {
 	}
 	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {
-		height:55px;
+		height:56px;
 	}
 
 	.main-content {

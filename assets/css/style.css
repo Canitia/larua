@@ -490,14 +490,6 @@ img.content-images-featured:hover, img.content-images:hover {
 	-o-background-size: cover;
 }
 
-p.author-bio {
-	color:white;
-}
-
-.author-bio a i {
-	color: white;
-}
-
 img.avatar {
 	border-radius: 50px;
 	width:100px;

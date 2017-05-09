@@ -456,6 +456,7 @@ img.content-images-featured:hover, img.content-images:hover {
 
 .tags {
 	line-height:40px;
+	margin-top: 10px;
 }
 
 .chip {
@@ -518,6 +519,14 @@ p.author-bio {
 .author-name {
 	font-size:200%;
 	font-weight: 300 !important;
+}
+
+.author-social {
+	margin-top: 50px;
+}
+
+.author-social > a > i {
+	color:black;
 }
 
 .socialauthor {

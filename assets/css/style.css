@@ -199,6 +199,10 @@ img.logo {
 	position:relative;
 }
 
+nav ul a {
+	color: black !important;
+}
+
 /* **************************************
 
   SLIDEOUT SIDEBAR

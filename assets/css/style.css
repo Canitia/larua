@@ -579,10 +579,6 @@ footer {
 		height:56px;
 	}
 
-	.main-content {
-		margin-top: 20px;
-	}
-
 /* Smaller margins to the page gets fit to nearly the full screen */
 	.container-fluid {
 		margin-top:0px;

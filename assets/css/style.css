@@ -235,7 +235,7 @@ nav ul a {
 	background-color: #e0e0e0 !important;
 }
 
-.collection .collection-item a:hover, .collection-item:hover, .main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate a:hover, .author-url-post-head  {
+.collection-item:hover, .main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate a:hover, .author-url-post-head  {
 	color:#979797 !important;
 }
 

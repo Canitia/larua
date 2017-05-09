@@ -515,6 +515,11 @@ p.author-bio {
 	margin-left:120px;
 }
 
+.author-name {
+	font-size:200%;
+	font-weight: 300 !important;
+}
+
 .socialauthor {
 	padding: 15px;
 }

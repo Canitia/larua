@@ -15,7 +15,6 @@
       <div class="card-content">
         <p>{{content}}</p>
       </div>
-      <hr />
       {{#if tags}}
       <div class="tags center-align">
           <div class="waves-effect waves-light chip accentcolor2">
@@ -28,11 +27,13 @@
       {{/foreach}}
     </div>
       {{/if}}
+      <hr />
       </article>
     </div>
 {{/post}}
         {{> 'ui/sidebar'}}
       {{! Disqus should be included right below this tag; for more information about this check the readme }}
+      
 
 </div>
 </div>

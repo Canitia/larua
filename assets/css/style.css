@@ -150,6 +150,10 @@ p > a:focus, p > a:hover, .btn > a:hover
   SPECIFIC RESTRICTIONS TO GUI
 
 *****************************************/
+.row {
+	margin-bottom: 100px !important;
+}
+
 .row.row-post {
   background-color: white !important;
 }
@@ -231,7 +235,7 @@ nav ul a {
 	background-color: #e0e0e0 !important;
 }
 
-.collection .collection-item a:hover, .main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate a:hover, .chip a:hover, .author-url-post-head  {
+.collection .collection-item a:hover, .main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .slider .indicators .indicator-item.active, .postdate a:hover, .author-url-post-head  {
 	color:#979797 !important;
 }
 
@@ -267,6 +271,7 @@ POST/ARTICLE HEADERS
 /* aligns the sidebar to the top of the page and adapts the content within it */
 .text-left-title-featured-sidebar {
 	margin-bottom: 0px;
+	background-color: white;
 }
 
 .text-left-title a {
@@ -426,6 +431,28 @@ img.content-images-featured:hover, img.content-images:hover {
     margin-bottom: 0.25rem;
 }
 
+.tag_heading > .posttitle {
+    font-size: 250%;
+    font-weight: 300;
+    opacity:0.8;
+	background:black;
+	margin-bottom: 0px !important;
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+
+.socialfooter-top {
+	opacity: 0.8;
+}
+
+.socialfooter-top > a {
+	padding: 5px;
+}
+
+.socialfooter-top > a > i {
+	color: white;
+}
+
 .tags {
 	line-height:40px;
 }
@@ -490,10 +517,9 @@ img.avatar {
 
 .avatar-page {
 	width:150px;
-	float:none;
-	border-radius: 20px;
-	margin-right:20px;
+	border-radius: 100px;
 	margin-top:15px;
+	background-color:#F8F8F8;
 }
 
 p.author-bio {
@@ -549,7 +575,8 @@ footer {
 }
 
 .page-footer {
-	position: absolute !important;
+	position: fixed !important;
+	bottom:0;
 }
 
 .socialfooter > .right > a {
@@ -671,9 +698,13 @@ footer {
 EXTERNAL libraries look-n-feel
 
 *****************************************/
-.fa-user-secret, .fa-star, .fa-calendar, .fa-twitter, .fa-facebook {
+.fa-user-secret, .fa-star, .fa-twitter, .fa-facebook {
   margin-left:20px;
   margin-right:20px;
+}
+
+.fa-calendar {
+	margin-left: 20px;
 }
 
 .fa-clock-o, .fa-user {

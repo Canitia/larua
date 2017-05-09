@@ -5,7 +5,7 @@
    {{#is "post, page"}}
 
 <div><!-- start of a sidebar item -->
-   <h1 class="text-left-title-featured-sidebar">Related</h1>       
+   <h1 class="text-left-title-featured-sidebar"><i class="fa fa-random" aria-hidden="true"></i> Related</h1>       
           <ul class="collection">
             {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
                     {{#foreach related}}
@@ -20,7 +20,7 @@
 
 {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
 <div><!-- start of a sidebar item -->
-  <h1 class="text-left-title-featured-sidebar">Recent</h1>
+  <h1 class="text-left-title-featured-sidebar"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Recent</h1>
     <ul class="collection">
     {{#get "posts" limit="4" as |recents|}}
           {{#foreach recents}}
@@ -33,7 +33,7 @@
 
   {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
 <div><!-- start of a sidebar item -->
-  <h1 class="text-left-title-featured-sidebar">Most used tags</h1>
+  <h1 class="text-left-title-featured-sidebar"><i class="fa fa-tags" aria-hidden="true"></i> Most used tags</h1>
     <ul class="collection">
     {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}
           {{#foreach tags}}

@@ -38,7 +38,7 @@
     <ul class="collection">
     {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}
           {{#foreach tags}}
-              <li class="collection-item"><a href="/tag/{{slug}}">{{name}} <span class="badge">{{count.posts}}</span></a></li>
+              <li class="collection-item"><i class="fa fa-tag" aria-hidden="true"></i><a href="/tag/{{slug}}">{{name}} <span class="badge">{{count.posts}}</span></a></li>
           {{/foreach}}
     {{/get}}
   </ul>

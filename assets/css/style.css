@@ -632,14 +632,6 @@ footer {
 		margin-bottom: 12px;
 	}
 
-	.author-profile {
-		display:none;
-	}
-
-	.avatar {
-		display:none;
-	}
-
 	.tags {
 		line-height: 50px;
 		padding-bottom: 10px !important;

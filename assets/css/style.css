@@ -558,7 +558,7 @@ p.author-bio {
 	line-height: 2px; 
 }
 
-.pagination li.active {
+.pagination li.active, .pagination > li:hover {
 	background-color: #d3d3d3 !important;
 }
 

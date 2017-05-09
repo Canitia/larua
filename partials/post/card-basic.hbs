@@ -1,12 +1,13 @@
 <ul class="collection">
 {{#foreach posts}}
+<a href="{{url}}">
 <li class="collection-item">
-  <a href="{{url}}">{{#if featured}}<i class="fa fa-star"></i>{{else}}<i class="fa fa-circle" aria-hidden="true"></i>{{/if}}{{title}}
+  {{#if featured}}<i class="fa fa-star"></i>{{else}}<i class="fa fa-circle" aria-hidden="true"></i>{{/if}}{{title}}
     <span class="badge">
       <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
       <i class="fa fa-calendar" aria-hidden="true"></i>
     </span> 
-  </a>
 </li>
+</a>
 {{/foreach}}
 </ul>

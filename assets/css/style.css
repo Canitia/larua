@@ -655,6 +655,13 @@ footer {
 		height: 40px !important;
 		line-height:40px !important;
 	}
+
+	.row {
+		margin-bottom: 0px !important;
+	}
+	.row-post {
+		margin-top: -15px;
+	}
 }
 
 /* mobile devices */
@@ -675,6 +682,10 @@ footer {
 
 	.sidebar {
 		margin-bottom: 20px;
+	}
+
+	.row-post {
+		margin-top: -15px;
 	}
 
 }

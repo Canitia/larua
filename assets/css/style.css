@@ -619,7 +619,7 @@ footer {
 		margin-top: -15px;
 	}
 
-	footer {
+	.page-footer {
 		position:relative !important;
 	}
 }

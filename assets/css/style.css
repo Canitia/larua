@@ -727,8 +727,12 @@ EXTERNAL libraries look-n-feel
 	color: #e59400;
 }
 
-.fa-circle {
+.fa-circle, .fa-tag {
 	color: #d3d3d3;
+}
+
+.fa-tag {
+	margin-right: 8px;
 }
 
 .fa-calendar {

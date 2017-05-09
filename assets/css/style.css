@@ -108,7 +108,7 @@ strong {
   font-weight: 700 !important;
 }
 
-p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
+p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item > p, li.pagination-arrows a i:hover, .socialfooter > a:hover {
 	color: black !important;
 }
 

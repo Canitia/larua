@@ -7,7 +7,7 @@
 background-color: #0d47a1 !important;
 }
 
-.accentcolor2, .slider .indicators .indicator-item.active {
+.accentcolor2, .slider .indicators .indicator-item.active, .socialfooter > a i:hover {
   background-color: #1565c0 !important;
 }
 
@@ -607,6 +607,10 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
+
+	.container-fluid {
+		min-width:500px;
+	}
 	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {
 		height:55px;
@@ -763,10 +767,6 @@ EXTERNAL libraries look-n-feel
 
 .socialfooter > a i {
 	color: black;
-}
-
-.socialfooter > a i:hover {
-	color:#979797;
 }
 
 .twitter-tweet {

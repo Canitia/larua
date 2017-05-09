@@ -3,8 +3,8 @@
 <div class="row row-post">
 <div class="card">
   {{#post}}
-          <div class="col s12 m12 l8">
-        <article>
+      <div class="col s12 m12 l8">
+      <article>
       <span class="card-title">
         <p class="posttitle center">{{title}}</p>
       </span>
@@ -12,22 +12,24 @@
         <i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
         <i class="fa fa-user" aria-hidden="true"></i>{{author}}
       </div>
-      <div class="card-content">
-        <p>{{content}}</p>
-      </div>
-         {{> 'post/author-section'}}
       {{#if tags}}
-      <div class="tags center-align">
+        <div class="tags center-align">
           <div class="waves-effect waves-light chip accentcolor2">
           Tags:
           </div>
-      {{#foreach tags}}
-          <div class="waves-effect waves-light chip grey">
-          <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
-          </div>
-      {{/foreach}}
-    </div>
-      {{/if}}
+        {{#foreach tags}}
+            <div class="waves-effect waves-light chip grey">
+            <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
+            </div>
+        {{/foreach}}
+      </div>
+      {{/if}}<!-- end tags if -->
+      <div class="card-content">
+        <p>{{content}}</p>
+      </div>
+      <hr />
+         {{> 'post/author-section'}}
+ 
       <hr />
       {{! Disqus should be included right below this tag; for more information about this check the readme }}
         {{> 'post/disqus'}}

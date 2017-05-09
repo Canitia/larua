@@ -523,8 +523,8 @@ img.avatar {
 p.author-bio {
 	padding:20px;
 	min-height:150px;
-	padding-left:160px;
-	margin-bottom: 0px;
+	position:absolute;
+	margin-left:120px;
 }
 
 .socialauthor {

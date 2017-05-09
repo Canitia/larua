@@ -571,9 +571,6 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
 
-	.container-fluid {
-		min-width:500px;
-	}
 	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {
 		height:56px;

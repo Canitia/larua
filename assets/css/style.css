@@ -483,22 +483,11 @@ img.content-images-featured:hover, img.content-images:hover {
 	text-decoration: underline;
 }
 
-.author-profile {
-	min-height:150px;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-}
-
 img.avatar {
 	border-radius: 50px;
 	width:100px;
 	height:100px;
 	float:left;
-	position:relative;
-	left: 20px;
-	top: 40px;
 	z-index:200;
 }
 
@@ -510,9 +499,6 @@ img.avatar {
 }
 
 p.author-bio {
-	padding:20px;
-	min-height:150px;
-	position:absolute;
 	margin-left:120px;
 }
 
@@ -527,6 +513,7 @@ p.author-bio {
 
 .author-social > a > i {
 	color:black;
+	margin: 5px !important;
 }
 
 .socialauthor {

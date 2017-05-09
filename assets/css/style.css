@@ -112,7 +112,7 @@ p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .co
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socialfooter > a:hover
+p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socialfooter > a > i:hover, .socialfooter a
 {
   color:#979797  !important;
 }
@@ -272,6 +272,7 @@ POST/ARTICLE HEADERS
 .text-left-title-featured-sidebar {
 	margin-bottom: 0px;
 	background-color: white;
+	border-bottom: 1px solid #ebebeb;
 }
 
 .text-left-title a {

@@ -714,9 +714,21 @@ footer {
 EXTERNAL libraries look-n-feel
 
 *****************************************/
-.fa-user-secret, .fa-star, .fa-twitter, .fa-facebook {
+.fa-user-secret, .fa-twitter, .fa-facebook {
   margin-left:20px;
   margin-right:20px;
+}
+
+.fa-star, .fa-circle {
+	margin-right: 15px;
+}
+
+.fa-star {
+	color: #e59400;
+}
+
+.fa-circle {
+	color: #d3d3d3;
 }
 
 .fa-calendar {

@@ -479,6 +479,11 @@ img.content-images-featured:hover, img.content-images:hover {
 	ARTICLE: AUTHOR look-n-feel
 
 *****************************************/
+.author-profile {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 .author-profile h4 a {
 	text-decoration: underline;
 }

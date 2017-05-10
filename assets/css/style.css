@@ -239,6 +239,10 @@ nav ul a {
 	border: 0 !important;
 }
 
+.collection-item {
+	border-bottom: 1px solid #f0f0f0 !important;
+}
+
 .collection .collection-item:hover {
 	background-color: #e0e0e0 !important;
 }

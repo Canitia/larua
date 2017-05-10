@@ -20,9 +20,9 @@
 <div><!-- start of a sidebar item -->
   <h1 class="text-left-title-featured-sidebar"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Recent</h1>
     <ul class="collection">
-    {{#get "posts" limit="5" as |recents|}}
+    {{#get "posts" limit="3" as |recents|}}
           {{#foreach recents}}
-              <a href="{{url}}"><li class="collection-item">{{title}}</li></a>
+              <a href="{{url}}"><li class="collection-item"><img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />{{title}}</li></a>
           {{/foreach}}
     {{/get}}
   </ul>

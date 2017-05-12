@@ -37,7 +37,7 @@ The theme is tested on Microsoft Edge <Creators Update>, Microsoft Edge <Creator
 
 # Customization - partials
 ## Comments
-To use comments; use the pre-created file comments.hbs. Parse the full comment code (like 'disqus universal' code) in there. 
+To use a third-party comments add-on; use the pre-created file comments.hbs. Parse the full comment code (like 'disqus universal' code) in there and it should be up and running. 
 
 ## Google Analytics
 To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'.

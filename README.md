@@ -32,15 +32,15 @@ This theme is still adding features and under development, but check the release
 # Theme requirements
 To make full use of this theme you need at least version **0.11.7** as that's the version where it's currently tested on. You also need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API.
 
+# Tested on:
+The theme is tested on Microsoft Edge <Creators Update>, Microsoft Edge <Creators Update> (Mobile), Chrome 58 (mobile) and Firefox 53.0.2.
+
 # Customization - partials
-## Disqus
-To use disqus; create a file in the partials/thirdparty folder called disqus.hbs. Parse the full 'disqus universal' code in there. After that open the post.hbs file and search for 'disqus' you should find a long comment showing where to load the disqus.hbs. You load this file by including: {{> disqus}} at the location. 
+## Comments
+To use comments; use the pre-created file comments.hbs. Parse the full comment code (like 'disqus universal' code) in there. 
 
 ## Google Analytics
 To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'.
-
-## Sidebar(s)
-Included again as of version 0.8. Only shows on high resolutions (~1000px and up horizontal). By default i have included a 'recent posts' and a 'most used tags' section but you can easily add your own (or remove the included ones) in 'partials/ui/sidebar.hbs'.
 
 ## Social
 I've added the ability to add social links to the footer. You can include Facebook and Twitter profiles from the Ghost admin page (website-wide) and enter Twitter and Facebook urls for specific user profiles

@@ -34,9 +34,6 @@ This theme is still adding features and under development, but check the release
 # Requirement
 To make full use of this theme you need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API.
 
-**New as of 0.9.8**
-You can only set a site logo, no cover image for now. Doesn't seem to fit well with the theme in my opinion. 
-
 # Customization - partials
 ## Disqus
 To use disqus; create a file in the partials/thirdparty folder called disqus.hbs. Parse the full 'disqus universal' code in there. After that open the post.hbs file and search for 'disqus' you should find a long comment showing where to load the disqus.hbs. You load this file by including: {{> disqus}} at the location. 

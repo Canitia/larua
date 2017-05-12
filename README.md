@@ -2,16 +2,14 @@
 
 A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
-# Design & features
+# Main Features
+- Slider that shows featured posts (need the API to be enabled in Ghost Dashboard -> Labs -> API).
+- UI optimised for different form factors
 - Ability to set your own site logo ~~and cover image~~ (cover image has been removed as of 0.9.8)
-- Shows last 5 featured posts in a slider (need the API to be enabled in Ghost Dashboard -> Labs -> API).
-- Navigation menu can be setup using the Ghost settings panel -> navigation option.
-- Also includes a 'side swipe' hamburgermenu on phones.
-- Custom error, tag and author pages.
-- ~~Author section at the bottom of each post incl. avatar, user bio, website and social icons.~~ (Temporarily disabled since 0.9.8)
-- Shows pagination when available (aka when there are enough posts) in footer.
-- Optimised for different form factors
-- Seperated parts of the code in 'partials'
+- Dynamic navigation that can be set from Ghost settings panel. It's also touch enabled (side swipe) on touch devices.
+- Dynamic sidebar with Recent posts, Most used tags, Related posts and more (shows different items depending the type of page you are on).
+- Author section at the bottom of each post includes avatar and user bio ~~website and social icons.~~ (Temporarily disabled since 0.9.8)
+- Custom AMP, tag, author and error page designs.
 
 **Image of the theme**
 An image of the latest version is included in the theme as you can see in Cerulean.png.

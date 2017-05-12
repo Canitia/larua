@@ -33,7 +33,7 @@ This theme is still adding features and under development, but check the release
 To make full use of this theme you need at least version **0.11.7** as that's the version where it's currently tested on. You also need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API.
 
 # Tested on:
-The theme is tested on Microsoft Edge <Creators Update>, Microsoft Edge <Creators Update> (Mobile), Chrome 58 (mobile) and Firefox 53.0.2.
+The theme is tested on Microsoft Edge <Creators Update>, Microsoft Edge <Creators Update> (Mobile), Chrome 58 (mobile), Firefox 53.0.2 and Internet Explorer 11.
 
 # Customization - partials
 ## Comments

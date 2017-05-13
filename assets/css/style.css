@@ -203,10 +203,6 @@ img.logo {
 	position:relative;
 }
 
-nav ul li {
-	float: right !important;
-}
-
 nav ul a {
 	color: black !important;
 }

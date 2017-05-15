@@ -18,11 +18,38 @@
     {{amp_ghost_head}}
 
     {{!-- Styles'n'Scripts --}}
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,600,400" />
+    <link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     <style amp-custom>
+            /* ##############################
+
+            SET OVERALL ACCENT color
+
+            #############################*/
+            .accentcolor {
+            background-color: #0d47a1;
+            }
+
+            .accentcolor2, .slider .indicators .indicator-item.active{
+            background-color: #1565c0;
+            }
+
+            .accentcolor-error {
+            background-color: red;
+            }
+
+
+            /* **************************************
+
+            GENERAL FONT / ELEMENT
+
+            *****************************************/
             html body {
-            font-size:16px;
-            font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+                font-size:16px;
+                font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+                background-color: #dfe3e5;
             }
 
             h1 {
@@ -42,7 +69,6 @@
             }
 
             p {
-                line-height: 30px;
                 text-rendering: geometricPrecision;
             }
 
@@ -54,8 +80,8 @@
                 display: block;
                 height: 1px;
                 border: 0;
-                border-top: 1px solid #979797 !important;
-                margin: 1em 0;
+                border-top: 1px solid #e0e0e0;
+                margin-top: 0px;
                 padding: 0;
             }
 
@@ -67,6 +93,8 @@
                 position:relative;
                 padding-top:20px;
                 padding-bottom:20px;
+                background-color: whitesmoke;
+                border-left: 0;
             }
 
             blockquote:before, blockquote:after {
@@ -88,9 +116,9 @@
             }
 
             blockquote > p {
-                font-style: italic !important;
+                font-style: italic;
                     text-align:left;
-                    margin-left:30px !important;
+                    margin-left:30px;
             }
 
             pre {
@@ -102,14 +130,124 @@
             }
 
             strong {
-            font-weight: 700 !important;
-            }  
+            font-weight: 700;
+            }
+
+            p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .collection-item > a {
+                color: black;
+            }
+
+            p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socialfooter > a > i:hover, .socialfooter a
+            {
+            color:#979797;
+            }
+
+            .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, footer a, .btn > a  {
+                color: white;
+            }
+
+            .posttitle > a {
+            color: white;
+            text-decoration: none;
+            }
+
+            .post-subitems {
+                color: #979797;
+                font-weight: 300;
+                text-align:center;
+            }
+
+            .post-subitems > a
+            {
+                color:#979797;
+            }
+
+            .posttitle {
+                font-size:250%;
+                margin: 10px;
+                text-align:center;
+            }
+
+            .posttitle > a:hover {
+            text-decoration: none;
+            }
 
             /* **************************************
 
             HEADER
 
             *****************************************/
+            /* color of clickable header */
+            .headerurl {
+                text-decoration: none;
+            }
+
+            .headerurl:hover {
+            text-decoration: none;
+            }
+
+            .brand-logo {
+                margin:0;
+            }
+
+            img.logo {
+                height:64px;
+                position:relative;
+            }
+
+            nav ul li {
+                float: right;
+            }
+
+            nav ul a {
+                color: black;
+            }
+
+            /* **************************************
+
+            CONTENT SIDEBAR / MAIN
+
+            *****************************************/
+             .content {
+                max-width: 1200px;
+             }   
+
+            #sidenav-overlay {
+                right: 300px;
+            }
+
+            .collection {
+                margin:0px;
+                border: 0;
+            }
+
+            .collection-item {
+                border-bottom: 1px solid #f0f0f0;
+            }
+
+            .collection .collection-item:hover {
+                background-color: #e0e0e0;
+            }
+
+            .content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .postdate a:hover, .author-url-post-head  {
+                color:#979797;
+            }
+
+            .card-sidebar {
+                margin-top: 0px;
+            }    
+
+            /* **************************************
+
+            HEADER
+
+            *****************************************/
+            .main-header {
+                height: 64px;
+                background-color: white;
+                border-bottom: 2px solid #ebebeb
+            }
+ 
             /* color of clickable header */
             .headerurl {
                 text-decoration: none;
@@ -135,16 +273,40 @@
                 margin-left:1%;
             }
 
+
+            .brand-logo {
+                position: absolute;
+                color: #fff;
+                display: inline-block;
+                font-size: 2.1rem;
+                padding: 0;
+                white-space: nowrap;
+                margin-top: 20px;
+            }
+
+            .brand-logo > a {
+                color: black;
+            }
             /* ######################################
 
             POST/ARTICLE HEADERS
 
             ##########################################*/
 
+            .text-left-title-featured {
+                padding:25px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom:0px;
+                opacity: 0.8;
+                background-color: black;
+            }
+
             /* post title */
             .text-left-title-featured, .text-left-title-featured-sidebar {
-                font-size: 120%;
-                padding:15px !important;
+                font-size: 150%;
+                font-weight: 300;
+                padding:15px;
                 white-space: normal;
                 overflow:hidden;
                 text-overflow: ellipsis;
@@ -152,14 +314,32 @@
 
             /* aligns the sidebar to the top of the page and adapts the content within it */
             .text-left-title-featured-sidebar {
-                margin-top:0px;
                 margin-bottom: 0px;
+                background-color: white;
+                border-bottom: 1px solid #ebebeb;
             }
 
             .text-left-title a {
-                    text-decoration: none;
+                text-decoration: none;
             }
 
+
+            .postdate {
+                padding: 10px;
+                position:absolute;
+                top:30px;
+                right:30px;
+                opacity:0.7;
+                z-index:1;
+                background-color:black;
+                color:white;
+            }
+
+            .content > .collection > .collection-item {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            }
 
             /* **************************************
 
@@ -167,56 +347,73 @@
 
             *****************************************/
             .card-content > h1 {
-                font-size: 250%;
-                margin-left: 10px;
-                    font-family:'Slabo 27px', serif;
+                font-size: 210%;
+                font-family:'Slabo 27px', serif;
+                font-weight: 300;
             }
 
             .card-content > h2 {
-                font-size: 200%;
-            margin-left: 10px;
+                font-size: 180%;
                 font-family:'Slabo 27px', serif;
+                font-weight: 300;
             }
 
             .card-content > h3 {
-                font-size: 175%;
-            margin-left: 10px;
+                font-size: 165%;
                 font-family:'Slabo 27px', serif;
+                font-weight: 300;
             }
 
             .card-content > h4 {
                 font-size: 140%;
-            margin-left: 10px;
                 font-family:'Slabo 27px', serif;
+                font-weight: 300;
             }
 
             .card-content > ul li {
-            list-style-type: square !important;
-            margin-left: 40px;
-            margin-right: 40px;
-            padding:5px;
-            line-height: 35px;
+                list-style-type: square;
+                margin-left: 40px;
+                margin-right: 40px;
+                padding:5px;
+                line-height: 35px;
             }
 
             .card-content > ol li {
-            margin-left: 40px;
-            margin-right: 40px;
-            padding:5px;
-            line-height: 35px;
-            text-align: justify;
+                margin-left: 40px;
+                margin-right: 40px;
+                padding:5px;
+                line-height: 35px;
+                text-align: justify;
             }
 
-
-            /* general dimensions of posts/articles */
             article {
+                padding-top: 15px;
+                word-wrap: break-word;
+                background:white;
                 margin-left: auto;
                 margin-right: auto;
-                margin-bottom: 15px;
-                    word-wrap: break-word;
+                padding-left: 30px;
+                padding-right: 30px;
+                box-shadow: 1px 1px 5px #888888;
+                height: 100%;
+            }
+
+            .card .card-content p {
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+
+            .posthead-image {
+                width: 100%;
+                max-width:1200px;
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .card-content > img, .card-content > p > img {
-                max-width: 100%;
+                width: 100%;
+                height:auto;
                 display:block;
                 margin-left:auto;
                 margin-right:auto;
@@ -224,87 +421,74 @@
                 margin-top:20px;
             }
 
-            /* ##############################
-
-            SET OVERALL ACCENT color
-
-            #############################*/
-            .accentcolor {
-            background-color: #0d47a1 !important;
-            }
-
-            .accentcolor2, .side-nav a:hover, .slider .indicators .indicator-item.active {
-            background-color: #1565c0 !important;
-            }
-
-            .accentcolor-error {
-            background-color: red !important;
-            }
-
-            blockquote {
-            background-color: whitesmoke;
-            border-left: 0 !important;
-            }
-
-            p > a, .headerurl:hover, .pagination > a > i:hover, .collection .collection-item a, li.pagination-arrows a i:hover, .socialfooter > a:hover {
-                color: black !important;
+            iframe {
+                max-width: 100%;
+                display:block;
+                margin-left:auto;
+                margin-right: auto;
+                margin-top:20px;
+                margin-bottom:20px;
             }
 
 
-            p > a:focus, p > a:hover, .btn > a:hover
-            {
-            color:grey  !important;
+            /* **************************************
+
+                ARTICLE: AUTHOR look-n-feel
+
+            *****************************************/
+            .author-profile {
+                margin-top: 40px;
+                margin-bottom: 40px;
+                height: 100%;
             }
 
-            .headerurl, .side-nav a, .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, .pagination, .pagination li a, footer a, .btn > a  {
-                color: white !important;
+            .author-profile h4 a {
+                text-decoration: underline;
             }
 
-            .postdate {
-            background-color:black;
-            color:white;
+            img.avatar {
+                border-radius: 50px;
+                width:100px;
+                height:100px;
+                float:left;
+                z-index:200;
+                margin-left: 20px;
+                margin-right:15px;
+            }
+
+            .avatar-page {
+                width:150px;
+                border-radius: 100px;
+                margin-top:15px;
+                background-color:#F8F8F8;
             }
 
             p.author-bio {
-                color:white;
-                background-color:black;
+                margin-left:135px;
             }
 
-            nav.blog-title {
-                font-size: 200%;
+            .author-name {
+                font-size:200%;
+                font-weight: 300;
+            }
+
+            .author-social {
+                margin-top: 50px;
+            }
+
+            .author-social > a > i {
+                color:black;
+                margin: 5px;
+            }
+
+            .socialauthor {
                 padding: 15px;
             }
 
-            article.post {
-                margin-left: 5%;
-                margin-right: 5%;
+            .socialauthor > ul > li {
+                margin-top: 10px;
+                margin-bottom:10px;
             }
-
-            .post-date{
-                text-align:right;
-            }
-
-            .card-title {
-            font-size:125% !important;
-            padding:5px !important;
-            background-color: black;
-            opacity: 0.8;
-            width: 100%;
-            display:block;
-            color:white;
-        }
-
-        .right {
-            text-align: right;
-        }
-
-        .socialfooter > a {
-            color: #00bfff;
-        }
-
-        .socialfooter > a:hover {
-            color: black;
-        }
 
         /* **************************************
 
@@ -321,6 +505,79 @@
             margin: 15px;
             font-size: 70%;
         }
+
+        /* general styling of pretty much all font-awesome icons */
+        .socialfooter {
+            border-top: 2px solid #ebebeb;
+            background:white;
+            padding-top:10px;
+        }
+
+        .socialfooter > a i {
+            color: black;
+            padding-top: 10px;
+            margin-left: 15px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .postdate i {
+            margin-right: 5px;
+        }
+
+        .postdate > a i {
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 3px;
+            margin-top: 3px;
+        }
+
+
+        .twitter-tweet {
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        i.fa.fa-twitter.fa-2x {
+            margin-left: 0px;
+        }
+
+        .fa-user-secret, .fa-twitter, .fa-facebook {
+            margin-left:20px;
+            margin-right:20px;
+        }
+
+        .fa-star, .fa-circle {
+            margin-right: 15px;
+        }
+
+        .fa-star {
+            color: #e59400;
+        }
+
+        .fa-circle, .fa-tag {
+            color: #d3d3d3;
+        }
+
+        .fa-tag {
+            margin-right: 8px;
+        }
+
+        .fa-calendar {
+            margin-left: 20px;
+        }
+
+        .fa-clock-o, .fa-user {
+            margin-right: 10px;
+        }
+
+        .fa-user {
+            margin-left: 10px;
+        }
+
+        .fa-bars {
+            color: black;
+        }
     </style>
 
     {{!-- The AMP boilerplate --}}
@@ -332,8 +589,8 @@
 </head>
 
 <body class="amp-template">
-    <header class="main-header accentcolor">
-        <nav class="blog-title">
+    <header class="main-header">
+        <nav class="brand-logo">
             <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
         </nav>
     </header>
@@ -341,14 +598,15 @@
     <main class="content" role="main">
     {{#post}}
         <article class="post">
-
             <header class="post-header">
-                <h1 class="text-left-title">{{title}}</h1>
                 <section class="post-meta">
-                    <span class="card-title">
-                    <p class="posttitle">{{title}}</p>
-                    <time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="YYYY-MM-DD"}}</time>
-                    </span>
+                <span class="card-title">
+                    <p class="posttitle center">{{title}}</p>
+                </span>
+                <div class="post-subitems">
+                    <i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+                    <i class="fa fa-user" aria-hidden="true"></i>{{author}}
+                </div>
                 </section>
             </header>
             {{#if image}}
@@ -361,16 +619,21 @@
                 {{amp_content}}
 
             </section>
-
+            {{> 'post/author-section'}}
         </article>
  {{/post}}
     </main>
-    <footer class="page-footer accentcolor">
     <div class="socialfooter">
+            <a href="{{@blog.url}}/rss" target="_blank"><i class="fa fa-rss fa-2x"></i></a>
+            {{#if @blog.facebook}}
+            <a href="{{facebook_url}}" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+            {{/if}}
+            {{#if @blog.twitter}}
+            <a href="{{twitter_url}}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            {{/if}}
             <p class="right">
             <a href="https://michaelboumann.info/collection/#cerulean" target="_blank">powered by: Cerulean for Ghost</a>
             </p>
     </div>
-    </footer>
 </body>
 </html>

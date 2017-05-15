@@ -1,46 +1,42 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-<div class="row">
-<div class="col s12 m12 l8 main-content">
-{{#post}}
-      <div class="card">
-        <article>
-        <p class="postdate right"><i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
-      <div class="card-image">
-        <img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
-        <span class="card-title">
-          <p class="posttitle">{{title}}</p>
-        </span>
+<div class="row row-post">
+<div class="card">
+  {{#post}}
+      <div class="col s12 m8 l8">
+      <article>
+      <span class="card-title">
+        <p class="posttitle center">{{title}}</p>
+      </span>
+      <div class="post-subitems center">
+        <i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+        <i class="fa fa-user" aria-hidden="true"></i>{{author}}
       </div>
+      {{#if tags}}
+        <div class="tags center-align hide">
+          <div class="waves-effect waves-light chip accentcolor2">
+          Tags:
+          </div>
+        {{#foreach tags}}
+            <div class="waves-effect waves-light chip grey">
+            <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
+            </div>
+        {{/foreach}}
+      </div>
+      {{/if}}<!-- end tags if -->
       <div class="card-content">
         <p>{{content}}</p>
       </div>
-      <br />
-      {{#if tags}}
-      <div class="tags center-align">
-      {{#foreach tags}}
-          <div class="waves-effect waves-light chip accentcolor2">
-          <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
-          </div>
-      {{/foreach}}
-    </div>
-      {{/if}}
-{{! Disqus should be included right below this tag; for more information about this check the readme }}
+      <hr />
+         {{> 'post/author-section'}}
+ 
+      <h1 class="text-left-title-featured-sidebar">Join the conversation</h1>
+      {{! Disqus should be included right below this comment; for more information about this check the readme }}
+        {{> 'post/comments'}}
+
       </article>
     </div>
 {{/post}}
-
-      {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
-   <h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Related posts</h1>       
-          <ul class="collection">
-            {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
-                    {{#foreach related}}
-                          
-                          <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
-                    {{/foreach}}
-            {{/get}}
-          </ul>
-      {{/if}}
+        {{> 'ui/sidebar'}}
 </div>
-    {{> 'ui/sidebar'}}
 </div>

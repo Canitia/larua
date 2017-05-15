@@ -13,7 +13,6 @@
     {{! Responsive Meta Tags }}
     <!-- own stylesheet for general stuff -->
     <link rel="stylesheet" href="{{asset "css/style.min.css"}}">
-    <link rel="stylesheet" href="{{asset "css/style.screen.min.css"}}">
     <!-- other used items -->
     <link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
@@ -23,6 +22,11 @@
 </head>
 <!-- main navigation -->
 {{navigation}}
+  {{#post}}
+        <div class="card-image">
+          <img class="posthead-image" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+        </div>
+  {{/post}}
 <main class="{{body_class}}">
 
 <div class="container-fluid">
@@ -32,7 +36,7 @@
 </div><!-- container fluid END! -->
 </main>
 
-<footer class="page-footer accentcolor hide-on-small-only">
+<footer class="page-footer white">
       <!-- social media icons in footer -> partials/social.hbs -->
     {{> 'ui/footer'}}
 </footer>

@@ -1,6 +1,13 @@
-<h1 class="text-left-title-featured-sidebar accentcolor2 center-align">Latest</h1>
 <ul class="collection">
 {{#foreach posts}}
-<li class="collection-item"><a href="{{url}}">{{title}}<span class="badge"><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time></span></a></li>
+<a href="{{url}}">
+<li class="collection-item truncate">
+  {{#if featured}}<i class="fa fa-star"></i>{{else}}<i class="fa fa-circle" aria-hidden="true"></i>{{/if}}
+    {{title}}
+    <span class="badge">
+      <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+    </span> 
+</li>
+</a>
 {{/foreach}}
 </ul>

@@ -2,16 +2,14 @@
 
 A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
-# Design & features
-- Ability to set your own site logo and cover image
-- Shows last 5 featured posts in a slider (need the API to be enabled in Ghost Dashboard -> Labs -> API).
-- Navigation menu can be setup using the Ghost settings panel -> navigation option.
-- Also includes a 'side swipe' hamburgermenu on phones.
-- Custom error, tag and author pages.
-- Author section at the bottom of each post incl. avatar, user bio, website and social icons.
-- Shows pagination when available (aka when there are enough posts) in footer.
-- Optimised for different form factors
-- Seperated parts of the code in 'partials'
+# Main Features
+- Slider that shows featured posts (need the API to be enabled in Ghost Dashboard -> Labs -> API).
+- UI optimised for different form factors
+- Ability to set your own site logo ~~and cover image~~ (cover image has been removed as of 0.9.8)
+- Dynamic navigation that can be set from Ghost settings panel. It's also touch enabled (side swipe) on touch devices.
+- Dynamic sidebar with Recent posts, Most used tags, Related posts and more (shows different items depending the type of page you are on).
+- Author section at the bottom of each post includes avatar and user bio ~~website and social icons.~~ (Temporarily disabled since 0.9.8)
+- Custom AMP, tag, author and error page designs.
 
 **Image of the theme**
 An image of the latest version is included in the theme as you can see in Cerulean.png.
@@ -31,24 +29,18 @@ This theme is still adding features and under development, but check the release
 - Download the package from the releases page and extract in your Ghost' 'content/theme' folder
 - Restart your Ghost instance to see the new theme and apply it.
 
-# Requirement
-To make full use of this theme you need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API.
+# Theme requirements
+To make full use of this theme you need at least version **0.11.7** as that's the version where it's currently tested on. You also need to enable the Ghost API in the Ghost Dashboard -> Labs -> Ghost API.
 
-**New requirement as of 0.9.5**
-Limits cover/header image size to 250px in height. So make sure you have an image that aligns correctly. 
-
-**New requirement as of 0.9**
-As of previous version there has been a 'limit' to the site name overall. It's a bug that i haven't felt like fixing yet, but it basically limits your site/blog name to ~12 characters. Anything higher will screw up it's alignment. So just a FYI for now. 
+# Tested on:
+The theme is tested on Microsoft Edge <Creators Update>, Microsoft Edge <Creators Update> (Mobile), Chrome 58 (mobile), Firefox 53.0.2 and Internet Explorer 11.
 
 # Customization - partials
-## Disqus
-To use disqus; create a file in the partials/thirdparty folder called disqus.hbs. Parse the full 'disqus universal' code in there. After that open the post.hbs file and search for 'disqus' you should find a long comment showing where to load the disqus.hbs. You load this file by including: {{> disqus}} at the location. 
+## Comments
+To use a third-party comments add-on; use the pre-created file comments.hbs. Parse the full comment code (like 'disqus universal' code) in there and it should be up and running. 
 
 ## Google Analytics
 To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'.
-
-## Sidebar(s)
-Included again as of version 0.8. Only shows on high resolutions (~1000px and up horizontal). By default i have included a 'recent posts' and a 'most used tags' section but you can easily add your own (or remove the included ones) in 'partials/ui/sidebar.hbs'.
 
 ## Social
 I've added the ability to add social links to the footer. You can include Facebook and Twitter profiles from the Ghost admin page (website-wide) and enter Twitter and Facebook urls for specific user profiles

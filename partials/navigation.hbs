@@ -1,17 +1,17 @@
 <header>
     <div class="navbar-fixed">
-    <nav class="accentcolor">
+    <nav class="white">
       <div class="nav-wrapper">
         <!-- check if a blog cover is active -->
         {{#if @blog.logo}}
         <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
         {{/if}}
 
-        <p class="brand-logo center">
+        <p class="brand-logo center hide-on-small-only">
             <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
         </p>
 
-         <ul id="nav-mobile" class="right hide-on-med-and-down">
+         <ul id="nav-mobile" class="hide-on-med-and-down right">
 
            <!-- Loop through the navigation items -->
            {{#foreach navigation}}

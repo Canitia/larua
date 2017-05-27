@@ -262,30 +262,17 @@ POST/ARTICLE HEADERS
 
 ##########################################*/
 
-.text-left-title-featured {
-	padding:25px !important;
-	margin-left: auto !important;
-	margin-right: auto !important;
-	margin-bottom:0px !important;
-	opacity: 0.8;
-	background-color: black !important;
-}
-
-/* post title */
-.text-left-title-featured, .text-left-title-featured-sidebar {
-	font-size: 150%;
+/* headers like 'latest' */
+.text-left-title-featured-sidebar {
+	font-size: 175% !important;
 	font-weight: 300;
 	padding:15px !important;
 	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
-}
-
-/* aligns the sidebar to the top of the page and adapts the content within it */
-.text-left-title-featured-sidebar {
 	margin-bottom: 0px;
-	background-color: white;
-	border-bottom: 1px solid #ebebeb;
+	border-bottom: 1px solid #f8f8f8;
+	color: #979797;
 }
 
 .text-left-title a {

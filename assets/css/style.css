@@ -1,21 +1,3 @@
-/* ##############################
-
-  SET OVERALL ACCENT color
-
-  #############################*/
-.accentcolor {
-background-color: #0d47a1 !important;
-}
-
-.accentcolor2, .slider .indicators .indicator-item.active{
-  background-color: #1565c0 !important;
-}
-
-.accentcolor-error {
-  background-color: red !important;
-}
-
-
 /* **************************************
 
   GENERAL FONT / ELEMENT
@@ -395,13 +377,20 @@ iframe {
 
 *****************************************/
 
+.h1-slider {
+	text-shadow: 2px 1px #000000;
+}
+
+
 .slider .slides li {
 	background-color: #dfe3e5 !important;
 }
 
-img.content-images-featured:hover, img.content-images:hover {
-	opacity:0.9;
+.slider:hover, 
+.h1-slider:hover { 
+	filter: grayscale(40%);
 }
+
 
 /* **************************************
 

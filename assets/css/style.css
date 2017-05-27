@@ -107,6 +107,10 @@ strong {
   font-weight: 700 !important;
 }
 
+.main-content {
+	border-right: 1px solid #f8f8f8;
+}
+
 p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .collection-item > a {
 	color: black !important;
 }

@@ -2,32 +2,32 @@
     <div class="navbar-fixed">
     <nav class="white">
       <div class="nav-wrapper">
+        <a href="#" data-activates="slide-out" class="button-collapse left"><i class="fa fa-bars" aria-hidden="true"></i></a>
         <!-- check if a blog cover is active -->
         {{#if @blog.logo}}
         <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
         {{/if}}
 
-        <p class="brand-logo center hide-on-small-only">
+        <p class="brand-logo site-title center hide-on-small-only">
             <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
         </p>
 
-         <ul id="nav-mobile" class="hide-on-med-and-down right">
+    <ul id="nav-mobile" class="hide-on-med-and-down right">
+        <!-- Loop through the navigation items -->
+        {{#foreach navigation}}
+        <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+        <!-- End the loop -->
+    </ul>
 
-           <!-- Loop through the navigation items -->
-           {{#foreach navigation}}
-           <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
-           {{/foreach}}
-           <!-- End the loop -->
-         </ul>
-         <a href="#" data-activates="slide-out" class="button-collapse right"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
-
-<ul id="slide-out" class="side-nav">
-    <!-- Loop through the navigation items -->
-    {{#foreach navigation}}
-    <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
-    {{/foreach}}
-    <!-- End the loop -->
-</ul>
+    <ul id="slide-out" class="side-nav">
+        <p class="text-left-title-featured-sidebar sidenav-menu-header">Menu</p>
+        <!-- Loop through the navigation items -->
+        {{#foreach navigation}}
+        <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+        <!-- End the loop -->
+    </ul>
 
 </div>
 </nav>

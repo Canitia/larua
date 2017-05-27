@@ -35,10 +35,6 @@ h4 {
 	font-weight: 300 !important;	
 }
 
-p {
-	text-rendering: geometricPrecision;
-}
-
 p > a {
 	text-decoration: underline;
 }
@@ -47,7 +43,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #e0e0e0 !important;
+    border-top: 1px solid #ededed !important;
 	margin-top: 0px;
     padding: 0;
 }
@@ -57,43 +53,38 @@ pre {
 }
 
 blockquote {
+	display: table;
 	position:relative;
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
 	background-color: whitesmoke;
-  	border-left: 0 !important;
+	border: 2px solid #ebebeb !important;
+	width: 100%
+}
+
+blockquote:before {
+    top:-20px;
+    left:8px;
 }
 
 blockquote:before, blockquote:after {
     color:black;
     content:'\f10d';
     font-family:'FontAwesome';
-    font-size:30px;
+    font-size:25px;
     position:absolute;
-    top:5px;
-    left:8px;
     display:block;
 }
 blockquote:after {
     content:'\f10e';
-    bottom:0;
     right:8px;
     top:auto;
     left:auto;
+	bottom: -23px;
 }
 
 blockquote > p {
   	font-style: italic !important;
-		text-align:left;
-		margin-left:30px !important;
-}
-
-pre {
-	padding-left:30px;
-	padding-right:30px;
-	padding-top:5px;
-	padding-bottom:5px;
-	background-color: #f5f7f8;
 }
 
 strong {
@@ -550,14 +541,12 @@ footer {
 
 .socialfooter > .right > a {
 	margin: 15px;
-	font-size: 70%;
 	color:black !important;
 }
 
 .footer.page-footer {
   position: relative !important;
 }
-
 
 .socialfooter > a {
     color: #00bfff;

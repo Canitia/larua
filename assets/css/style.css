@@ -210,6 +210,12 @@ nav ul a {
 
 /******************************************/
 
+.side-nav li>a {
+	border-bottom: 1px solid #ebebeb;
+	font-weight: 400 !important;
+	font-size: 16px !important;
+}
+
 .side-nav li>a:hover {
 	color: white;
 }
@@ -218,14 +224,32 @@ nav ul a {
     overflow:auto;
 }
 
+.side-nav > h1 {
+	color: #979797 !important;
+}
+
+#sidenav-overlay {
+	left: 300px !important;
+}
+
+.sidenav-menu-header {
+	margin-bottom: -15px !important;
+	margin-left: 15px;
+}
+
+.menu {
+	margin-top: 15px;
+}
+
+.side-nav .menu ul.sub-menu {
+	display: none;
+}
+
 /* **************************************
 
   CONTENT SIDEBAR / MAIN
 
 *****************************************/
-#sidenav-overlay {
-	right: 300px !important;
-}
 
 .collection {
 	margin:0px !important;

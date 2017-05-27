@@ -22,6 +22,9 @@
 </head>
 <!-- main navigation -->
 {{navigation}}
+  {{#if @labs.publicAPI}}
+    {{> 'post/card-featured'}}
+  {{/if}}
   {{#post}}
         <div class="post-image">
           <img class="posthead-image" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />

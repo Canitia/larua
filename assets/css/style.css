@@ -1,21 +1,3 @@
-/* ##############################
-
-  SET OVERALL ACCENT color
-
-  #############################*/
-.accentcolor {
-background-color: #0d47a1 !important;
-}
-
-.accentcolor2, .slider .indicators .indicator-item.active{
-  background-color: #1565c0 !important;
-}
-
-.accentcolor-error {
-  background-color: red !important;
-}
-
-
 /* **************************************
 
   GENERAL FONT / ELEMENT
@@ -24,27 +6,33 @@ background-color: #0d47a1 !important;
 html body {
 	font-size:16px;
 	font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-	background-color: #dfe3e5;
 }
 
 h1 {
-	font-size: 250%;
+	font-size: 3.2rem !important;
+	font-weight: 300 !important;
 }
 
 h2 {
-	font-size: 200%;
+	font-size: 2.9rem !important;
+	font-weight: 300 !important;
 }
 
 h3 {
-	font-size: 175%;
+	font-size: 2.6rem !important;
+	font-weight: 300 !important;
+}
+
+.h3-join-the-conversation {
+	font-size: 2.3rem !important;
+	font-weight: 300 !important;
+	margin-left: 15px;
+	margin-top: 60px;
+    margin-bottom: 0;
 }
 
 h4 {
-	font-size: 140%;
-}
-
-p {
-	text-rendering: geometricPrecision;
+	font-weight: 300 !important;	
 }
 
 p > a {
@@ -55,7 +43,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #e0e0e0 !important;
+    border-top: 1px solid #ededed !important;
 	margin-top: 0px;
     padding: 0;
 }
@@ -65,47 +53,46 @@ pre {
 }
 
 blockquote {
+	display: table;
 	position:relative;
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
 	background-color: whitesmoke;
-  	border-left: 0 !important;
+	border: 2px solid #ebebeb !important;
+	width: 100%
+}
+
+blockquote:before {
+    top:-20px;
+    left:8px;
 }
 
 blockquote:before, blockquote:after {
     color:black;
     content:'\f10d';
     font-family:'FontAwesome';
-    font-size:30px;
+    font-size:25px;
     position:absolute;
-    top:5px;
-    left:8px;
     display:block;
 }
 blockquote:after {
     content:'\f10e';
-    bottom:0;
     right:8px;
     top:auto;
     left:auto;
+	bottom: -23px;
 }
 
 blockquote > p {
   	font-style: italic !important;
-		text-align:left;
-		margin-left:30px !important;
-}
-
-pre {
-	padding-left:30px;
-	padding-right:30px;
-	padding-top:5px;
-	padding-bottom:5px;
-	background-color: #f5f7f8;
 }
 
 strong {
   font-weight: 700 !important;
+}
+
+.main-content {
+	border-right: 1px solid #f8f8f8;
 }
 
 p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .collection-item > a {
@@ -121,28 +108,21 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
       color: white !important;
 }
 
-.posttitle > a {
-  color: white !important;
-  text-decoration: none;
-}
-
-.post-subitems.center {
+.post-subitems {
 	color: #979797;
-	font-weight: 300;
+	margin-bottom: 25px;
+	font-size: 16px;
 }
 
-.post-subitems.center > a
+.post-subitems > a
 {
 	color:#979797;
+	text-decoration: none;
 }
 
-.posttitle {
-	font-size:150%;
-	margin: 10px !important;
-}
-
-.posttitle > a:hover {
-  text-decoration: none;
+.post-subitems > a:hover
+{
+	text-decoration: underline;
 }
 
 /* **************************************
@@ -156,22 +136,6 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
 
 .row.row-post {
   background-color: white !important;
-}
-
-.card.large {
-	height: auto !important;
-}
-
-/* forbidden icon from error page */
-.card-image > .fa-ban {
-	font-size:20em;
-}
-
-.slider .indicators {
-	position: absolute !important;
-	top: 20px !important;
-	z-index:200 !important;
-	margin-top: 20px !important;
 }
 
 /* **************************************
@@ -190,6 +154,16 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
 
 .brand-logo {
 	margin:0 !important;
+}
+
+.site-title {
+	font-weight: 300 !important;
+}
+
+nav .brand-logo {
+	 left: initial !important;
+    -webkit-transform: initial !important;
+    transform: initial !important;
 }
 
 img.cover {
@@ -213,6 +187,12 @@ nav ul a {
 
 /******************************************/
 
+.side-nav li>a {
+	border-bottom: 1px solid #ebebeb;
+	font-weight: 400 !important;
+	font-size: 16px !important;
+}
+
 .side-nav li>a:hover {
 	color: white;
 }
@@ -221,14 +201,32 @@ nav ul a {
     overflow:auto;
 }
 
+.side-nav > h1 {
+	color: #979797 !important;
+}
+
+#sidenav-overlay {
+	left: 300px !important;
+}
+
+.sidenav-menu-header {
+	margin-bottom: -15px !important;
+	margin-left: 15px;
+}
+
+.menu {
+	margin-top: 15px;
+}
+
+.side-nav .menu ul.sub-menu {
+	display: none;
+}
+
 /* **************************************
 
   CONTENT SIDEBAR / MAIN
 
 *****************************************/
-#sidenav-overlay {
-	right: 300px !important;
-}
 
 .collection {
 	margin:0px !important;
@@ -243,12 +241,17 @@ nav ul a {
 	background-color: #e0e0e0 !important;
 }
 
-.main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .postdate a:hover, .author-url-post-head  {
+.main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, .author-url-post-head  {
 	color:#979797 !important;
 }
 
-.card-sidebar {
-	margin-top: 0px !important;
+.main-content > .text-left-title, 
+article > h1:not(:first-child), 
+article > h2, 
+article > h3, 
+article > h4, 
+.author-url-post-head  {
+	color:#979797 !important;
 }
 
 /* ######################################
@@ -257,30 +260,17 @@ POST/ARTICLE HEADERS
 
 ##########################################*/
 
-.text-left-title-featured {
-	padding:25px !important;
-	margin-left: auto !important;
-	margin-right: auto !important;
-	margin-bottom:0px !important;
-	opacity: 0.8;
-	background-color: black !important;
-}
-
-/* post title */
-.text-left-title-featured, .text-left-title-featured-sidebar {
-	font-size: 150%;
+/* headers like 'latest' */
+.text-left-title-featured-sidebar {
+	font-size: 175% !important;
 	font-weight: 300;
 	padding:15px !important;
 	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;
-}
-
-/* aligns the sidebar to the top of the page and adapts the content within it */
-.text-left-title-featured-sidebar {
 	margin-bottom: 0px;
-	background-color: white;
-	border-bottom: 1px solid #ebebeb;
+	border-bottom: 1px solid #f8f8f8;
+	color: #979797;
 }
 
 .text-left-title a {
@@ -310,27 +300,27 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-.card-content > h1 {
+.post-content > h1 {
   	font-size: 210%;
 	font-family:'Slabo 27px', serif;
 }
 
-.card-content > h2 {
+.post-content > h2 {
 	font-size: 180%;
 	font-family:'Slabo 27px', serif;
 }
 
-.card-content > h3 {
+.post-content > h3 {
 	font-size: 165%;
 	font-family:'Slabo 27px', serif;
 }
 
-.card-content > h4 {
+.post-content > h4 {
 	font-size: 140%;
 	font-family:'Slabo 27px', serif;
 }
 
-.card-content > ul li {
+.post-content > ul li {
 	list-style-type: square !important;
 	margin-left: 40px;
 	margin-right: 40px;
@@ -338,7 +328,7 @@ POST/ARTICLE HEADERS
 	line-height: 35px;
 }
 
-.card-content > ol li {
+.post-content > ol li {
 	margin-left: 40px;
 	margin-right: 40px;
 	padding:5px;
@@ -354,20 +344,14 @@ article {
 	word-wrap: break-word;
 }
 
-.card .card-content p {
-	margin-top: 16px !important;
-	margin-bottom: 16px !important;
-}
-
 .posthead-image {
 	width: 100%;
-	max-width:1200px;
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.card-content > img, .card-content > p > img {
+.post-content > img, .post-content > p > img {
 	width: 100%;
 	height:auto;
 	display:block;
@@ -392,13 +376,20 @@ iframe {
 
 *****************************************/
 
+.h1-slider {
+	text-shadow: 2px 1px #000000;
+}
+
+
 .slider .slides li {
 	background-color: #dfe3e5 !important;
 }
 
-img.content-images-featured:hover, img.content-images:hover {
-	opacity:0.9;
+.slider:hover, 
+.h1-slider:hover { 
+	filter: grayscale(40%);
 }
+
 
 /* **************************************
 
@@ -552,14 +543,12 @@ footer {
 
 .socialfooter > .right > a {
 	margin: 15px;
-	font-size: 70%;
 	color:black !important;
 }
 
 .footer.page-footer {
   position: relative !important;
 }
-
 
 .socialfooter > a {
     color: #00bfff;
@@ -578,6 +567,34 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
+
+	h1 {
+		font-size: 2.5rem !important;
+		margin-top: 0px;
+	}
+
+	h2 {
+		font-size: 2.1rem !important;
+	}
+
+	h3 {
+		font-size: 1.6rem !important;
+	}
+
+	h4 {
+		font-size: 1.3rem !important;
+	}
+
+	.h3-join-the-conversation {
+		font-size: 1.6rem !important;
+		font-weight: 300 !important;
+		margin-left: 15px;
+	}
+
+	.main-content > .collection > .collection-item {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
 	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {
@@ -667,6 +684,15 @@ footer {
 	.sidebar {
 		margin-bottom: 20px;
 	}
+}
+
+/* **************************************
+
+  ERROR PAGE
+
+*****************************************/
+.error {
+	background-color: orangered;
 }
 
 /* **************************************

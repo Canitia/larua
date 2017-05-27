@@ -12,7 +12,7 @@
 
     {{! Responsive Meta Tags }}
     <!-- own stylesheet for general stuff -->
-    <link rel="stylesheet" href="{{asset "css/style.min.css"}}">
+    <link rel="stylesheet" href="{{asset "css/style.css"}}">
     <!-- other used items -->
     <link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
@@ -23,7 +23,7 @@
 <!-- main navigation -->
 {{navigation}}
   {{#post}}
-        <div class="card-image">
+        <div class="post-image">
           <img class="posthead-image" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
         </div>
   {{/post}}
@@ -51,7 +51,7 @@
       
         $('.button-collapse').sideNav({
             menuWidth: 300, // Default is 300
-            edge: 'right', // Choose the horizontal origin
+            edge: 'left', // Choose the horizontal origin
             closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
             draggable: true // Choose whether you can drag to open on touch screens
           }

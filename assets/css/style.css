@@ -9,19 +9,30 @@ html body {
 }
 
 h1 {
-	font-size: 250%;
+	font-size: 3.2rem !important;
+	font-weight: 300 !important;
 }
 
 h2 {
-	font-size: 200%;
+	font-size: 2.9rem !important;
+	font-weight: 300 !important;
 }
 
 h3 {
-	font-size: 175%;
+	font-size: 2.6rem !important;
+	font-weight: 300 !important;
+}
+
+.h3-join-the-conversation {
+	font-size: 2.3rem !important;
+	font-weight: 300 !important;
+	margin-left: 15px;
+	margin-top: 60px;
+    margin-bottom: 0;
 }
 
 h4 {
-	font-size: 140%;
+	font-weight: 300 !important;	
 }
 
 p {
@@ -234,6 +245,15 @@ nav ul a {
 
 .card-sidebar {
 	margin-top: 0px !important;
+}
+
+.main-content > .text-left-title, 
+article > h1:not(:first-child), 
+article > h2, 
+article > h3, 
+article > h4, 
+.author-url-post-head  {
+	color:#979797 !important;
 }
 
 /* ######################################
@@ -570,6 +590,34 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
+
+	h1 {
+		font-size: 2.5rem !important;
+		margin-top: 0px;
+	}
+
+	h2 {
+		font-size: 2.1rem !important;
+	}
+
+	h3 {
+		font-size: 1.6rem !important;
+	}
+
+	h4 {
+		font-size: 1.3rem !important;
+	}
+
+	.h3-join-the-conversation {
+		font-size: 1.6rem !important;
+		font-weight: 300 !important;
+		margin-left: 15px;
+	}
+
+	.main-content > .collection > .collection-item {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
 	/* make logo image smaller as the navigation bar shrinks at these resolutions */
 	img.logo {

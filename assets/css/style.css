@@ -184,9 +184,9 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
 }
 
 nav .brand-logo {
-	 left: initial;
-    -webkit-transform: initial;
-    transform: initial;
+	 left: initial !important;
+    -webkit-transform: initial !important;
+    transform: initial !important;
 }
 
 img.cover {

@@ -145,22 +145,6 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
   background-color: white !important;
 }
 
-.card.large {
-	height: auto !important;
-}
-
-/* forbidden icon from error page */
-.card-image > .fa-ban {
-	font-size:20em;
-}
-
-.slider .indicators {
-	position: absolute !important;
-	top: 20px !important;
-	z-index:200 !important;
-	margin-top: 20px !important;
-}
-
 /* **************************************
 
   HEADER
@@ -268,10 +252,6 @@ nav ul a {
 	color:#979797 !important;
 }
 
-.card-sidebar {
-	margin-top: 0px !important;
-}
-
 .main-content > .text-left-title, 
 article > h1:not(:first-child), 
 article > h2, 
@@ -327,27 +307,27 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-.card-content > h1 {
+.post-content > h1 {
   	font-size: 210%;
 	font-family:'Slabo 27px', serif;
 }
 
-.card-content > h2 {
+.post-content > h2 {
 	font-size: 180%;
 	font-family:'Slabo 27px', serif;
 }
 
-.card-content > h3 {
+.post-content > h3 {
 	font-size: 165%;
 	font-family:'Slabo 27px', serif;
 }
 
-.card-content > h4 {
+.post-content > h4 {
 	font-size: 140%;
 	font-family:'Slabo 27px', serif;
 }
 
-.card-content > ul li {
+.post-content > ul li {
 	list-style-type: square !important;
 	margin-left: 40px;
 	margin-right: 40px;
@@ -355,7 +335,7 @@ POST/ARTICLE HEADERS
 	line-height: 35px;
 }
 
-.card-content > ol li {
+.post-content > ol li {
 	margin-left: 40px;
 	margin-right: 40px;
 	padding:5px;
@@ -371,11 +351,6 @@ article {
 	word-wrap: break-word;
 }
 
-.card .card-content p {
-	margin-top: 16px !important;
-	margin-bottom: 16px !important;
-}
-
 .posthead-image {
 	width: 100%;
 	display:block;
@@ -383,7 +358,7 @@ article {
 	margin-right: auto;
 }
 
-.card-content > img, .card-content > p > img {
+.post-content > img, .post-content > p > img {
 	width: 100%;
 	height:auto;
 	display:block;

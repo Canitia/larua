@@ -1,6 +1,6 @@
 # Canitia Jr.
 
-A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
+A [Ghost](http://github.com/tryghost/ghost/) theme based on the Canitia theme (for Wordpress). It has the same look-n-feel but not the full featureset of Cinitia as Ghost doesn't allow for it (at this point).
 
 # Main Features
 - Slider that shows featured posts (need the API to be enabled in Ghost Dashboard -> Labs -> API).

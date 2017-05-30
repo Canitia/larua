@@ -12,9 +12,6 @@ A [Ghost](http://github.com/tryghost/ghost/) theme based on the Canitia theme (f
 - Set social media links for the website (they will show in the footer)
 - Custom AMP, tag, author and error page designs.
 
-**Image of the theme**
-An image of the latest version is included in the theme as you can see in canitiajr.png.
-
 ![Canitia Jr. Theme](https://github.com/boumannm/canitia-jr/blob/master/canitiajr.png)
 
 # Stuff used

@@ -20,8 +20,11 @@ Canitia Jr. uses the following libraries;
 - [MaterializeCSS](https://materializecss.com)
 - [FontAwesome](http://www.fontawesome.com/)
 
+# Tested
+This theme was used and tested on Ghost 0.11.7 using Chrome, Firefox and Edge as test browsers. Ofcourse i might still have missed some bugs so please report them through the issue tracker. 
+
 # Release
-This theme is still adding features and under development, but check the releases page for stable versions.
+This theme is currently marked 'stable'. Unless a new Ghost update introduces major new features or rewrites it's about as stable as can be ;).
 
 # Use
 - Download the package from the releases page and extract in your Ghost' 'content/theme' folder

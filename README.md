@@ -1,4 +1,4 @@
-# Cerulean for Ghost
+# Canitia Jr.
 
 A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
@@ -12,12 +12,12 @@ A [Ghost](http://github.com/tryghost/ghost/) theme which is loosely based on [Ma
 - Custom AMP, tag, author and error page designs.
 
 **Image of the theme**
-An image of the latest version is included in the theme as you can see in Cerulean.png.
+An image of the latest version is included in the theme as you can see in canitiajr.png.
 
-![Cerulean Theme](https://github.com/boumannm/cerulean-for-ghost/blob/master/cerulean.png)
+![Canitia Jr. Theme](https://github.com/boumannm/canitia-jr/blob/master/canitiajr.png)
 
 # Stuff used
-Cerulean for Ghost uses the following libraries;
+Canitia Jr. uses the following libraries;
 - [jQuery](https://github.com/jquery/jquery)
 - [MaterializeCSS](https://materializecss.com)
 - [FontAwesome](http://www.fontawesome.com/)

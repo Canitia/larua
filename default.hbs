@@ -23,7 +23,9 @@
 <!-- main navigation -->
 {{navigation}}
   {{#if @labs.publicAPI}}
-    {{> 'post/card-featured'}}
+    {{#is "home"}}
+       {{> 'post/card-featured'}}
+    {{/is}}
   {{/if}}
   {{#post}}
         <div class="post-image">

@@ -347,9 +347,8 @@ article {
 
 .posthead-image {
 	width: 100%;
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
+	max-height: 400px;
+	object-fit: cover;
 }
 
 .post-content > img, .post-content > p > img {

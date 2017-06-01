@@ -146,6 +146,7 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
 /* color of clickable header */
 .headerurl {
     text-decoration: none;
+	margin-left: 5px;
 }
 
 .headerurl:hover {

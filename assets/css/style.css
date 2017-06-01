@@ -547,18 +547,14 @@ footer {
 	color:black !important;
 }
 
+.socialfooter > a:hover,
+.socialfooter > .right > a:hover {
+	color: #979797;
+}
+
 .footer.page-footer {
   position: relative !important;
 }
-
-.socialfooter > a {
-    color: #00bfff;
-}
-
-.socialfooter > a:hover {
-    color: #979797;
-}
-
 
 /* **************************************
 

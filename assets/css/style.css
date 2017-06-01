@@ -236,6 +236,7 @@ nav ul a {
 
 .collection-item {
 	border-bottom: 1px solid #f0f0f0 !important;
+	padding: 15px !important;
 }
 
 .collection .collection-item:hover {

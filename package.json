@@ -1,5 +1,5 @@
 {
-  "name": "Canitia Jr.",
+  "name": "canitia-jr",
   "description": "A simplistic yet sort of feature-rich theme based on Canitia. ",
   "version": "0.11.0-release",
   "engines": {
@@ -7,7 +7,8 @@
   },
   "license": "MIT",
   "author": {
-      "email": "support@canitia.nl"
+    "name": "Michael Boumann",  
+    "email": "support@canitia.nl"
   },
   "config": {
       "posts_per_page": 10

@@ -228,6 +228,7 @@ nav ul a {
 .homepage-image {
 	border: 10px solid #ebebeb;
 	max-width: 100%;
+	width: 100%;
 	object-fit: cover;
     height: 195px;
 }

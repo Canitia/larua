@@ -230,6 +230,18 @@ nav ul a {
 	max-width: 100%;
 }
 
+.caption-image {
+	text-align: center;
+}
+
+.caption-image > a {
+	color: black;
+}
+
+.caption-image > a:hover {
+	color: #979797;
+}
+
 .badge {
 	background: #ebebeb;
 	font-weight: 500;

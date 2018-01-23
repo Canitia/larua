@@ -237,13 +237,16 @@ nav ul a {
 	text-align: center;
 	position: relative;
 	bottom: 175px;
+	font-size: 2em !important;
+	font-weight: 400 !important;
+	overflow:hidden;
 }
 
-.caption-image > a {
+.post-item-main > a {
 	color: white;
 }
 
-.caption-image > a:hover {
+.post-item-main > a:hover {
 	color: #979797;
 }
 

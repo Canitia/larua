@@ -244,6 +244,10 @@ nav ul a {
 	padding: 10px;
 }
 
+.caption-image:hover {
+	font-weight: 400 !important;
+}
+
 .post-item-main {
 	margin-bottom: 35px;
     height: 195px !important;

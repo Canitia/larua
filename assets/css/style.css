@@ -240,6 +240,7 @@ nav ul a {
 	font-size: 2em !important;
 	font-weight: 400 !important;
 	overflow:hidden;
+	padding: 10px;
 }
 
 .post-item-main > a {

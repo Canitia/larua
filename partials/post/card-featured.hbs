@@ -3,7 +3,7 @@
     <ul class="slides">
         {{#foreach featured}}
       <li>
-        <a href="{{url}}"><img class="content-images-featured responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+        <a href="{{url}}"><img class="content-images-featured responsive-img" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
         </a>
         <div class="caption center-align">
           <h1 class="h1-slider">{{title}}</h1>

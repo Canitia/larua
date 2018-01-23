@@ -257,6 +257,11 @@ POST/ARTICLE HEADERS
 
 ##########################################*/
 
+.text-left-title-featured-sidebar-collapse {
+	color: black !important;
+}
+
+
 /* headers like 'latest' */
 .text-left-title-featured-sidebar {
 	font-size: 175% !important;

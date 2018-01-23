@@ -29,7 +29,7 @@
   {{/if}}
   {{#post}}
         <div class="post-image">
-          <img class="posthead-image" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+          <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
         </div>
   {{/post}}
 <main class="{{body_class}}">
@@ -46,7 +46,7 @@
     {{> 'ui/footer'}}
 </footer>
 <!-- Compiled and minified JavaScript -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script type="text/javascript"> 
       $(document).ready(function(){

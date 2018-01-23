@@ -293,6 +293,11 @@ article > h4,
 	color:#979797 !important;
 }
 
+.sidebar {
+	background-color: #f8f8f8;
+    margin-top: 1px;
+}
+
 /* ######################################
 
 POST/ARTICLE HEADERS

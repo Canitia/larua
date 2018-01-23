@@ -2,15 +2,16 @@
 {{#foreach posts}}
 
       <div class="col s12 m8 l4">
+            <span class="badge">
+              <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+            </span>
           {{#if feature_image}}
             <img src="{{img_url feature_image}}" class="homepage-image">
           {{/if}}
           
         <div class="caption-image">
           <a href="{{url}}">{{title}}</a>
-            <span class="badge">
-              <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
-            </span>
+
         </div>
 
       </div>

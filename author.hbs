@@ -3,7 +3,7 @@
 <div class="row">
 {{#is "author"}}
   {{#author}}
-  <div class="tag_heading center-align" style="background-image: url({{#if cover_image}}{{cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
+  <div class="tag_heading center-align" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
     <p class="posttitle">{{name}}</p>
     <img src="{{#if profile_image}}{{profile_image}}{{/if}}" class="avatar-page center-align" title="Image of {{name}}" alt="Image of {{name}}" />
       <div class="socialfooter-top center hide">

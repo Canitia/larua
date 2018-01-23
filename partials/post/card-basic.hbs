@@ -1,7 +1,8 @@
 <div class="row">
 {{#foreach posts}}
 
-      <div class="col s12 m6 l4 post-item-main">
+  {{#if featured}}
+           <div class="col s12 post-item-main">
             <span class="badge">
               <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
             </span>
@@ -12,6 +13,24 @@
           </a>
 
       </div>
+  {{else}}
+  <div class="col s12 m6 l4 post-item-main">
+        <span class="badge">
+          <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+        </span>
+        <a href="{{url}}">
+            <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" class="homepage-image">          
+        
+            <h2 class="caption-image">{{title}}</h2>
+      </a>
+
+  </div>
+  {{/if}}
+
+
+
+
+
 
 {{/foreach}}
 </div>

@@ -234,6 +234,10 @@ nav ul a {
 	filter: brightness(50%);
 }
 
+.homepage-image:hover {
+	filter: brightness(80%);
+}
+
 .caption-image {
 	text-align: center;
 	position: relative;

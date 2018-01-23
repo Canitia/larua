@@ -29,7 +29,7 @@
   {{/if}}
   {{#post}}
         <div class="post-image">
-          <img class="posthead-image" src="{{#if image}}{{img_url}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+          <img class="posthead-image" src="{{#if featured_image}}{{img_url}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
         </div>
   {{/post}}
 <main class="{{body_class}}">

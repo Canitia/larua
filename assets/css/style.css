@@ -272,15 +272,19 @@ nav ul a {
 }
 
 .badge-featured {
-	position: relative;
+    position: relative;
     top: 75px;
     z-index: 10;
     padding: 16px !important;
-    background-color: #ebebeb;
+    background-color: #E39B00;
     float: right;
     right: -130px;
     padding-bottom: 10px !important;
     padding-top: 10px !important;
+    font-weight: bold;
+    opacity: 0.9;
+    color: darkslategrey;
+    margin-right: 5px;
 }
 
 .collection {

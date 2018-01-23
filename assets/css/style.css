@@ -226,7 +226,7 @@ nav ul a {
 *****************************************/
 
 .homepage-image {
-	border: 10px solid #ebebeb;
+	border: 5px solid #ebebeb;
 	max-width: 100%;
 	width: 100%;
 	object-fit: cover;
@@ -241,7 +241,7 @@ nav ul a {
 	bottom: 160px;
 	font-size: 2em !important;
 	overflow:hidden;
-	padding: 10px;
+	padding: 5px;
 }
 
 .caption-image:hover {

@@ -566,8 +566,10 @@ img.avatar {
 }
 
 .pagination > .active {
-	padding: 15px;
+	padding: 20px;
 	line-height: 2px; 
+	font-weight: 500;
+    font-size: 125%;
 }
 
 .pagination li.active, .pagination > li:hover {

@@ -235,10 +235,12 @@ nav ul a {
 
 .caption-image {
 	text-align: center;
+	position: relative;
+	bottom: 175px;
 }
 
 .caption-image > a {
-	color: black;
+	color: white;
 }
 
 .caption-image > a:hover {

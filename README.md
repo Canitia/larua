@@ -4,12 +4,14 @@ A [Ghost](http://github.com/tryghost/ghost/) theme based on the Canitia theme (f
 
 # Main Features
 - Slider that shows featured posts (need the API to be enabled in Ghost Dashboard -> Labs -> API).
-- UI optimised for different form factors
-- Ability to set your own site logo
-- Dynamic navigation that can be set from Ghost settings panel. It's also touch enabled (side swipe) on touch devices.
-- Dynamic sidebar with Recent posts, Most used tags, Related posts and more (shows different items depending the type of page you are on).
-- Author section at the bottom of each post includes avatar and user bio
-- Set social media links for the website (they will show in the footer)
+- UI optimised for different form factors (phone/tablet/pc)
+- Ability to set your own publication icon and publication logo.
+- Cover- and featured-post images for tags, author and single post pages.
+- Navigation confgurable via navigation-section in Ghost panel.
+- Responsive sidebar with Recent posts, Most used tags, Related posts which shows up on high-res (tablet+) displays.
+- Author section at the bottom of each post includes avatar and user bio.
+- Set social media links through Ghost settings panel (they will show in the footer)
+- Translation support!
 - Custom AMP, tag, author and error page designs.
 
 ![Canitia Jr. Theme](https://github.com/boumannm/canitia-jr/blob/master/canitiajr.png)

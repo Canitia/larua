@@ -130,9 +130,6 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
   SPECIFIC RESTRICTIONS TO GUI
 
 *****************************************/
-.row {
-	margin-bottom: 100px !important;
-}
 
 .row.row-post {
   background-color: white !important;
@@ -270,7 +267,6 @@ POST/ARTICLE HEADERS
 	text-overflow: ellipsis;
 	margin-bottom: 0px;
 	border-bottom: 1px solid #f8f8f8;
-	color: #979797;
 }
 
 .text-left-title a {
@@ -300,6 +296,11 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
+p > img {
+    max-width: 100%;
+}
+
+
 .post-content > h1 {
   	font-size: 210%;
 	font-family:'Slabo 27px', serif;
@@ -449,17 +450,13 @@ iframe {
 	ARTICLE: AUTHOR look-n-feel
 
 *****************************************/
-.author-profile {
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
 
 .author-profile h4 a {
 	text-decoration: underline;
 }
 
 img.avatar {
-	border-radius: 50px;
+	border-radius: 5px;
 	width:100px;
 	height:100px;
 	float:left;
@@ -471,12 +468,7 @@ img.avatar {
 .avatar-page {
 	width:150px;
 	border-radius: 100px;
-	margin-top:15px;
 	background-color:#F8F8F8;
-}
-
-p.author-bio {
-	margin-left:135px;
 }
 
 .author-name {
@@ -536,7 +528,6 @@ footer {
 }
 
 .page-footer {
-	position: fixed !important;
 	border-top: 1px solid #ebebeb !important;
 	bottom:0;
 }
@@ -634,9 +625,6 @@ footer {
 		line-height:40px !important;
 	}
 
-	.row {
-		margin-bottom: 0px !important;
-	}
 	.row-post {
 		margin-top: -15px;
 	}

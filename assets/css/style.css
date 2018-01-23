@@ -225,6 +225,10 @@ nav ul a {
 
 *****************************************/
 
+.homepage-image {
+	max-width: 100%;
+}
+
 .collection {
 	margin:0px !important;
 	border: 0 !important;

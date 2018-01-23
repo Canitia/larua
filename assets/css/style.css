@@ -302,7 +302,7 @@ POST/ARTICLE HEADERS
 .text-left-title {
 	font-size: 250% !important;
 	font-weight: 300;
-	padding:15px !important;
+	padding-bottom:15px !important;
 	white-space: normal;
 	overflow:hidden;
 	text-overflow: ellipsis;

@@ -21,7 +21,7 @@
 {{#get "posts" filter="featured:false" as |notfeatured|}}
 {{#foreach notfeatured}}
 
-  <div class="col s12 m6 l4 post-item-main">
+  <div class="col s12 m6 l4 post-item-main {{#if featured}}post-featured{{/if}}">
         <span class="badge">
           <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
         </span>

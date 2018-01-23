@@ -24,7 +24,7 @@
     <ul class="collection">
     {{#get "posts" limit="3" as |recents|}}
           {{#foreach recents}}
-              <a href="{{url}}"><li class="collection-item"><img class="responsive-img" src="{{#if featured_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />{{title}}</li></a>
+              <a href="{{url}}"><li class="collection-item"><img class="responsive-img" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />{{title}}</li></a>
           {{/foreach}}
     {{/get}}
   </ul>

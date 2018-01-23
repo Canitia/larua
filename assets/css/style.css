@@ -300,6 +300,11 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
+p > img {
+    max-width: 100%;
+}
+
+
 .post-content > h1 {
   	font-size: 210%;
 	font-family:'Slabo 27px', serif;

@@ -609,9 +609,9 @@
                 </div>
                 </section>
             </header>
-            {{#if image}}
+            {{#if feature_image}}
             <figure class="post-image">
-                <amp-img src="{{image absolute="true"}}" width="600" height="400" layout="responsive"></amp-img>
+                <amp-img src="{{img_url feature_image}}" width="600" height="400" layout="responsive"></amp-img>
             </figure>
             {{/if}}
             <section class="card-content">
@@ -632,7 +632,7 @@
             <a href="{{twitter_url}}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
             {{/if}}
             <p class="right">
-            <a href="https://michaelboumann.info/collection/#canitiajr" target="_blank">powered by: Canitia Jr.</a>
+            <a href="https://michaelboumann.info/collection/#canitiajr" target="_blank">{{t "powered by: Canitia Jr."}}</a>
             </p>
     </div>
 </body>

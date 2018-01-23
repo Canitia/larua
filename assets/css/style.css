@@ -304,6 +304,16 @@ POST/ARTICLE HEADERS
 	color: black !important;
 }
 
+.text-left-title {
+	font-size: 250% !important;
+	font-weight: 300;
+	padding:15px !important;
+	white-space: normal;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	border-bottom: 2px solid #f8f8f8;	
+	text-align:center;
+}
 
 /* headers like 'latest' */
 .text-left-title-featured-sidebar {

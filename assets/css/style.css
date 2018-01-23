@@ -620,6 +620,11 @@ footer {
 		padding:5px;
 	}
 
+	.collection .collection-item {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+
 	.pagination, .main-content {
 		margin-bottom: 12px;
 	}

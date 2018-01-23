@@ -230,7 +230,8 @@ nav ul a {
 	max-width: 100%;
 	width: 100%;
 	object-fit: cover;
-    height: 195px;
+	height: 195px;
+	filter: brightness(50%);
 }
 
 .caption-image {
@@ -238,9 +239,13 @@ nav ul a {
 	position: relative;
 	bottom: 175px;
 	font-size: 2em !important;
-	font-weight: 400 !important;
 	overflow:hidden;
 	padding: 10px;
+}
+
+.post-item-main {
+	margin-bottom: 35px;
+    height: 195px !important;
 }
 
 .post-item-main > a {

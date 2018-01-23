@@ -11,16 +11,19 @@ html body {
 h1 {
 	font-size: 3.2rem !important;
 	font-weight: 300 !important;
+	font-family:'Slabo 27px', serif;
 }
 
 h2 {
 	font-size: 2.9rem !important;
 	font-weight: 300 !important;
+	font-family:'Slabo 27px', serif;
 }
 
 h3 {
 	font-size: 2.6rem !important;
 	font-weight: 300 !important;
+	font-family:'Slabo 27px', serif;
 }
 
 .h3-join-the-conversation {
@@ -28,11 +31,12 @@ h3 {
 	font-weight: 300 !important;
 	margin-left: 15px;
 	margin-top: 60px;
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 h4 {
 	font-weight: 300 !important;	
+	font-family:'Slabo 27px', serif;
 }
 
 p > a {
@@ -300,6 +304,7 @@ POST/ARTICLE HEADERS
 }
 
 .text-left-title {
+	font-family:'Slabo 27px', serif;
 	font-size: 250% !important;
 	font-weight: 300;
 	padding-bottom:15px !important;
@@ -312,6 +317,7 @@ POST/ARTICLE HEADERS
 
 /* headers like 'latest' */
 .text-left-title-featured-sidebar {
+	font-family:'Slabo 27px', serif;
 	font-size: 175% !important;
 	font-weight: 300;
 	padding:15px !important;

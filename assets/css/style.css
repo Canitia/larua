@@ -536,7 +536,6 @@ footer {
 }
 
 .page-footer {
-	position: fixed !important;
 	border-top: 1px solid #ebebeb !important;
 	bottom:0;
 }

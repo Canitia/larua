@@ -238,6 +238,10 @@ nav ul a {
 	filter: brightness(50%);
 }
 
+.post-featured {
+	filter: brightness(70%) !important;
+}
+
 
 .caption-image {
 	text-align: center;

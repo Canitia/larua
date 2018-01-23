@@ -230,6 +230,10 @@ nav ul a {
 	max-width: 100%;
 }
 
+.badge {
+	background: #ebebeb;
+}
+
 .collection {
 	margin:0px !important;
 	border: 0 !important;

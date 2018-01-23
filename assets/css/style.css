@@ -226,6 +226,7 @@ nav ul a {
 *****************************************/
 
 .homepage-image {
+	border: 10px solid #ebebeb;
 	max-width: 100%;
 }
 

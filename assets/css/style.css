@@ -256,10 +256,6 @@ nav ul a {
 	color: white;
 }
 
-.post-item-main > a:hover {
-	color: #979797;
-}
-
 .badge {
 	background: #ebebeb;
 	font-weight: 500;

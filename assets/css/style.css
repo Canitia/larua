@@ -641,6 +641,10 @@ footer {
 	.page-footer {
 		position:relative !important;
 	}
+
+	.fa-star, .fa-circle {
+		margin-right: 5px;
+	}
 }
 
 /* mobile devices */

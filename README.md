@@ -36,9 +36,7 @@ To make full use of this theme you need at least version **0.11.7** as that's th
 # Tested on:
 The theme is tested on Microsoft Edge <Creators Update>, Microsoft Edge <Creators Update> (Mobile), Chrome 58 (mobile), Firefox 53.0.2 and Internet Explorer 11.
 
-# Customization - partials
-## Comments
-To use a third-party comments add-on; use the pre-created file comments.hbs. Parse the full comment code (like 'disqus universal' code) in there and it should be up and running. 
+# Customization
 
 ## Google Analytics
 To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'.

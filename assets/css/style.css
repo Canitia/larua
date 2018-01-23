@@ -130,9 +130,6 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
   SPECIFIC RESTRICTIONS TO GUI
 
 *****************************************/
-.row {
-	margin-bottom: 100px !important;
-}
 
 .row.row-post {
   background-color: white !important;
@@ -629,9 +626,6 @@ footer {
 		line-height:40px !important;
 	}
 
-	.row {
-		margin-bottom: 0px !important;
-	}
 	.row-post {
 		margin-top: -15px;
 	}

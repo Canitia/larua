@@ -249,7 +249,8 @@ nav ul a {
 }
 
 .post-item-main {
-	margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     height: 195px !important;
 }
 

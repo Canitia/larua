@@ -2,7 +2,7 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 <div class="row">
 <div class="main-content col s12 m8 l8">
-    <h1 class="text-left-title-featured-sidebar">Latest</h1>
+    <h1 class="text-left-title-featured-sidebar">{{t "Latest"}}</h1>
     {{> 'post/card-basic'}}
     {{#if pagination}}
         {{pagination}}

@@ -564,6 +564,10 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
 
+	.main-content {
+		padding: 0;
+	}
+	
 	h1 {
 		font-size: 2.5rem !important;
 		margin-top: 0px;

@@ -5,7 +5,7 @@
   {{#author}}
   <div class="tag_heading center-align" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
     <p class="posttitle">{{name}}</p>
-    <img src="{{#if author.profile_image}}{{img_url author.profile_image absolute="true"}}{{/if}}" class="avatar-page center-align" title="Image of {{name}}" alt="Image of {{name}}" />
+    <img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="avatar-page center-align" title="Image of {{name}}" alt="Image of {{name}}" />
       <div class="socialfooter-top center hide">
       {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fa fa-facebook fa-2x"></i></a>{{/if}}
       {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fa fa-twitter fa-2x"></i></a>{{/if}}

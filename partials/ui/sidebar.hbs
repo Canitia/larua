@@ -1,56 +1,50 @@
-{{#is "home"}}
-  <div class="col s12 m4 l4 hide sidebar">
-{{else}}
-  <div class="col s12 m4 l4 hide-on-small-only sidebar">
-{{/is}}
-{{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
+<div class="col s12 m4 l4 hide-on-small-only sidebar">
+   {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
 
-  {{#is "post, page"}}
+   {{#is "post, page"}}
 
-    <div><!-- start of a sidebar item -->
-      <h1 class="text-left-title-featured-sidebar"><i class="fa fa-random" aria-hidden="true"></i> Related</h1>       
-            <ul class="collection">
-              {{#get "posts" limit="5" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
-                      {{#foreach related}}
-                          <a href="{{url}}"><li class="collection-item">{{title}}</li></a>
-                      {{/foreach}}
-              {{/get}}
-            </ul>
-    </div><!-- end of sidebar item -->
-
+<div><!-- start of a sidebar item -->
+   <h1 class="text-left-title-featured-sidebar"><i class="fa fa-random" aria-hidden="true"></i> Related</h1>       
+          <ul class="collection">
+            {{#get "posts" limit="5" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
+                    {{#foreach related}}
+                         <a href="{{url}}"><li class="collection-item">{{title}}</li></a>
+                    {{/foreach}}
+            {{/get}}
+          </ul>
+  </div><!-- end of sidebar item -->
   {{/is}}
-
-{{/if}}
+      {{/if}}
 
 
 {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
    {{#is "post, page"}}
-      <div><!-- start of a sidebar item -->
-        <h1 class="text-left-title-featured-sidebar"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Recent</h1>
-          <ul class="collection">
-          {{#get "posts" limit="3" as |recents|}}
-                {{#foreach recents}}
-                    <a href="{{url}}"><li class="collection-item"><img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />{{title}}</li></a>
-                {{/foreach}}
-          {{/get}}
-        </ul>
-      </div><!-- end of sidebar item -->
+<div><!-- start of a sidebar item -->
+  <h1 class="text-left-title-featured-sidebar"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Recent</h1>
+    <ul class="collection">
+    {{#get "posts" limit="3" as |recents|}}
+          {{#foreach recents}}
+              <a href="{{url}}"><li class="collection-item"><img class="responsive-img" src="{{#if image}}{{image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />{{title}}</li></a>
+          {{/foreach}}
+    {{/get}}
+  </ul>
+</div><!-- end of sidebar item -->
   {{/is}}
 {{/if}}
 
-{{#is "post, page"}}
+   {{#is "home, paged"}}
   {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
-      <div><!-- start of a sidebar item -->
-        <h1 class="text-left-title-featured-sidebar"><i class="fa fa-tags" aria-hidden="true"></i> Most used tags</h1>
-          <ul class="collection">
-          {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}
-                {{#foreach tags}}
-                    <a href="/tag/{{slug}}"><li class="collection-item"><i class="fa fa-tag" aria-hidden="true"></i>{{name}} <span class="badge">{{count.posts}}</span></li></a>
-                {{/foreach}}
-          {{/get}}
-        </ul>
-      </div><!-- end of sidebar item -->
+<div><!-- start of a sidebar item -->
+  <h1 class="text-left-title-featured-sidebar"><i class="fa fa-tags" aria-hidden="true"></i> Most used tags</h1>
+    <ul class="collection">
+    {{#get "tags" limit="5" include="count.posts" order="count.posts desc"}}
+          {{#foreach tags}}
+              <a href="/tag/{{slug}}"><li class="collection-item"><i class="fa fa-tag" aria-hidden="true"></i>{{name}} <span class="badge">{{count.posts}}</span></li></a>
+          {{/foreach}}
+    {{/get}}
+  </ul>
+</div><!-- end of sidebar item -->
   {{/if}}
-{{/is}}
+  {{/is}}
 
 </div><!-- end of sidebar -->

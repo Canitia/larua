@@ -228,7 +228,6 @@ nav ul a {
   CONTENT SIDEBAR / MAIN
 
 *****************************************/
-
 .homepage-image {
 	border: 5px solid #ebebeb;
 	max-width: 100%;
@@ -277,7 +276,7 @@ nav ul a {
 
 .badge-featured {
     position: relative;
-    top: 75px;
+    top: 65px;
     z-index: 10;
     padding: 16px !important;
     background-color: #E39B00;

@@ -260,6 +260,11 @@ article > h4,
 	color:#979797 !important;
 }
 
+.post-item-main {
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* ######################################
 
 POST/ARTICLE HEADERS

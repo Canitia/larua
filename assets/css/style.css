@@ -112,10 +112,12 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
       color: white !important;
 }
 
+.post-head {
+	margin-bottom: 25px;
+}
+
 .post-subitems {
 	color: #979797;
-	margin-bottom: 25px;
-	font-size: 16px;
 }
 
 .post-subitems > a

@@ -4,7 +4,7 @@
    {{#is "post, page"}}
 
 <div><!-- start of a sidebar item -->
-   <h1 class="text-left-title-featured-sidebar"><i class="fa fa-random" aria-hidden="true"></i> {{t "Related"}}</h1>       
+   <h1 class="text-left-title-featured-sidebar">{{t "Related"}}</h1>       
           <ul class="collection">
             {{#get "posts" limit="5" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
                     {{#foreach related}}
@@ -20,7 +20,7 @@
 {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
    {{#is "post, page"}}
 <div><!-- start of a sidebar item -->
-  <h1 class="text-left-title-featured-sidebar"><i class="fa fa-newspaper-o" aria-hidden="true"></i> {{t "Recent"}}</h1>
+  <h1 class="text-left-title-featured-sidebar">{{t "Recent"}}</h1>
     <ul class="collection">
     {{#get "posts" limit="3" as |recents|}}
           {{#foreach recents}}

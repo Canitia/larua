@@ -614,33 +614,6 @@ img.avatar {
 }
 
 
-.pagination-arrows-flex {
-	height: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-}
-
-.pagination-arrows-flex:hover {
-	background-color: #ebebeb;
-}
-
-.pagination-arrow-left {
-	position: absolute;  
-	left: 0;  
-	top: 0;
-	float:left;
-}
-
-.pagination-arrow-right {
-	position: absolute;  
-	right: 0;  
-	top: 0;
-	float:right;
-}
-
 /* **************************************
 
   FOOTER

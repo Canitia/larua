@@ -603,7 +603,9 @@ img.avatar {
 	padding: 20px;
 	line-height: 2px; 
 	font-weight: 500;
-    font-size: 125%;
+	font-size: 125%;
+	border: 2px solid #d3d3d3 !important;
+	background: white !important;
 }
 
 .pagination li.active, .pagination > li:hover {
@@ -621,6 +623,7 @@ footer {
     overflow: hidden;
     z-index: 999;
 }
+
 
 .page-footer {
 	border-top: 1px solid #ebebeb !important;

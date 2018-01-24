@@ -44,6 +44,7 @@
 <!-- Compiled and minified JavaScript -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script type="text/javascript"> 
       $(document).ready(function(){
      
@@ -54,6 +55,11 @@
             draggable: true // Choose whether you can drag to open on touch screens
           }
         );
+        $('.masonry').masonry({
+          // options
+          itemSelector: '.item',
+          columnWidth: 200
+        });
       
       });
         

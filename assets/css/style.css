@@ -630,12 +630,14 @@ img.avatar {
 	position: absolute;  
 	left: 0;  
 	top: 0;
+	float:left;
 }
 
 .pagination-arrow-right {
 	position: absolute;  
 	right: 0;  
 	top: 0;
+	float:right;
 }
 
 /* **************************************
@@ -651,16 +653,13 @@ footer {
 
 .page-footer {
 	border-top: 1px solid #ebebeb !important;
-	bottom:0;
+	position: absolute;
+    bottom: 0;
 }
 
 .socialfooter > .right > a {
 	margin-right: 30px;
 	color:black !important;
-}
-
-.footer.page-footer {
-  position: relative !important;
 }
 
 .socialfooter > a {
@@ -764,10 +763,6 @@ footer {
 
 	.row-post {
 		margin-top: -15px;
-	}
-
-	.page-footer {
-		position:relative !important;
 	}
 
 	.fa-star, .fa-circle {

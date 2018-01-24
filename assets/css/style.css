@@ -96,7 +96,7 @@ strong {
 }
 
 .main-content {
-	border-right: 1px solid #f8f8f8;
+	margin-top: 20px;
 }
 
 p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .collection-item > a {

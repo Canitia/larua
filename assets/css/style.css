@@ -278,7 +278,7 @@ nav ul a {
 
 .badge-featured {
     position: relative;
-    top: 65px;
+    top: 50px;
     z-index: 10;
     padding: 16px !important;
     background-color: #E39B00;

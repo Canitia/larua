@@ -597,9 +597,6 @@ img.avatar {
 
 .pagination {
 	padding:15px;
-	margin-top: 15px !important;
-	border-top: 2px solid #ebebeb;
-	background:white;
 }
 
 .pagination > .active {

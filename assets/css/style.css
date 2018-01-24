@@ -6,6 +6,7 @@
 html body {
 	font-size:125%;
 	font-family: 'Raleway', sans-serif;
+	height: 100%;
 }
 
 h1 {
@@ -609,6 +610,32 @@ img.avatar {
 	background-color: #d3d3d3 !important;
 }
 
+
+.pagination-arrows-flex {
+	height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pagination-arrows-flex:hover {
+	background-color: #ebebeb;
+}
+
+.pagination-arrow-left {
+	position: absolute;  
+	left: 0;  
+	top: 0;
+}
+
+.pagination-arrow-right {
+	position: absolute;  
+	right: 0;  
+	top: 0;
+}
+
 /* **************************************
 
   FOOTER
@@ -856,7 +883,7 @@ EXTERNAL libraries look-n-feel
 
 /* general styling of pretty much all font-awesome icons */
 .socialfooter {
-	margin-left: 20px;
+	margin-left: 30px;
 }
 
 .socialfooter > a i {

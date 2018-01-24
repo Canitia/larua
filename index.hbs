@@ -1,8 +1,19 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-<div class="main-content col s12">
+<div class="col s1 pagination-arrows-flex pagination-arrow-left" style="
+    float: left;
+">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+    </div>
+<div class="main-content col s10">
     {{> 'post/card-basic'}}
     {{#if pagination}}
         {{pagination}}
     {{/if}}
 </div>
+<div class="col s1 pagination-arrows-flex pagination-arrow-right" style="
+    float: right;
+    
+">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    </div>

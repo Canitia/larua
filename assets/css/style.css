@@ -739,6 +739,13 @@ footer {
 	.fa-star, .fa-circle {
 		margin-right: 5px;
 	}
+
+	.homepage-image {
+		max-width: 100%;
+		width: 100%;
+		object-fit: cover;
+		height: auto;
+	}
 }
 
 /* mobile devices */
@@ -878,4 +885,16 @@ i.fa.fa-twitter.fa-2x {
 #disqus_thread {
 padding-left: 40px;
 padding-right: 40px;
+}
+
+.masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
 }

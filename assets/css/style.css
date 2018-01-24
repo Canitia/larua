@@ -166,11 +166,6 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
 	font-weight: 300 !important;
 }
 
-nav {
-	-webkit-box-shadow: 0 !important;
-	box-shadow: 0 !important;
-}
-
 nav .brand-logo {
 	 left: initial !important;
     -webkit-transform: initial !important;

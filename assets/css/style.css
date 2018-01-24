@@ -244,6 +244,7 @@ nav ul a {
 .post-featured {
 	filter: brightness(80%) !important;
 	border: 5px solid #E39B00 !important;
+	margin-top: -5px;
 }
 
 

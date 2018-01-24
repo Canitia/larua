@@ -2,33 +2,32 @@
 
 {{#foreach posts}}
 
-  {{#if featured}}
-    <div class="col s12 post-item-main homepage-image-featured">
-          <span class="badge-featured">
-            {{t "Featured"}}
+    {{#if featured}}
+      <div class="col s12 post-item-main homepage-image-featured">
+            <span class="badge-featured">
+              {{t "Featured"}}
+            </span>
+            <a href="{{url}}">
+                <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" class="homepage-image post-featured">          
+            
+                <h2 class="caption-image">{{title}}</h2>
+          </a>
+
+      </div>
+    {{else}}
+    <div class="col s12 m6 l4 post-item-main">
+          <span class="badge">
+            <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
           </span>
           <a href="{{url}}">
-              <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" class="homepage-image post-featured">          
+              <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" class="homepage-image">          
           
               <h2 class="caption-image">{{title}}</h2>
         </a>
 
     </div>
-  {{else}}
-  <div class="col s12 m6 l4 post-item-main">
-        <span class="badge">
-          <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
-        </span>
-        <a href="{{url}}">
-            <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" class="homepage-image">          
-        
-            <h2 class="caption-image">{{title}}</h2>
-      </a>
-
-  </div>
-  {{/if}}
+    {{/if}}
 {{/foreach}}
-{{/get}}
 
 
 </div>

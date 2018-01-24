@@ -559,9 +559,7 @@ img.avatar {
 }
 
 .avatar-page {
-	width:150px;
-	border-radius: 100px;
-	background-color:#F8F8F8;
+	width:150px !important;
 }
 
 .author-name {

@@ -242,8 +242,8 @@ nav ul a {
 }
 
 .post-featured {
-	filter: brightness(70%) !important;
-	border: 1px solid white !important;
+	filter: brightness(80%) !important;
+	border: 3px solid #E39B00 !important;
 }
 
 
@@ -281,8 +281,6 @@ nav ul a {
     z-index: 10;
     padding: 16px !important;
     background-color: #E39B00;
-    float: right;
-    right: -15px;
     padding-bottom: 10px !important;
     padding-top: 10px !important;
     font-weight: bold;
@@ -739,13 +737,6 @@ footer {
 	.fa-star, .fa-circle {
 		margin-right: 5px;
 	}
-
-	.homepage-image {
-		max-width: 100%;
-		width: 100%;
-		object-fit: cover;
-		height: auto;
-	}
 }
 
 /* mobile devices */
@@ -885,16 +876,4 @@ i.fa.fa-twitter.fa-2x {
 #disqus_thread {
 padding-left: 40px;
 padding-right: 40px;
-}
-
-.masonry { /* Masonry container */
-    column-count: 4;
-    column-gap: 1em;
-}
-
-.item { /* Masonry bricks or child elements */
-    background-color: #eee;
-    display: inline-block;
-    margin: 0 0 1em;
-    width: 100%;
 }

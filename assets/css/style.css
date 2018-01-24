@@ -499,8 +499,8 @@ iframe {
 .tag_heading > .posttitle {
     font-size: 250%;
     font-weight: 300;
-    opacity:0.8;
 	background:black;
+	margin-top: 0 !important;
 	margin-bottom: 0px !important;
 	margin-left:0px !important;
 	margin-right:0px !important;

@@ -1,12 +1,12 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-<div class="row">
+<div class="row page-row">
   {{#tag}}
   <div class="tag_heading center-align" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px;">
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}
-<div class="main-content col s12 m12 l12">
+<div class="main-content col col-sm-12">
     {{> 'post/card-basic'}}
     {{#if pagination}}
         {{pagination}}

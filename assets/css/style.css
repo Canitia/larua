@@ -291,6 +291,7 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
 
 .headerurl:hover {
   text-decoration: none;
+  color: #f9f9f9 !important;
 }
 
 .brand-logo {
@@ -405,7 +406,7 @@ nav ul a:hover {
 }
 
 .collection .collection-item:hover {
-	background-color: #e0e0e0 !important;
+	background-color: #FF4500 !important;
 }
 
 .postdate > a, .author-profile h4, .text-left-title a, .author-url-post-head  {

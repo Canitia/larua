@@ -15,6 +15,7 @@ nav {
 	max-width: 1200px;
 	margin-left: auto !important;
 	margin-right: auto !important;
+	margin-top: 15px;
 }
 
 .col {
@@ -51,7 +52,6 @@ nav {
     font-weight: bold;
     opacity: 0.9;
     color: darkslategrey;
-	text-align: center;
 }
 
 .post-featured {
@@ -61,7 +61,6 @@ nav {
 }
 
 .caption-image {
-	text-align: center;
 	position: relative;
 	bottom: 130px;
 	overflow:hidden;
@@ -234,13 +233,7 @@ strong {
   font-weight: 700 !important;
 }
 
-.main-content {
-	margin-top: 20px;
-	margin-right: 20px;
-    margin-left: 20px;
-}
-
-p > a, .side-nav a, .collection .collection-item, .collection-item > a {
+p > a, .collection .collection-item, .collection-item > a {
 	color: black !important;
 }
 
@@ -340,51 +333,6 @@ nav ul a:hover {
 
 /* **************************************
 
-  SLIDEOUT SIDEBAR
-
-/******************************************/
-
-.side-nav li>a {
-	border-bottom: 1px solid #ebebeb;
-	font-weight: 400 !important;
-	font-size: 16px !important;
-}
-
-.side-nav li:hover {
-	background: #FF4500;
-}
-
-.side-nav li>a:hover {
-	color: white;
-
-}
-
-.side-nav full {
-    overflow:auto;
-}
-
-.side-nav > h1 {
-	color: #d33900 !important;
-}
-
-#sidenav-overlay {
-	left: 300px !important;
-}
-
-.sidenav-menu-header {
-	margin-left: 15px;
-}
-
-.menu {
-	margin-top: 15px;
-}
-
-.side-nav .menu ul.sub-menu {
-	display: none;
-}
-
-/* **************************************
-
   CONTENT SIDEBAR / MAIN
 
 *****************************************/
@@ -412,8 +360,17 @@ ul.collection.collection-recent > a > li:hover {
 	background-color: #FF4500;
 }
 
+.collection .collection-recent {
+	padding-left: 0;
+}
+
 .collection-item {
 	border-bottom: 1px solid #f0f0f0 !important;
+	list-style: none;
+}
+
+.collection-item > img {
+	max-width: 100%;
 }
 
 .collection .collection-item {
@@ -736,6 +693,7 @@ img.avatar {
 
 .pagination li a {
 	line-height: inherit !important;
+	color: black !important;
 }
 
 

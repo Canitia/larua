@@ -711,10 +711,7 @@ img.avatar {
 .pagination > li {
     line-height: 2px;
 	font-weight: 600;
-	padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-	padding-right: 10px;
+	padding: 20px;
 	border: 1px solid #ebebeb;
 }
 

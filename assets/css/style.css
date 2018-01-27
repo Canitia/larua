@@ -596,7 +596,7 @@ iframe {
 
 .slider:hover, 
 .h1-slider:hover { 
-	filter: grayscale(40%);
+	filter: brightness(80%) !important;
 }
 
 

@@ -352,8 +352,13 @@ nav ul a:hover {
 	font-size: 16px !important;
 }
 
+.side-nav li:hover {
+	background: #FF4500;
+}
+
 .side-nav li>a:hover {
 	color: white;
+
 }
 
 .side-nav full {
@@ -361,7 +366,7 @@ nav ul a:hover {
 }
 
 .side-nav > h1 {
-	color: #979797 !important;
+	color: #d33900 !important;
 }
 
 #sidenav-overlay {

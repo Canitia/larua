@@ -394,8 +394,8 @@ nav ul a:hover {
 	height: 200px;
 }
 
-.homepage-image-featured {
-	border: 0 !important;
+.homepage-image:hover {
+	filter: brightness(80%) !important;
 }
 
 .collection {
@@ -722,6 +722,19 @@ img.avatar {
 	background-color: #d33900 !important;
 }
 
+.pagination > li {
+    line-height: 2px;
+	font-weight: 600;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.pagination li a {
+	line-height: inherit !important;
+}
 
 
 .pagination > ul > li {
@@ -729,6 +742,8 @@ img.avatar {
 	padding: 15px;
 	font-weight: 600;
 }
+
+
 
 
 /* **************************************

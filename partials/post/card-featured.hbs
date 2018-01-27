@@ -1,16 +1,23 @@
 {{#get "posts" limit="5" filter="featured:true" order="published_at desc" as |featured| }}
-<div class="slider">
-    <ul class="slides">
-        {{#foreach featured}}
-      <li>
-        <a href="{{url}}"><img class="content-images-featured responsive-img" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
-        </a>
-        <div class="caption center-align">
-          <h1 class="h1-slider">{{title}}</h1>
-        </div>
-      </li>
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+       {{#foreach featured}}
+            <div class="carousel-item {{#if @first}}active{{/if}}">
+            <a href="{{url}}" >
+                <img class="content-images-featured responsive-img" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+                     <div class="carousel-caption d-none d-md-block">
+                        <h1 class="h-slider">{{title}}</h1>
+                    </div>
+                    </a>
+            </div>
       {{/foreach}}
-    </ul>
-  </div>
-  {{else}}
+
+              <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+</div>
+</div>
 {{/get}}

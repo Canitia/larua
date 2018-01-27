@@ -1,12 +1,12 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-<div class="row">
+<div class="row page-row">
 {{#is "author"}}
   {{#author}}
   <div class="tag_heading center-align" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
     <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/no-pic-available-user.jpg"}}{{/if}}" class="avatar-page center-align" title="Image of {{name}}" alt="Image of {{name}}" />
     <p class="posttitle">{{name}}</p>
-      <div class="socialfooter-top center hide">
+      <div class="socialfooter-top text-center hide">
       {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fa fa-facebook fa-2x"></i></a>{{/if}}
       {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fa fa-twitter fa-2x"></i></a>{{/if}}
       </div>
@@ -14,7 +14,7 @@
   {{/author}}
 {{/is}}
 
-<div class="main-content col s12 m12 l12">
+<div class="main-content col col-sm-12">
   {{> 'post/card-basic'}}
 </div>
 </div>

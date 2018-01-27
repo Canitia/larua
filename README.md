@@ -1,6 +1,6 @@
 # Canitia Jr.
 
-A [Ghost](http://github.com/tryghost/ghost/) theme based on the Canitia theme (for Wordpress). It has the same look-n-feel but not the full featureset of Cinitia as Ghost doesn't, at least fairly easily, allow for it at this point.
+A [Ghost](http://github.com/tryghost/ghost/) theme based on the Canitia theme (for Wordpress). It has the same look-n-feel but some feature differences due to their platform.
 
 # Main Features
 - Slider that shows featured posts (need the API to be enabled in Ghost Dashboard -> Labs -> API).
@@ -18,9 +18,9 @@ A [Ghost](http://github.com/tryghost/ghost/) theme based on the Canitia theme (f
 
 # Stuff used
 Canitia Jr. uses the following libraries;
-- [jQuery](https://github.com/jquery/jquery)
-- [MaterializeCSS](https://materializecss.com)
-- [FontAwesome](http://www.fontawesome.com/)
+- Font Awesome 4.7.0
+- Bootstrap v4 (beta)
+- JQuery (3.1.x)
 
 # Tested
 This theme was used and tested on Ghost 1.0 using Chrome, Firefox and Edge as test browsers. Ofcourse i might still have missed some bugs so please report them through the issue tracker. 
@@ -34,7 +34,7 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 
 # Theme requirements
 - Canitia Jr **requires** Ghost version **1.20.0** to install and work as intended. 
-- Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API.
+- Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset.
 
 # Tested on:
 The theme is tested on Microsoft Edge <Creators Update>, Microsoft Edge <Creators Update> (Mobile), Chrome 58 (mobile), Firefox 53.0.2 and Internet Explorer 11.

@@ -606,26 +606,39 @@ iframe {
 	color: white;
 }
 
-.tags {
-	line-height:40px;
-	margin-top: 10px;
+
+.cat-links {
+	margin-top: 45px;
 }
 
-.chip {
-	color:white !important;
-	border-radius: 0px !important;
-	margin-bottom: 0px !important;
-	margin-right: 0px !important;
-	font-weight: 400 !important;
+
+.cat-links-hr {
+	margin-top:7px;
+	margin-bottom:7px;
+	clear:both;
 }
 
-.chip:hover {
-	background-color: #1565c0 !important;
+.cat-links > a:hover {
+	text-decoration: underline;
+	color: #FF4500;
 }
 
-.chip > a:hover {
-	color: white !important;
+.tagslist {
+	margin-top: 15px;
 }
+
+.tagslist a {
+	text-decoration: underline;
+	font-weight: 600;
+	font-size: 14px;
+	color: black;
+}
+
+.tagslist a:hover {
+	color: #FF4500;
+}
+
+
 /* **************************************
 
 	ARTICLE: AUTHOR look-n-feel

@@ -915,6 +915,10 @@ footer {
 	.sidebar {
 		margin-bottom: 20px;
 	}
+
+	.card {
+		height: 400px !important;
+	}
 }
 
 /* **************************************

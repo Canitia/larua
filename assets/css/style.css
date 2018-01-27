@@ -858,16 +858,6 @@ footer {
 		margin-bottom: 12px;
 	}
 
-	.tags {
-		line-height: 50px;
-		padding-bottom: 10px !important;
-	}
-
-	.chip {
-		height: 40px !important;
-		line-height:40px !important;
-	}
-
 	.row-post {
 		margin-top: -15px;
 	}

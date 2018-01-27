@@ -23,6 +23,8 @@
 </head>
 <!-- main navigation -->
 {{navigation}}
+<main class="{{body_class}}">
+
   {{#if @labs.publicAPI}}
     {{#is "home"}}
        {{> 'post/card-featured'}}
@@ -33,7 +35,6 @@
           <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
         </div>
   {{/post}}
-<main class="{{body_class}}">
 
 {{#is "author"}}
   {{#author}}

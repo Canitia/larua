@@ -243,7 +243,7 @@ p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .co
 
 p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socialfooter > a > i:hover, .socialfooter a
 {
-  color:#979797  !important;
+  color:#FF4500 !important;
 }
 
 .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, footer a, .btn > a  {

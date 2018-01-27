@@ -918,7 +918,11 @@ footer {
 
 	.card {
 		height: 400px !important;
+		margin-top: 35px;
+		margin-bottom: 30px;
+		border: 0 !important;
 	}
+	
 }
 
 /* **************************************

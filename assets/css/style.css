@@ -722,7 +722,7 @@ footer {
     bottom: 0;
 }
 
-.socialfooter > .right > a {
+.socialfooter > .float-right > a {
 	margin-right: 30px;
 	color:black !important;
 }

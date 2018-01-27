@@ -95,14 +95,14 @@
     margin-bottom: 30px !important;
     border: 0 !important;
     box-shadow: unset !important;
-    -webkit-box-shadow: unset !important;
+	-webkit-box-shadow: unset !important;
+	height: 475px !important;
 }
 
 .card-title {
 	font-size: 150% !important;
 	margin-top: 15px;
 }
-
 
 .read-more-btn {
 	border: 0 !important;

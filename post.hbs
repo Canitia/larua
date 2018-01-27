@@ -23,9 +23,11 @@
               <i class="fa fa-tags" aria-hidden="true"></i>
 
               {{#foreach tags}}
-
+                  {{#if @last}}
                   <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
-
+                  {{else}}
+                  <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>, 
+                  {{/if}}
                 {{/foreach}}
           </div>
           {{/if}}<!-- end tags if -->

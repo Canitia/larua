@@ -2,10 +2,13 @@ nav {
 	background: #FF4500 !important;
 }
 
+.container-fluid {
+    min-width: 300px;
+}
+
 .row {
 	margin-left: 0 !important;
 	margin-right: 0 !important;
-	min-width: 400px;
 }
 
 .page-row {
@@ -107,6 +110,11 @@ nav {
 .card-title {
 	font-size: 150% !important;
 	margin-top: 10px;
+}
+
+.card-text {
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .read-more-btn {
@@ -730,8 +738,6 @@ img.avatar {
 
 .pagination > ul > li {
 	background-color: #FF4500;
-	float: left;
-	list-style: none;
 	padding: 15px;
 	font-weight: 600;
 }

@@ -90,17 +90,14 @@ nav {
 }
 
 .card {
-	margin-top: 20px !important;
-    margin-bottom: 30px !important;
-    border: 0 !important;
-    box-shadow: unset !important;
-	-webkit-box-shadow: unset !important;
-	height: auto !important;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border: 0 !important;
 }
 
 .card-title {
 	font-size: 150% !important;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .card-text {
@@ -769,11 +766,13 @@ footer {
 	}
 
 	.card {
-		margin-bottom: 40px !important;
+		border-bottom: 1px solid #ebebeb !important;
+		padding-bottom: 30px;
 	}
 
 	.card-actions-bottom {
-		bottom: -15px;
+		margin-bottom: 25px;
+		width: 97%;
 	}
 
 	.read-more-btn {
@@ -869,8 +868,12 @@ footer {
 @media (max-width:992px) and (min-width:601px) {
 
 	.card {
-		height: 400px !important;
-		margin-bottom: 40px !important;
+		border-bottom: 1px solid #ebebeb !important;
+		padding-bottom: 30px;
+	}
+
+	.card-actions-bottom {
+		margin-bottom: 25px;
 	}
 
     h1 {

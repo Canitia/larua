@@ -557,6 +557,11 @@ iframe {
 	max-height: 500px;
 }
 
+.h-slider {
+	text-shadow: 2px 1px #000000;
+}
+
+
 /* **************************************
 
   ARTICLE: TAGS look-n-feel
@@ -573,11 +578,8 @@ iframe {
 .tag_heading > .posttitle {
     font-size: 250%;
     font-weight: 300;
-	background:black;
-	margin-top: 0 !important;
-	margin-bottom: 0px !important;
-	margin-left:0px !important;
-	margin-right:0px !important;
+	text-shadow: 2px 1px #000000;
+	margin-top: 55px !important;
 }
 
 .socialfooter-top {

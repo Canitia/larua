@@ -1,3 +1,7 @@
+.navbar {
+	background: #FF4500 !important;
+}
+
 .row {
 	margin-left: 0 !important;
 	margin-right: 0 !important;
@@ -34,7 +38,7 @@
 
 .badge-featured {
 	position: absolute;
-    top: 30px;
+    top: 75px;
 	left: 0px;
 	width: 100%;
     z-index: 10;
@@ -101,7 +105,7 @@
 
 .card-title {
 	font-size: 150% !important;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .read-more-btn {
@@ -731,6 +735,12 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
 
+	.card {
+		border-bottom: 1px solid #ebebeb !important;
+		height: auto !important;
+		margin-bottom: 40px !important;
+	}
+
 	.main-content {
 		padding: 0;
 		margin: initial;
@@ -823,6 +833,12 @@ footer {
 
 /* mobile devices */
 @media (max-width:992px) and (min-width:601px) {
+
+	.card {
+		height: 475px !important;
+		margin-bottom: 40px !important;
+	}
+
     h1 {
     	font-size: 120%;
     }

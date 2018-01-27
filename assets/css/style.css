@@ -54,17 +54,6 @@ nav {
 	text-align: center;
 }
 
-.homepage-image {
-	object-fit: cover;
-    max-width: 100%;
-    filter: brightness(50%);
-	height: 200px;
-}
-
-.homepage-image-featured {
-	border: 0 !important;
-}
-
 .post-featured {
 	filter: brightness(80%) !important;
 	border: 5px solid #E39B00 !important;
@@ -402,7 +391,6 @@ nav ul a:hover {
 	object-fit: cover;
 	max-width: 100%;
 	width: 100%;
-    filter: brightness(50%);
 	height: 200px;
 }
 

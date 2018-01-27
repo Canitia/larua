@@ -1,4 +1,4 @@
-.navbar {
+nav {
 	background: #FF4500 !important;
 }
 
@@ -100,7 +100,7 @@
     border: 0 !important;
     box-shadow: unset !important;
 	-webkit-box-shadow: unset !important;
-	height: 475px !important;
+	height: 400px !important
 }
 
 .card-title {
@@ -320,6 +320,18 @@ img.logo {
 
 nav ul a {
 	color: black !important;
+	font-weight: 600;
+}
+
+ul#nav-mobile > li {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+nav ul a:hover {
+    background-color: unset !important;
+	text-decoration: none !important;
+	color: #f9f9f9 !important;
 }
 
 /* **************************************
@@ -439,8 +451,10 @@ POST/ARTICLE HEADERS
 /* headers like 'latest' */
 .text-left-title-featured-sidebar {
 	font-family:'Slabo 27px', serif;
-	font-size: 175% !important;
 	font-weight: 300;
+	color: #d33900;
+	text-transform: uppercase;
+	font-size: 175% !important;
 	padding:15px !important;
 	white-space: normal;
 	overflow:hidden;
@@ -736,7 +750,6 @@ footer {
 @media (max-width:600px) and (min-width:200px) {
 
 	.card {
-		border-bottom: 1px solid #ebebeb !important;
 		height: auto !important;
 		margin-bottom: 40px !important;
 	}
@@ -835,7 +848,7 @@ footer {
 @media (max-width:992px) and (min-width:601px) {
 
 	.card {
-		height: 475px !important;
+		height: 400px !important;
 		margin-bottom: 40px !important;
 	}
 
@@ -891,20 +904,17 @@ footer {
 EXTERNAL libraries look-n-feel
 
 *****************************************/
-.fa-user-secret, .fa-twitter, .fa-facebook {
+.fa-user-secret, .fa-twitter, .fa-facebook, .fa-tag {
   margin-left:20px;
   margin-right:20px;
+  color: #FF4500;
 }
 
 .fa-star, .fa-circle {
 	margin-right: 15px;
 }
 
-.fa-star {
-	color: #e59400;
-}
-
-.fa-circle, .fa-tag {
+.fa-circle {
 	color: #d3d3d3;
 }
 
@@ -918,6 +928,7 @@ EXTERNAL libraries look-n-feel
 
 .fa-clock-o, .fa-user {
 	margin-right: 10px;
+	color: #FF4500;
 }
 
 .fa-user {
@@ -926,12 +937,6 @@ EXTERNAL libraries look-n-feel
 
 .fa-bars {
 	color: black;
-}
-
-.slides > li > p > .fa-star {
-	margin-left: 5px !important;
-	margin-right: 5px !important;
-	color: orange;
 }
 
 .postdate i {
@@ -955,7 +960,6 @@ EXTERNAL libraries look-n-feel
 	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-left: 15px;
 	transition: all 0.2s ease-in-out;
 	color: black;
 }

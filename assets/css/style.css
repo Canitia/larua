@@ -43,16 +43,19 @@ nav {
 
 .badge-featured {
 	position: absolute;
-    top: 75px;
-	left: 0px;
-	width: 100%;
+    top: 15px;
+    right: 0px;
+    margin-right: 5px;
+    width: 30%;
     z-index: 10;
     padding: 10px !important;
     background-color: #FF4500 !important;
     font-weight: bold;
     opacity: 0.9;
-    color: darkslategrey;
+    color: white;
+	text-align: center;
 }
+
 
 .post-featured {
 	filter: brightness(80%) !important;
@@ -378,7 +381,7 @@ ul.collection.collection-recent > a > li:hover {
 }
 
 .collection .collection-item img:hover {
-	filter: brightness(70%);
+	filter: brightness(80%);
 }
 
 .postdate > a, .author-profile h4, .text-left-title a, .author-url-post-head  {
@@ -542,21 +545,17 @@ iframe {
   SLIDER LOOK-N-FEEL
 
 *****************************************/
-
-.h1-slider {
-	text-shadow: 2px 1px #000000;
+.carousel {
+	max-height: 500px;
 }
 
-
-.slider .slides li {
-	background-color: #dfe3e5 !important;
-}
-
-.slider:hover, 
-.h1-slider:hover { 
+.carousel:hover {
 	filter: brightness(80%) !important;
 }
 
+.carousel-item {
+	max-height: 500px;
+}
 
 /* **************************************
 

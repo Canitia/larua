@@ -110,10 +110,14 @@ nav {
 
 .read-more-btn {
 	border: 0 !important;
-	background-color: #d33900 !important;
+	background-color: #FF4500 !important;
 	font-weight: 600;
 	display: block;
     float: right;
+}
+
+.read-more-btn:hover {
+	background-color: #d33900 !important;
 }
 
 .btn:hover, 
@@ -237,11 +241,11 @@ strong {
     margin-left: 20px;
 }
 
-p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .collection-item > a {
+p > a, .side-nav a, .collection .collection-item, .collection-item > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socialfooter > a > i:hover, .socialfooter a
+p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfooter a
 {
   color:#FF4500 !important;
 }
@@ -397,6 +401,14 @@ nav ul a:hover {
 	border: 0 !important;
 }
 
+ul.collection.collection-recent > a > li:hover {
+	background-color: #d3d3d3;
+}
+
+.collection .collection-item:hover {
+	background-color: #FF4500;
+}
+
 .collection-item {
 	border-bottom: 1px solid #f0f0f0 !important;
 }
@@ -405,8 +417,8 @@ nav ul a:hover {
 	margin: 10px !important;
 }
 
-.collection .collection-item:hover {
-	background-color: #FF4500 !important;
+.collection .collection-item img:hover {
+	filter: brightness(70%);
 }
 
 .postdate > a, .author-profile h4, .text-left-title a, .author-url-post-head  {
@@ -702,11 +714,21 @@ img.avatar {
 	font-weight: 500;
 	font-size: 125%;
 	border: 2px solid #d3d3d3 !important;
-	background: white !important;
+	background-color: #d33900 !important;
 }
 
 .pagination li.active, .pagination > li:hover {
 	background-color: #d3d3d3 !important;
+}
+
+
+
+.pagination > ul > li {
+	background-color: #FF4500;
+	float: left;
+	list-style: none;
+	padding: 15px;
+	font-weight: 600;
 }
 
 
@@ -849,7 +871,7 @@ footer {
 @media (max-width:992px) and (min-width:601px) {
 
 	.card {
-		height: 400px !important;
+		height: 450px !important;
 		margin-bottom: 40px !important;
 	}
 

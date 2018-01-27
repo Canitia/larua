@@ -717,9 +717,8 @@ img.avatar {
 .pagination > .active {
 	padding: 20px;
 	line-height: 2px; 
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 125%;
-	border: 2px solid #d3d3d3 !important;
 	background-color: #d33900 !important;
 }
 

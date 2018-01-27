@@ -724,7 +724,7 @@ img.avatar {
 }
 
 .pagination li.active, .pagination > li:hover {
-	background-color: #d3d3d3 !important;
+	background-color: #d33900 !important;
 }
 
 
@@ -760,12 +760,8 @@ footer {
 	color:black !important;
 }
 
-.socialfooter > a {
-    color: #00bfff;
-}
-
-.socialfooter > a:hover {
-    color: #979797;
+.socialfooter > .right > a:hover {
+	color: #FF4500 !important;
 }
 
 

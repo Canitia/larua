@@ -318,20 +318,35 @@ img.logo {
 	position:relative;
 }
 
-nav ul a {
-	color: black !important;
-	font-weight: 600;
+.menu-item {
+    padding: 20px;
 }
 
-ul#nav-mobile > li {
-    padding-left: 25px;
-    padding-right: 25px;
+.menu-item > a {
+	color: black;
+	font-size: 16px;
+    font-weight: 600;
 }
 
-nav ul a:hover {
-    background-color: unset !important;
-	text-decoration: none !important;
-	color: #f9f9f9 !important;
+.menu-item > a:hover {
+	text-decoration: none;
+	color: #f9f9f9;
+}
+
+.menu-item > ul > .menu-item {
+	margin-top: -11px;
+	margin-bottom: -8px;
+}
+
+.menu-item:last-child > .dropdown-menu {
+	left: inherit !important;
+	right: 0% !important;
+}
+
+
+.navbar .dropdown-menu li {
+  width: 100%;
+  margin-left: 0 !important;
 }
 
 /* **************************************
@@ -745,8 +760,24 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
 
+	.carousel {
+		max-height: 350px;
+	}
+	
+	.carousel-item {
+		max-height: 350px;
+	}
+
 	.card {
 		margin-bottom: 40px !important;
+	}
+
+	.card-actions-bottom {
+		bottom: -15px;
+	}
+
+	.read-more-btn {
+		margin-bottom: 5px;
 	}
 	
 	h1 {

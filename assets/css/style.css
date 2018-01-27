@@ -1,3 +1,134 @@
+.row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.page-row {
+	max-width: 1200px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.col {
+	flex-basis: unset !important;
+}
+
+.post-item-main > a {
+	color: white;
+}
+
+.post-item-main > a:hover {
+	text-decoration: none;
+}
+
+.post-item-main {
+	margin-top: 5px;
+    margin-bottom: 10px;
+	height: 235px !important;
+}
+
+.badge {
+	font-weight: 500;
+	color: black;
+}
+
+.badge-featured {
+	position: absolute;
+    top: 30px;
+	left: 0px;
+	width: 100%;
+    z-index: 10;
+    padding: 10px !important;
+    background-color: #FF4500 !important;
+    font-weight: bold;
+    opacity: 0.9;
+    color: darkslategrey;
+	text-align: center;
+}
+
+.homepage-image {
+	object-fit: cover;
+    max-width: 100%;
+    filter: brightness(50%);
+	height: 200px;
+}
+
+.homepage-image-featured {
+	border: 0 !important;
+}
+
+.post-featured {
+	filter: brightness(80%) !important;
+	border: 5px solid #E39B00 !important;
+	margin-top: -5px;
+}
+
+.caption-image {
+	text-align: center;
+	position: relative;
+	bottom: 130px;
+	overflow:hidden;
+	padding: 5px;
+	color: white;
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.caption-image:hover {
+	font-weight: 600 !important;
+}
+
+
+.spacer {
+    height: 30px;
+}
+
+.card-actions-bottom {
+    position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-right: 40px;
+	margin-bottom: 0;
+}
+
+.card {
+	margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    border: 0 !important;
+    box-shadow: unset !important;
+    -webkit-box-shadow: unset !important;
+}
+
+.card-title {
+	font-size: 150% !important;
+	margin-top: 15px;
+}
+
+
+.read-more-btn {
+	border: 0 !important;
+	background-color: #d33900 !important;
+	font-weight: 600;
+	display: block;
+    float: right;
+}
+
+.btn:hover, 
+.comment-reply-link:hover,
+.submit:hover {
+	background-color: #d33900 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* **************************************
 
   GENERAL FONT / ELEMENT
@@ -233,66 +364,15 @@ nav ul a {
 
 *****************************************/
 .homepage-image {
-	border: 5px solid #ebebeb;
+	object-fit: cover;
 	max-width: 100%;
 	width: 100%;
-	object-fit: cover;
-	height: 195px;
-	filter: brightness(50%);
+    filter: brightness(50%);
+	height: 200px;
 }
 
 .homepage-image-featured {
 	border: 0 !important;
-}
-
-.post-featured {
-	filter: brightness(80%) !important;
-	border: 5px solid #E39B00 !important;
-	margin-top: -5px;
-}
-
-
-.caption-image {
-	text-align: center;
-	position: relative;
-	bottom: 140px;
-	font-size: 2em !important;
-	overflow:hidden;
-	padding: 5px;
-}
-
-.caption-image:hover {
-	font-weight: 700 !important;
-}
-
-.post-item-main {
-	margin-top: 5px;
-    margin-bottom: 30px;
-	height: 216px !important;
-	overflow:hidden;
-}
-
-.post-item-main > a {
-	color: white;
-}
-
-.badge {
-	background: #ebebeb;
-	font-weight: 500;
-}
-
-.badge-featured {
-    position: relative;
-    top: 50px;
-    z-index: 10;
-    padding: 16px !important;
-    background-color: #E39B00;
-    padding-bottom: 10px !important;
-    padding-top: 10px !important;
-    font-weight: bold;
-    opacity: 0.9;
-    color: darkslategrey;
-    margin-right: 5px;
 }
 
 .collection {

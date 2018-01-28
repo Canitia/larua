@@ -1,12 +1,10 @@
-<ul class="pagination center-align" role="pagination">
+<ul class="pagination d-flex justify-content-center" role="pagination">
     {{#if prev}}
-        <li class="pagination-arrows"><a class="newer-posts" href="{{page_url prev}}"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a></li>
         <li><a href="{{page_url prev}}">{{prev}}</a></li>
     {{/if}}
 
     <li class="active">{{page}}</li>
     {{#if next}}
         <li><a href="{{page_url next}}">{{next}}</a></li>
-        <li class="pagination-arrows"><a class="older-posts" href="{{page_url next}}"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a></li>
     {{/if}}
 </ul>

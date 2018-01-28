@@ -286,7 +286,7 @@ p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfo
     text-decoration: none;
 }
 
-.headerurl:hover {
+.headerurl:hover,  .nav-link:hover {
   text-decoration: none;
   color: #f9f9f9 !important;
 }

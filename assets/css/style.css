@@ -233,11 +233,11 @@ strong {
   font-weight: 700 !important;
 }
 
-p > a, .collection .collection-item, .collection-item > a, .socialfooter a {
+p > a, .collection .collection-item, .collection-item > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfooter a:hover
+p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfooter a:hover, .socialfooter > .float-right > a
 {
   color:#FF4500 !important;
 }

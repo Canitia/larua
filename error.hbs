@@ -1,11 +1,27 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
-<div class="row">
-  <div class="main-content col s12 m12 l12">
-        <h1 class="text-left-title-featured-sidebar error">{{t "Error"}}</h1>
-        <div class="post-content">
-        <p class="post-errortext">{{t "This post/page doesn't exist anymore or has been made unavailable. To continue please click the back button or select a option from the navigation menu."}}</p>
-        </div>
-  </div>
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+<div class="row page-row">
+
+          <div class="card col col-sm-12">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            <div class="card-block">
+              <h2 class="card-title">{{t "Error"}}</h2>
+              <p class="card-text">{{t "This post/page doesn't exist anymore or has been made unavailable. To continue please click the back button or select a option from the navigation menu."}}</p>
+                <div class="spacer"></div>
+                <div class="card-actions-bottom">
+                  <a class="btn btn-primary read-more-btn" onclick="goBack()">{{t "Return to previous page"}}</a>
+                  <a class="btn btn-primary read-more-btn" href="/">{{t "Return to the homepage"}}</a>
+                </div>
+            </div>
+          </div>  
+
 </div>

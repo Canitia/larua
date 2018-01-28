@@ -1,13 +1,30 @@
-<ul class="collection">
+<div class="row">
+
 {{#foreach posts}}
-<a href="{{url}}">
-<li class="collection-item truncate">
-  {{#if featured}}<i class="fa fa-star"></i>{{else}}<i class="fa fa-circle" aria-hidden="true"></i>{{/if}}
-    {{title}}
-    <span class="badge">
-      <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
-    </span> 
-</li>
-</a>
+
+
+          <div class="card col col-sm-12 col-md-6">
+             <a href="{{url}}">
+                <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" class="homepage-image">          
+          </a>
+            <div class="card-block">
+              {{#if featured}}
+                  <span class="badge-featured">
+                    {{t "Featured"}}
+                  </span>
+              {{/if}}
+              <h2 class="card-title">{{title}}</h2>
+              <p class="card-text">{{excerpt words="20"}}...</p>
+                <div class="spacer"></div>
+                <div class="card-actions-bottom">
+                  <a href="{{url}}" class="btn btn-primary read-more-btn">{{t "Read"}}</a>
+                    <small class="text-muted badge">
+                        <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+                  </small>
+                </div>
+            </div>
+          </div>  
+
 {{/foreach}}
-</ul>
+
+</div>

@@ -14,14 +14,17 @@
     <!-- own stylesheet for general stuff -->
     <link rel="stylesheet" href="{{asset "css/style.css"}}">
     <!-- other used items -->
-    <link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href='//fonts.googleapis.com/css?family=Slabo+27px:400,700' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
 <!-- main navigation -->
 {{navigation}}
+<main class="{{body_class}}">
+
   {{#if @labs.publicAPI}}
     {{#is "home"}}
        {{> 'post/card-featured'}}
@@ -32,7 +35,29 @@
           <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
         </div>
   {{/post}}
-<main class="{{body_class}}">
+
+{{#is "author"}}
+  {{#author}}
+  <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
+    <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/no-pic-available-user.jpg"}}{{/if}}" class="avatar-page center-align" title="Image of {{name}}" alt="Image of {{name}}" />
+    <p class="posttitle">{{name}}</p>
+      <div class="socialfooter-top text-center hide">
+      {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fa fa-facebook fa-2x"></i></a>{{/if}}
+      {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fa fa-twitter fa-2x"></i></a>{{/if}}
+      </div>
+  </div>
+  {{/author}}
+{{/is}}
+
+{{#is "tag"}}
+  {{#tag}}
+  <div class="tag_heading text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px;">
+  <p class="posttitle">{{name}}</p>
+  </div>
+  {{/tag}}
+{{/is}}
+
+
 
 <div class="container-fluid">
 
@@ -47,13 +72,15 @@
 </footer>
 <!-- Compiled and minified JavaScript -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript"> 
       $(document).ready(function(){
+     
         $('.slider').slider({
         indicators: false
         })
       
+
         $('.button-collapse').sideNav({
             menuWidth: 300, // Default is 300
             edge: 'left', // Choose the horizontal origin

@@ -34,7 +34,7 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 - Restart your Ghost instance to see the new theme and apply it.
 
 # Tested on:
-The theme is tested on Microsoft Edge <Creators Update>, Chrome 58 (mobile), Firefox 53.0.2 and Internet Explorer 11.
+The theme is tested on Microsoft Edge <Creators Update>, Google Chrome 64.0.3282.119, Firefox 53.0.2, Firefox Nightly 60 (28-jan-2018).
 
 # Customization
 

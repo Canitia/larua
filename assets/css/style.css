@@ -237,7 +237,7 @@ p > a, .collection .collection-item, .collection-item > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfooter a:hover, .socialfooter > .float-right > a
+p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfooter a:hover, .socialfooter > .float-right > a:hover
 {
   color:#FF4500 !important;
 }

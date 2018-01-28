@@ -1,11 +1,14 @@
 {
-    "Latest": "Latest",
+    "Featured": "Featured",
     "Whoops...that's not looking good. People have no idea who you are?!": "Whoops...that's not looking good. People have no idea who you are?!",
     "Menu": "Menu",
     "Error": "Error",
+    "Return to the homepage": "Return to the homepage",
+    "Return to previous page": "Return to previous page",
     "This post/page doesn't exist anymore or has been made unavailable. To continue please click the back button or select a option from the navigation menu.": "This post/page doesn't exist anymore or has been made unavailable. To continue please click the back button or select a option from the navigation menu.",
     "Related": "Related",
     "Recent": "Recent",
     "Most used tags": "Most used tags",
-    "powered by: Canitia Jr.": "powered by: Canitia Jr."
+    "Read": "Read",
+    "Canitia Jr.": "Canitia Jr."
 }

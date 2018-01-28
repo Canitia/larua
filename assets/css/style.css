@@ -1,26 +1,167 @@
+nav {
+	background: #FF4500 !important;
+}
+
+.container-fluid {
+    min-width: 300px;
+}
+
+.row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.page-row {
+	max-width: 1200px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-top: 15px;
+}
+
+.col {
+	flex-basis: unset !important;
+}
+
+.post-item-main > a {
+	color: white;
+}
+
+.post-item-main > a:hover {
+	text-decoration: none;
+}
+
+.post-item-main {
+	margin-top: 5px;
+    margin-bottom: 10px;
+	height: 235px !important;
+}
+
+.badge {
+	font-weight: 500;
+	color: black;
+}
+
+.badge-featured {
+	position: absolute;
+    top: 15px;
+    right: 0px;
+    margin-right: 5px;
+    width: 30%;
+    z-index: 10;
+    padding: 10px !important;
+    background-color: #FF4500 !important;
+    font-weight: bold;
+    opacity: 0.9;
+    color: white;
+	text-align: center;
+}
+
+
+.post-featured {
+	filter: brightness(80%) !important;
+	border: 5px solid #E39B00 !important;
+	margin-top: -5px;
+}
+
+.caption-image {
+	position: relative;
+	bottom: 130px;
+	overflow:hidden;
+	padding: 5px;
+	color: white;
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.caption-image:hover {
+	font-weight: 600 !important;
+}
+
+
+.spacer {
+    height: 30px;
+}
+
+.card-actions-bottom {
+    position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-right: 20px;
+	margin-bottom: 0;
+}
+
+.card {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border: 0 !important;
+}
+
+.card-title {
+	font-size: 150% !important;
+	margin-top: 15px;
+}
+
+.card-text {
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.read-more-btn {
+	border: 0 !important;
+	background-color: #FF4500 !important;
+	font-weight: 600;
+	display: block;
+	float: right;
+	margin-right: 5px;
+}
+
+.read-more-btn:hover {
+	background-color: #d33900 !important;
+}
+
+.btn:hover, 
+.comment-reply-link:hover,
+.submit:hover {
+	background-color: #d33900 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* **************************************
 
   GENERAL FONT / ELEMENT
 
 *****************************************/
 html body {
-	font-size:16px;
-	font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size:125%;
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
 }
 
 h1 {
 	font-size: 3.2rem !important;
 	font-weight: 300 !important;
+	font-family:'Slabo 27px', serif;
 }
 
 h2 {
 	font-size: 2.9rem !important;
 	font-weight: 300 !important;
+	font-family:'Slabo 27px', serif;
 }
 
 h3 {
 	font-size: 2.6rem !important;
 	font-weight: 300 !important;
+	font-family:'Slabo 27px', serif;
 }
 
 .h3-join-the-conversation {
@@ -28,11 +169,12 @@ h3 {
 	font-weight: 300 !important;
 	margin-left: 15px;
 	margin-top: 60px;
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 h4 {
 	font-weight: 300 !important;	
+	font-family:'Slabo 27px', serif;
 }
 
 p > a {
@@ -91,27 +233,25 @@ strong {
   font-weight: 700 !important;
 }
 
-.main-content {
-	border-right: 1px solid #f8f8f8;
-}
-
-p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .collection-item > a {
+p > a, .collection .collection-item, .collection-item > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socialfooter > a > i:hover, .socialfooter a
+p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfooter a
 {
-  color:#979797  !important;
+  color:#FF4500 !important;
 }
 
 .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, footer a, .btn > a  {
       color: white !important;
 }
 
+.post-head {
+	margin-bottom: 25px;
+}
+
 .post-subitems {
 	color: #979797;
-	margin-bottom: 25px;
-	font-size: 16px;
 }
 
 .post-subitems > a
@@ -147,6 +287,7 @@ p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socia
 
 .headerurl:hover {
   text-decoration: none;
+  color: #f9f9f9 !important;
 }
 
 .brand-logo {
@@ -174,49 +315,35 @@ img.logo {
 	position:relative;
 }
 
-nav ul a {
-	color: black !important;
+.menu-item {
+    padding: 20px;
 }
 
-/* **************************************
-
-  SLIDEOUT SIDEBAR
-
-/******************************************/
-
-.side-nav li>a {
-	border-bottom: 1px solid #ebebeb;
-	font-weight: 400 !important;
-	font-size: 16px !important;
+.menu-item > a {
+	color: black;
+	font-size: 16px;
+    font-weight: 600;
 }
 
-.side-nav li>a:hover {
-	color: white;
+.menu-item > a:hover {
+	text-decoration: none;
+	color: #f9f9f9;
 }
 
-.side-nav full {
-    overflow:auto;
+.menu-item > ul > .menu-item {
+	margin-top: -11px;
+	margin-bottom: -8px;
 }
 
-.side-nav > h1 {
-	color: #979797 !important;
+.menu-item:last-child > .dropdown-menu {
+	left: inherit !important;
+	right: 0% !important;
 }
 
-#sidenav-overlay {
-	left: 300px !important;
-}
 
-.sidenav-menu-header {
-	margin-bottom: -15px !important;
-	margin-left: 15px;
-}
-
-.menu {
-	margin-top: 15px;
-}
-
-.side-nav .menu ul.sub-menu {
-	display: none;
+.navbar .dropdown-menu li {
+  width: 100%;
+  margin-left: 0 !important;
 }
 
 /* **************************************
@@ -224,21 +351,52 @@ nav ul a {
   CONTENT SIDEBAR / MAIN
 
 *****************************************/
+.homepage-image {
+	object-fit: cover;
+	max-width: 100%;
+	width: 100%;
+	height: 200px;
+}
+
+.homepage-image:hover {
+	filter: brightness(80%) !important;
+}
 
 .collection {
 	margin:0px !important;
 	border: 0 !important;
 }
 
-.collection-item {
-	border-bottom: 1px solid #f0f0f0 !important;
+ul.collection.collection-recent > a > li:hover {
+	background-color: #d3d3d3;
 }
 
 .collection .collection-item:hover {
-	background-color: #e0e0e0 !important;
+	background-color: #FF4500;
 }
 
-.main-content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, .author-url-post-head  {
+.collection .collection-recent {
+	padding-left: 0;
+}
+
+.collection-item {
+	border-bottom: 1px solid #f0f0f0 !important;
+	list-style: none;
+}
+
+.collection-item > img {
+	max-width: 100%;
+}
+
+.collection .collection-item {
+	margin: 10px !important;
+}
+
+.collection .collection-item img:hover {
+	filter: brightness(80%);
+}
+
+.postdate > a, .author-profile h4, .text-left-title a, .author-url-post-head  {
 	color:#979797 !important;
 }
 
@@ -251,6 +409,11 @@ article > h4,
 	color:#979797 !important;
 }
 
+.sidebar {
+	background-color: #f8f8f8;
+    margin-top: 1px;
+}
+
 /* ######################################
 
 POST/ARTICLE HEADERS
@@ -261,11 +424,25 @@ POST/ARTICLE HEADERS
 	color: black !important;
 }
 
+.text-left-title {
+	font-family:'Slabo 27px', serif;
+	font-size: 250% !important;
+	font-weight: 300;
+	padding-bottom:15px !important;
+	white-space: normal;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	border-bottom: 2px solid #f8f8f8;	
+	text-align:center;
+}
 
 /* headers like 'latest' */
 .text-left-title-featured-sidebar {
-	font-size: 175% !important;
+	font-family:'Slabo 27px', serif;
 	font-weight: 300;
+	color: #d33900;
+	text-transform: uppercase;
+	font-size: 175% !important;
 	padding:15px !important;
 	white-space: normal;
 	overflow:hidden;
@@ -301,10 +478,9 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-p > img {
+p > img, .post-content img {
     max-width: 100%;
 }
-
 
 .post-content > h1 {
   	font-size: 210%;
@@ -381,19 +557,20 @@ iframe {
   SLIDER LOOK-N-FEEL
 
 *****************************************/
+.carousel {
+	max-height: 500px;
+}
 
-.h1-slider {
+.carousel:hover {
+	filter: brightness(80%) !important;
+}
+
+.carousel-item {
+	max-height: 500px;
+}
+
+.h-slider {
 	text-shadow: 2px 1px #000000;
-}
-
-
-.slider .slides li {
-	background-color: #dfe3e5 !important;
-}
-
-.slider:hover, 
-.h1-slider:hover { 
-	filter: grayscale(40%);
 }
 
 
@@ -405,17 +582,16 @@ iframe {
 
 .tag_heading {
     padding: 20px;
-    margin-bottom: 0.25rem;
+	margin-bottom: 0.25rem;
+	width: 100%;
+	object-fit: cover;
 }
 
 .tag_heading > .posttitle {
     font-size: 250%;
     font-weight: 300;
-    opacity:0.8;
-	background:black;
-	margin-bottom: 0px !important;
-	margin-left:0px !important;
-	margin-right:0px !important;
+	text-shadow: 2px 1px #000000;
+	margin-top: 55px !important;
 }
 
 .socialfooter-top {
@@ -430,26 +606,39 @@ iframe {
 	color: white;
 }
 
-.tags {
-	line-height:40px;
-	margin-top: 10px;
+
+.cat-links {
+	margin-top: 45px;
 }
 
-.chip {
-	color:white !important;
-	border-radius: 0px !important;
-	margin-bottom: 0px !important;
-	margin-right: 0px !important;
-	font-weight: 400 !important;
+
+.cat-links-hr {
+	margin-top:7px;
+	margin-bottom:7px;
+	clear:both;
 }
 
-.chip:hover {
-	background-color: #1565c0 !important;
+.cat-links > a:hover {
+	text-decoration: underline;
+	color: #FF4500;
 }
 
-.chip > a:hover {
-	color: white !important;
+.tagslist {
+	margin-top: 15px;
 }
+
+.tagslist a {
+	text-decoration: underline;
+	font-weight: 600;
+	font-size: 14px;
+	color: black;
+}
+
+.tagslist a:hover {
+	color: #FF4500;
+}
+
+
 /* **************************************
 
 	ARTICLE: AUTHOR look-n-feel
@@ -471,9 +660,7 @@ img.avatar {
 }
 
 .avatar-page {
-	width:150px;
-	border-radius: 100px;
-	background-color:#F8F8F8;
+	width:150px !important;
 }
 
 .author-name {
@@ -507,19 +694,42 @@ img.avatar {
 
 .pagination {
 	padding:15px;
-	margin-top: 0px !important;
-	border-top: 1px solid #ebebeb;
-	background:white;
 }
 
 .pagination > .active {
-	padding: 15px;
+	padding: 20px;
 	line-height: 2px; 
+	font-weight: 600;
+	font-size: 125%;
+	background-color: #d33900 !important;
 }
 
 .pagination li.active, .pagination > li:hover {
-	background-color: #d3d3d3 !important;
+	background-color: #d33900 !important;
 }
+
+.pagination > li {
+    line-height: 2px;
+	font-weight: 600;
+	padding: 20px;
+	border: 1px solid #ebebeb;
+}
+
+
+.pagination li a {
+	line-height: inherit !important;
+	color: black !important;
+}
+
+
+.pagination > ul > li {
+	background-color: #FF4500;
+	padding: 15px;
+	font-weight: 600;
+}
+
+
+
 
 /* **************************************
 
@@ -532,26 +742,19 @@ footer {
     z-index: 999;
 }
 
+
 .page-footer {
 	border-top: 1px solid #ebebeb !important;
-	bottom:0;
+    bottom: 0;
 }
 
-.socialfooter > .right > a {
-	margin: 15px;
+.socialfooter > .float-right > a {
+	margin-right: 30px;
 	color:black !important;
 }
 
-.footer.page-footer {
-  position: relative !important;
-}
-
-.socialfooter > a {
-    color: #00bfff;
-}
-
-.socialfooter > a:hover {
-    color: #979797;
+.socialfooter > .right > a:hover {
+	color: #FF4500 !important;
 }
 
 
@@ -564,8 +767,26 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
 
-	.main-content {
-		padding: 0;
+	.carousel {
+		max-height: 350px;
+	}
+	
+	.carousel-item {
+		max-height: 350px;
+	}
+
+	.card {
+		border-bottom: 1px solid #ebebeb !important;
+		padding-bottom: 30px;
+	}
+
+	.card-actions-bottom {
+		margin-bottom: 25px;
+		width: 97%;
+	}
+
+	.read-more-btn {
+		margin-bottom: 5px;
 	}
 	
 	h1 {
@@ -601,6 +822,11 @@ footer {
 		height:56px;
 	}
 
+	img.avatar {
+		width: 50px;
+    	height: 50px;
+	}
+
 /* Smaller margins to the page gets fit to nearly the full screen */
 	.container-fluid {
 		margin-top:0px;
@@ -629,22 +855,8 @@ footer {
 		margin-bottom: 12px;
 	}
 
-	.tags {
-		line-height: 50px;
-		padding-bottom: 10px !important;
-	}
-
-	.chip {
-		height: 40px !important;
-		line-height:40px !important;
-	}
-
 	.row-post {
 		margin-top: -15px;
-	}
-
-	.page-footer {
-		position:relative !important;
 	}
 
 	.fa-star, .fa-circle {
@@ -654,6 +866,16 @@ footer {
 
 /* mobile devices */
 @media (max-width:992px) and (min-width:601px) {
+
+	.card {
+		border-bottom: 1px solid #ebebeb !important;
+		padding-bottom: 30px;
+	}
+
+	.card-actions-bottom {
+		margin-bottom: 25px;
+	}
+
     h1 {
     	font-size: 120%;
     }
@@ -690,6 +912,14 @@ footer {
 	.sidebar {
 		margin-bottom: 20px;
 	}
+
+	.card {
+		height: 400px !important;
+		margin-top: 35px;
+		margin-bottom: 30px;
+		border: 0 !important;
+	}
+	
 }
 
 /* **************************************
@@ -706,20 +936,17 @@ footer {
 EXTERNAL libraries look-n-feel
 
 *****************************************/
-.fa-user-secret, .fa-twitter, .fa-facebook {
+.fa-user-secret, .fa-twitter, .fa-facebook, .fa-tag {
   margin-left:20px;
   margin-right:20px;
+  color: #FF4500;
 }
 
 .fa-star, .fa-circle {
 	margin-right: 15px;
 }
 
-.fa-star {
-	color: #e59400;
-}
-
-.fa-circle, .fa-tag {
+.fa-circle {
 	color: #d3d3d3;
 }
 
@@ -733,6 +960,7 @@ EXTERNAL libraries look-n-feel
 
 .fa-clock-o, .fa-user {
 	margin-right: 10px;
+	color: #FF4500;
 }
 
 .fa-user {
@@ -743,10 +971,11 @@ EXTERNAL libraries look-n-feel
 	color: black;
 }
 
-.slides > li > p > .fa-star {
-	margin-left: 5px !important;
-	margin-right: 5px !important;
-	color: orange;
+.fa-exclamation-triangle {
+	text-align: center;
+    display: block !important;
+	font-size: 5em !important;
+	margin-top: 50px;
 }
 
 .postdate i {
@@ -763,14 +992,13 @@ EXTERNAL libraries look-n-feel
 
 /* general styling of pretty much all font-awesome icons */
 .socialfooter {
-	margin-left: 20px;
+	margin-left: 30px;
 }
 
 .socialfooter > a i {
 	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-left: 15px;
 	transition: all 0.2s ease-in-out;
 	color: black;
 }

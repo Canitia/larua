@@ -559,19 +559,24 @@ iframe {
 
 *****************************************/
 .carousel {
-	max-height: 500px;
+	max-height: 300px;
+}
+
+.carousel-item {
+	max-height: 300px;
+	width: 100%;
 }
 
 .carousel:hover {
 	filter: brightness(80%) !important;
 }
 
-.carousel-item {
-	max-height: 500px;
-}
-
 .h-slider {
 	text-shadow: 2px 1px #000000;
+}
+
+.content-images-featured {
+	width: 100%;
 }
 
 
@@ -768,11 +773,12 @@ footer {
 @media (max-width:600px) and (min-width:200px) {
 
 	.carousel {
-		max-height: 350px;
+		max-height: 250px;
 	}
 	
 	.carousel-item {
-		max-height: 350px;
+		max-height: 250px;
+		width: 100%;
 	}
 
 	.card {

@@ -559,15 +559,16 @@ iframe {
 
 *****************************************/
 .carousel {
-	max-height: 500px;
+	max-height: 300px;
+}
+
+.carousel-item {
+	max-height: 300px;
+	width: 100%;
 }
 
 .carousel:hover {
 	filter: brightness(80%) !important;
-}
-
-.carousel-item {
-	max-height: 500px;
 }
 
 .h-slider {
@@ -766,14 +767,6 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
-
-	.carousel {
-		max-height: 350px;
-	}
-	
-	.carousel-item {
-		max-height: 350px;
-	}
 
 	.card {
 		border-bottom: 1px solid #ebebeb !important;

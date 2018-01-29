@@ -768,6 +768,15 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
 
+	.carousel {
+		max-height: 250px;
+	}
+	
+	.carousel-item {
+		max-height: 250px;
+		width: 100%;
+	}
+
 	.card {
 		border-bottom: 1px solid #ebebeb !important;
 		padding-bottom: 30px;

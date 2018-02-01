@@ -9,6 +9,7 @@
               <div class="post-subitems text-center">
                 <i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
                 <i class="fa fa-user" aria-hidden="true"></i>{{author}}
+                {{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
               </div>
         </div>
       <hr />

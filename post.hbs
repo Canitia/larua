@@ -7,7 +7,7 @@
         <div class="post-head">
               <h1 class="text-center">{{title}}</h1>
               <div class="post-subitems text-center">
-                <i class="far fa-clock"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+                <i class="fas fa-clock"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
                 <i class="fa fa-user" aria-hidden="true"></i>{{author}}
                 <i class="fas fa-book"></i>{{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
               </div>

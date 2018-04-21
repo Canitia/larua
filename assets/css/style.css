@@ -90,9 +90,8 @@ nav {
 }
 
 .card {
-	margin-top: 20px;
-	margin-bottom: 30px;
 	border: 0 !important;
+	padding: 15px;
 }
 
 .card-title {

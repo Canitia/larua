@@ -620,7 +620,10 @@ iframe {
 }
 
 .tagslist {
-	margin-bottom: 35px;	
+	margin-bottom: 35px;
+	border-top: 1px solid #ebebeb;
+	padding-top: 35px;
+	margin-left: 30px;
 }
 
 .tagslist a {

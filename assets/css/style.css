@@ -253,12 +253,12 @@ p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfo
 }
 
 .post-subitems {
-	color: #979797;
+
 }
 
 .post-subitems > a
 {
-	color:#979797;
+	color:black;
 	text-decoration: none;
 }
 

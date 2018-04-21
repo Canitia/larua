@@ -463,7 +463,7 @@ POST/ARTICLE HEADERS
 }
 
 .card-actions-top {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /* **************************************
@@ -784,11 +784,6 @@ footer {
 		padding-bottom: 30px;
 	}
 
-	.card-actions-top {
-		margin-bottom: 25px;
-		width: 97%;
-	}
-
 	.read-more-btn {
 		margin-bottom: 5px;
 	}
@@ -874,10 +869,6 @@ footer {
 	.card {
 		border-bottom: 1px solid #ebebeb !important;
 		padding-bottom: 30px;
-	}
-
-	.card-actions-top {
-		margin-bottom: 25px;
 	}
 
     h1 {

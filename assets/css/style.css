@@ -593,6 +593,13 @@ iframe {
 	width: 100%;
 }
 
+.carousel-caption {
+    bottom: 0;
+    background: black;
+	opacity: 0.5;
+	left: 0 !important;
+	right: 0 !important;
+}
 
 /* **************************************
 

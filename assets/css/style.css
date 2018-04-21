@@ -451,7 +451,6 @@ POST/ARTICLE HEADERS
 	overflow:hidden;
 	text-overflow: ellipsis;
 	margin-bottom: 0px;
-	border-bottom: 1px solid #f8f8f8;
 }
 
 .text-left-title a {

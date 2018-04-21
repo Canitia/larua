@@ -680,7 +680,9 @@ img.avatar {
 
 .homepage-avatar {
     width: 35px;
-    height: auto;
+	height: auto;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 .avatar-page {

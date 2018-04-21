@@ -594,12 +594,18 @@ iframe {
 }
 
 .carousel-caption {
-    bottom: 0;
+    bottom: 0 !important;
     background: black;
 	opacity: 0.5;
 	left: 0 !important;
 	right: 0 !important;
 	padding: 5px;
+}
+
+.h1-slider {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 /* **************************************

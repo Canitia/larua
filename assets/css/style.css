@@ -489,27 +489,27 @@ p > img, .post-content img {
 	background: white;
 }
 
-.post-content > h1 {
+.post-content h1 {
   	font-size: 210%;
 	font-family:'Slabo 27px', serif !important;
 }
 
-.post-content > h2 {
+.post-content h2 {
 	font-size: 180%;
 	font-family:'Slabo 27px', serif !important;
 }
 
-.post-content > h3 {
+.post-content h3 {
 	font-size: 165%;
 	font-family:'Slabo 27px', serif !important;
 }
 
-.post-content > h4 {
+.post-content h4 {
 	font-size: 140%;
 	font-family:'Slabo 27px', serif !important;
 }
 
-.post-content > ul li {
+.post-content ul li {
 	list-style-type: square !important;
 	margin-left: 40px;
 	margin-right: 40px;
@@ -517,7 +517,7 @@ p > img, .post-content img {
 	line-height: 35px;
 }
 
-.post-content > ol li {
+.post-content ol li {
 	margin-left: 40px;
 	margin-right: 40px;
 	padding:5px;
@@ -540,7 +540,7 @@ article {
 	margin-right: auto;
 }
 
-.post-content > img, .post-content > p > img {
+.post-content img, .post-content  p  img {
 	width: 100%;
 	height:auto;
 	display:block;

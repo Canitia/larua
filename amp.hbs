@@ -150,6 +150,11 @@
             text-decoration: none;
             }
 
+            .post-image {
+                padding: 0;
+                margin: 0;
+            }
+
             .post-subitems {
                 color: #979797;
                 font-weight: 300;
@@ -598,6 +603,11 @@
 
     <main class="content" role="main">
     {{#post}}
+            {{#if feature_image}}
+            <figure class="post-image">
+                <amp-img src="{{img_url feature_image}}" width="600" height="400" layout="responsive"></amp-img>
+            </figure>
+            {{/if}}
         <article class="post">
             <header class="post-header">
                 <section class="post-meta">
@@ -611,11 +621,6 @@
                 </div>
                 </section>
             </header>
-            {{#if feature_image}}
-            <figure class="post-image">
-                <amp-img src="{{img_url feature_image}}" width="600" height="400" layout="responsive"></amp-img>
-            </figure>
-            {{/if}}
             <section class="card-content">
 
                 {{amp_content}}

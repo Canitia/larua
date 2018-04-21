@@ -83,15 +83,6 @@ nav {
 .card {
 	border: 0 !important;
 	padding: 15px;
-	margin: 15px;
-}
-
-.col, .col-sm-12, .col-md-12 {
-	max-width: 100% !important;
-}
-
-.col-lg-6 {
-	max-width: 45% !important;
 }
 
 .card-title {

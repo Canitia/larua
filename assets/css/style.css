@@ -248,7 +248,7 @@ p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfo
 }
 
 .post-subitems {
-
+	margin-top: 50px;
 }
 
 .post-subitems > a

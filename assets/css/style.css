@@ -471,6 +471,10 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
+.post-content {
+	margin-top: 35px;
+}
+
 p > img, .post-content img {
     max-width: 100%;
 }

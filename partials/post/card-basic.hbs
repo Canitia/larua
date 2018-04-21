@@ -14,14 +14,14 @@
                   </span>
               {{/if}}
               <h2 class="card-title">{{title}}</h2>
-              <p class="card-text">{{excerpt words="15"}}...</p>
-            </div>
-                <div class="card-actions-bottom">
+                <div class="card-actions-top">
                   <a href="{{url}}" class="btn btn-primary read-more-btn">{{t "Read"}}</a>
                     <small class="text-muted badge">
                         <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
                   </small>
                 </div>
+              <p class="card-text">{{excerpt words="15"}}...</p>
+            </div>
           </div>  
 
 {{/foreach}}

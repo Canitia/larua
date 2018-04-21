@@ -403,6 +403,10 @@ ul.collection.collection-recent > a > li:hover {
 	color:#979797 !important;
 }
 
+.main-content {
+	background: white;
+}
+
 .main-content > .text-left-title, 
 article > h1:not(:first-child), 
 article > h2, 

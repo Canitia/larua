@@ -14,12 +14,12 @@ A [Ghost](http://github.com/tryghost/ghost/) theme based on the Canitia theme (f
 - Translation support!
 - Custom AMP, tag, author and error page designs.
 
-![Canitia Jr. Theme](https://github.com/boumannm/canitia-jr/blob/master/canitiajr.png)
+![Canitia Jr. Theme](https://github.com/Canitia/canitia-jr/blob/master/canitiajr.png)
 
 # Canitia Jr's base
 Canitia Jr. uses the following libraries;
-- Font Awesome 4.7.0
-- Bootstrap v4 (beta)
+- Font Awesome 5
+- Bootstrap v4
 - JQuery (3.1.x)
 
 # Theme requirements

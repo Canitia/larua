@@ -142,7 +142,7 @@ nav {
 
 *****************************************/
 html body {
-	font-size:110%;
+	font-size:125%;
 	font-family: 'Raleway', sans-serif;
 	height: 100%;
 	 background: #ebebeb;
@@ -250,6 +250,10 @@ p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfo
 
 .post-head {
 	margin-bottom: 25px;
+}
+
+.post-title {
+	font-size: 
 }
 
 .post-subitems {

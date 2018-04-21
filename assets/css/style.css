@@ -633,14 +633,14 @@ iframe {
 }
 
 .tagslist {
-	margin-top: 15px;
+	
 }
 
 .tagslist a {
 	text-decoration: underline;
 	font-weight: 600;
-	font-size: 14px;
 	color: black;
+	padding: 15px;
 }
 
 .tagslist a:hover {

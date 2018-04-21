@@ -86,7 +86,7 @@ nav {
 	margin: 15px;
 }
 
-.col-sm-12, .col-md-12 {
+.col, .col-sm-12, .col-md-12 {
 	max-width: 100% !important;
 }
 

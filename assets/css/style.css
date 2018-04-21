@@ -92,6 +92,11 @@ nav {
 .card {
 	border: 0 !important;
 	padding: 15px;
+	margin: 15px;
+}
+
+.col-md-6 {
+	max-width: 45% !important;
 }
 
 .card-title {

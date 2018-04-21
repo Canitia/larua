@@ -127,15 +127,6 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
-
 /* **************************************
 
   GENERAL FONT / ELEMENT
@@ -490,6 +481,14 @@ POST/ARTICLE HEADERS
 *****************************************/
 p > img, .post-content img {
     max-width: 100%;
+}
+
+.post-template {
+	background: white;
+}
+
+.post-template > .container-fluid > .row > .sidebar {
+	background: white;
 }
 
 .post-content > h1 {

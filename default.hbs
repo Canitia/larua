@@ -37,7 +37,7 @@
   {{/post}}
 
 {{#is "author"}}
-  {{#author}}
+  {{primary_author}}
   <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
     <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/no-pic-available-user.jpg"}}{{/if}}" class="avatar-page center-align" title="Image of {{name}}" alt="Image of {{name}}" />
     <p class="posttitle">{{name}}</p>
@@ -46,7 +46,7 @@
       {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fa fa-twitter fa-2x"></i></a>{{/if}}
       </div>
   </div>
-  {{/author}}
+  {{/primary_author}}
 {{/is}}
 
 {{#is "tag"}}

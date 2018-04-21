@@ -462,6 +462,10 @@ POST/ARTICLE HEADERS
   text-overflow: ellipsis;
 }
 
+.card-actions-top {
+    margin-bottom: 15px;
+}
+
 /* **************************************
 
   ARTICLE/POST LOOK-N-FEEL

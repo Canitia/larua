@@ -103,6 +103,7 @@ nav {
 .card-text {
 	text-overflow: ellipsis;
 	overflow: hidden;
+	margin-bottom: 0;
 }
 
 .read-more-btn {

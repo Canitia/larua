@@ -93,14 +93,13 @@ nav {
 .card-text {
 	text-overflow: ellipsis;
 	overflow: hidden;
+	height: 100%;
 }
 
 .read-more-btn {
 	border: 0 !important;
 	background-color: #FF4500 !important;
 	font-weight: 600;
-	display: block;
-	float: right;
 	margin-right: 5px;
 }
 

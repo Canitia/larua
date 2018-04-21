@@ -665,6 +665,11 @@ img.avatar {
 	margin-right:15px;
 }
 
+.homepage-avatar {
+    width: 35px;
+    height: auto;
+}
+
 .avatar-page {
 	width:150px !important;
 }

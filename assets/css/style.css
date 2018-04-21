@@ -799,10 +799,6 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
 
-	.read-more-btn.read-more-btn-mobile {
-		display: inline-block;
-	}
-
 	.read-more-btn {
 		display: none;
 	}
@@ -906,10 +902,6 @@ footer {
 
 /* mobile devices */
 @media (max-width:992px) and (min-width:601px) {
-
-	.read-more-btn.read-more-btn-mobile {
-		display: none;
-	}
 
 	.read-more-btn {
 		display: inline-block;

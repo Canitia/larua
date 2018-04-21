@@ -975,8 +975,8 @@ EXTERNAL libraries look-n-feel
 	color: #FF4500;
 }
 
-.fa-user {
-	margin-left: 10px;
+.fa-user, .fa-book {
+	margin-left: 35px;
 }
 
 .fa-bars {

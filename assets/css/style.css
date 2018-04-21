@@ -706,11 +706,11 @@ img.avatar {
 	line-height: 2px; 
 	font-weight: 600;
 	font-size: 125%;
-	background-color: #d33900 !important;
+	border: 1px solid #d3d3d3;
 }
 
 .pagination li.active, .pagination > li:hover {
-	background-color: #d33900 !important;
+	
 }
 
 .pagination > li {

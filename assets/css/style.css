@@ -393,6 +393,7 @@ ul.collection.collection-recent > a > li:hover {
 
 .main-content {
 	background: white;
+	margin-top: 35px;
 }
 
 .main-content > .text-left-title, 

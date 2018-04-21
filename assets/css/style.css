@@ -80,10 +80,6 @@ nav {
     height: 30px;
 }
 
-.card-actions-bottom {
-
-}
-
 .card {
 	border: 0 !important;
 	padding: 15px;
@@ -715,10 +711,6 @@ img.avatar {
 	font-weight: 600;
 	font-size: 125%;
 	border: 1px solid #d3d3d3;
-}
-
-.pagination li.active, .pagination > li:hover {
-	
 }
 
 .pagination > li {

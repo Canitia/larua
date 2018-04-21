@@ -135,7 +135,7 @@
             }
 
             p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .collection-item > a {
-                color: black;
+                color: #FF4500;
             }
 
             p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socialfooter > a > i:hover, .socialfooter a
@@ -595,6 +595,15 @@
         .fa-bars {
             color: black;
         }
+
+        /* some mobile specific junk */
+        @media (max-width:600px) and (min-width:200px) {
+            .post-title {
+                font-size: 175%;
+            }
+        }
+
+
     </style>
 
     {{!-- The AMP boilerplate --}}

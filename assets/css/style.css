@@ -490,22 +490,22 @@ p > img, .post-content img {
 
 .post-content > h1 {
   	font-size: 210%;
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 }
 
 .post-content > h2 {
 	font-size: 180%;
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 }
 
 .post-content > h3 {
 	font-size: 165%;
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 }
 
 .post-content > h4 {
 	font-size: 140%;
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 }
 
 .post-content > ul li {

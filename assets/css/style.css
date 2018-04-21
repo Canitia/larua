@@ -653,6 +653,10 @@ iframe {
 	ARTICLE: AUTHOR look-n-feel
 
 *****************************************/
+.author-profile {
+	margin-bottom: 50px;
+}
+
 
 .author-profile h4 a {
 	text-decoration: underline;

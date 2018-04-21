@@ -783,7 +783,7 @@ footer {
     bottom: 0;
 }
 
-.socialfooter.float-right {
+.socialfooter .float-right {
 	margin-top: 15px;
 }
 

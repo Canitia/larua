@@ -584,21 +584,9 @@ iframe {
   SLIDER LOOK-N-FEEL
 
 *****************************************/
-.carousel {
-	max-height: 300px;
-}
-
-.carousel-item {
-	max-height: 300px;
-	width: 100%;
-}
 
 .carousel:hover {
 	filter: brightness(80%) !important;
-}
-
-.h-slider {
-	text-shadow: 2px 1px #000000;
 }
 
 .content-images-featured {

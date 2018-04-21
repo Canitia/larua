@@ -15,10 +15,14 @@
               {{/if}}
               <h2 class="card-title">{{title}}</h2>
                 <div class="card-actions-top">
-                  <a href="{{url}}" class="btn btn-primary read-more-btn">{{t "Read"}}</a>
+
+                    {{#foreach authors}}
+                        <img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="homepage-avatar" alt="{{name}}" title="{{name}}">  
+                    {{/foreach}}
                     <small class="text-muted badge">
                         <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
                   </small>
+                  <a href="{{url}}" class="btn btn-primary read-more-btn">{{t "Read"}}</a>
                 </div>
               <p class="card-text">{{excerpt words="15"}}...</p>
             </div>

@@ -99,9 +99,10 @@ nav {
 .read-more-btn {
 	border: 0 !important;
 	background-color: #FF4500 !important;
-	font-weight: 600;
 	margin-right: 5px;
 	float: right;
+	color: black !important;
+	font-weight: 600 !important;
 }
 
 .read-more-btn:hover {

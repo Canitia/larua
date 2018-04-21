@@ -88,6 +88,9 @@ nav {
 .card-title {
 	font-size: 135% !important;
 	margin-top: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .card-title a {

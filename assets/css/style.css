@@ -90,6 +90,14 @@ nav {
 	margin-top: 15px;
 }
 
+.card-title a {
+	color: black;
+}
+
+.card-title a:hover {
+	color: black;
+}
+
 .card-text {
 	text-overflow: ellipsis;
 	overflow: hidden;

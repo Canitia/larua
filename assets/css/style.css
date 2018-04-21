@@ -98,7 +98,7 @@ nav {
 	color: black;
 }
 
-.card-block {
+.card-block, .post-content {
 	padding: 10px;
 }
 

@@ -822,6 +822,10 @@ footer {
 	.card {
 		padding-bottom: 30px;
 	}
+	
+	.card-title {
+		font-size: 110%;
+	}
 
 	.read-more-btn {
 		margin-bottom: 5px;

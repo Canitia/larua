@@ -791,6 +791,11 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
 
+	.container-fluid {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
 	.carousel {
 		max-height: 250px;
 	}

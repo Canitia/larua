@@ -98,6 +98,10 @@ nav {
 	color: black;
 }
 
+.card-block {
+	padding: 10px;
+}
+
 .card-text {
 	text-overflow: ellipsis;
 	overflow: hidden;

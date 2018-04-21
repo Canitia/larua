@@ -806,6 +806,10 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:600px) and (min-width:200px) {
 
+	html body {
+		font-size: 100%;
+	}
+
 	.read-more-btn {
 		display: none;
 	}

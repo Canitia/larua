@@ -600,19 +600,6 @@ iframe {
 	text-shadow: 2px 1px #000000;
 }
 
-.socialfooter-top {
-	opacity: 0.8;
-}
-
-.socialfooter-top > a {
-	padding: 5px;
-}
-
-.socialfooter-top > a > i {
-	color: white;
-}
-
-
 .cat-links {
 	margin-top: 45px;
 }
@@ -753,6 +740,10 @@ footer {
 	border-top: 1px solid #ebebeb;
 	padding-top: 15px;
     bottom: 0;
+}
+
+.socialfooter.float-right {
+	margint-op: 15px;
 }
 
 .socialfooter > .float-right > a {

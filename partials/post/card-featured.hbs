@@ -5,6 +5,9 @@
             <div class="carousel-item {{#if @first}}active{{/if}}">
             <a href="{{url}}" >
                 <img class="content-images-featured responsive-img" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+                     <div class="carousel-caption d-none d-md-block">
+                        <h1 class="h-slider">{{title}}</h1>
+                    </div>
                     </a>
             </div>
       {{/foreach}}

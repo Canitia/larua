@@ -895,7 +895,7 @@ footer {
 	.card-block, .post-content {
 		padding: 0;
 	}
-	
+
 	.collection .collection-item {
 		padding-left: 5px !important;
 		padding-right: 5px !important;
@@ -912,15 +912,6 @@ footer {
 	.fa-star, .fa-circle {
 		margin-right: 5px;
 	}
-
-	.fa-user-secret, .fa-twitter, .fa-facebook, .fa-tag {
-		margin-left:10px;
-		margin-right:10px;
-	  }
-
-	  .fa-user, .fa-book {
-		  margin-left: 15px;
-	  }
 
 	  .post-content ul li {
 		  margin-left: 0px;
@@ -1027,7 +1018,7 @@ EXTERNAL libraries look-n-feel
 }
 
 .fa-user, .fa-book {
-	margin-left: 35px;
+	margin-left: 25px;
 }
 
 .fa-bars {

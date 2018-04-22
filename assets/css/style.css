@@ -914,6 +914,10 @@ footer {
 		margin-right:10px;
 	  }
 
+	  .fa-user, .fa-book {
+		  margin-left: 15px;
+	  }
+
 	  .post-content ul li {
 		  margin-left: 0px;
 	  }

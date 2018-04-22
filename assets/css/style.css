@@ -867,6 +867,7 @@ footer {
 
 	img.avatar {
 		margin-top: 20px;
+		margin-left: 0;
 	}
 
 /* Smaller margins to the page gets fit to nearly the full screen */
@@ -913,9 +914,13 @@ footer {
 		margin-right: 5px;
 	}
 
-	  .post-content ul li {
-		  margin-left: 0px;
-	  }
+	.post-content ul li {
+		margin-left: 0px;
+	}
+
+	.tagslist {
+		margin-left: 0;
+	}
 }
 
 /* mobile devices */

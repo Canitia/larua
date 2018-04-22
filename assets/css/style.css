@@ -905,6 +905,11 @@ footer {
 	.fa-star, .fa-circle {
 		margin-right: 5px;
 	}
+
+	.fa-user-secret, .fa-twitter, .fa-facebook, .fa-tag {
+		margin-left:10px;
+		margin-right:10px;
+	  }
 }
 
 /* mobile devices */

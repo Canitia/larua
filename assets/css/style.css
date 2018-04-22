@@ -884,6 +884,10 @@ footer {
 		padding-bottom:15px;
 	}
 
+	.post-title {
+		margin-top: 0;
+	}
+
 	.postdate {
 		padding:5px;
 	}

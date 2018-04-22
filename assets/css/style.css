@@ -143,19 +143,19 @@ html body {
 }
 
 h1 {
-	font-size: 3.2rem !important;
-	font-weight: 300 !important;
-	font-family:'Slabo 27px', serif;
-}
-
-h2 {
 	font-size: 2.9rem !important;
 	font-weight: 300 !important;
 	font-family:'Slabo 27px', serif;
 }
 
+h2 {
+	font-size: 2.7rem !important;
+	font-weight: 300 !important;
+	font-family:'Slabo 27px', serif;
+}
+
 h3 {
-	font-size: 2.6rem !important;
+	font-size: 2.5rem !important;
 	font-weight: 300 !important;
 	font-family:'Slabo 27px', serif;
 }

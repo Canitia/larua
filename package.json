@@ -1,15 +1,27 @@
 {
   "name": "canitia-jr",
   "description": "A simplistic yet sort of feature-rich theme based on Canitia. ",
+  "demo": "https:/blog.canitia.nl",
   "version": "1.1.0-beta4",
   "engines": {
       "ghost": ">=1.20.0"
   },
   "license": "MIT",
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.jpg",
+    "mobile": "assets/screenshot-mobile.jpg"
+  },
   "author": {
     "name": "Michael B.",  
-    "email": "support@canitia.nl"
+    "email": "support@canitia.nl",
+    "url": "https://canitia.nl"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Canitia/canitia-jr.git"
+  },
+  "bugs": "https://github.com/Canitia/canitia-jr/issues",
+ 
   "config": {
       "posts_per_page": 12
   }

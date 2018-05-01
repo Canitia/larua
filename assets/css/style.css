@@ -287,6 +287,13 @@ p > a:focus, p > a:hover, .btn > a:hover
 
 *****************************************/
 
+main {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+
 .row.row-post {
   background-color: white !important;
 }

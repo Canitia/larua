@@ -641,6 +641,12 @@ iframe {
 
 .tag_heading > .posttitle.posttitle-author {
 	margin-top: 0 !important;
+	opacity: 0.9;
+	width: 35%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
 }
 
 .cat-links {

@@ -640,6 +640,10 @@ iframe {
 	margin-top: 100px;
 }
 
+.tag_heading > .posttitle.posttitle-author {
+	margin-top: 0 !important;
+}
+
 .cat-links {
 	margin-top: 45px;
 }

@@ -1,7 +1,11 @@
 <header>
 
-<nav class="navbar navbar-expand-md navbar-dark justify-content-center">
+<nav class="navbar navbar-expand-md navbar-dark">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
     {{#if @blog.logo}}
+    <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
     <img src="{{@blog.logo}}" alt="logo" class="logo-top" />
     {{/if}}
   <a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>

@@ -708,8 +708,9 @@ iframe {
 
 img.avatar {
 	border-radius: 50px;
-	width: 100px;
-	height: 100px;
+	width: auto;
+	max-width: 100%;
+	height: auto;
 	float:left;
 	z-index:200;
 	margin-left: 20px;

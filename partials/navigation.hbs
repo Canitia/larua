@@ -23,6 +23,7 @@
   </div>
 </nav>
 
+{{#is "index, home"}}
 {{#if @blog.cover_image}}
 
   <img src="{{@blog.cover_image}}" alt="Cover image" class="img-fluid" /></a>
@@ -38,5 +39,5 @@
           <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
         {{/if}}  
   </div>
-
+{{/is}}
 </header>

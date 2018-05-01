@@ -107,7 +107,8 @@ nav {
 
 .card-block {
 	border: 1px solid #ebebeb;
-	border-radius: 0 0 15px 15px;	
+	border-radius: 0 0 15px 15px;
+	height: 230px;
 }
 
 .card-text {

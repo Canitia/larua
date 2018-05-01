@@ -44,9 +44,7 @@ nav {
 .badge-featured {
 	position: absolute;
     top: 25px;
-    right: 0px;
-    margin-right: 5px;
-    width: 35%;
+    right: 30px;
     z-index: 10;
     padding: 10px !important;
     background-color: #FF4500 !important;
@@ -90,7 +88,7 @@ nav {
 }
 
 .card:hover {
-	transform: scale(1.1);
+	transform: scale(1.02);
 }
 
 .card-title {

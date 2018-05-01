@@ -243,10 +243,15 @@ p > a, .collection .collection-item, .collection-item > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfooter a:hover, .socialfooter > .float-right > a:hover
+p > a:focus, p > a:hover, .btn > a:hover
 {
   color:#d33900 !important;
 }
+
+.socialfooter > a > i:hover, .socialfooter a:hover, .socialfooter > .float-right > a:hover {
+	color: #ebebeb;
+}
+
 
 .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, footer a, .btn > a  {
       color: white !important;

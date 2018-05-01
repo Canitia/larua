@@ -30,8 +30,13 @@
 {{/if}}
 
   <div class="top-socials">
-      <a href="https://twitter.com/{{@blog.twitter}}">{{@blog.twitter}}</a>
-       <a href="https://facebook.com/{{@blog.facebook}}">{{@blog.facebook}}</a>   
+        <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss fa-2x"></i></a>
+        {{#if @blog.facebook}}
+          <a href="{{facebook_url @blog.facebook}}" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        {{/if}}
+        {{#if @blog.twitter}}
+          <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        {{/if}}  
   </div>
 
 </header>

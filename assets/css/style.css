@@ -312,7 +312,7 @@ main {
 
 .headerurl:hover,  .nav-link:hover {
   text-decoration: none;
-  color: #979797 !important;
+  color: #b5b5b5 !important;
 }
 
 .brand-logo {
@@ -345,14 +345,12 @@ img.logo {
 }
 
 .menu-item > a {
-	color: black;
 	font-size: 16px;
     font-weight: 600;
 }
 
 .menu-item > a:hover {
 	text-decoration: none;
-	color: #f9f9f9;
 }
 
 .menu-item > ul > .menu-item {
@@ -441,7 +439,7 @@ ul.collection.collection-recent > a > li:hover {
 }
 
 .postdate > a, .author-profile h4, .text-left-title a, .author-url-post-head  {
-	color:#979797 !important;
+	color:#b5b5b5 !important;
 }
 
 .main-content {
@@ -454,12 +452,7 @@ article > h2,
 article > h3, 
 article > h4, 
 .author-url-post-head  {
-	color:#979797 !important;
-}
-
-.sidebar {
-	background-color: #ebebeb;
-    margin-top: 1px;
+	color:#b5b5b5 !important;
 }
 
 /* ######################################

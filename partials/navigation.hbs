@@ -9,10 +9,6 @@
     <img src="{{@blog.logo}}" alt="logo" class="logo-top" />
     {{/if}}
   <a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>
-  <div class="top-socials">
-    {{@blog.twitter}}
-    {{@blog.facebook}}
-  </div>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
 
@@ -32,5 +28,10 @@
   <img src="{{@blog.cover_image}}" alt="Cover image" class="img-fluid" /></a>
 
 {{/if}}
+
+  <div class="top-socials">
+      <a href="https://twitter.com/{{@blog.twitter}}">{{@blog.twitter}}</a>
+       <a href="https://facebook.com/{{@blog.facebook}}">{{@blog.facebook}}</a>   
+  </div>
 
 </header>

@@ -1,10 +1,14 @@
 <header>
-<a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>
-<nav class="navbar navbar-dark justify-content-center">
+
+<nav class="navbar navbar-expand-md navbar-dark">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
     {{#if @blog.logo}}
-    <img src="{{@blog.logo}}" alt="logo" class="logo-top" />
+    <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
     {{/if}}
-  <div id="navbarNav">
+  <a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
 
                 <!-- Loop through the navigation items -->
@@ -18,7 +22,7 @@
   </div>
 </nav>
 
-{{#is "index, home, post, page"}}
+{{#is "index, home"}}
 {{#if @blog.cover_image}}
 
   <img src="{{@blog.cover_image}}" alt="Cover image" class="cover-image" /></a>

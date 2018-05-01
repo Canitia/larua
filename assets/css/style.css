@@ -353,8 +353,11 @@ img.cover {
 }
 
 img.logo {
-	height:64px;
-	position:relative;
+	height: 48px;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 100px;
 }
 
 .menu-item {

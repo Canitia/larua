@@ -703,7 +703,6 @@ img.avatar {
 }
 
 .homepage-avatar {
-    width: 25px;
 	height: auto;
 	border-radius: 25px;
 }
@@ -885,6 +884,10 @@ footer {
 		margin-top: 20px;
 		margin-left: 0;
 	}
+	
+	.homepage-avatar {
+		width: 25px;
+	}
 
 /* Smaller margins to the page gets fit to nearly the full screen */
 	.container-fluid {
@@ -947,6 +950,10 @@ footer {
 /* mobile devices */
 @media (max-width:992px) and (min-width:601px) {
 
+	.homepage-avatar {
+		width: 35px;
+	}
+
 	.read-more-btn {
 		display: inline-block;
 	}
@@ -998,6 +1005,11 @@ footer {
 		margin-bottom: 30px;
 		border: 0 !important;
 	}
+
+	.homepage-avatar {
+		width: 35px;
+	}
+
 	
 }
 

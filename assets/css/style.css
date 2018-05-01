@@ -1098,7 +1098,15 @@ EXTERNAL libraries look-n-feel
 .fa-user-secret, .fa-twitter, .fa-facebook, .fa-tag {
   margin-left:20px;
   margin-right:20px;
-  color: white;
+  color: #ff4500;
+}
+
+.fa-twitter {
+	color: #1dcaff;
+}
+
+.fa-facebook {
+	color: #3b5998;
 }
 
 .fa-star, .fa-circle {

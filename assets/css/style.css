@@ -1,5 +1,5 @@
 nav {
-	background: #FF4500 !important;
+	background: transparent !important;
 }
 
 .container-fluid {
@@ -296,6 +296,10 @@ main {
     text-decoration: none;
 }
 
+.nav-link {
+	color: white !important;
+}
+
 .headerurl:hover,  .nav-link:hover {
   text-decoration: none;
   color: #f9f9f9 !important;
@@ -358,7 +362,8 @@ img.logo {
 }
 
 .navbar-brand {
-	font-size: 1.5em !important;
+	font-size: 1.2em !important;
+	color: white !important;
 }
 
 /* **************************************

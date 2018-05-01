@@ -1,11 +1,10 @@
 <header>
 
-<nav class="navbar d-flex justify-content-center">
+<nav class="navbar navbar-expand-md navbar-dark justify-content-center">
     {{#if @blog.logo}}
-    <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
     <img src="{{@blog.logo}}" alt="logo" class="logo-top" />
     {{/if}}
-  <p class="navbar-brand headerurl">{{@blog.title}}</p>
+  <a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>
   <div id="navbarNav">
     <ul class="navbar-nav ml-auto">
 

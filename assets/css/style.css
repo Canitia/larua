@@ -105,6 +105,11 @@ nav {
 	padding: 10px;
 }
 
+.card-block {
+	border: 1px solid #ebebeb;
+	border-radius: 0 0 15px 15px;	
+}
+
 .card-text {
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -361,7 +366,7 @@ img.logo {
 	max-width: 100%;
 	width: 100%;
 	height: 200px;
-	border-radius: 15px;
+	border-radius: 10px 10px 0 0;	
 }
 
 .homepage-image:hover {

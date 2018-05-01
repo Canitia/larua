@@ -291,6 +291,11 @@ main {
   HEADER
 
 *****************************************/
+
+.navbar {
+	margin-bottom: -150px;
+}
+
 /* color of clickable header */
 .headerurl {
     text-decoration: none;

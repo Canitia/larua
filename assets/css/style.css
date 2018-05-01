@@ -906,6 +906,7 @@ footer {
 		margin-right: auto !important;
 		max-width: 150px;
 		display: block;
+		float: initial;
 	}
 
 	.author-bio-text {

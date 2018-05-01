@@ -561,7 +561,7 @@ article {
 }
 
 .post-content img, .post-content  p  img {
-	width: 100%;
+	max-width: 100%;
 	height:auto;
 	display:block;
 	margin-left:auto;

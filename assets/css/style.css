@@ -820,6 +820,28 @@ footer {
 	color: #d33900 !important;
 }
 
+/* general styling of pretty much all font-awesome icons */
+.socialfooter {
+	margin-left: 15px;
+}
+
+.socialfooter > a i {
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.2s ease-in-out;
+	color: black;
+}
+
+.twitter-tweet {
+	margin-left:auto;
+	margin-right: auto;
+}
+
+i.fa.fa-twitter.fa-2x {
+	margin-left: 0px;
+}
+
 
 /* **************************************
 
@@ -1098,27 +1120,6 @@ EXTERNAL libraries look-n-feel
 	margin-top: 3px;
 }
 
-/* general styling of pretty much all font-awesome icons */
-.socialfooter {
-	margin-left: 30px;
-}
-
-.socialfooter > a i {
-	color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	transition: all 0.2s ease-in-out;
-	color: black;
-}
-
-.twitter-tweet {
-	margin-left:auto;
-	margin-right: auto;
-}
-
-i.fa.fa-twitter.fa-2x {
-	margin-left: 0px;
-}
 
 
 /* add some styling to disqus */

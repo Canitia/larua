@@ -17,7 +17,7 @@
                 <div class="card-actions-top">
 
                     {{#foreach authors}}
-                        <a href="{{author.url}}"><img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="homepage-avatar" alt="{{name}}" title="{{name}}"></a> 
+                        <a href="{{url}}" title="{{name}}"><img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="homepage-avatar" alt="{{name}}" title="{{name}}"></a> 
                     {{/foreach}}
                     <small class="text-muted badge">
                         <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>

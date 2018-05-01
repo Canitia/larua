@@ -380,10 +380,6 @@ img.logo {
 	border-radius: 15px 15px 0 0;	
 }
 
-.homepage-image:hover {
-	filter: brightness(80%) !important;
-}
-
 .collection {
 	margin:0px !important;
 	border: 0 !important;

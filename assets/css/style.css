@@ -295,6 +295,10 @@ main {
 
 *****************************************/
 
+header {
+	margin-bottom: -100px;
+}
+
 .navbar {
 	margin-bottom: -150px;
 }

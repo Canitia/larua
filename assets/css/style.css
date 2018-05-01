@@ -891,8 +891,8 @@ i.fa.fa-twitter.fa-2x {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) and (min-width:200px) {
 
-	html body {
-		font-size: 100%;
+	header {
+		margin-top: -10px;
 	}
 
 	.container-fluid {

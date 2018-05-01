@@ -385,6 +385,10 @@ img.logo {
 	display: block;
 }
 
+.top-socials > a {
+	color: white;
+}
+
 /* **************************************
 
   CONTENT SIDEBAR / MAIN

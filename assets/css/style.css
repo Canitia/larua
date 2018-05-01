@@ -1095,11 +1095,18 @@ i.fa.fa-twitter.fa-2x {
 EXTERNAL libraries look-n-feel
 
 *****************************************/
-.fa-user-secret, .fa-twitter, .fa-facebook, .fa-tag {
+.fa-user-secret, .fa-tag {
   margin-left:20px;
   margin-right:20px;
   color: #ff4500;
 }
+
+.fa-twitter, .fa-facebook {
+	margin-left:20px;
+	margin-right:20px;
+	color: white;
+}
+
 
 .fa-twitter {
 	color: #1dcaff;

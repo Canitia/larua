@@ -8,7 +8,7 @@
               <h1 class="text-center post-title">{{title}}</h1>
               <div class="post-subitems text-center">
                 <i class="fas fa-clock"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
-                <img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="homepage-avatar" alt="{{name}}" title="{{name}}">{{author}}
+                <img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="homepage-avatar" alt="{{name}}" title="{{name}}">
                 <i class="fas fa-book"></i>{{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
               </div>
         </div>

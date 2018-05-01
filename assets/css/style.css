@@ -308,6 +308,12 @@ header {
 	margin-bottom: -150px;
 }
 
+.navbar-nav {
+	display: flex !important;
+	flex-wrap: nowrap !important;
+	flex-direction: row !important;
+}
+
 /* color of clickable header */
 .headerurl {
     text-decoration: none;

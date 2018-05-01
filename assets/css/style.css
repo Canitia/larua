@@ -393,7 +393,7 @@ img.logo {
 	display: block;
 }
 
-.top-socials > a:hover {
+.top-socials > a > i:hover {
 	color: white;
 }
 

@@ -708,12 +708,12 @@ iframe {
 
 img.avatar {
 	border-radius: 5px;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	float:left;
 	z-index:200;
 	margin-left: 20px;
-	margin-right:15px;
+	margin-right:10px;
 }
 
 .homepage-avatar {

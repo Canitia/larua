@@ -1096,17 +1096,21 @@ EXTERNAL libraries look-n-feel
 
 *****************************************/
 .fa-user-secret, .fa-tag {
-  margin-left:20px;
-  margin-right:20px;
   color: #ff4500;
 }
 
-.fa-twitter, .fa-facebook {
+.fa-twitter, .fa-facebook, .fa-user-secret, .fa-tag {
 	margin-left:20px;
 	margin-right:20px;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-rss:hover {
 	color: white;
 }
 
+.fa-rss {
+	color: #f26522 !important;
+}
 
 .fa-twitter {
 	color: #1dcaff;

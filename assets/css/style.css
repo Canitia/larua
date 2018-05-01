@@ -943,9 +943,8 @@ i.fa.fa-twitter.fa-2x {
 		padding-right: 0px;
 	}
 
-	/* make logo image smaller as the navigation bar shrinks at these resolutions */
-	img.logo {
-		height:56px;
+	.img.logo {
+		height: 32px;
 	}
 
 	img.avatar {

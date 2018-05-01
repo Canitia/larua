@@ -295,6 +295,10 @@ main {
 
 *****************************************/
 
+.cover-image {
+	max-width: 100%;
+}
+
 header {
 	margin-bottom: -100px;
 }

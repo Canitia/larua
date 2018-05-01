@@ -245,7 +245,7 @@ p > a, .collection .collection-item, .collection-item > a {
 
 p > a:focus, p > a:hover, .btn > a:hover, .socialfooter > a > i:hover, .socialfooter a:hover, .socialfooter > .float-right > a:hover
 {
-  color:#FF4500 !important;
+  color:#d33900 !important;
 }
 
 .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, footer a, .btn > a  {
@@ -787,9 +787,9 @@ footer {
 
 
 .page-footer {
-	border-top: 1px solid #ebebeb;
 	padding-top: 15px;
-    bottom: 0;
+	bottom: 0;
+	background: #FF4500 !important;
 }
 
 .socialfooter .float-right {
@@ -802,7 +802,7 @@ footer {
 }
 
 .socialfooter > .right > a:hover {
-	color: #FF4500 !important;
+	color: #d33900 !important;
 }
 
 

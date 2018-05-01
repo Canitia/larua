@@ -1031,11 +1031,6 @@ i.fa.fa-twitter.fa-2x {
 		margin-right: auto;
 	}
 
-
-	.sidebar {
-		margin-bottom: 20px;
-	}
-
 	.row-post {
 		margin-top: -15px;
 	}
@@ -1053,16 +1048,6 @@ i.fa.fa-twitter.fa-2x {
 		margin-left: auto;
 		margin-right: auto;
 		max-width:1200px;
-	}
-
-	.sidebar {
-		margin-bottom: 20px;
-	}
-
-	.card {
-		margin-top: 35px;
-		margin-bottom: 30px;
-		border: 0 !important;
 	}
 
 	.homepage-avatar {

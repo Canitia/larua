@@ -83,6 +83,7 @@ nav {
 .card {
 	border: 0 !important;
 	padding: 15px;
+	height: 100% !important;
 }
 
 .card-title {
@@ -108,7 +109,7 @@ nav {
 .card-block {
 	border: 1px solid #ebebeb;
 	border-radius: 0 0 15px 15px;
-	height: 230px;
+	height: 200px;
 }
 
 .card-text {
@@ -982,7 +983,6 @@ footer {
 	}
 
 	.card {
-		height: 400px !important;
 		margin-top: 35px;
 		margin-bottom: 30px;
 		border: 0 !important;

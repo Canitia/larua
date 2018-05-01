@@ -84,6 +84,7 @@ nav {
 	border: 0 !important;
 	padding: 15px;
 	height: 100% !important;
+	background-color: #ebebeb !important;
 }
 
 .card-title {
@@ -107,15 +108,15 @@ nav {
 }
 
 .card-block {
-	border: 1px solid #ebebeb;
+	border: 1px solid #d3d3d3;
 	border-radius: 0 0 15px 15px;
-	height: 200px;
+	height: 225px;
+	background: white !important;
 }
 
 .card-text {
 	text-overflow: ellipsis;
 	overflow: hidden;
-	height: 100%;
 }
 
 .read-more-btn {
@@ -147,6 +148,7 @@ nav {
 html body {
 	font-size:115%;
 	height: 100%;
+	background: #ebebeb;
 }
 
 h1 {
@@ -414,7 +416,6 @@ ul.collection.collection-recent > a > li:hover {
 }
 
 .main-content {
-	background: white;
 	margin-top: 35px;
 }
 

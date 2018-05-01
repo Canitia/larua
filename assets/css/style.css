@@ -707,6 +707,7 @@ img.avatar {
 	height: auto;
 	margin-left: 3px;
 	margin-right: 3px;
+	border-radius: 25px;
 }
 
 .avatar-page {

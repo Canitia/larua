@@ -982,7 +982,7 @@ footer {
 }
 
 /* mobile devices */
-@media (max-width:992px) and (min-width:576px) {
+@media (max-width:991px) and (min-width:576px) {
 
 	.homepage-avatar {
 		width: 35px;
@@ -1026,7 +1026,7 @@ footer {
 }
 
 /* tablet devices */
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 992px) {
 	.container-fluid {
 		margin-top:-15px;
 		margin-left: auto;

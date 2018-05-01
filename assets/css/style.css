@@ -316,7 +316,11 @@ header {
 
 /* color of clickable header */
 .headerurl {
-    text-decoration: none;
+	text-decoration: none;
+	text-align: center;
+    display: block;
+	font-size: 3em !important;
+	position: relative;
 }
 
 .nav-link {

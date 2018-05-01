@@ -959,6 +959,10 @@ footer {
 		height: auto !important;
 		padding: 10px;
 	}
+
+	.tag_heading > .posttitle.posttitle-author {
+		font-size: 180% !important;
+	}
 }
 
 /* mobile devices */
@@ -997,6 +1001,10 @@ footer {
 
 	.row-post {
 		margin-top: -15px;
+	}
+
+	.tag_heading > .posttitle.posttitle-author {
+		font-size: 180% !important;
 	}
 
 }

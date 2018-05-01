@@ -1098,7 +1098,7 @@ EXTERNAL libraries look-n-feel
 }
 
 .fa-facebook:hover, .fa-twitter:hover {
-	color: white;
+	color: #b5b5b5;
 }
 
 .fa-rss {
@@ -1111,14 +1111,6 @@ EXTERNAL libraries look-n-feel
 
 .fa-facebook {
 	color: #3b5998;
-}
-
-.fa-star, .fa-circle {
-	margin-right: 15px;
-}
-
-.fa-circle {
-	color: #d3d3d3;
 }
 
 .fa-tag {

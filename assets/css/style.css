@@ -385,7 +385,7 @@ img.logo {
 	display: block;
 }
 
-.top-socials > a {
+.top-socials > a:hover {
 	color: white;
 }
 
@@ -1104,7 +1104,7 @@ EXTERNAL libraries look-n-feel
 	margin-right:20px;
 }
 
-.fa-facebook:hover, .fa-twitter:hover, .fa-rss:hover {
+.fa-facebook:hover, .fa-twitter:hover {
 	color: white;
 }
 

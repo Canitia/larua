@@ -902,7 +902,9 @@ footer {
 
 	img.avatar {
 		margin-top: 20px;
-		margin-left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 150px;
 	}
 	
 	.homepage-avatar {

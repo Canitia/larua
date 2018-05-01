@@ -570,6 +570,10 @@ article {
 	margin-top:20px;
 }
 
+.content-images-featured {
+	width: 100%;
+}
+
 iframe {
 	max-width: 100% !important;
 	display:block;

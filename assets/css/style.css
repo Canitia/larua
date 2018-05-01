@@ -707,7 +707,7 @@ iframe {
 }
 
 img.avatar {
-	border-radius: 5px;
+	border-radius: 50px;
 	width: 100px;
 	height: 100px;
 	float:left;

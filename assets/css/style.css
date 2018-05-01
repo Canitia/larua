@@ -598,7 +598,7 @@ iframe {
 *****************************************/
 
 .carousel:hover {
-	filter: brightness(80%) !important;
+	filter: brightness(90%) !important;
 }
 
 

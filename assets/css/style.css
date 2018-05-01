@@ -709,6 +709,7 @@ img.avatar {
 
 .avatar-page {
 	width:150px !important;
+	border-radius: 150px;
 }
 
 .author-name {

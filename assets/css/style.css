@@ -932,6 +932,10 @@ footer {
 	.tagslist {
 		margin-left: 0;
 	}
+
+	.card-block {
+		height: auto !important;
+	}
 }
 
 /* mobile devices */

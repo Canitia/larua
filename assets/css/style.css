@@ -121,18 +121,6 @@ nav {
 	margin-top: 15px;
 }
 
-.read-more-btn {
-	border: 0 !important;
-	background-color: #FF4500 !important;
-	float: right;
-	color: white !important;
-	font-weight: 600 !important;
-}
-
-.read-more-btn:hover {
-	background-color: #d33900 !important;
-}
-
 .btn:hover, 
 .comment-reply-link:hover,
 .submit:hover {
@@ -842,10 +830,6 @@ footer {
 		font-size: 100%;
 	}
 
-	.read-more-btn {
-		display: none;
-	}
-
 	.container-fluid {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
@@ -861,10 +845,6 @@ footer {
 	
 	.card-title {
 		font-size: 110%;
-	}
-
-	.read-more-btn {
-		margin-bottom: 5px;
 	}
 	
 	h1 {
@@ -986,10 +966,6 @@ footer {
 
 	.homepage-avatar {
 		width: 35px;
-	}
-
-	.read-more-btn {
-		display: inline-block;
 	}
 
 	.card {

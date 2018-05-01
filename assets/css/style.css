@@ -240,7 +240,7 @@ p > a:focus, p > a:hover, .btn > a:hover
 }
 
 .socialfooter > a > i:hover, .socialfooter a:hover, .socialfooter > .float-right > a:hover {
-	color: #ebebeb;
+	color: #b5b5b5;
 }
 
 
@@ -394,7 +394,7 @@ img.logo {
 }
 
 .top-socials > a > i:hover {
-	color: white;
+	color: #b5b5b5;
 }
 
 /* **************************************

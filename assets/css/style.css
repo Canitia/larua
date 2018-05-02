@@ -118,6 +118,7 @@ p > a:focus, p > a:hover, .btn > a:hover
 
 .post-subitems {
 	margin-top: 50px;
+	font-weight: 300;
 }
 
 .post-subitems > a

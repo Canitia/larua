@@ -340,6 +340,7 @@ img.logo:hover {
 
 .collection {
 	margin:0px !important;
+	padding:0 !important;
 	border: 0 !important;
 }
 
@@ -348,7 +349,7 @@ ul.collection.collection-recent > a > li:hover {
 }
 
 .collection .collection-item:hover {
-	background-color: #b5b5b5;
+	background-color: #f8f8f8;
 }
 
 .collection .collection-recent {
@@ -365,7 +366,7 @@ ul.collection.collection-recent > a > li:hover {
 }
 
 .collection .collection-item {
-	margin: 10px !important;
+	padding: 10px !important;
 }
 
 .collection .collection-item img:hover {
@@ -844,7 +845,17 @@ img.avatar {
 	font-weight: 600;
 }
 
+/* **************************************
 
+  RELATED
+
+*****************************************/
+
+.related {
+	border-top: 1px solid #ededed !important;
+	margin-top: 30px;
+	padding-top: 30px;
+}
 
 
 /* **************************************
@@ -1045,11 +1056,6 @@ footer {
 
 	.card-block, .post-content {
 		padding: 0;
-	}
-
-	.collection .collection-item {
-		padding-left: 5px !important;
-		padding-right: 5px !important;
 	}
 
 	.row-post {

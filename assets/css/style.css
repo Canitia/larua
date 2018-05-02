@@ -381,6 +381,12 @@ img.logo {
 	border-radius: 100px;
 }
 
+img.logo:hover {
+	background: white;
+	padding: 5px;
+	border-radius: 150px;
+}
+
 .menu-item {
     padding: 20px;
 }

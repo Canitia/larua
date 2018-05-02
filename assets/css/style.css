@@ -346,7 +346,7 @@ header {
 
 .header-overlay {
 	background: black;
-	height: 680px;
+	height: 282px;
 }
 
 /* color of clickable header */
@@ -793,10 +793,6 @@ img.avatar {
 	border-radius: 150px;
 }
 
-.avatar-page-author {
-	margin-top: 200px;
-}
-
 .author-name {
 	font-size:200%;
 	font-weight: 300 !important;
@@ -927,7 +923,15 @@ footer {
 @media (max-width:575px) and (min-width:200px) {
 
 	.header-overlay {
-		height: 280px;
+		height: 282px;
+	}
+
+	.avatar-page {
+		width: 80px;
+	}
+
+	.tag_heading > .posttitle.posttitle-author {
+		font-size: 135%;
 	}
 
 	.tag_heading {
@@ -940,11 +944,6 @@ footer {
 
 	.logo-main {
 		top: 275px;
-	}
-
-	.navbar {
-		background: black !important;
-		opacity: 0.8;
 	}
 
 	header {

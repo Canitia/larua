@@ -309,7 +309,6 @@ main {
 .text-main {
     position: relative;
 	top: 375px;
-	margin-top: 20px;
     display: flex;
 	justify-content: center;
 	text-align: center;
@@ -325,6 +324,7 @@ main {
     width: 100%;
 	object-fit: cover;
 	opacity: 0.8;
+	max-height: 700px;
 }
 
 header {
@@ -344,7 +344,7 @@ header {
 
 .header-overlay {
 	background: black;
-	height: 680px;
+	max-height: 680px;
 }
 
 /* color of clickable header */

@@ -305,7 +305,8 @@ main {
     position: relative;
     top: 275px;
     display: flex;
-    justify-content: center;
+	justify-content: center;
+	text-align: center;
 	color: white;
 	font-size: 18px;
 	font-weight: 300;
@@ -965,8 +966,8 @@ i.fa.fa-twitter.fa-2x {
 		padding-right: 0px;
 	}
 
-	.img.logo {
-		height: 32px;
+	img.logo {
+		margin-top: 35px !important;
 	}
 
 	img.avatar {

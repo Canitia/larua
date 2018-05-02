@@ -24,7 +24,7 @@
 {{navigation}}
 <main class="{{body_class}}">
 
-<div class="header-overlay">
+<div class="header-overlay d-none d-sm-none d-md-none d-lg-block">
 {{#is "author"}}
   {{#author}}
   <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
@@ -40,7 +40,7 @@
 
 {{#is "tag"}}
   {{#tag}}
-  <div class="tag_heading text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px;">
+  <div class="tag_heading text-center d-none d-sm-none d-md-none d-lg-block" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px;">
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}
@@ -53,7 +53,7 @@
 </div>
 
 
-  <div class="text-main d-none d-sm-block d-md-block">
+  <div class="text-main d-none d-sm-none d-md-none d-lg-block">
     {{#if @blog.description}}
       {{@blog.description}}
     {{/if}}

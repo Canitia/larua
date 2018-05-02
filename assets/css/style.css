@@ -344,7 +344,7 @@ header {
 
 .header-overlay {
 	background: black;
-	max-height: 680px;
+	max-height: 660px;
 }
 
 /* color of clickable header */
@@ -632,7 +632,7 @@ article {
 }
 
 .posthead-image {
-	min-height: 680px;
+	max-height: 700px;
 	object-fit: cover;
 	width: 100%;
 }
@@ -948,6 +948,11 @@ footer {
 		margin-top: 40px;
 	}
 
+	.navbar {
+		background: black !important;
+		margin-bottom: 85px;
+	}
+
 	header {
 		margin-top: -20px;
 		padding-top: 15px;
@@ -1003,7 +1008,8 @@ footer {
 	}
 
 	img.logo {
-		
+		margin-bottom: 40px;
+		height: 64px;
 	}
 
 	img.avatar {
@@ -1086,6 +1092,11 @@ footer {
 
 /* mobile devices */
 @media (max-width:991px) and (min-width:576px) {
+
+	.navbar {
+		background: black !important;
+		margin-bottom: 85px;
+	}
 
 	.homepage-avatar {
 		width: 35px;

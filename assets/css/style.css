@@ -352,7 +352,7 @@ header {
 
 .headerurl:hover,  .nav-link:hover {
   text-decoration: none;
-  color: #b5b5b5 !important;
+  color: black !important;
 }
 
 .brand-logo {

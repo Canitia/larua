@@ -312,6 +312,7 @@ main {
 	font-size: 18px;
 	font-weight: 300;
 	font-family:'Slabo 27px', serif !important;
+	text-shadow: 2px 1px #000000;
 }
 
 .cover-image {

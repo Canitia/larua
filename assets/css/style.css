@@ -724,7 +724,7 @@ iframe {
 	margin-bottom: 35px;
 	border-top: 1px solid #ebebeb;
 	padding-top: 35px;
-	margin-left: 30px;
+	margin-left: 35px;
 }
 
 .tagslist a {
@@ -1057,6 +1057,10 @@ footer {
 
 	.tagslist {
 		margin-left: 0;
+	}
+
+	.tagslist a {
+		padding: 3px;
 	}
 
 	.card-block {

@@ -1,137 +1,3 @@
-nav {
-	background: transparent !important;
-}
-
-.container-fluid {
-    min-width: 300px;
-}
-
-.row {
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-}
-
-.page-row {
-	max-width: 1200px;
-	margin-left: auto !important;
-	margin-right: auto !important;
-	margin-top: 15px;
-}
-
-.col {
-	flex-basis: unset !important;
-}
-
-.post-item-main > a {
-	color: white;
-}
-
-.post-item-main > a:hover {
-	text-decoration: none;
-}
-
-.post-item-main {
-	margin-top: 5px;
-    margin-bottom: 10px;
-	height: 235px !important;
-}
-
-.badge {
-	font-weight: 500;
-	color: black;
-}
-
-.badge-featured {
-	position: absolute;
-    top: 25px;
-    right: 30px;
-    z-index: 10;
-    padding: 10px !important;
-    background-color: #b5b5b5 !important;
-    font-weight: bold;
-    opacity: 0.9;
-    color: white;
-	text-align: center;
-	border-radius: 15px;
-}
-
-
-.post-featured {
-	filter: brightness(80%) !important;
-	border: 5px solid #E39B00 !important;
-	margin-top: -5px;
-}
-
-.caption-image {
-	position: relative;
-	bottom: 130px;
-	overflow:hidden;
-	padding: 5px;
-	color: white;
-}
-
-.caption-image:hover {
-	font-weight: 600 !important;
-}
-
-
-.spacer {
-    height: 30px;
-}
-
-.card {
-	border: 0 !important;
-	padding: 15px;
-	height: 100% !important;
-	background-color: #ebebeb !important;
-	transition: all .2s ease-in-out;
-}
-
-.card:hover {
-	transform: scale(1.02);
-}
-
-.card-title {
-	font-size: 125% !important;
-	margin-top: 15px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-.card-title a {
-	color: black;
-}
-
-.card-title a:hover {
-	color: black;
-}
-
-.card-block, .post-content {
-	padding: 10px;
-}
-
-.card-block {
-	border: 1px solid #d3d3d3;
-	border-radius: 0 0 15px 15px;
-	height: 225px;
-	background: white !important;
-}
-
-.card-text {
-	text-overflow: ellipsis;
-	overflow: hidden;
-	margin-top: 15px;
-}
-
-.btn:hover, 
-.comment-reply-link:hover,
-.submit:hover {
-	background-color: #d33900 !important;
-}
-
-
-
 /* **************************************
 
   GENERAL FONT / ELEMENT
@@ -273,6 +139,10 @@ p > a:focus, p > a:hover, .btn > a:hover
 
 *****************************************/
 
+.container-fluid {
+    min-width: 300px;
+}
+
 .main-content {
 	margin-top: 40px;
 }
@@ -283,10 +153,20 @@ main {
 	flex-direction: column;
 }
 
+.row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
 
 .row.row-post {
   background-color: white !important;
 }
+
+
+.col {
+	flex-basis: unset !important;
+}
+
 
 /* **************************************
 
@@ -330,6 +210,10 @@ header {
 .navbar {
 	margin-bottom: -300px;
 	z-index: 10;
+}
+
+nav {
+	background: transparent !important;
 }
 
 .navbar-nav {
@@ -441,7 +325,7 @@ img.logo:hover {
 
 /* **************************************
 
-  CONTENT SIDEBAR / MAIN
+  CONTENT MAIN
 
 *****************************************/
 .homepage-image {
@@ -502,6 +386,111 @@ article > h4,
 .author-url-post-head  {
 	color:#b5b5b5 !important;
 }
+
+/* ######################################
+
+POST/ARTICLE CARD UI - main
+
+##########################################*/
+
+.card {
+	border: 0 !important;
+	padding: 15px;
+	height: 100% !important;
+	background-color: #ebebeb !important;
+	transition: all .2s ease-in-out;
+}
+
+.card:hover {
+	transform: scale(1.02);
+}
+
+.card-title {
+	font-size: 125% !important;
+	margin-top: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card-title a {
+	color: black;
+}
+
+.card-title a:hover {
+	color: black;
+}
+
+.card-block, .post-content {
+	padding: 10px;
+}
+
+.card-block {
+	border: 1px solid #d3d3d3;
+	border-radius: 0 0 15px 15px;
+	height: 225px;
+	background: white !important;
+}
+
+.card-text {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.page-row {
+	max-width: 1200px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-top: 15px;
+}
+
+.post-item-main > a {
+	color: white;
+}
+
+.post-item-main > a:hover {
+	text-decoration: none;
+}
+
+.post-item-main {
+	margin-top: 5px;
+    margin-bottom: 10px;
+	height: 235px !important;
+}
+
+.badge {
+	font-weight: 500;
+	color: black;
+}
+
+.badge-featured {
+	position: absolute;
+    top: 25px;
+    right: 30px;
+    z-index: 10;
+    padding: 10px !important;
+    background-color: #b5b5b5 !important;
+    font-weight: bold;
+    opacity: 0.9;
+    color: white;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.post-featured {
+	filter: brightness(80%) !important;
+	border: 5px solid #E39B00 !important;
+	margin-top: -5px;
+}
+
+.btn:hover, 
+.comment-reply-link:hover,
+.submit:hover {
+	background-color: #d33900 !important;
+}
+
+
 
 /* ######################################
 
@@ -685,7 +674,7 @@ iframe {
 
 /* **************************************
 
-  ARTICLE: TAGS look-n-feel
+  ARTICLE HEADING TAGS, AUTHOR AND PAGES look-n-feel
 
 *****************************************/
 
@@ -753,7 +742,7 @@ iframe {
 
 /* **************************************
 
-	ARTICLE: AUTHOR look-n-feel
+	ARTICLE: AUTHOR-section look-n-feel
 
 *****************************************/
 .author-profile {

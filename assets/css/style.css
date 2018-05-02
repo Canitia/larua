@@ -735,7 +735,7 @@ iframe {
 	margin-bottom: 35px;
 	border-top: 1px solid #ebebeb;
 	padding-top: 35px;
-	margin-left: 35px;
+	margin-left: 10px;
 }
 
 .tagslist a {
@@ -766,7 +766,6 @@ img.avatar {
 	height: auto;
 	float:left;
 	z-index:200;
-	margin-left: 20px;
 	margin-right:10px;
 }
 

@@ -499,10 +499,8 @@ POST/ARTICLE HEADERS
 ##########################################*/
 
 .post-image {
-	height: 700px;
+	height: 650px;
 }
-
-
 
 .text-left-title-featured-sidebar-collapse {
 	color: black !important;

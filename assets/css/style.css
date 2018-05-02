@@ -909,12 +909,24 @@ footer {
 		margin-top: 40px;
 	}
 
+	.navbar-nav {
+		flex-direction: column !important;
+	}
+
+	.navbar-brand {
+		color: black !important;
+	}
+
+	.navbar-brand:hover {
+		color: #979797 !important;
+	}
+
 	.nav-link {
 		color: black !important;
 	}
 
 	.nav-link:hover {
-		color: #979797;
+		color: #979797 !important;
 	}
 
 	.navbar {
@@ -1066,12 +1078,24 @@ footer {
 		margin-bottom: 85px;
 	}
 
+	.navbar-nav {
+		flex-direction: column !important;
+	}
+
+	.navbar-brand {
+		color: black !important;
+	}
+
+	.navbar-brand:hover {
+		color: #979797 !important;
+	}
+
 	.nav-link {
 		color: black !important;
 	}
 
 	.nav-link:hover {
-		color: #979797;
+		color: #979797 !important;
 	}
 
 	.homepage-avatar {

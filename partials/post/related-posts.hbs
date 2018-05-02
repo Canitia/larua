@@ -2,10 +2,10 @@
 
    {{#is "post, page"}}
 
-<div><!-- start of a sidebar item -->
+<div class="related"><!-- start of a sidebar item -->
    <h2>{{t "Related"}}</h2>       
           <ul class="collection">
-            {{#get "posts" limit="5" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
+            {{#get "posts" limit="5" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
                     {{#foreach related}}
                          <a href="{{url}}"><li class="collection-item">{{title}}</li></a>
                     {{/foreach}}

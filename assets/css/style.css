@@ -228,11 +228,6 @@ nav {
 	flex-direction: row !important;
 }
 
-.header-overlay {
-	background: black;
-	max-height: 660px;
-}
-
 /* color of clickable header */
 .headerurl {
 	text-decoration: none;
@@ -886,10 +881,6 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) and (min-width:200px) {
-
-	.header-overlay {
-		height: 100%;
-	}
 
 	.avatar-page {
 		width: 80px;

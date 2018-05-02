@@ -948,18 +948,18 @@ footer {
 		padding-right: 0 !important;
 	}
 
-	.cover-image, .posthead-image {
-		height: 100%;
-	}
-
 	.posthead-image {
 		top: 0;
+		min-height: 300px;
+		height: auto;
+		width: 100%;
 	}
 
 	.post-image {
-		height: 500px;
+		height: auto;
+		width: 100%;
 	}
-	
+
 	.carousel {
 		display: none;
 	}
@@ -1117,10 +1117,14 @@ footer {
 
 	.posthead-image {
 		top: 0;
+		min-height: 300px;
+		height: auto;
+		width: 100%;
 	}
 
 	.post-image {
-		height: 500px;
+		height: auto;
+		width: 100%;
 	}
 
 	.card {

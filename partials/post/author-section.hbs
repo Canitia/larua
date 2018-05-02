@@ -4,11 +4,10 @@
     <div class="col col-sm-2 col-md-2">
         {{#if profile_image}}<img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}"/>{{/if}}
     </div>
-    <br />
-    <b class="text-center">{{name}}</b>
-    <br />
     <div class="col col-sm-10 author-bio-text">
       {{#if bio}}
+        <b class="text-center">{{name}}</b>
+        <br />
           {{bio}}
       {{else}}
           {{t "Whoops...that's not looking good. People have no idea who you are?!"}}

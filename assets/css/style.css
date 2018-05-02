@@ -909,6 +909,14 @@ footer {
 		margin-top: 40px;
 	}
 
+	.nav-link {
+		color: black !important;
+	}
+
+	.nav-link:hover {
+		color: #979797;
+	}
+
 	.navbar {
 		background: #b5b5b5 !important;
 		margin-bottom: 85px;
@@ -1056,6 +1064,14 @@ footer {
 
 	.navbar {
 		margin-bottom: 85px;
+	}
+
+	.nav-link {
+		color: black !important;
+	}
+
+	.nav-link:hover {
+		color: #979797;
 	}
 
 	.homepage-avatar {

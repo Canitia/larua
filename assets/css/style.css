@@ -277,6 +277,10 @@ p > a:focus, p > a:hover, .btn > a:hover
 
 *****************************************/
 
+.main-content {
+	margin-top: 40px;
+}
+
 main {
 	display: flex;
 	min-height: 100vh;
@@ -299,6 +303,7 @@ main {
 	top: 350px;
 	display: flex;
 	justify-content: center;
+	z-index: 1;
 }
 
 .text-main {
@@ -313,13 +318,15 @@ main {
 	font-weight: 300;
 	font-family:'Slabo 27px', serif !important;
 	text-shadow: 2px 1px #000000;
+	z-index: 1;
 }
 
 .cover-image {
 	min-height: 500px;
 	max-height: 500px;
     width: 100%;
-    object-fit: cover;
+	object-fit: cover;
+	opacity: 0.8;
 }
 
 header {
@@ -335,6 +342,11 @@ header {
 	display: flex !important;
 	flex-wrap: nowrap !important;
 	flex-direction: row !important;
+}
+
+.header-overlay {
+	background: black;
+	height: 680px;
 }
 
 /* color of clickable header */
@@ -622,7 +634,7 @@ article {
 }
 
 .posthead-image {
-	min-height: 500px;
+	min-height: 680px;
 	object-fit: cover;
 	width: 100%;
 }
@@ -685,13 +697,12 @@ iframe {
 
 .tag_heading {
     padding: 20px;
-	margin-bottom: 220px;
 	width: 100%;
 	object-fit: cover;
-	min-height: 500px;
-	height: 500px;
-	top: 200px;
+	height: 680px;
+	margin-top: 200px;
 	position: relative;
+	opacity: 0.8;
 }
 
 .tag_heading > .posttitle {
@@ -780,6 +791,10 @@ img.avatar {
 .avatar-page {
 	width:150px !important;
 	border-radius: 150px;
+}
+
+.avatar-page-author {
+	margin-top: 200px;
 }
 
 .author-name {
@@ -911,6 +926,14 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) and (min-width:200px) {
 
+	.header-overlay {
+		height: 280px;
+	}
+
+	.tag_heading {
+		height: 610px;
+	}
+
 	.text-main {
 		top: 275px;
 	}
@@ -935,8 +958,8 @@ footer {
 	}
 
 	.cover-image, .posthead-image {
-		height: 375px;
-		min-height: 375px;
+		height: 610px;
+		min-height: 610px;
 	}
 
 	.carousel {

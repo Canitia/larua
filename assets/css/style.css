@@ -418,7 +418,7 @@ img.logo {
 
 .top-socials {
 	position: relative;
-	bottom: 320px;
+	bottom: 80px;
 	z-index: 9999;
 	text-align: center;
 	display: block;
@@ -909,10 +909,6 @@ i.fa.fa-twitter.fa-2x {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) and (min-width:200px) {
 
-	.top-socials {
-		bottom: 80px;
-	}
-
 	.text-main {
 		top: 275px;
 	}
@@ -1064,7 +1060,6 @@ i.fa.fa-twitter.fa-2x {
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 180% !important;
 	}
-	
 }
 
 /* mobile devices */

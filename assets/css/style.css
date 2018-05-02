@@ -301,6 +301,14 @@ main {
 	justify-content: center;
 }
 
+.text-main {
+    position: relative;
+    top: 275px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
 .cover-image {
     min-height: 500px;
     width: 100%;
@@ -312,7 +320,7 @@ header {
 }
 
 .navbar {
-	margin-bottom: -225px;
+	margin-bottom: -285px;
 }
 
 .navbar-nav {

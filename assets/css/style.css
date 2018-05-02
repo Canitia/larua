@@ -312,7 +312,6 @@ img.logo:hover {
 	color: white !important;
 	font-size: 16px !important;
 	font-weight: 600;
-	color: white !important;
 	margin-left: 5px;
 }
 
@@ -932,7 +931,7 @@ footer {
 	}
 
 	.navbar {
-		background: #b5b5b5 !important;
+		background: #f8f8f8 !important;
 		margin-bottom: 85px;
 	}
 
@@ -1073,6 +1072,7 @@ footer {
 @media (max-width:991px) and (min-width:576px) {
 
 	.navbar {
+		background: #f8f8f8 !important;
 		margin-bottom: 85px;
 	}
 

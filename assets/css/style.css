@@ -296,14 +296,14 @@ main {
 
 .logo-main {
 	position: relative;
-	top: 275px;
+	top: 350px;
 	display: flex;
 	justify-content: center;
 }
 
 .text-main {
     position: relative;
-	top: 275px;
+	top: 375px;
 	margin-top: 20px;
     display: flex;
 	justify-content: center;

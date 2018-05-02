@@ -487,10 +487,8 @@ POST/ARTICLE CARD UI - main
 .btn:hover, 
 .comment-reply-link:hover,
 .submit:hover {
-	background-color: #d33900 !important;
+	background-color: #979797 !important;
 }
-
-
 
 /* ######################################
 
@@ -1139,7 +1137,6 @@ footer {
 	.homepage-avatar {
 		width: 35px;
 	}
-
 	
 }
 
@@ -1154,6 +1151,21 @@ footer {
 
 .error-row {
 	padding-top: 290px;
+}
+
+.read-more-btn {
+	background-color: #ebebeb !important;
+	color: black !important;
+	border: 1px solid grey !important;
+}
+
+.card-actions-bottom {
+    display: block;
+    text-align: center;
+}
+
+.fa-exclamation-triangle {
+	margin-bottom: 50px;
 }
 
 /* **************************************

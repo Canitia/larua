@@ -109,7 +109,7 @@ p > a:focus, p > a:hover, .btn > a:hover
 }
 
 .post-head {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .post-title {
@@ -443,6 +443,7 @@ POST/ARTICLE CARD UI - main
 	margin-left: auto !important;
 	margin-right: auto !important;
 	margin-top: 15px;
+	background: white;
 }
 
 .post-item-main > a {

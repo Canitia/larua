@@ -94,7 +94,7 @@ p > a, .collection .collection-item, .collection-item > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover, .btn > a:hover
+p > a:focus, p > a:hover
 {
   color:#b5b5b5 !important;
 }
@@ -483,12 +483,6 @@ POST/ARTICLE CARD UI - main
 	filter: brightness(80%) !important;
 	border: 5px solid #E39B00 !important;
 	margin-top: -5px;
-}
-
-.btn:hover, 
-.comment-reply-link:hover,
-.submit:hover {
-	background-color: #979797 !important;
 }
 
 /* ######################################

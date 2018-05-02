@@ -143,6 +143,10 @@ p > a:focus, p > a:hover, .btn > a:hover
     min-width: 300px;
 }
 
+.main-content {
+	margin-top: 10px;
+}
+
 main {
 	display: flex;
 	min-height: 100vh;

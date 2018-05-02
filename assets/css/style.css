@@ -296,7 +296,7 @@ main {
 
 .logo-main {
 	position: relative;
-	top: 250px;
+	top: 275px;
 	display: flex;
 	justify-content: center;
 }
@@ -324,7 +324,7 @@ header {
 }
 
 .navbar {
-	margin-bottom: -285px;
+	margin-bottom: -300px;
 }
 
 .navbar-nav {
@@ -911,6 +911,11 @@ i.fa.fa-twitter.fa-2x {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) and (min-width:200px) {
+
+	.navbar {
+		background: black !important;
+		opacity: 0.8;
+	}
 
 	header {
 		margin-top: -10px;

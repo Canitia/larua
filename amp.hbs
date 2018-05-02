@@ -18,44 +18,25 @@
 
     {{!-- Styles'n'Scripts --}}
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
-    <link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Slabo+27px:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <style amp-custom>
-            /* ##############################
-
-            SET OVERALL ACCENT color
-
-            #############################*/
-            .accentcolor {
-            background-color: #0d47a1;
-            }
-
-            .accentcolor2, .slider .indicators .indicator-item.active{
-            background-color: #1565c0;
-            }
-
-            .accentcolor-error {
-            background-color: red;
-            }
-
-
             /* **************************************
 
             GENERAL FONT / ELEMENT
 
             *****************************************/
             html body {
-                font-size:125%;
                 font-family: 'Roboto' ,sans-serif;
             }
 
             h1 {
-                font-size: 250%;
+                font-size: 220%;
                 font-family:'Slabo 27px', serif;
             }
 
             h2 {
-                font-size: 200%;
+                font-size: 195%;
                 font-family:'Slabo 27px', serif;
             }
 
@@ -163,6 +144,7 @@
                 padding: 25px;
                 border-bottom: 1px solid #ebebeb;
                 margin-bottom: 35px;
+                font-size: 16px;
             }
 
             .post-subitems > a
@@ -256,22 +238,25 @@
 
             *****************************************/
             .main-header {
-                height: 86px;
-                background: #FF4500;
+                height: 48px;
+                background: #f8f8f8 !important;
             }
  
             /* color of clickable header */
             .headerurl {
                 text-decoration: none;
-                    margin-left:40px;
+                font-size: 16px !important;
+                font-weight: 600;
+                display: block; 
+                text-align: center;
+            }
+
+            .brand-logo {
+                padding-top: 13px;
             }
 
             .headerurl:hover {
             text-decoration: none;
-            }
-
-            nav .brand-logo {
-                line-height:5px;
             }
 
             img.cover {
@@ -286,15 +271,7 @@
             }
 
 
-            .brand-logo {
-                position: absolute;
-                color: #fff;
-                display: inline-block;
-                font-size: 2.1rem;
-                padding: 0;
-                white-space: nowrap;
-                margin-top: 20px;
-            }
+
 
             .brand-logo > a {
                 color: black;
@@ -586,7 +563,7 @@
 
         .fa-clock, .fa-user, .fa-book {
             margin-right: 10px;
-            color: #FF4500;
+	        color: black;
         }
         .fa-user {
             margin-left: 10px;

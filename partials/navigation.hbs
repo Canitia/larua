@@ -18,43 +18,4 @@
     </ul>
   </div>
 </nav>
-
-    {{#if @blog.logo}}
-    
-    <div class="logo-main">
-    <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
-    </div>
-    <div class="text-main">
-      {{#if @blog.description}}
-        {{@blog.description}}
-      {{/if}}
-    </div>
-    {{/if}}
-
-
-{{#is "index, home"}}
-{{#if @blog.cover_image}}
-
-  <img src="{{@blog.cover_image}}" alt="Cover image" class="cover-image" /></a>
-
-  <div class="top-socials">
-        <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
-        {{#if @blog.facebook}}
-          <a href="{{facebook_url @blog.facebook}}" target="_blank"><i class="fab fa-facebook"></i></a>
-        {{/if}}
-        {{#if @blog.twitter}}
-          <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
-        {{/if}}  
-  </div>
-  {{/if}}
-  
-{{/is}}
-
-{{#is "post, page"}}
-
-        <div class="post-image">
-          <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
-        </div>
-
-{{/is}}
 </header>

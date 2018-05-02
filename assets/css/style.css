@@ -827,9 +827,8 @@ img.avatar {
 	font-weight: 600;
 	padding: 20px;
 	border: 1px solid #d3d3d3;
-	border-radius: 50px;
+	border-radius: 150px;
 }
-
 
 .pagination li a {
 	line-height: inherit !important;

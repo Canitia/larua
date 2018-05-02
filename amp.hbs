@@ -199,8 +199,8 @@
 
             *****************************************/
              .content {
-                margin-left: auto;
-                margin-right: auto;
+                margin-left: 80px;
+                margin-right: 80px;
              }   
 
              .post {
@@ -591,14 +591,14 @@
 
 </head>
 
-<body class="amp-template">
+<body class="amp-template" style="background-image:url('{{asset "bgpattern.png"}}')">
     <header class="main-header">
         <nav class="brand-logo">
             <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
         </nav>
     </header>
 
-    <main class="content" role="main">
+    <main class="content" role="main" style="background-image:url('{{asset "bgpattern.png"}}')">
     {{#post}}
             {{#if feature_image}}
             <figure class="post-image">

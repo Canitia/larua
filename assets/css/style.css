@@ -952,6 +952,10 @@ footer {
 		height: 100%;
 	}
 
+	.posthead-image {
+		top: 0;
+	}
+
 	.carousel {
 		display: none;
 	}
@@ -1105,6 +1109,10 @@ footer {
 
 	.homepage-avatar {
 		width: 35px;
+	}
+
+	.posthead-image {
+		top: 0;
 	}
 
 	.card {

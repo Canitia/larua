@@ -1149,8 +1149,12 @@ EXTERNAL libraries look-n-feel
 	color: #1dcaff;
 }
 
+.fa-rss:hover {
+	color: #f26522;
+}
+
 .fa-rss {
-	color: #f26522 !important;
+	color: white !important;
 }
 
 .fa-twitter {

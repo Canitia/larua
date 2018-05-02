@@ -488,81 +488,6 @@
             padding-left: 35px;
         }
 
-        /* **************************************
-
-        FOOTER
-
-        *****************************************/
-        footer {
-            width: 100%;
-            overflow: hidden;
-            z-index: 999;
-        }
-
-        .socialfooter > .right > a {
-            margin: 15px;
-            color: black;
-        }
-
-        /* general styling of pretty much all font-awesome icons */
-        .socialfooter {
-            border-top: 2px solid #ebebeb;
-            background:white;
-            padding-top:10px;
-        }
-
-        .socialfooter > a i {
-            color: black;
-            padding-top: 10px;
-            margin-left: 15px;
-            transition: all 0.2s ease-in-out;
-        }
-
-        .postdate i {
-            margin-right: 5px;
-        }
-
-        .postdate > a i {
-            border-radius: 10px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 3px;
-            margin-top: 3px;
-        }
-
-        .fa-user-secret, .fa-twitter, .fa-facebook {
-            margin-left:20px;
-            margin-right:20px;
-        }
-
-        .fa-user, .fa-book {
-            margin-left: 25px;
-        }
-
-        .fa-circle, .fa-tag {
-            color: #d3d3d3;
-        }
-
-        .fa-tag {
-            margin-right: 8px;
-        }
-
-        .fa-calendar {
-            margin-left: 20px;
-        }
-
-        .fa-clock, .fa-user, .fa-book {
-            margin-right: 10px;
-	        color: black;
-        }
-        .fa-user {
-            margin-left: 10px;
-        }
-
-        .fa-bars {
-            color: black;
-        }
-
         /* some mobile specific junk */
         @media (max-width:600px) and (min-width:200px) {
             .posttitle {
@@ -577,7 +502,7 @@
            .post-avatar {
             height: auto;
             width: 48px;
-        }
+            }
         }
 
 
@@ -634,17 +559,5 @@
         </article>
  {{/post}}
     </main>
-    <div class="socialfooter">
-            <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss fa-2x"></i></a>
-            {{#if @blog.facebook}}
-            <a href="{{facebook_url}}" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-            {{/if}}
-            {{#if @blog.twitter}}
-            <a href="{{twitter_url}}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-            {{/if}}
-            <p class="right">
-            <a href="https://canitia.nl" target="_blank">{{t "powered by: Canitia Jr."}}</a>
-            </p>
-    </div>
 </body>
 </html>

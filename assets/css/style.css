@@ -235,10 +235,12 @@ nav {
     display: block;
 	font-size: 3em !important;
 	position: relative;
+	text-shadow: 1px 2px black;
 }
 
 .nav-link {
 	color: white !important;
+	text-shadow: 1px 2px black;
 }
 
 .headerurl:hover,  .nav-link:hover {

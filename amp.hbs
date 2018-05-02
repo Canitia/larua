@@ -181,8 +181,10 @@
             }
 
             img.logo {
-                height:64px;
-                position:relative;
+                height:48px;
+                margin-top: -12px;
+                float:left;
+                margin-left: 1%;
             }
 
             nav ul li {
@@ -580,6 +582,7 @@
 <body class="amp-template" style="background-image:url('{{asset "bgpattern.png"}}')">
     <header class="main-header">
         <nav class="brand-logo">
+            <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
             <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
         </nav>
     </header>

@@ -902,10 +902,6 @@ footer {
 	margin-right: auto;
 }
 
-i.fa.fa-twitter.fa-2x {
-	margin-left: 0px;
-}
-
 
 /* **************************************
 
@@ -1146,7 +1142,6 @@ EXTERNAL libraries look-n-feel
 .fa-facebook:hover {
 	color: #3b5998;
 	background: white;
-	padding: 10px;
 	border-radius: 50px;
 }
 
@@ -1154,30 +1149,31 @@ EXTERNAL libraries look-n-feel
 .fa-twitter:hover {
 	color: #1dcaff;
 	background: white;
-	padding: 10px;
 	border-radius: 50px;
 }
 
 .fa-rss:hover {
 	color: #f26522;
 	background: white;
-	padding: 10px;
 	border-radius: 50px;
 }
 
 .fa-rss {
 	color: white;
 	font-size: 1.5em;
+	padding: 10px;
 }
 
 .fa-twitter {
 	color: white;
 	font-size: 1.5em;
+	padding: 10px;
 }
 
 .fa-facebook {
 	color: white;
 	font-size: 1.5em;
+	padding: 10px;
 }
 
 .fa-tag {

@@ -303,7 +303,8 @@ main {
 
 .text-main {
     position: relative;
-    top: 275px;
+	top: 275px;
+	margin-top: 20px;
     display: flex;
 	justify-content: center;
 	text-align: center;

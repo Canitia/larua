@@ -324,7 +324,7 @@ main {
     width: 100%;
 	object-fit: cover;
 	opacity: 0.8;
-	max-height: 700px;
+	max-height: 500px;
 }
 
 header {
@@ -943,6 +943,11 @@ footer {
 		top: 275px;
 	}
 
+	.top-socials {
+		bottom: 15px;
+		margin-top: 40px;
+	}
+
 	header {
 		margin-top: -20px;
 		padding-top: 15px;
@@ -998,14 +1003,14 @@ footer {
 	}
 
 	img.logo {
-		margin-top: 35px !important;
+		
 	}
 
 	img.avatar {
 		margin-top: 20px;
 		margin-left: auto !important;
 		margin-right: auto !important;
-		max-width: 150px;
+		max-width: 64px;
 		display: block;
 		float: initial;
 	}

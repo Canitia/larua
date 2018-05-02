@@ -113,7 +113,7 @@ p > a:focus, p > a:hover, .btn > a:hover
 }
 
 .post-title {
-	margin-top: 35px;
+	margin-top: 0;
 }
 
 .post-subitems {

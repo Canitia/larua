@@ -328,6 +328,7 @@ header {
 
 .navbar {
 	margin-bottom: -300px;
+	z-index: 10;
 }
 
 .navbar-nav {
@@ -692,6 +693,8 @@ iframe {
 	object-fit: cover;
 	min-height: 500px;
 	height: 500px;
+	top: 200px;
+	position: relative;
 }
 
 .tag_heading > .posttitle {

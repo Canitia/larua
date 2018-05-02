@@ -1055,7 +1055,6 @@ footer {
 @media (max-width:991px) and (min-width:576px) {
 
 	.navbar {
-		background: black !important;
 		margin-bottom: 85px;
 	}
 

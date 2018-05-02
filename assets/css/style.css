@@ -812,6 +812,7 @@ img.avatar {
 
 .pagination {
 	padding:15px;
+	margin-bottom: 0px;
 	border-top: 1px solid #d3d3d3;
 }
 

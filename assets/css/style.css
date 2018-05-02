@@ -249,7 +249,7 @@ nav {
 
 .headerurl:hover,  .nav-link:hover {
   text-decoration: none;
-  color: black !important;
+  color: #979797 !important;
 }
 
 .brand-logo {

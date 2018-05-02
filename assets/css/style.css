@@ -145,19 +145,19 @@ html body {
 h1 {
 	font-size: 2.9rem !important;
 	font-weight: 300 !important;
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 }
 
 h2 {
 	font-size: 2.7rem !important;
 	font-weight: 300 !important;
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 }
 
 h3 {
 	font-size: 2.5rem !important;
 	font-weight: 300 !important;
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 }
 
 .h3-join-the-conversation {
@@ -170,7 +170,7 @@ h3 {
 
 h4 {
 	font-weight: 300 !important;	
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 }
 
 p > a {
@@ -310,6 +310,7 @@ main {
 	color: white;
 	font-size: 18px;
 	font-weight: 300;
+	font-family:'Slabo 27px', serif !important;
 }
 
 .cover-image {
@@ -505,7 +506,7 @@ POST/ARTICLE HEADERS
 }
 
 .text-left-title {
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 	font-size: 250% !important;
 	font-weight: 300;
 	padding-bottom:15px !important;
@@ -518,7 +519,7 @@ POST/ARTICLE HEADERS
 
 /* headers like 'latest' */
 .text-left-title-featured-sidebar {
-	font-family:'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif !important;
 	font-weight: 300;
 	color: #d33900;
 	text-transform: uppercase;

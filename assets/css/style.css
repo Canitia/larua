@@ -322,8 +322,6 @@ main {
 }
 
 .cover-image {
-	min-height: 500px;
-	max-height: 500px;
     width: 100%;
 	object-fit: cover;
 	opacity: 0.8;
@@ -346,7 +344,7 @@ header {
 
 .header-overlay {
 	background: black;
-	height: 282px;
+	height: 680px;
 }
 
 /* color of clickable header */
@@ -699,7 +697,7 @@ iframe {
     padding: 20px;
 	width: 100%;
 	object-fit: cover;
-	height: 680px;
+	height: 100% !important;
 	margin-top: 200px;
 	position: relative;
 	opacity: 0.8;
@@ -720,7 +718,6 @@ iframe {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
-	background: #b5b5b5;
 }
 
 .cat-links {
@@ -789,7 +786,7 @@ img.avatar {
 }
 
 .avatar-page {
-	width:150px !important;
+	width:150px;
 	border-radius: 150px;
 }
 
@@ -923,7 +920,7 @@ footer {
 @media (max-width:575px) and (min-width:200px) {
 
 	.header-overlay {
-		height: 282px;
+		height: 100%;
 	}
 
 	.avatar-page {
@@ -935,7 +932,7 @@ footer {
 	}
 
 	.tag_heading {
-		height: 610px;
+		padding-top: 64px;
 	}
 
 	.text-main {
@@ -957,8 +954,7 @@ footer {
 	}
 
 	.cover-image, .posthead-image {
-		height: 610px;
-		min-height: 610px;
+		height: 100%;
 	}
 
 	.carousel {

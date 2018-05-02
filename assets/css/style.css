@@ -820,14 +820,18 @@ img.avatar {
 	line-height: 2px; 
 	font-weight: 600;
 	background: #d3d3d3;
+	text-align: center;
 }
 
 .pagination > li {
-    line-height: 2px;
 	font-weight: 600;
-	padding: 20px;
+	border-radius: 50px;
+	padding: 0px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 0px;
 	border: 1px solid #d3d3d3;
-	border-radius: 150px;
 }
 
 .pagination li a {
@@ -1015,7 +1019,7 @@ footer {
 		margin-top:0px;
 		margin-left: 0px;
 		margin-right: 0px;
-		margin-bottom:5px;
+		margin-bottom:0px;
 	}
 
 	p.text-justify {
@@ -1040,10 +1044,6 @@ footer {
 	.collection .collection-item {
 		padding-left: 5px !important;
 		padding-right: 5px !important;
-	}
-
-	.pagination, .main-content {
-		margin-bottom: 12px;
 	}
 
 	.row-post {

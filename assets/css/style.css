@@ -1140,8 +1140,13 @@ EXTERNAL libraries look-n-feel
 	margin-right:20px;
 }
 
-.fa-facebook:hover, .fa-twitter:hover {
-	color: #b5b5b5;
+.fa-facebook:hover {
+	color: #3b5998;
+}
+
+
+.fa-twitter:hover {
+	color: #1dcaff;
 }
 
 .fa-rss {
@@ -1149,11 +1154,11 @@ EXTERNAL libraries look-n-feel
 }
 
 .fa-twitter {
-	color: #1dcaff;
+	color: white;
 }
 
 .fa-facebook {
-	color: #3b5998;
+	color: white;
 }
 
 .fa-tag {

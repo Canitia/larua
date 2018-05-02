@@ -22,12 +22,10 @@
   </div>
 </nav>
 
-{{#is "index, home, post, page"}}
+{{#is "index, home"}}
 {{#if @blog.cover_image}}
 
   <img src="{{@blog.cover_image}}" alt="Cover image" class="cover-image" /></a>
-
-{{/if}}
 
   <div class="top-socials">
         <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss fa-2x"></i></a>
@@ -38,5 +36,14 @@
           <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
         {{/if}}  
   </div>
+  {{/if}}
+{{/is}}
+
+{{#is "post, page"}}
+
+        <div class="post-image">
+          <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+        </div>
+
 {{/is}}
 </header>

@@ -294,6 +294,13 @@ main {
 
 *****************************************/
 
+.logo-main {
+	position: relative;
+	top: 250px;
+	display: flex;
+	justify-content: center;
+}
+
 .cover-image {
     min-height: 500px;
     width: 100%;
@@ -305,7 +312,7 @@ header {
 }
 
 .navbar {
-	margin-bottom: -150px;
+	margin-bottom: -225px;
 }
 
 .navbar-nav {
@@ -353,7 +360,7 @@ img.cover {
 }
 
 img.logo {
-	height: 48px;
+	height: 128px;
 	position: relative;
 	margin-left: 5px;
 	margin-right: 5px;

@@ -235,7 +235,7 @@ p > a, .collection .collection-item, .collection-item > a {
 
 p > a:focus, p > a:hover, .btn > a:hover
 {
-  color:#d33900 !important;
+  color:#b5b5b5 !important;
 }
 
 .socialfooter > a > i:hover, .socialfooter a:hover, .socialfooter > .float-right > a:hover {
@@ -267,7 +267,7 @@ p > a:focus, p > a:hover, .btn > a:hover
 
 .post-subitems > a:hover
 {
-	color: #d33900;
+	color: #b5b5b5;
 	text-decoration: underline;
 }
 

@@ -186,6 +186,7 @@ main {
 	height: 32px;
 	margin-left: 5px;
 	margin-right: 5px;
+	border-radius: 50px;
 }
 
 .text-main {

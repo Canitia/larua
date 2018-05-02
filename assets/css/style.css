@@ -47,7 +47,7 @@ nav {
     right: 30px;
     z-index: 10;
     padding: 10px !important;
-    background-color: #FF4500 !important;
+    background-color: #b5b5b5 !important;
     font-weight: bold;
     opacity: 0.9;
     color: white;
@@ -460,7 +460,7 @@ ul.collection.collection-recent > a > li:hover {
 }
 
 .collection .collection-item:hover {
-	background-color: #FF4500;
+	background-color: #b5b5b5;
 }
 
 .collection .collection-recent {
@@ -688,7 +688,7 @@ iframe {
 
 .tag_heading {
     padding: 20px;
-	margin-bottom: 0.25rem;
+	margin-bottom: 220px;
 	width: 100%;
 	object-fit: cover;
 	min-height: 500px;
@@ -712,7 +712,7 @@ iframe {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
-	background: #ff4500;
+	background: #b5b5b5;
 }
 
 .cat-links {
@@ -728,7 +728,7 @@ iframe {
 
 .cat-links > a:hover {
 	text-decoration: underline;
-	color: #FF4500;
+	color: #b5b5b5;
 }
 
 .tagslist {
@@ -746,7 +746,7 @@ iframe {
 }
 
 .tagslist a:hover {
-	color: #FF4500;
+	color: #b5b5b5;
 }
 
 
@@ -847,7 +847,7 @@ img.avatar {
 
 
 .pagination > ul > li {
-	background-color: #FF4500;
+	background-color: #b5b5b5;
 	padding: 15px;
 	font-weight: 600;
 }
@@ -870,7 +870,7 @@ footer {
 .page-footer {
 	padding-top: 15px;
 	bottom: 0;
-	background: #FF4500 !important;
+	background: #b5b5b5 !important;
 }
 
 .socialfooter .float-right {
@@ -1133,7 +1133,7 @@ EXTERNAL libraries look-n-feel
 
 *****************************************/
 .fa-user-secret, .fa-tag {
-  color: #ff4500;
+  color: #b5b5b5;
 }
 
 .fa-user-secret, .fa-tag {
@@ -1188,7 +1188,7 @@ EXTERNAL libraries look-n-feel
 
 .fa-clock, .fa-user, .fa-book {
 	margin-right: 10px;
-	color: #FF4500;
+	color: #b5b5b5;
 }
 
 .fa-user, .fa-book {

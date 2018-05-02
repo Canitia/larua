@@ -5,10 +5,14 @@
       <div class="col col-xs-12 col-md-12 col-lg-12 main-content">
       <article>
         <div class="post-head">
+            <div class="post-authors">
+              {{#foreach authors}}
+                  <a href="{{url}}" title="{{name}}"><img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="post-avatar" alt="{{name}}" title="{{name}}"></a> 
+              {{/foreach}}
+            </div>
               <h1 class="text-center post-title">{{title}}</h1>
               <div class="post-subitems text-center">
                 <i class="fas fa-clock"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
-                <i class="fa fa-user" aria-hidden="true"></i>{{authors}}
                 <i class="fas fa-book"></i>{{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
               </div>
         </div>
@@ -16,7 +20,6 @@
       <div class="post-content">
         <p>{{content}}</p>
       </div>
-
 
       <div class="cat-links">
           {{#if tags}}

@@ -606,6 +606,7 @@ article {
 .posthead-image {
 	min-height: 500px;
 	object-fit: cover;
+	width: 100%;
 }
 
 .post-content img, .post-content  p  img {

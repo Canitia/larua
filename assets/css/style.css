@@ -295,7 +295,7 @@ main {
 *****************************************/
 
 .cover-image {
-    height: 300px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
 }
@@ -604,10 +604,8 @@ article {
 }
 
 .posthead-image {
-	width: 100%;
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
+	min-height: 500px;
+	object-fit: cover;
 }
 
 .post-content img, .post-content  p  img {

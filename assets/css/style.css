@@ -487,10 +487,6 @@ ul.collection.collection-recent > a > li:hover {
 	color:#b5b5b5 !important;
 }
 
-.main-content {
-	margin-top: 65px;
-}
-
 .main-content > .text-left-title, 
 article > h1:not(:first-child), 
 article > h2, 

@@ -30,7 +30,7 @@
   <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
     <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/no-pic-available-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
     <p class="posttitle posttitle-author">{{name}}</p>
-      <div class="socialfooter-top text-center hide">
+      <div class="socialfooter-top text-center">
       {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fab fa-facebook"></i></a>{{/if}}
       {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter"></i></a>{{/if}}
       </div>
@@ -53,7 +53,7 @@
 </div>
 
 
-  <div class="text-main">
+  <div class="text-main d-none d-sm-block d-md-block">
     {{#if @blog.description}}
       {{@blog.description}}
     {{/if}}

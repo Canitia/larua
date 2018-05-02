@@ -4,9 +4,6 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-    {{#if @blog.logo}}
-    <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
-    {{/if}}
   <a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
@@ -21,6 +18,14 @@
     </ul>
   </div>
 </nav>
+
+    {{#if @blog.logo}}
+    
+    <div class="logo-main">
+    <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
+    </div>
+    {{/if}}
+
 
 {{#is "index, home"}}
 {{#if @blog.cover_image}}

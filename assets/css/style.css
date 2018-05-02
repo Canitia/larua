@@ -956,6 +956,10 @@ footer {
 		top: 0;
 	}
 
+	.post-image {
+		height: 500px;
+	}
+	
 	.carousel {
 		display: none;
 	}
@@ -1113,6 +1117,10 @@ footer {
 
 	.posthead-image {
 		top: 0;
+	}
+
+	.post-image {
+		height: 500px;
 	}
 
 	.card {

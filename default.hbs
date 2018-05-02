@@ -24,6 +24,7 @@
 {{navigation}}
 <main class="{{body_class}}">
 
+<div class="header-overlay">
 {{#is "author"}}
   {{#author}}
   <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
@@ -44,8 +45,6 @@
   </div>
   {{/tag}}
 {{/is}}
-
-
 
 {{#if @blog.logo}}
   {{#is "index, home"}}
@@ -88,7 +87,7 @@
         </div>
 
 {{/is}}
-
+</div>
 <div class="container-fluid">
 
        {{{body}}}

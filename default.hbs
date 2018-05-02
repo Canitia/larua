@@ -82,11 +82,11 @@
 
 </div>
 {{#is "post, page"}}
-
+  {{#if feature_image}}
         <div class="post-image">
-          <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+          <img class="posthead-image" src="{{img_url feature_image}}" title="{{title}}" alt="Header image of {{title}}" />
         </div>
-
+  {{/if}}
 {{/is}}
 
 <div class="container-fluid">

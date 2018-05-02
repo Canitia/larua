@@ -855,6 +855,8 @@ img.avatar {
 	border-top: 1px solid #ededed !important;
 	margin-top: 30px;
 	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 

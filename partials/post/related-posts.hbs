@@ -1,0 +1,16 @@
+   {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
+
+   {{#is "post, page"}}
+
+<div><!-- start of a sidebar item -->
+   <h2>{{t "Related"}}</h2>       
+          <ul class="collection">
+            {{#get "posts" limit="5" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related| }}
+                    {{#foreach related}}
+                         <a href="{{url}}"><li class="collection-item">{{title}}</li></a>
+                    {{/foreach}}
+            {{/get}}
+          </ul>
+  </div><!-- end of sidebar item -->
+  {{/is}}
+{{/if}}

@@ -685,6 +685,12 @@ iframe {
 
 *****************************************/
 
+.post-avatar {
+	height: auto;
+	width: 75px;
+	border-radius: 50px;
+}
+
 .tag_heading {
     padding: 20px;
 	width: 100%;

@@ -526,27 +526,13 @@
             margin-top: 3px;
         }
 
-
-        .twitter-tweet {
-            margin-left:auto;
-            margin-right: auto;
-        }
-
-        i.fa.fa-twitter.fa-2x {
-            margin-left: 0px;
-        }
-
         .fa-user-secret, .fa-twitter, .fa-facebook {
             margin-left:20px;
             margin-right:20px;
         }
 
-        .fa-star, .fa-circle {
-            margin-right: 15px;
-        }
-
-        .fa-star {
-            color: #e59400;
+        .fa-user, .fa-book {
+            margin-left: 25px;
         }
 
         .fa-circle, .fa-tag {
@@ -602,9 +588,11 @@
     {{#post}}
         <article class="post">
             {{#if feature_image}}
-            <figure class="post-image">
-                <amp-img src="{{img_url feature_image}}" width="100%" height="auto" layout="responsive"></amp-img>
-            </figure>
+
+            <div class="post-image">
+            <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+            </div>
+
             {{/if}}
             <header class="post-header">
                 <section class="post-meta">

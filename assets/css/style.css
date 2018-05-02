@@ -100,7 +100,7 @@ p > a:focus, p > a:hover, .btn > a:hover
 }
 
 
-.text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, .btn > a  {
+.postdate a, .tag_heading  {
       color: white !important;
 }
 
@@ -499,40 +499,6 @@ POST/ARTICLE HEADERS
 
 .post-image {
 	height: 650px;
-}
-
-.text-left-title-featured-sidebar-collapse {
-	color: black !important;
-}
-
-.text-left-title {
-	font-family:'Slabo 27px', serif !important;
-	font-size: 250% !important;
-	font-weight: 300;
-	padding-bottom:15px !important;
-	white-space: normal;
-	overflow:hidden;
-	text-overflow: ellipsis;
-	border-bottom: 2px solid #f8f8f8;	
-	text-align:center;
-}
-
-/* headers like 'latest' */
-.text-left-title-featured-sidebar {
-	font-family:'Slabo 27px', serif !important;
-	font-weight: 300;
-	color: #d33900;
-	text-transform: uppercase;
-	font-size: 175% !important;
-	padding:15px !important;
-	white-space: normal;
-	overflow:hidden;
-	text-overflow: ellipsis;
-	margin-bottom: 0px;
-}
-
-.text-left-title a {
-	text-decoration: none;
 }
 
 

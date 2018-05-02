@@ -905,6 +905,7 @@ i.fa.fa-twitter.fa-2x {
 
 	.cover-image, .posthead-image {
 		height: 375px;
+		min-height: 375px;
 	}
 
 	.carousel {

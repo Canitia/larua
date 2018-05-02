@@ -1152,6 +1152,10 @@ footer {
 	background-color: orangered;
 }
 
+.error-row {
+	padding-top: 290px;
+}
+
 /* **************************************
 
 EXTERNAL libraries look-n-feel

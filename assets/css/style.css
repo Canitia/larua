@@ -693,6 +693,8 @@ iframe {
 	margin-bottom: 0.25rem;
 	width: 100%;
 	object-fit: cover;
+	min-height: 500px;
+	height: 500px;
 }
 
 .tag_heading > .posttitle {

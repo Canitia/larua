@@ -913,6 +913,14 @@ i.fa.fa-twitter.fa-2x {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) and (min-width:200px) {
 
+	.text-main {
+		top: 275px;
+	}
+
+	.logo-main {
+		top: 275px;
+	}
+
 	.navbar {
 		background: black !important;
 		opacity: 0.8;

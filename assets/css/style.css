@@ -493,6 +493,7 @@ POST/ARTICLE HEADERS
 
 .post-image {
 	height: 650px;
+	background: black;
 }
 
 
@@ -586,6 +587,7 @@ article {
 	height: 100%;
 	top: 150px;
 	position: relative;
+	opacity: 0.8;
 }
 
 .post-content img, .post-content  p  img {

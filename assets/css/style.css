@@ -10,10 +10,11 @@ html body {
 	line-height: 1.66667;
 }
 
-.h3-join-the-conversation {
-	margin-left: 15px;
-	margin-top: 60px;
-	margin-bottom: 0;
+h1, h2, h3, h4, h5, h6 {
+    color: #2f313d;
+    font-weight: bold;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
 }
 
 p {

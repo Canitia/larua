@@ -721,13 +721,14 @@ iframe {
 .tagslist a {
 	text-decoration: none;
 	font-weight: 300;
-	color: black;
+	color: #b5b5b5;
 	padding: 10px;
 	text-transform: uppercase;
 }
 
 .tagslist a:hover {
 	color: #b5b5b5;
+	text-decoration: underline;
 }
 
 
@@ -747,7 +748,7 @@ iframe {
 }
 
 img.avatar {
-	border-radius: 15px;
+	border-radius: 150px;
 	width: 100px;
 	max-width: 100%;
 	height: auto;

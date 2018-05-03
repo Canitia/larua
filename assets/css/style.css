@@ -9,30 +9,25 @@ html body {
 }
 
 h1 {
-	font-weight: 300 !important;
-	font-family:'Slabo 27px', serif !important;
+	font-family: 'Karla', sans-serif !important;
 }
 
 h2 {
-	font-weight: 300 !important;
-	font-family:'Slabo 27px', serif !important;
+	font-family: 'Karla', sans-serif !important;
 }
 
 h3 {
-	font-weight: 300 !important;
-	font-family:'Slabo 27px', serif !important;
+	font-family: 'Karla', sans-serif !important;
 }
 
 .h3-join-the-conversation {
-	font-weight: 300 !important;
 	margin-left: 15px;
 	margin-top: 60px;
 	margin-bottom: 0;
 }
 
-h4 {
-	font-weight: 300 !important;	
-	font-family:'Slabo 27px', serif !important;
+h4 {	
+	font-family: 'Karla', sans-serif !important;
 }
 
 p > a {
@@ -546,22 +541,22 @@ p > img, .post-content img {
 
 .post-content h1 {
   	font-size: 210%;
-	font-family:'Slabo 27px', serif !important;
+	font-family: 'Karla', sans-serif !important;
 }
 
 .post-content h2 {
 	font-size: 180%;
-	font-family:'Slabo 27px', serif !important;
+	font-family: 'Karla', sans-serif !important;
 }
 
 .post-content h3 {
 	font-size: 165%;
-	font-family:'Slabo 27px', serif !important;
+	font-family: 'Karla', sans-serif !important;
 }
 
 .post-content h4 {
 	font-size: 140%;
-	font-family:'Slabo 27px', serif !important;
+	font-family: 'Karla', sans-serif !important;
 }
 
 .post-content ul li {

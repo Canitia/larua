@@ -737,14 +737,23 @@ iframe {
 	text-decoration: underline;
 }
 
+.author-profile {
+	border: 1px solid #ebebeb;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
 img.avatar {
 	border-radius: 15px;
-	width: auto;
+	width: 100px;
 	max-width: 100%;
 	height: auto;
-	float:left;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px;
+	border: 1px solid #ebebeb;
 	z-index:200;
-	margin-right:10px;
 }
 
 .homepage-avatar {
@@ -787,7 +796,7 @@ img.avatar {
 }
 
 .author-bio-text {
-	padding-left: 35px;
+	padding: 20px;
 }
 
 /* **************************************
@@ -1167,7 +1176,7 @@ footer {
 		margin-top:-15px;
 		margin-left: auto;
 		margin-right: auto;
-		max-width:1200px;
+		max-width:1080px;
 	}
 
 	.homepage-avatar {

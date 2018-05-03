@@ -1235,6 +1235,12 @@ EXTERNAL libraries look-n-feel
 	padding: 10px;
 }
 
+.fa-twitter-author, .fa-facebook-author {
+    color: black !important;
+    background: white !important;
+    border-radius: 50px;
+}
+
 .fa-tag {
 	margin-right: 8px;
 }

@@ -572,6 +572,10 @@ p > img, .post-content img {
 	text-align: justify;
 }
 
+.post-content a {
+    color: black;
+}
+
 article {
     margin-left: auto;
     margin-right: auto;

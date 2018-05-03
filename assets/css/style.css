@@ -670,8 +670,10 @@ iframe {
 .tag_heading > .posttitle {
     font-size: 250%;
     font-weight: 300;
-	text-shadow: 2px 1px #000000;
+	text-shadow: none;
 	margin-top: 200px;
+	color: black !important;
+	background: white;
 }
 
 .tag_heading > .posttitle.posttitle-author {

@@ -674,6 +674,10 @@ iframe {
 	margin-top: 200px;
 	color: black !important;
 	background: white;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
 }
 
 .tag_heading > .posttitle.posttitle-author {
@@ -1236,8 +1240,8 @@ EXTERNAL libraries look-n-feel
 }
 
 .fa-twitter-author, .fa-facebook-author {
-    color: black !important;
-    background: white !important;
+    color: black;
+    background: white;
     border-radius: 50px;
 }
 

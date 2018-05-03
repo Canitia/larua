@@ -123,7 +123,6 @@ p > a:focus, p > a:hover
 *****************************************/
 
 .container-fluid {
-	margin-top:-15px;
 	margin-left: auto;
 	margin-right: auto;
 	max-width:960px;

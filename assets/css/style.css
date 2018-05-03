@@ -856,6 +856,9 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) and (min-width:200px) {
+	.headerurl, .nav-link {
+		text-shadow: 0;
+	}
 
 	.avatar-page {
 		width: 80px;

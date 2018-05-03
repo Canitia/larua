@@ -136,7 +136,10 @@ p > a:focus, p > a:hover
 *****************************************/
 
 .container-fluid {
-    min-width: 300px;
+	margin-top:-15px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:960px;
 }
 
 .main-content {
@@ -1094,13 +1097,6 @@ footer {
 
 /* mobile devices */
 @media (max-width:991px) and (min-width:576px) {
-
-	.container-fluid {
-		margin-top:-15px;
-		margin-left: auto;
-		margin-right: auto;
-		max-width:960px;
-	}
 
 	.headerurl, .nav-link {
 		text-shadow: none;

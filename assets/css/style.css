@@ -1081,10 +1081,18 @@ footer {
 		padding: 10px;
 	}
 
+	.page-row {
+		margin-top: 0;
+	}
+
 }
 
 /* mobile devices */
 @media (max-width:991px) and (min-width:576px) {
+
+	.page-row {
+		margin-top: 0;
+	}
 
 	.headerurl, .nav-link {
 		text-shadow: none;

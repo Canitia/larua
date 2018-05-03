@@ -652,6 +652,10 @@ iframe {
 	border-radius: 50px;
 }
 
+.tag_head_wrap {
+	background: black;
+}
+
 .tag_heading {
     padding: 20px;
 	width: 100%;

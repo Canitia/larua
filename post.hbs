@@ -24,10 +24,8 @@
       <div class="cat-links">
           {{#if tags}}
             <div class="tagslist">
-              <i class="fa fa-tags" aria-hidden="true"></i>
-
               {{#foreach tags}}
-                  <a href="{{@blog.url}}/tag/{{name}}">{{name}}</a>
+                  <a href="{{@blog.url}}/tag/{{name}}">#{{name}}</a>
                 {{/foreach}}
           </div>
           {{/if}}<!-- end tags if -->

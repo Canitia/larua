@@ -37,5 +37,6 @@
     "youremail@example.com": "youremail@example.com",
     "1 post": "1 post",
     "% posts": "% posts",
-    "Hello": "Hello"
+    "Hello": "Hello",
+    "No related posts found": "No related posts found."
 }

@@ -799,7 +799,7 @@ img.avatar {
 
 .pagination > .active {
 	padding: 20px;
-	line-height: 2px; 
+	line-height: 8px; 
 	font-weight: 600;
 	background: #d3d3d3;
 	text-align: center;
@@ -816,6 +816,7 @@ img.avatar {
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-bottom: 0px;
+	background: #f8f8f8;
 }
 
 .pagination li a {

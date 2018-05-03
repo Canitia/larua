@@ -805,7 +805,7 @@ img.avatar {
 	text-align: center;
 }
 
-.pagination > li {
+.pagination > a > li {
 	font-weight: 600;
 	border-radius: 50px;
 	width: 50px;
@@ -819,7 +819,7 @@ img.avatar {
 	background: #f8f8f8;
 }
 
-.pagination li a {
+.pagination a li  {
 	line-height: inherit !important;
 	color: black !important;
 }

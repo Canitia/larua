@@ -654,6 +654,7 @@ iframe {
 
 .tag_head_wrap {
 	background: black;
+	height: 650px;
 }
 
 .tag_heading {
@@ -740,6 +741,10 @@ img.avatar {
 .avatar-page {
 	width:150px;
 	border-radius: 150px;
+}
+
+.avatar-page-author {
+    margin-top: 150px;
 }
 
 .author-name {

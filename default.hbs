@@ -30,7 +30,7 @@
   <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
     <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/no-pic-available-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
     <p class="posttitle posttitle-author">{{name}}</p>
-      <div class="socialfooter-top text-center">
+      <div class="socialfooter-top text-center socialfooter-top-author">
       {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fab fa-facebook"></i></a>{{/if}}
       {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter"></i></a>{{/if}}
       </div>
@@ -40,7 +40,7 @@
 
 {{#is "tag"}}
   {{#tag}}
-  <div class="tag_heading text-center d-none d-sm-none d-md-none d-lg-block" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px;">
+  <div class="tag_heading text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px;">
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}
@@ -80,7 +80,7 @@
   
 {{/is}}
 
-</div>
+
 {{#is "post, page"}}
   {{#post}}
         <div class="post-image">
@@ -88,6 +88,8 @@
         </div>
   {{/post}}
 {{/is}}
+</div>
+
 <div class="container-fluid">
 
        {{{body}}}

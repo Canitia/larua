@@ -1053,6 +1053,10 @@ footer {
 /* mobile devices */
 @media (max-width:991px) and (min-width:576px) {
 
+	.headerurl, .nav-link {
+		text-shadow: 0;
+	}
+
 	.navbar {
 		background: #f8f8f8 !important;
 		margin-bottom: 85px;

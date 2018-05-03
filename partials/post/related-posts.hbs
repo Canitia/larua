@@ -8,6 +8,8 @@
             {{#get "posts" limit="5" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
                     {{#foreach related}}
                          <a href="{{url}}"><li class="collection-item">{{title}}</li></a>
+                    {{else}}
+                        <p>{{t "No related posts found"}}</p>
                     {{/foreach}}
             {{/get}}
           </ul>

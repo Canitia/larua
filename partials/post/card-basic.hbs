@@ -3,7 +3,7 @@
 {{#foreach posts}}
 
 
-          <div class="card col col-sm-12 col-md-12 {{#if featured}}col-lg-12{{else}}col-lg-6{{/if}}">
+          <div class="card col col-sm-12 col-md-12 col-lg-6">
                 <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>         
             <div class="card-block">
               {{#if featured}}

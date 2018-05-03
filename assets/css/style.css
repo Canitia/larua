@@ -742,7 +742,8 @@ iframe {
 }
 
 .author-profile {
-	border: 1px solid #ebebeb;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }

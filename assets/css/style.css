@@ -896,6 +896,11 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) and (min-width:200px) {
+
+	.card-text {
+		height: auto;
+	}
+
 	.headerurl, .nav-link {
 		text-shadow: none;
 	}
@@ -1103,6 +1108,10 @@ footer {
 
 /* mobile devices */
 @media (max-width:991px) and (min-width:576px) {
+
+	.card-text {
+		height: auto;
+	}
 
 	.page-row {
 		margin-top: 0;

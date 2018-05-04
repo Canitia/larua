@@ -24,6 +24,16 @@
 {{navigation}}
 <main class="{{body_class}}" style="background-image:url('{{asset "bgpattern.png"}}')">
 
+<div class="d-block d-sm-block d-md-block d-lg-none">
+  {{#is "post, page"}}
+  {{#post}}
+        <div class="post-image">
+          <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+        </div>
+  {{/post}}
+{{/is}}
+</div>
+
 <div class="d-none d-sm-none d-md-none d-lg-block tag_head_wrap">
 {{#is "author"}}
   {{#author}}

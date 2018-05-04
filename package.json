@@ -1,6 +1,6 @@
 {
   "name": "canitia-jr",
-  "description": "A simplistic yet sort of feature-rich theme based on Canitia. ",
+  "description": "A card-based feature-rich theme for Ghost bringing responsive design to the masses. ",
   "demo": "https:/blog.canitia.nl",
   "version": "2.0.0-beta5",
   "engines": {

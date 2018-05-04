@@ -1178,6 +1178,9 @@ footer {
 
 	.text-main {
 		top: 65px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 
 	.top-socials {

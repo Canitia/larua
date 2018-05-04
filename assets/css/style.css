@@ -1091,6 +1091,14 @@ footer {
 		margin-top: 0;
 	}
 
+	.post-content img, .post-content  p  img {
+		padding: 35px;
+	}
+
+	iframe {
+		padding: 35px;
+	}
+
 }
 
 /* mobile devices */

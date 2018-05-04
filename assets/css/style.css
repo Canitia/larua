@@ -645,8 +645,10 @@ iframe {
 
 .post-avatar {
 	height: auto;
-	width: 50px;
+	width: 75px;
 	border-radius: 50px;
+	padding: 10px;
+	border: 2px solid #ebebeb;
 }
 
 .tag_head_wrap {

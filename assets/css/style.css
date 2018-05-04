@@ -1145,20 +1145,6 @@ footer {
 /* mobile devices */
 @media (max-width:991px) and (min-width:576px) {
 
-	.card {
-		flex: 1 1 300px !important;
-	}
-
-	.card:nth-child(4n+4) {
-		flex: 1 1 100% !important;
-		-ms-flex-direction: row !important;
-		flex-direction: row !important;
-		max-width: 100% !important;
-		border: 1px solid #ebebeb !important;
-		background: white !important;
-		margin: 10px;
-	}
-
 	.tag_head_wrap {
 		height: 300px;
 	}
@@ -1172,13 +1158,13 @@ footer {
 	}
 
 	.cover-image {
-		top: -125px;
+		top: -155px;
 		position: relative;
 		height: 100%;
 	}
 
 	.top-socials {
-		top: -200px;
+		top: -225px;
 	}
 
 	.card {
@@ -1263,12 +1249,16 @@ footer {
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 180% !important;
 	}
+	
+	.main-content {
+		margin-top: 30px;
+	}
 
 }
 
 /* tablet devices */
 @media only screen and (min-width: 992px) {
-	
+
 	.card {
 		flex: 1 1 300px !important;
 	}

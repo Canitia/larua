@@ -1169,7 +1169,7 @@ footer {
 	.cover-image {
 		top: -155px;
 		position: relative;
-		height: 100%;
+		height: 320px;
 	}
 
 	.text-main {
@@ -1266,6 +1266,10 @@ footer {
 
 /* tablet devices */
 @media only screen and (min-width: 992px) {
+
+	.tag_head_wrap {
+		height: 630px;
+	}
 
 	.card {
 		flex: 1 1 300px !important;

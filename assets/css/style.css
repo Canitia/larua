@@ -396,6 +396,9 @@ POST/ARTICLE CARD UI - main
 	-ms-flex-direction: row !important;
 	flex-direction: row !important;
 	max-width: 100% !important;
+	border: 1px solid #ebebeb !important;
+	background: white !important;
+	margin: 10px;
 }
 
 .card:hover {

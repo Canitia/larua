@@ -901,7 +901,7 @@ footer {
 *****************************************/
 
 /* For the people that have phones reporting very low resolutions */
-@media (max-width:575px) and (min-width:200px) {
+@media (max-width:575px) {
 
 	.tag_head_wrap {
 		height: 300px;
@@ -1148,7 +1148,7 @@ footer {
 /* mobile devices */
 
 
-@media (max-width:991px) and (min-width:576px) {
+@media (max-width:767px) and (min-width:576px) {
 
 	.container-fluid {
 		max-width: 760px;
@@ -1263,6 +1263,124 @@ footer {
 	}
 
 }
+
+
+@media (max-width:991px) and (min-width:768px) {
+
+	.container-fluid {
+		max-width: 760px;
+	}
+
+	.tag_head_wrap {
+		height: 300px;
+	}
+
+	.tag_heading {
+		margin-top: 0;
+	}
+
+	.logo-main {
+		top: 50px;
+	}
+
+	.cover-image {
+		top: -155px;
+		position: relative;
+		height: 320px;
+	}
+
+	.text-main {
+		top: 65px;
+	}
+
+	.top-socials {
+		top: -225px;
+	}
+
+	.card {
+		border: 0 !important;
+	}
+
+	.card-text {
+		height: auto;
+	}
+
+	.page-row {
+		margin-top: 0;
+	}
+
+	.headerurl, .nav-link {
+		text-shadow: none;
+	}
+
+	.navbar {
+		background: #2b2b2b !important;
+		margin-bottom: 85px;
+	}
+
+	.navbar-nav {
+		flex-direction: column !important;
+	}
+
+	.navbar-brand {
+		color: black !important;
+	}
+
+	.navbar-brand:hover {
+		color: #545454 !important;
+	}
+
+	.nav-link {
+		color: black !important;
+	}
+
+	.nav-link:hover {
+		color: #545454 !important;
+	}
+
+	.homepage-avatar {
+		width: 35px;
+	}
+
+	.posthead-image {
+		top: 0;
+		min-height: 300px;
+		height: auto;
+		width: 100%;
+	}
+
+	.post-image {
+		height: auto;
+		width: 100%;
+	}
+
+    h1 {
+    	font-size: 120%;
+    }
+
+    .content-images, .content-images-individual {
+				object-fit: cover;
+    }
+
+	.container-fluid {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.row-post {
+		margin-top: -15px;
+	}
+
+	.tag_heading > .posttitle.posttitle-author {
+		font-size: 180% !important;
+	}
+	
+	.main-content {
+		margin-top: 30px;
+	}
+
+}
+
 
 /* tablet devices */
 @media only screen and (min-width: 992px) {

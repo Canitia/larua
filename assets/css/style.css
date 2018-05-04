@@ -388,18 +388,9 @@ POST/ARTICLE CARD UI - main
 	height: 100% !important;
 	background-color: transparent !important;
 	transition: all .2s ease-in-out;
-	flex: 1 1 300px !important;
 }
 
-.card:nth-child(4n+4) {
-	flex: 1 1 100% !important;
-	-ms-flex-direction: row !important;
-	flex-direction: row !important;
-	max-width: 100% !important;
-	border: 1px solid #ebebeb !important;
-	background: white !important;
-	margin: 10px;
-}
+
 
 .card:hover {
 	transform: scale(1.02);
@@ -938,6 +929,10 @@ footer {
 		border: 0 !important;
 	}
 
+	.card-block {
+		max-width: 100% !important;
+	}
+
 	.card-text {
 		height: auto;
 	}
@@ -1150,6 +1145,20 @@ footer {
 /* mobile devices */
 @media (max-width:991px) and (min-width:576px) {
 
+	.card {
+		flex: 1 1 300px !important;
+	}
+
+	.card:nth-child(4n+4) {
+		flex: 1 1 100% !important;
+		-ms-flex-direction: row !important;
+		flex-direction: row !important;
+		max-width: 100% !important;
+		border: 1px solid #ebebeb !important;
+		background: white !important;
+		margin: 10px;
+	}
+
 	.tag_head_wrap {
 		height: 300px;
 	}
@@ -1259,6 +1268,20 @@ footer {
 
 /* tablet devices */
 @media only screen and (min-width: 992px) {
+	
+	.card {
+		flex: 1 1 300px !important;
+	}
+
+	.card:nth-child(4n+4) {
+		flex: 1 1 100% !important;
+		-ms-flex-direction: row !important;
+		flex-direction: row !important;
+		max-width: 100% !important;
+		border: 1px solid #ebebeb !important;
+		background: white !important;
+		margin: 10px;
+	}
 
 	.homepage-avatar {
 		width: 35px;

@@ -681,6 +681,7 @@ iframe {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
+	text-transform: capitalize;
 }
 
 .tag_heading > .posttitle.posttitle-author {
@@ -1115,6 +1116,10 @@ footer {
 
 	.tag_head_wrap {
 		height: 300px;
+	}
+
+	.tag_heading {
+		margin-top: 0;
 	}
 
 	.logo-main {

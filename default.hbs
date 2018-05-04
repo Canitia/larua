@@ -37,7 +37,7 @@
 <div class="d-none d-sm-none d-md-none d-lg-block tag_head_wrap">
 {{#is "author"}}
   {{#author}}
-  <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
+  <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
     <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/no-pic-available-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
     <p class="posttitle posttitle-author">{{name}}</p>
       <div class="socialfooter-top text-center socialfooter-top-author">

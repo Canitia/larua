@@ -224,8 +224,12 @@ nav {
 }
 
 .nav-link {
-	color: white !important;
+	color: #ebebeb !important;
 	text-shadow: 1px 1px black;
+}
+
+.menu-item.active > .nav-link {
+    color: #979797 !important;
 }
 
 .headerurl:hover,  .nav-link:hover {

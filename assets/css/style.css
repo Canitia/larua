@@ -1163,6 +1163,10 @@ footer {
 		height: 100%;
 	}
 
+	.text-main {
+		top: 65px;
+	}
+
 	.top-socials {
 		top: -225px;
 	}

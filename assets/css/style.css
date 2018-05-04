@@ -1284,7 +1284,7 @@ footer {
 		-ms-flex-direction: row !important;
 		flex-direction: row !important;
 		max-width: 100% !important;
-		margin: 10px;
+		margin: 0;
 	}
 
 	.homepage-avatar {

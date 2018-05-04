@@ -8,8 +8,10 @@
       <div class="logo-mobile d-block d-sm-block d-md-block d-lg-none">
       <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo-nav left" /></a>
       </div>
-  {{/if}}
+
+  {{else}}
   <a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>
+  {{/if}}
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
 

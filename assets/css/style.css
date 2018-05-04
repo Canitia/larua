@@ -1166,6 +1166,10 @@ footer {
 		top: 50px;
 	}
 
+	.img.logo {
+		height: 75px;
+	}
+
 	.cover-image {
 		top: -155px;
 		position: relative;

@@ -1149,7 +1149,7 @@ footer {
 		flex: 1 1 350px !important;
 	}
 
-	.card:nth-child(4n+4) {
+	.card:nth-child(3n+3) {
 		flex: 1 1 100% !important;
 		-ms-flex-direction: row !important;
 		flex-direction: row !important;

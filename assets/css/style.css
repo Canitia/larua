@@ -671,7 +671,7 @@ iframe {
 }
 
 .tag_heading > .posttitle {
-    font-size: 250%;
+    font-size: 200%;
     font-weight: 300;
 	text-shadow: none;
 	margin-top: 200px;
@@ -897,6 +897,34 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) and (min-width:200px) {
+
+	.tag_head_wrap {
+		height: 300px;
+	}
+
+	.tag_heading {
+		margin-top: 0;
+	}
+
+	.logo-main {
+		top: 50px;
+	}
+
+	.cover-image {
+		top: -125px;
+		position: relative;
+		height: 100%;
+	}
+
+	.top-socials {
+		top: -200px;
+	}
+
+
+
+
+
+
 
 	.card {
 		border: 0 !important;

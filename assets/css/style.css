@@ -1143,20 +1143,9 @@ footer {
 }
 
 /* mobile devices */
+
+
 @media (max-width:991px) and (min-width:576px) {
-
-	.card {
-		flex: 1 1 350px !important;
-	}
-
-	.card:nth-child(3n+3) {
-		flex: 1 1 100% !important;
-		-ms-flex-direction: row !important;
-		flex-direction: row !important;
-		max-width: 100% !important;
-		margin: 0;
-	}
-
 
 	.tag_head_wrap {
 		height: 300px;

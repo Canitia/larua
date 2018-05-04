@@ -262,9 +262,7 @@ img.logo {
 }
 
 img.logo:hover {
-	background: white;
-	padding: 5px;
-	border-radius: 150px;
+
 }
 
 .menu-item {

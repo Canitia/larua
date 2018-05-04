@@ -21,7 +21,7 @@
                         <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
                   </small>
                 </div>
-              <p class="card-text">{{excerpt words="15"}}...</p>
+              <p class="card-text">{{#if excerpt}}{{excerpt words="15"}}...{{else}}{{content words="15"}}...{{/if}}</p>
             </div>
           </div>  
 

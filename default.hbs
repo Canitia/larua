@@ -26,7 +26,7 @@
 
 
 
-<div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap">
+<div class="d-none d-sm-none d-md-block d-lg-block tag_head_wrap">
 {{#is "author"}}
   {{#author}}
   <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
@@ -55,7 +55,7 @@
 </div>
 
 
-  <div class="text-main d-none d-sm-none d-md-block d-lg-block">
+  <div class="text-main d-none d-sm-block d-md-block d-lg-block">
     {{#if @blog.description}}
       {{@blog.description}}
     {{/if}}

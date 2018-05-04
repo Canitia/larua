@@ -419,7 +419,6 @@ POST/ARTICLE CARD UI - main
 
 .card-block {
 	border: 1px solid #d3d3d3;
-	border-radius: 0 0 15px 15px;
 	background: white !important;
 }
 
@@ -1144,6 +1143,19 @@ footer {
 
 /* mobile devices */
 @media (max-width:991px) and (min-width:576px) {
+
+	.card {
+		flex: 1 1 300px !important;
+	}
+
+	.card:nth-child(4n+4) {
+		flex: 1 1 100% !important;
+		-ms-flex-direction: row !important;
+		flex-direction: row !important;
+		max-width: 100% !important;
+		margin: 0;
+	}
+
 
 	.tag_head_wrap {
 		height: 300px;

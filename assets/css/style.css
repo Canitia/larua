@@ -125,7 +125,7 @@ p > a:focus, p > a:hover
 .container-fluid {
 	margin-left: auto;
 	margin-right: auto;
-	max-width:1000px;
+	max-width:1200px;
 }
 
 .main-content {
@@ -439,7 +439,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .page-row {
-	max-width: 1000px;
+	max-width: 1200px;
 	margin-left: auto !important;
 	margin-right: auto !important;
 	margin-top: 15px;

@@ -424,6 +424,7 @@ POST/ARTICLE CARD UI - main
 .card-text {
 	text-overflow: ellipsis;
 	overflow: hidden;
+	height: 95px;
 }
 
 .page-row {

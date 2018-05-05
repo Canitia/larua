@@ -1564,6 +1564,15 @@ footer {
 		height: 75vh !important;
 		max-height: 75vh !important;
 	}
+
+	.top-socials {
+		bottom: 0;
+		top: 20vh;
+	}
+
+	.img.logo {
+		top: 15vh;
+	}
 }
 
 /* **************************************

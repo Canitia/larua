@@ -989,9 +989,6 @@ footer {
 		color: #545454 !important;
 	}
 
-	.nav-link {
-		color: black !important;
-	}
 
 	.nav-link:hover {
 		color: #545454 !important;
@@ -1229,10 +1226,6 @@ footer {
 
 	.navbar-brand:hover {
 		color: #545454 !important;
-	}
-
-	.nav-link {
-		color: black !important;
 	}
 
 	.nav-link:hover {

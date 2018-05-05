@@ -495,7 +495,7 @@ POST/ARTICLE HEADERS
 ##########################################*/
 
 .post-image {
-	height: 650px;
+	height: auto;
 	background: black;
 }
 
@@ -691,7 +691,11 @@ iframe {
 	height: 100% !important;
 	position: relative;
 	opacity: 0.8;
+	height: 625px !important;
 	max-height: 625px !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .tag_heading > .posttitle {

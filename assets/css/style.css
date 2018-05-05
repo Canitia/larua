@@ -1001,6 +1001,9 @@ footer {
 		color: #545454 !important;
 	}
 
+	.nav-link {
+		text-align: center;
+	}
 
 	.nav-link:hover {
 		color: #545454 !important;
@@ -1245,6 +1248,10 @@ footer {
 
 	.navbar-brand:hover {
 		color: #545454 !important;
+	}
+
+	.nav-link {
+		text-align: center;
 	}
 
 	.nav-link:hover {

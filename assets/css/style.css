@@ -1320,7 +1320,7 @@ footer {
 	}
 
 	.top-socials {
-		top: 100px;
+		top: 200px;
 	}
 
 	.card {
@@ -1391,6 +1391,10 @@ footer {
 
 	.row-post {
 		margin-top: -15px;
+	}
+
+	.tag_heading {
+		top: -135px;
 	}
 
 	.tag_heading > .posttitle.posttitle-author {

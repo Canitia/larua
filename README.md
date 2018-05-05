@@ -1,6 +1,6 @@
-# Canitia Jr.
+# Larua
 
-A [Ghost](http://github.com/tryghost/ghost/) theme based on the Canitia theme (for Wordpress). It has the same look-n-feel but some feature differences due to their platform.
+A [Ghost](http://github.com/tryghost/ghost/) theme that derived from Canitia Jr. It featured a new look and some added features. 
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
@@ -14,16 +14,16 @@ A [Ghost](http://github.com/tryghost/ghost/) theme based on the Canitia theme (f
 - Translation support!
 - Custom AMP, tag, author and error page designs.
 
-![Canitia Jr. Theme](https://github.com/Canitia/canitia-jr/blob/master/assets/screenshot-desktop.png)
+![Larua](https://github.com/Canitia/larua/blob/master/assets/screenshot-desktop.png)
 
-# Canitia Jr's base
-Canitia Jr. uses the following libraries;
+# Larua's base
+Larua uses the following libraries;
 - Font Awesome 5
 - Bootstrap v4.1
 - JQuery (3.1.x)
 
 # Theme requirements
-- Canitia Jr **requires** Ghost version **1.20.0** to install and work as intended. 
+- Larua **requires** Ghost version **1.20.0** to install and work as intended. 
 - Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
 # Release

@@ -230,13 +230,14 @@ nav {
 	opacity: 0.8;
 }
 
-.menu-item.active > .nav-link {
+.menu-item.active > .nav-link, .nav-link:hover {
 	color: black !important;
 	background: #ebebeb;
 	border-radius: 15px;
+	text-decoration: none;
 }
 
-.headerurl:hover,  .nav-link:hover {
+.headerurl:hover {
   text-decoration: none;
   color: #545454 !important;
 }

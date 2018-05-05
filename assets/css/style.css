@@ -673,6 +673,7 @@ iframe {
 	height: 100% !important;
 	position: relative;
 	opacity: 0.8;
+	max-height: 625px !important;
 }
 
 .tag_heading > .posttitle {

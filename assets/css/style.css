@@ -1174,9 +1174,8 @@ footer {
 	}
 
 	.cover-image {
-		top: -130px;
 		position: relative;
-		height: 300px;
+		height: 200px;
 	}
 
 	.text-main {

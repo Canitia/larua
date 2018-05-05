@@ -1397,6 +1397,12 @@ footer {
 		top: -135px;
 	}
 
+	.tag_heading_home {
+		top: 0px;
+		position: relative;
+		height: 100%;
+	}
+
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 180% !important;
 	}

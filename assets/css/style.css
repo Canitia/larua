@@ -664,7 +664,9 @@ iframe {
 
 .tag_head_wrap {
 	background: black;
-	height: 650px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .tag_heading {

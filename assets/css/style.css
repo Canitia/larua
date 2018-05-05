@@ -1363,12 +1363,12 @@ footer {
 	}
 
 	.tag_head_wrap {
-		height: 54vh;
+		height: 300px;
 	}
 
 	.tag_heading {
 		margin-top: 0;
-		height: 50vh;
+		height: 300px !important;
 	}
 
 	.tag_heading_home {

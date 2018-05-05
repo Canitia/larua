@@ -235,6 +235,7 @@ nav {
 	background: #ebebeb;
 	border-radius: 15px;
 	text-decoration: none;
+	text-shadow: none;
 }
 
 .headerurl:hover {

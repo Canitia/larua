@@ -1190,12 +1190,6 @@ footer {
 		height: 100%;
 	}
 
-	.logo-nav {
-		position: fixed;
-		left: 0;
-		top: 35px;
-	}
-
 	.logo-fixed {
 		opacity: 0.7;
 	}
@@ -1363,12 +1357,6 @@ footer {
 
 	.logo-fixed {
 		opacity: 0.7;
-	}
-
-	.logo-nav {
-		position: fixed;
-		left: 0;
-		top: 20px;
 	}
 
 	.logo-main {

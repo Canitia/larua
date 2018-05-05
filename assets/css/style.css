@@ -1312,7 +1312,7 @@ footer {
     }
 
     .content-images, .content-images-individual {
-				object-fit: cover;
+		object-fit: cover;
     }
 
 	.container-fluid {
@@ -1360,6 +1360,7 @@ footer {
 
 	.container-fluid {
 		max-width: 760px;
+		margin-top: 32vh;
 	}
 
 	.tag_head_wrap {

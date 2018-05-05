@@ -587,12 +587,14 @@ article {
 
 .posthead-image {
 	max-height: 500px;
-	object-fit: cover;
 	width: 100%;
 	height: 100%;
 	top: 150px;
 	position: relative;
 	opacity: 0.8;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .post-content img, .post-content  p  img {

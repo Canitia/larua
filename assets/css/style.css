@@ -1319,7 +1319,7 @@ footer {
 	}
 
 	.top-socials {
-		top: -225px;
+		top: 100px;
 	}
 
 	.card {
@@ -1447,6 +1447,10 @@ footer {
 		color: white !important;
 	}
 	
+
+	.top-socials {
+		margin-top: 400px;
+	}
 }
 
 /* **************************************

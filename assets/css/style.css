@@ -1281,8 +1281,12 @@ footer {
 		width: 110px;
 	}
 
-	.tag_heading {
+	.tag_heading_home {
 		top: -110px;
+	}
+
+	.tag_heading {
+		top: 0;
 	}
 
 }

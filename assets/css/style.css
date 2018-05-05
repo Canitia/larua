@@ -1326,8 +1326,7 @@ footer {
 	}
 
 	.navbar-nav {
-		margin-bottom: 70px !important;
-		flex-direction: column !important;
+		
 	}
 
 	.navbar-nav {
@@ -1335,7 +1334,7 @@ footer {
 	}
 
 	.navbar-brand {
-		color: black !important;
+		color: white !important;
 	}
 
 	.navbar-brand:hover {
@@ -1343,7 +1342,7 @@ footer {
 	}
 
 	.nav-link {
-		color: black !important;
+		color: white !important;
 	}
 
 	.nav-link:hover {

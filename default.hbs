@@ -29,7 +29,7 @@
 {{#is "index, home"}}
 {{#if @blog.cover_image}}
     <div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap" >
-     <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{@blog.cover}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
+     <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{@blog.cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
 
       {{#if @blog.logo}}
         {{#is "index, home"}}

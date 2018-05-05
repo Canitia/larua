@@ -903,6 +903,10 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
 
+	.avatar-page-author {
+		margin-top: 0;
+	}
+
 	.tag_head_wrap {
 		height: 300px;
 	}

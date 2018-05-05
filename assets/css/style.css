@@ -1283,6 +1283,8 @@ footer {
 
 	.tag_heading_home {
 		top: -110px;
+		height: 100%;
+		position: relative;
 	}
 
 	.tag_heading {

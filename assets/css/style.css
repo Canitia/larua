@@ -1535,6 +1535,10 @@ footer {
 		color: white !important;
 	}
 
+	.logo-main {
+		top: 35vh;
+	}
+
 	.logo-fixed {
 		opacity: 0.7;
 	}
@@ -1570,9 +1574,6 @@ footer {
 		top: 20vh;
 	}
 
-	.img.logo {
-		top: 15vh;
-	}
 }
 
 /* **************************************

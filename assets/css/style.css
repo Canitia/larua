@@ -1320,6 +1320,20 @@ footer {
 		margin-top: 0;
 	}
 
+	.tag_heading_home {
+		top: 0px;
+		position: relative;
+		height: 100%;
+	}
+
+	.tag_heading > .posttitle.posttitle-author {
+		font-size: 180% !important;
+	}
+
+	.tag_heading > .posttitle {
+		margin-top: 200px;
+	}
+	
 	.logo-main {
 		top: 50px;
 	}
@@ -1408,20 +1422,6 @@ footer {
 		margin-top: -15px;
 	}
 
-	.tag_heading_home {
-		top: 0px;
-		position: relative;
-		height: 100%;
-	}
-
-	.tag_heading > .posttitle.posttitle-author {
-		font-size: 180% !important;
-	}
-
-	.tag_heading > .posttitle {
-		margin-top: 200px;
-	}
-	
 	.main-content {
 		margin-top: 30px;
 	}

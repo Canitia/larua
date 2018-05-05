@@ -1550,6 +1550,11 @@ footer {
 		background-size: cover;
 		background-position: 50% -10%;
 	}
+
+	.tag_heading {
+		height: 75vh !important;
+		max-height: 75vh !important;
+	}
 }
 
 /* **************************************

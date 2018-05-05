@@ -259,7 +259,8 @@ img.cover {
 }
 
 img.logo {
-	height: 80px;
+	height: auto;
+	max-height: 85px;
 	position: relative;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -1174,6 +1175,7 @@ footer {
 
 	.img.logo {
 		height: 75px;
+		max-height: 75px;
 		max-width: 100%;
 	}
 
@@ -1190,7 +1192,7 @@ footer {
 	}
 
 	.top-socials {
-		top: 200px;
+		top: 85px;
 	}
 
 	.card {
@@ -1281,14 +1283,8 @@ footer {
 		width: 110px;
 	}
 
-	.tag_heading_home {
-		top: -110px;
-		height: 100%;
-		position: relative;
-	}
-
 	.tag_heading {
-		top: 0;
+		top:
 	}
 
 }
@@ -1419,6 +1415,7 @@ footer {
 	img.logo {
 		margin-top: 30px;
 		height: 75px;
+		max-height: 75px;
 	}
 
 	.avatar-page-author {

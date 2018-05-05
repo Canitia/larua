@@ -29,22 +29,7 @@
 {{#is "index, home"}}
 {{#if @blog.cover_image}}
     <div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap" >
-      {{#if @blog.logo}}
-        {{#is "index, home"}}
-            <div class="logo-main">
-            <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{meta_title}}" title="{{meta_title}}" class="logo left" /></a>
-            </div>
-
-
-            <div class="text-main d-none d-sm-block d-md-block d-lg-block">
-          {{#if @blog.description}}
-            {{@blog.description}}
-          {{/if}}
-          </div>
-        {{/is}}
-      {{/if}}
-
-     <div class="tag_heading_home text-center" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
+     <div class="tag_heading text-center" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
 
         <div class="top-socials">
               <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>

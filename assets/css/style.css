@@ -698,6 +698,12 @@ iframe {
 	background-position: 50% 50%;
 }
 
+.tag_heading_post {
+	background-size: unset;
+	background-repeat: no-repeat;
+	background-position: 60% 140%;
+}
+
 .tag_heading > .posttitle {
     font-size: 200%;
     font-weight: 300;

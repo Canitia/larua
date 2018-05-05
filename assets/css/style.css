@@ -1195,6 +1195,10 @@ footer {
 		top: 35px;
 	}
 
+	.logo-fixed {
+		opacity: 0.7;
+	}
+
 	.logo-main {
 		top: 50px;
 	}
@@ -1356,6 +1360,10 @@ footer {
 		margin-top: 200px;
 	}
 
+	.logo-fixed {
+		opacity: 0.7;
+	}
+
 	.logo-nav {
 		position: fixed;
 		left: 0;
@@ -1498,13 +1506,17 @@ footer {
 	.headerurl {
 		color: white !important;
 	}
+
+	.logo-fixed {
+		opacity: 0.7;
+	}
 	
 	.logo-nav {
 		position: fixed;
 		left: 0;
 		top: 35px;
 	}
-	
+
 	.top-socials {
 		margin-top: 475px;
 	}

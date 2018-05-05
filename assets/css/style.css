@@ -259,8 +259,7 @@ img.cover {
 }
 
 img.logo {
-	height: auto;
-	max-height: 85px;
+	height: 80px;
 	position: relative;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -1175,7 +1174,6 @@ footer {
 
 	.img.logo {
 		height: 75px;
-		max-height: 75px;
 		max-width: 100%;
 	}
 
@@ -1415,7 +1413,6 @@ footer {
 	img.logo {
 		margin-top: 30px;
 		height: 75px;
-		max-height: 75px;
 	}
 
 	.avatar-page-author {

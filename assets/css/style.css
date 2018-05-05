@@ -774,7 +774,7 @@ img.avatar {
 }
 
 .homepage-avatar {
-	height: auto;
+	height: 35px;
 	border-radius: 25px;
 }
 

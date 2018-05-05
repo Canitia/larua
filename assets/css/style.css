@@ -919,6 +919,10 @@ footer {
 		margin-top: 0;
 	}
 
+	.logo-nav {
+		height: 25px;
+	}
+
 	.logo-main {
 		top: 50px;
 	}

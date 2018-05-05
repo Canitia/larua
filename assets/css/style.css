@@ -1143,13 +1143,14 @@ footer {
 		margin-top: 0;
 	}
 
-	.post-content img, .post-content  p  img {
+	.post-content img, .post-content p img {
 		padding: 35px;
 	}
 
 	iframe {
 		padding: 35px;
 	}
+
 
 }
 
@@ -1288,6 +1289,10 @@ footer {
 	.avatar-page-author {
 		margin-top: 30px;
 		width: 110px;
+	}
+
+	.post-content img, .post-content p img {
+		padding: 35px;
 	}
 
 }

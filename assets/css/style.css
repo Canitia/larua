@@ -231,7 +231,9 @@ nav {
 }
 
 .menu-item.active > .nav-link {
-    color: #ebebeb !important;
+	color: black !important;
+	background: #ebebeb;
+	border-radius: 15px;
 }
 
 .headerurl:hover,  .nav-link:hover {

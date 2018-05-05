@@ -1321,8 +1321,8 @@ footer {
 	}
 
 	.navbar {
-		background: #bababa !important;
-		margin-bottom: 85px;
+		background: transparent !important;
+		margin-bottom: 0px;
 	}
 
 	.navbar-nav {

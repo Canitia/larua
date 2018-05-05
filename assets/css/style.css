@@ -958,6 +958,10 @@ footer {
 		width: 80px;
 	}
 
+	.tag_heading >.posttitle {
+		margin-top: 140px;
+	}
+
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 135%;
 	}

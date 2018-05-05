@@ -1438,6 +1438,10 @@ footer {
 	.homepage-avatar {
 		width: 35px;
 	}
+
+	.headerurl {
+		color: white !important;
+	}
 	
 }
 

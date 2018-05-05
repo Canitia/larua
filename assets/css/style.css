@@ -701,7 +701,7 @@ iframe {
 .tag_heading_post {
 	background-size: unset;
 	background-repeat: no-repeat;
-	background-position: 60% 140%;
+	background-position: 50% 50%;
 }
 
 .tag_heading > .posttitle {
@@ -1548,6 +1548,7 @@ footer {
 
 	.tag_heading_post {
 		background-size: cover;
+		background-position: 50% 50%;
 	}
 }
 

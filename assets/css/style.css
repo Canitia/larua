@@ -229,7 +229,7 @@ nav {
 }
 
 .menu-item.active > .nav-link {
-    color: #979797 !important;
+    color: #ebebeb !important;
 }
 
 .headerurl:hover,  .nav-link:hover {
@@ -990,7 +990,7 @@ footer {
 	}
 
 	.navbar {
-		background: #2b2b2b !important;
+		background: #bababa !important;
 		margin-bottom: 85px;
 	}
 

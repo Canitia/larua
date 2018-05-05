@@ -8,6 +8,7 @@ html body {
 	font-size: 112.5%;
 	font-family: 'Karla', sans-serif !important;
 	line-height: 1.66667;
+	min-width: 400px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -903,9 +904,6 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
-	.main {
-		min-width: 400px;
-	}
 
 	.avatar-page-author {
 		margin-top: 0;

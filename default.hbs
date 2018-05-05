@@ -28,8 +28,22 @@
 
 {{#is "index, home"}}
 {{#if @blog.cover_image}}
-<div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}})"></div>
+<div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}})">
 
+{{#if @blog.logo}}
+  {{#is "index, home"}}
+<div class="logo-main">
+<a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{meta_title}}" title="{{meta_title}}" class="logo left" /></a>
+</div>
+
+
+  <div class="text-main d-none d-sm-block d-md-block d-lg-block">
+    {{#if @blog.description}}
+      {{@blog.description}}
+    {{/if}}
+  </div>
+  {{/is}}
+{{/if}}
   <div class="top-socials">
         <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
         {{#if @blog.facebook}}
@@ -39,6 +53,13 @@
           <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
         {{/if}}  
   </div>
+
+
+
+
+</div>
+
+
 {{/if}}
   
 {{/is}}
@@ -70,20 +91,7 @@
   </div>
 {{/is}}
 
-{{#if @blog.logo}}
-  {{#is "index, home"}}
-<div class="logo-main">
-<a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{meta_title}}" title="{{meta_title}}" class="logo left" /></a>
-</div>
 
-
-  <div class="text-main d-none d-sm-block d-md-block d-lg-block">
-    {{#if @blog.description}}
-      {{@blog.description}}
-    {{/if}}
-  </div>
-  {{/is}}
-{{/if}}
 
 {{#is "post, page"}}
   {{#post}}

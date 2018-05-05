@@ -663,7 +663,6 @@ iframe {
 
 .tag_head_wrap {
 	background: black;
-	height: 650px;
 }
 
 .tag_heading {
@@ -1404,10 +1403,6 @@ footer {
 
 /* tablet devices */
 @media only screen and (min-width: 992px) {
-
-	.tag_head_wrap {
-		height: 630px;
-	}
 
 	.card {
 		flex: 1 1 300px !important;

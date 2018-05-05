@@ -275,7 +275,7 @@ img.logo {
 }
 
 .menu-item {
-    padding: 20px;
+    padding: 13px;
 }
 
 .menu-item > a {
@@ -1367,7 +1367,7 @@ footer {
 	.logo-nav {
 		position: fixed;
 		left: 0;
-		top: 35px;
+		top: 20px;
 	}
 
 	.logo-main {

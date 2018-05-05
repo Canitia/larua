@@ -6,7 +6,7 @@
   </button>
   {{#if @blog.logo}}
       {{#is "post, page, tag, author"}}
-        <div class="logo-fixed d-none d-sm-block d-md-none d-lg-block">
+        <div class="logo-fixed d-block d-sm-block d-md-none d-lg-block">
           <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo-nav left" /></a>
         </div>
       {{/is}}

@@ -998,8 +998,9 @@ footer {
 	}
 
 	.navbar {
-		background: #c1c1c1 !important;
+		background: black !important;
 		margin-bottom: 85px;
+		opacity: 0.9;
 	}
 
 	header {
@@ -1213,7 +1214,8 @@ footer {
 	}
 
 	.navbar {
-		background: #c1c1c1 !important;
+		background: black !important;
+		opacity: 0.9;
 		margin-bottom: 85px;
 	}
 

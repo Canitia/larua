@@ -1168,6 +1168,8 @@ footer {
 
 	.img.logo {
 		height: 75px;
+		max-height: 75px;
+		max-width: 100%;
 	}
 
 	.cover-image {

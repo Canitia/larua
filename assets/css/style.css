@@ -1192,7 +1192,7 @@ footer {
 	}
 
 	.top-socials {
-		top: 85px;
+		top: 235px;
 	}
 
 	.card {
@@ -1281,6 +1281,10 @@ footer {
 	.avatar-page-author {
 		margin-top: 30px;
 		width: 110px;
+	}
+
+	.tag_heading {
+		top: -115px;
 	}
 
 }

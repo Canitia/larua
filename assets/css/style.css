@@ -1265,6 +1265,10 @@ footer {
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 180% !important;
 	}
+
+	.tag_heading > .posttitle {
+		margin-top: 180px;
+	}
 	
 	.main-content {
 		margin-top: 30px;

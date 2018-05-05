@@ -1170,6 +1170,12 @@ footer {
 		margin-top: 0;
 	}
 
+	.tag_heading_home {
+		top: 0px;
+		position: relative;
+		height: 100%;
+	}
+
 	.logo-main {
 		top: 50px;
 	}

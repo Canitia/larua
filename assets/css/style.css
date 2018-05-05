@@ -1545,6 +1545,10 @@ footer {
 	.top-socials {
 		margin-top: 475px;
 	}
+
+	.tag_heading_post {
+		background-size: cover;
+	}
 }
 
 /* **************************************

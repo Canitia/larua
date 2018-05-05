@@ -666,6 +666,12 @@ iframe {
 	background-position: 50% 50%;
 }
 
+.tag_heading_home {
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
 .tag_heading {
     padding: 20px;
 	width: 100%;

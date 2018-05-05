@@ -1189,6 +1189,12 @@ footer {
 		height: 100%;
 	}
 
+	.logo-nav {
+		position: fixed;
+		left: 0;
+		top: 35px;
+	}
+
 	.logo-main {
 		top: 50px;
 	}
@@ -1349,7 +1355,13 @@ footer {
 	.tag_heading > .posttitle {
 		margin-top: 200px;
 	}
-	
+
+	.logo-nav {
+		position: fixed;
+		left: 0;
+		top: 35px;
+	}
+
 	.logo-main {
 		top: 50px;
 	}
@@ -1487,7 +1499,12 @@ footer {
 		color: white !important;
 	}
 	
-
+	.logo-nav {
+		position: fixed;
+		left: 0;
+		top: 35px;
+	}
+	
 	.top-socials {
 		margin-top: 475px;
 	}

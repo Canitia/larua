@@ -679,7 +679,7 @@ iframe {
     font-size: 200%;
     font-weight: 300;
 	text-shadow: none;
-	margin-top: 200px;
+	margin-top: 500px;
 	color: black !important;
 	background: white;
 	width: 35%;
@@ -1386,6 +1386,10 @@ footer {
 
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 180% !important;
+	}
+
+	.tag_heading > .posttitle {
+		margin-top: 200px;
 	}
 	
 	.main-content {

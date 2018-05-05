@@ -682,6 +682,7 @@ iframe {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	opacity: 0.8;
 }
 
 .tag_heading {

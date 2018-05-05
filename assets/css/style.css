@@ -269,10 +269,6 @@ img.logo {
 	width: auto;
 }
 
-img.logo:hover {
-
-}
-
 .menu-item {
     padding: 20px;
 }
@@ -989,10 +985,6 @@ footer {
 		flex-direction: column !important;
 	}
 
-	.navbar-brand {
-
-	}
-
 	.navbar-brand:hover {
 		color: #545454 !important;
 	}
@@ -1349,11 +1341,6 @@ footer {
 		background: transparent !important;
 		margin-bottom: 0px;
 	}
-
-	.navbar-nav {
-		
-	}
-
 
 	.navbar-brand {
 		color: white !important;

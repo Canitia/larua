@@ -45,9 +45,8 @@ This theme is tested on the (near) latest versions of Ghost.
 
 ## Browsers
 - Microsoft Edge (April 2018 Update)
-- Google Chrome 64.0.3282.119
-- Firefox 59.0
-- Firefox Nightly 61 (05-apr-2018).
+- Google Chrome 66.0.3359.139
+- Firefox Nightly 61.0-20180505
 
 # Customization
 

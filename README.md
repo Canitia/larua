@@ -1,6 +1,6 @@
 # Larua
 
-A [Ghost](http://github.com/tryghost/ghost/) theme that derived from Canitia Jr. It featured a new look and some added features. 
+A [Ghost](http://github.com/tryghost/ghost/) theme that derived from Canitia Jr. It features a new look and some added features. 
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)

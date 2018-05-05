@@ -5,7 +5,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   {{#if @blog.logo}}
-      {{#is "post, page, tag"}}
+      {{#is "post, page, tag, author"}}
         <a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>
       {{/is}}
        {{#is "index, home"}}     

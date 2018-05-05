@@ -1274,6 +1274,10 @@ footer {
 
 @media (max-width:991px) and (min-width:768px) {
 
+	header {
+		margin-top: -100px;
+	}
+
 	.container-fluid {
 		max-width: 760px;
 	}
@@ -1329,9 +1333,6 @@ footer {
 		
 	}
 
-	.navbar-nav {
-
-	}
 
 	.navbar-brand {
 		color: white !important;
@@ -1388,6 +1389,12 @@ footer {
 	
 	.main-content {
 		margin-top: 30px;
+	}
+
+	img.logo {
+		margin-top: 30px;
+		height: 75px;
+		max-height: 75px;
 	}
 
 }

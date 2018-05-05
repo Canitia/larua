@@ -1275,7 +1275,7 @@ footer {
 @media (max-width:991px) and (min-width:768px) {
 
 	header {
-		margin-top: -100px;
+		margin-top: -15px;
 	}
 
 	.container-fluid {
@@ -1371,7 +1371,7 @@ footer {
     }
 
     .content-images, .content-images-individual {
-				object-fit: cover;
+		object-fit: cover;
     }
 
 	.container-fluid {

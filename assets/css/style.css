@@ -996,6 +996,12 @@ footer {
 		height: 300px !important;
 	}
 
+	.tag_heading_post {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+
 	.text-main {
 		top: 275px;
 	}

@@ -258,13 +258,14 @@ img.cover {
 }
 
 img.logo {
-	height: 100px;
+	height: auto;
 	max-height: 100px;
 	position: relative;
 	margin-left: 5px;
 	margin-right: 5px;
 	border-radius: 100px;
 	max-width: 100%;
+	width: auto;
 }
 
 img.logo:hover {

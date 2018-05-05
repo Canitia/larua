@@ -227,6 +227,7 @@ nav {
 .nav-link {
 	color: #ebebeb !important;
 	text-shadow: 1px 1px black;
+	opacity: 0.8;
 }
 
 .menu-item.active > .nav-link {

@@ -1292,7 +1292,11 @@ footer {
 	}
 
 	.post-content img, .post-content p img {
-		padding: 35px;
+		padding: 25px;
+	}
+
+	iframe {
+		padding: 25px;
 	}
 
 }

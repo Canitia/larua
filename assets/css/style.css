@@ -1443,12 +1443,19 @@ footer {
 		width: 110px;
 	}
 	
+	.ml-auto {
+		margin-right: auto !important;
+	}
 
 }
 
 
 /* tablet devices */
 @media only screen and (min-width: 992px) {
+
+	.ml-auto {
+		margin-right: auto !important;
+	}
 
 	.card {
 		flex: 1 1 300px !important;

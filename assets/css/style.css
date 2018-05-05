@@ -982,7 +982,7 @@ footer {
 	}
 
 	.nav-link {
-
+		color: black !important;
 	}
 
 	.nav-link:hover {

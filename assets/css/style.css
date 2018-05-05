@@ -663,6 +663,7 @@ iframe {
 
 .tag_head_wrap {
 	background: black;
+	height: 650px;
 }
 
 .tag_heading {
@@ -670,7 +671,6 @@ iframe {
 	width: 100%;
 	object-fit: cover;
 	height: 100% !important;
-	margin-top: 200px;
 	position: relative;
 	opacity: 0.8;
 }

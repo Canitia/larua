@@ -987,6 +987,7 @@ footer {
 
 	.tag_heading {
 		padding-top: 64px;
+		height: 300px !important;
 	}
 
 	.text-main {

@@ -903,6 +903,9 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
+	.main {
+		min-width: 400px;
+	}
 
 	.avatar-page-author {
 		margin-top: 0;

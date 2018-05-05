@@ -1555,39 +1555,39 @@ EXTERNAL libraries look-n-feel
 
 .fa-facebook:hover {
 	color: #3b5998;
-	background: white;
-	border-radius: 50px;
 }
 
 
 .fa-twitter:hover {
 	color: #1dcaff;
-	background: white;
-	border-radius: 50px;
 }
 
 .fa-rss:hover {
 	color: #f26522;
+}
+
+.fa-rss {
+	color: black;
+	font-size: 1.5em;
+	padding: 10px;
 	background: white;
 	border-radius: 50px;
 }
 
-.fa-rss {
-	color: white;
-	font-size: 1.5em;
-	padding: 10px;
-}
-
 .fa-twitter {
-	color: white;
+	color: black;
 	font-size: 1.5em;
 	padding: 10px;
+	background: white;
+	border-radius: 50px;
 }
 
 .fa-facebook {
-	color: white;
+	color: black;
 	font-size: 1.5em;
 	padding: 10px;
+	background: white;
+	border-radius: 50px;
 }
 
 .fa-twitter-author, .fa-facebook-author {

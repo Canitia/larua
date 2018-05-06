@@ -39,7 +39,7 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 The theme is tested on 
 
 ## Platform 
-This theme is tested on the (near) latest versions of Ghost. 
+Larua **requires** Ghost 1.22.x as is stated in package.json. It's required because 1.22.x introduced the multiple-authors that are included in this theme.
 
 - Ghost 1.22.5
 

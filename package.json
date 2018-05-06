@@ -4,7 +4,7 @@
   "demo": "https:/blog.canitia.nl",
   "version": "1.0.0r",
   "engines": {
-      "ghost": ">=1.20.0"
+      "ghost": ">=1.22.0"
   },
   "license": "MIT",
   "screenshots": {

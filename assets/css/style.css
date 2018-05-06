@@ -1361,11 +1361,10 @@ footer {
 
 	.container-fluid {
 		max-width: 760px;
-		margin-top: 32vh;
 	}
 
 	.tag_head_wrap {
-		height: 300px;
+
 	}
 
 	.tag_heading {
@@ -1399,7 +1398,7 @@ footer {
 	}
 
 	.logo-main {
-		top: 50px;
+		top: 12vh;
 	}
 
 	.cover-image {
@@ -1413,7 +1412,7 @@ footer {
 	}
 
 	.top-socials {
-		top: 85px;
+		top: 20vh;
 	}
 
 	.card {

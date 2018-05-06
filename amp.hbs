@@ -517,7 +517,7 @@
             {{#if feature_image}}
 
             <div class="post-image">
-            <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+            <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
             </div>
 
             {{/if}}

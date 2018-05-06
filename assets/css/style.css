@@ -337,10 +337,6 @@ img.logo {
 	border: 1px solid #ebebeb !important;
 }
 
-.homepage-image:hover {
-	filter: brightness(90%);
-}
-
 .collection {
 	margin:0px !important;
 	padding:0 !important;

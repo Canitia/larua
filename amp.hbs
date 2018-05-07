@@ -526,7 +526,6 @@
 <body class="amp-template">
     <header class="main-header">
         <nav class="brand-logo">
-            <a href="{{@blog.url}}"><amp-img src="{{@blog.logo}}" alt="blog logo" class="logo left" layout="fixed-height" height="48px"></amp-img></a>
             <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
         </nav>
     </header>
@@ -537,7 +536,7 @@
             {{#if feature_image}}
 
             <div class="post-image">
-            <amp-img layout="responsive" class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
+            <amp-img layout="fixed-height" height="500px" class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
             </div>
 
             {{/if}}
@@ -548,7 +547,7 @@
                 </span>
                 <div class="post-authors text-center">
                     {{#foreach authors}}
-                        <a href="{{url}}" title="{{name}}"><amp-img layout="responsive" src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="post-avatar" alt="{{name}}" title="{{name}}"></amp-img>></a> 
+                        <a href="{{url}}" title="{{name}}"><amp-img layout="responsive" height="150px" width="150px" src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="post-avatar" alt="{{name}}" title="{{name}}"></amp-img>></a> 
                     {{/foreach}}
                 </div>
                 <div class="post-subitems">

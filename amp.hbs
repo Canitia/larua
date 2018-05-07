@@ -526,7 +526,7 @@
 <body class="amp-template">
     <header class="main-header">
         <nav class="brand-logo">
-            <a href="{{@blog.url}}"><amp-img src="{{@blog.logo}}" alt="blog logo" class="logo left"></amp-img></a>
+            <a href="{{@blog.url}}"><amp-img src="{{@blog.logo}}" alt="blog logo" class="logo left" layout="fixed-height" height="48px"></amp-img></a>
             <a href="{{@blog.url}}" class="headerurl">{{@blog.title}}</a>
         </nav>
     </header>
@@ -548,7 +548,7 @@
                 </span>
                 <div class="post-authors text-center">
                     {{#foreach authors}}
-                        <a href="{{url}}" title="{{name}}"><amp-img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="post-avatar" alt="{{name}}" title="{{name}}"></amp-img>></a> 
+                        <a href="{{url}}" title="{{name}}"><amp-img layout="responsive" src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="post-avatar" alt="{{name}}" title="{{name}}"></amp-img>></a> 
                     {{/foreach}}
                 </div>
                 <div class="post-subitems">
@@ -562,7 +562,30 @@
                 {{amp_content}}
 
             </section>
-            {{> 'post/author-section'}}
+                {{#primary_author}}
+                <section class="author-profile">
+                <div class="row">
+                    <div class="col-sm-2 col-md-2">
+                        {{#if profile_image}}
+                            <amp-img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed-height" height="150px"></amp-img>
+                        {{else}}
+                            <amp-img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed-height" height="150px"></amp-img>  
+                        {{/if}}
+                    </div>
+                    <div class="col-sm-10 author-bio-text">
+                    {{#if bio}}
+                        <h3>{{name}}</h3>
+                        {{bio}}
+                    {{else}}
+                        {{t "Whoops...that's not looking good. People have no idea who you are?!"}}
+                
+                    {{/if}}
+                    </div>
+                </div>
+                </section>
+
+                {{/primary_author}}
+
         </article>
  {{/post}}
     </main>

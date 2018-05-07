@@ -550,13 +550,8 @@
     <main class="content" role="main">
     {{#post}}
         <article class="post">
-            {{#if feature_image}}
 
-            <div class="post-image">
-            <amp-img layout="fixed-height" height="700px" class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
-            </div>
 
-            {{/if}}
             <header class="post-header">
                 <section class="post-meta">
                 <span class="card-title">

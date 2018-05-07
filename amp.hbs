@@ -28,6 +28,10 @@
                 font-family: 'Roboto' ,sans-serif;
             }
 
+            .amp-template, .content {
+                background-image:url('{{asset "bgpattern.png"}}');
+            }
+
             h1 {
                 font-size: 220%;
                 font-family:'Slabo 27px', serif;
@@ -520,7 +524,7 @@
 
 </head>
 
-<body class="amp-template" style="background-image:url('{{asset "bgpattern.png"}}')">
+<body class="amp-template">
     <header class="main-header">
         <nav class="brand-logo">
             <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo left" /></a>
@@ -528,7 +532,7 @@
         </nav>
     </header>
 
-    <main class="content" role="main" style="background-image:url('{{asset "bgpattern.png"}}')">
+    <main class="content" role="main">
     {{#post}}
         <article class="post">
             {{#if feature_image}}

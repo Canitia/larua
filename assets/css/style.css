@@ -1538,7 +1538,7 @@ footer {
 	}
 	
 	.logo-nav {
-		position: fixed;
+		position: absolute;
 		left: 0;
 		top: 35px;
 	}

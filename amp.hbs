@@ -134,9 +134,13 @@
             text-decoration: none;
             }
 
-            .post-image {
+            .post-image amp-img {
                 padding: 0;
                 margin: 0;
+                height: auto;
+                width: auto;
+                max-width: 100%;
+                
             }
 
             .post-subitems {
@@ -420,8 +424,9 @@
             border-radius: 25px;
         }
 
-        .post-authors {
+        .post-authors amp-img {
             text-align: center;
+            display: block;
         }
 
         .post-avatar {
@@ -429,6 +434,8 @@
             width: 50px;
             border-radius: 50px;
             margin-top: 20px;
+            text-align: center;
+            display: block;
         }
 
         .avatar-page {
@@ -547,7 +554,7 @@
                 </span>
                 <div class="post-authors text-center">
                     {{#foreach authors}}
-                        <a href="{{url}}" title="{{name}}"><amp-img layout="responsive" height="150px" width="150px" src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="post-avatar" alt="{{name}}" title="{{name}}"></amp-img>></a> 
+                        <a href="{{url}}" title="{{name}}"><amp-img layout="responsive" height="150px" width="150px" src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="post-avatar" alt="{{name}}" title="{{name}}"></amp-img></a> 
                     {{/foreach}}
                 </div>
                 <div class="post-subitems">

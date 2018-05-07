@@ -17,7 +17,6 @@
     {{amp_ghost_head}}
 
     {{!-- Styles'n'Scripts --}}
-    <link rel="stylesheet" href="{{asset "css/amp/fontawesome-5010-all.css"}}">
     <style amp-custom>
             /* **************************************
 
@@ -553,8 +552,8 @@
                     {{/foreach}}
                 </div>
                 <div class="post-subitems">
-                    <i class="far fa-clock"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
-                    <i class="fas fa-book"></i>{{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
+                    <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+                    {{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
                 </div>
                 </section>
             </header>

@@ -929,6 +929,10 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
 
+	.card:hover {
+		transform: scale(1);
+	}
+
 	.avatar-page-author {
 		margin-top: 0;
 	}

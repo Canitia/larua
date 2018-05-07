@@ -556,7 +556,7 @@
                 </span>
                 <div class="post-authors text-center">
                     {{#foreach authors}}
-                        <a href="{{url}}" title="{{name}}"><amp-img layout="fixed-height" height="150px" src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="post-avatar" alt="{{name}}" title="{{name}}"></amp-img></a> 
+                        <a href="{{url}}" title="{{name}}">{{authors separator=" &bull; "}}</a> 
                     {{/foreach}}
                 </div>
                 <div class="post-subitems">
@@ -581,8 +581,8 @@
                         {{/if}}
                     </div>
                     <div class="col-sm-10 author-bio-text">
-                    {{#if bio}}
                         <h3>{{name}}</h3>
+                    {{#if bio}}
                         {{bio}}
                     {{else}}
                         {{t "Whoops...that's not looking good. People have no idea who you are?!"}}

@@ -426,7 +426,7 @@
             border-radius: 25px;
         }
 
-        .post-authors amp-img {
+        .post-authors {
             text-align: center;
             display: block;
         }
@@ -555,9 +555,7 @@
                     <p class="posttitle center">{{title}}</p>
                 </span>
                 <div class="post-authors text-center">
-                    {{#foreach authors}}
                         <a href="{{url}}" title="{{name}}">{{authors separator=" &bull; "}}</a> 
-                    {{/foreach}}
                 </div>
                 <div class="post-subitems">
                     <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time> <br />

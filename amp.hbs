@@ -576,9 +576,9 @@
                 <div class="row">
                     <div class="col-sm-2 col-md-2">
                         {{#if profile_image}}
-                            <amp-img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed-height" height="150px"></amp-img>
+                            <amp-img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="responsive" height="150px" width="150px"></amp-img>
                         {{else}}
-                            <amp-img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed-height" height="150px"></amp-img>  
+                            <amp-img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="responsive" height="150px" width="150px"></amp-img>  
                         {{/if}}
                     </div>
                     <div class="col-sm-10 author-bio-text">

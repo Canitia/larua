@@ -12,7 +12,7 @@
                     {{/foreach}}
                 </div>
               <div class="post-subitems text-center">
-                <i class="fas fa-clock"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+                <i class="fas fa-clock"></i><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
                 <i class="fas fa-book"></i>{{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
               </div>
         </div>

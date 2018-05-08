@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html" lang="{{lang}}">
+<html lang="{{lang}}">
   <head>
-
     <title>{{meta_title}}</title>
     <meta name="description" content="{{@blog.description}}" />
 
     {{! Document Settings }}
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
 
     {{! Responsive Meta Tags }}
     <!-- own stylesheet for general stuff -->
@@ -42,16 +42,16 @@
           {{#if @blog.description}}
             {{@blog.description}}
           {{/if}}
-          </div>
+            </div>
         {{/is}}
       {{/if}}
         <div class="top-socials">
               <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
               {{#if @blog.facebook}}
-                <a href="{{facebook_url @blog.facebook}}" target="_blank"><i class="fab fa-facebook" title="{{@blog.facebook}}" alt="{{@blog.facebook}}"></i></a>
+                <a href="{{facebook_url @blog.facebook}}" target="_blank"  title="{{@blog.facebook}}" alt="{{@blog.facebook}}"><i class="fab fa-facebook"></i></a>
               {{/if}}
               {{#if @blog.twitter}}
-                <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter" title="{{@blog.twitter}}" alt="{{@blog.twitter}}"></i></a>
+                <a href="{{twitter_url @blog.twitter}}" target="_blank" title="{{@blog.twitter}}" alt="{{@blog.twitter}}"><i class="fab fa-twitter" ></i></a>
               {{/if}}  
         </div>
   </div>
@@ -84,7 +84,7 @@
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}
-  </div>
+</div>
 {{/is}}
 
 

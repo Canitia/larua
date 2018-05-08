@@ -76,7 +76,7 @@
 {{#is "tag"}}
 <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#tag}}
-  <div class="tag_heading text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
+  <div class="tag_heading text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}});">
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}
@@ -88,7 +88,7 @@
 {{#is "post, page"}}
 <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#post}}
-    <div class="tag_heading tag_heading_post text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}); background-repeat: no-repeat; background-size: cover;">
+    <div class="tag_heading tag_heading_post text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}});">
     
     </div>
 

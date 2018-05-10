@@ -41,15 +41,6 @@
             </div>
         {{/is}}
       {{/if}}
-        <div class="top-socials">
-              <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
-              {{#if @blog.facebook}}
-                <a href="{{facebook_url @blog.facebook}}" target="_blank"><i class="fab fa-facebook"></i></a>
-              {{/if}}
-              {{#if @blog.twitter}}
-                <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter" ></i></a>
-              {{/if}}  
-        </div>
   </div>
   </div>
 
@@ -103,6 +94,15 @@
 </main>
 
 <footer class="page-footer"  style="background-image:url('{{asset "bgpattern.png"}}')">
+      <div class="top-socials">
+          <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
+          {{#if @blog.facebook}}
+            <a href="{{facebook_url @blog.facebook}}" target="_blank"><i class="fab fa-facebook"></i></a>
+          {{/if}}
+          {{#if @blog.twitter}}
+            <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter" ></i></a>
+          {{/if}}  
+    </div>
     {{> 'ui/footer'}}
 </footer>
 <!-- Compiled and minified JavaScript -->

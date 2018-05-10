@@ -314,7 +314,6 @@ img.logo {
 
 .top-socials {
 	position: relative;
-	bottom: 80px;
 	z-index: 9999;
 	text-align: center;
 	display: block;
@@ -962,10 +961,6 @@ footer {
 		height: 100%;
 	}
 
-	.top-socials {
-		top: -200px;
-	}
-
 	.card {
 		border: 0 !important;
 	}
@@ -1011,11 +1006,6 @@ footer {
 
 	.logo-main {
 		top: 275px;
-	}
-
-	.top-socials {
-		bottom: 15px;
-		margin-top: 40px;
 	}
 
 	.navbar-nav {
@@ -1244,10 +1234,6 @@ footer {
 		text-overflow: ellipsis;
 	}
 
-	.top-socials {
-		top: 85px;
-	}
-
 	.card {
 		border: 0 !important;
 	}
@@ -1352,6 +1338,7 @@ footer {
 
 
 @media (max-width:991px) and (min-width:768px) {
+	
 	.logo-nav {
 
 	}
@@ -1370,13 +1357,14 @@ footer {
 
 	.tag_heading {
 		margin-top: 0;
-		height: 300px !important;
+		height: 350px !important;
 	}
 
 	.tag_heading_home {
 		top: 0px;
 		position: relative;
 		height: 50vh;
+		min-height: 350px;
 	}
 
 	.tag_heading_post {
@@ -1384,6 +1372,7 @@ footer {
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		height: 50vh;
+		min-height: 350px;
 	}
 
 	.tag_heading > .posttitle.posttitle-author {
@@ -1406,10 +1395,6 @@ footer {
 
 	.text-main {
 		top: 65px;
-	}
-
-	.top-socials {
-		top: 20vh;
 	}
 
 	.card {
@@ -1534,10 +1519,7 @@ footer {
 	.logo-main {
 		top: 35vh;
 	}
-	
-	.top-socials {
-		margin-top: 475px;
-	}
+
 
 	.tag_heading_post {
 		background-size: cover;
@@ -1547,17 +1529,12 @@ footer {
 
 	.tag_heading {
 		height: 75vh !important;
-		max-height: 75vh !important;
+		min-height: 600px;
 	}
 
 	.tag_heading_home {
 		height: 75vh !important;
 		max-height: 75vh !important;
-	}
-
-	.top-socials {
-		bottom: 0;
-		top: 20vh;
 	}
 
 }

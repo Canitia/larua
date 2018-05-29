@@ -706,7 +706,7 @@ iframe {
     font-size: 200%;
     font-weight: 300;
 	text-shadow: none;
-	margin-top: 50vh;
+	margin-top: 350px;
 	color: black !important;
 	background: white;
 	width: 35%;
@@ -801,7 +801,7 @@ img.avatar {
 	margin-top: 150px;
 	padding: 10px;
 	background: white;
-	margin-top: 30vh;
+	margin-top: 300px;
 }
 
 .author-name {
@@ -1363,7 +1363,7 @@ footer {
 	.tag_heading_home {
 		top: 0px;
 		position: relative;
-		height: 50vh;
+		height: 350px;
 		min-height: 350px;
 	}
 
@@ -1371,7 +1371,7 @@ footer {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
-		height: 50vh;
+		height: 350px;
 		min-height: 350px;
 	}
 

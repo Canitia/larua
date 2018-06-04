@@ -6,66 +6,49 @@
 
     {{!-- Page Meta --}}
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
 
     {{!-- Mobile Meta --}}
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
     {{!-- Brand icon --}}
-    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    <link rel="icon" type="image/png" href="{{asset "favicon.png"}}">
 
     {{amp_ghost_head}}
 
     {{!-- Styles'n'Scripts --}}
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,600,400" />
-    <link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     <style amp-custom>
-            /* ##############################
-
-            SET OVERALL ACCENT color
-
-            #############################*/
-            .accentcolor {
-            background-color: #0d47a1;
-            }
-
-            .accentcolor2, .slider .indicators .indicator-item.active{
-            background-color: #1565c0;
-            }
-
-            .accentcolor-error {
-            background-color: red;
-            }
-
-
             /* **************************************
 
             GENERAL FONT / ELEMENT
 
             *****************************************/
             html body {
-                font-size:16px;
-                font-family: Roboto,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-                background-color: #dfe3e5;
+                font-family: 'Roboto' ,sans-serif;
+            }
+
+            .amp-template, .content {
+                background-image:url('{{asset "bgpattern.png"}}');
             }
 
             h1 {
-                font-size: 250%;
+                font-size: 220%;
+                font-family:'Slabo 27px', serif;
             }
 
             h2 {
-                font-size: 200%;
+                font-size: 195%;
+                font-family:'Slabo 27px', serif;
             }
 
             h3 {
                 font-size: 175%;
+                font-family:'Slabo 27px', serif;
             }
 
             h4 {
                 font-size: 140%;
+                font-family:'Slabo 27px', serif;
             }
 
             p {
@@ -134,15 +117,15 @@
             }
 
             p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .collection-item > a {
-                color: black;
+                color: #FF4500;
             }
 
-            p > a:focus, p > a:hover, .btn > a:hover, li.pagination-arrows a i:hover, .socialfooter > a > i:hover, .socialfooter a
+            p > a:focus, p > a:hover, li.pagination-arrows a i:hover, .socialfooter > a > i:hover, .socialfooter a:hover
             {
-            color:#979797;
+            color:#FF4500;
             }
 
-            .text-left-title-featured, .text-left-title-featured a, .text-left-title a:hover, .text-left-title-featured a:hover, .postdate a, .tag_heading, .chip a, footer a, .btn > a  {
+            .postdate a, .tag_heading {
                 color: white;
             }
 
@@ -151,20 +134,35 @@
             text-decoration: none;
             }
 
+            .post-image amp-img {
+                padding: 0;
+                margin: 0;
+                height: auto;
+                width: auto;
+                max-width: 100%;
+                
+            }
+
             .post-subitems {
-                color: #979797;
-                font-weight: 300;
                 text-align:center;
+                padding: 25px;
+                border-bottom: 1px solid #ebebeb;
+                margin-bottom: 35px;
+                font-size: 14px;
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
             }
 
             .post-subitems > a
             {
-                color:#979797;
+                color:black;
             }
 
             .posttitle {
-                font-size:250%;
-                margin: 10px;
+                font-size:220%;
+                margin: 35px;
+                margin-bottom: 0;
                 text-align:center;
             }
 
@@ -191,8 +189,10 @@
             }
 
             img.logo {
-                height:64px;
-                position:relative;
+                height:48px;
+                margin-top: -12px;
+                float:left;
+                margin-left: 1%;
             }
 
             nav ul li {
@@ -205,16 +205,17 @@
 
             /* **************************************
 
-            CONTENT SIDEBAR / MAIN
+            CONTENT MAIN
 
             *****************************************/
              .content {
-                max-width: 1200px;
+                margin-left: 80px;
+                margin-right: 80px;
              }   
 
-            #sidenav-overlay {
-                right: 300px;
-            }
+             .post {
+                 max-width: 1200px;
+             }
 
             .collection {
                 margin:0px;
@@ -233,55 +234,36 @@
                 color:#979797;
             }
 
-            .card-sidebar {
-                margin-top: 0px;
-            }    
-
             /* **************************************
 
             HEADER
 
             *****************************************/
             .main-header {
-                height: 64px;
-                background-color: white;
-                border-bottom: 2px solid #ebebeb
+                height: 48px;
+                background: #f8f8f8;
             }
  
             /* color of clickable header */
             .headerurl {
                 text-decoration: none;
-                    margin-left:40px;
+                font-size: 16px;
+                font-weight: 600;
+                display: block; 
+                margin-left: 10px;
+            }
+
+            .brand-logo {
+                padding-top: 13px;
             }
 
             .headerurl:hover {
             text-decoration: none;
             }
 
-            nav .brand-logo {
-                line-height:5px;
-            }
-
             img.cover {
                 width:100%;
                 margin-bottom:15px;
-            }
-
-            img.logo {
-                height:64px;
-                position:relative;
-                margin-left:1%;
-            }
-
-
-            .brand-logo {
-                position: absolute;
-                color: #fff;
-                display: inline-block;
-                font-size: 2.1rem;
-                padding: 0;
-                white-space: nowrap;
-                margin-top: 20px;
             }
 
             .brand-logo > a {
@@ -292,32 +274,6 @@
             POST/ARTICLE HEADERS
 
             ##########################################*/
-
-            .text-left-title-featured {
-                padding:25px;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom:0px;
-                opacity: 0.8;
-                background-color: black;
-            }
-
-            /* post title */
-            .text-left-title-featured, .text-left-title-featured-sidebar {
-                font-size: 150%;
-                font-weight: 300;
-                padding:15px;
-                white-space: normal;
-                overflow:hidden;
-                text-overflow: ellipsis;
-            }
-
-            /* aligns the sidebar to the top of the page and adapts the content within it */
-            .text-left-title-featured-sidebar {
-                margin-bottom: 0px;
-                background-color: white;
-                border-bottom: 1px solid #ebebeb;
-            }
 
             .text-left-title a {
                 text-decoration: none;
@@ -346,6 +302,11 @@
             ARTICLE/POST LOOK-N-FEEL
 
             *****************************************/
+            .card-content {
+                border-bottom: 1px solid #ebebeb;
+                padding-bottom: 35px;
+            }
+
             .card-content > h1 {
                 font-size: 210%;
                 font-family:'Slabo 27px', serif;
@@ -392,9 +353,9 @@
                 background:white;
                 margin-left: auto;
                 margin-right: auto;
+                margin-bottom: 100px;
                 padding-left: 30px;
                 padding-right: 30px;
-                box-shadow: 1px 1px 5px #888888;
                 height: 100%;
             }
 
@@ -430,154 +391,145 @@
                 margin-bottom:20px;
             }
 
+            .fa-clock, .fa-user, .fa-book {
+                margin-right: 10px;
+                color: black;
+            }
+
+            .fa-user, .fa-book {
+                margin-left: 25px;
+            }
+
 
             /* **************************************
 
                 ARTICLE: AUTHOR look-n-feel
 
             *****************************************/
-            .author-profile {
-                margin-top: 40px;
-                margin-bottom: 40px;
-                height: 100%;
+
+        .author-profile h4 a {
+            text-decoration: underline;
+        }
+
+        img.avatar {
+            border-radius: 15px;
+            width: auto;
+            max-width: 100%;
+            height: auto;
+            float:left;
+            z-index:200;
+            margin-top: 25px;
+        }
+
+        .homepage-avatar {
+            height: auto;
+            border-radius: 25px;
+        }
+
+        .post-authors {
+            text-align: center;
+            display: block;
+        }
+
+        .post-authors a {
+            color: black;
+        }
+
+        .post-authors a:hover {
+            color: #979797;
+        }
+
+        .post-avatar {
+            height: auto;
+            width: 50px;
+            border-radius: 50px;
+            margin-top: 20px;
+            text-align: center;
+            display: block;
+        }
+
+        .avatar-page {
+            width:150px;
+            border-radius: 150px;
+        }
+
+        .author-name {
+            font-size:200%;
+            font-weight: 300;
+        }
+
+        .author-social {
+            margin-top: 50px;
+        }
+
+        .author-social > a > i {
+            color:black;
+            margin: 5px;
+        }
+
+        .socialauthor {
+            padding: 15px;
+        }
+
+        .socialauthor > ul > li {
+            margin-top: 10px;
+            margin-bottom:10px;
+        }
+
+        .author-bio-text {
+
+        }
+
+        /* some mobile specific junk */
+        @media (max-width:600px) and (min-width:200px) {
+            .posttitle {
+                font-size: 175%;
             }
 
-            .author-profile h4 a {
-                text-decoration: underline;
+            .content {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+           .post-avatar {
+                height: auto;
+                width: 48px;
             }
 
             img.avatar {
-                border-radius: 50px;
-                width:100px;
-                height:100px;
-                float:left;
-                z-index:200;
-                margin-left: 20px;
-                margin-right:15px;
+                width: 100px;
+                text-align: center;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-top: 30px;
+                margin-bottom: 10px;
             }
-
-            .avatar-page {
-                width:150px;
-                border-radius: 100px;
-                margin-top:15px;
-                background-color:#F8F8F8;
-            }
-
-            p.author-bio {
-                margin-left:135px;
-            }
-
-            .author-name {
-                font-size:200%;
-                font-weight: 300;
-            }
-
-            .author-social {
-                margin-top: 50px;
-            }
-
-            .author-social > a > i {
-                color:black;
-                margin: 5px;
-            }
-
-            .socialauthor {
-                padding: 15px;
-            }
-
-            .socialauthor > ul > li {
-                margin-top: 10px;
-                margin-bottom:10px;
-            }
-
-        /* **************************************
-
-        FOOTER
-
-        *****************************************/
-        footer {
-            width: 100%;
-            overflow: hidden;
-            z-index: 999;
         }
 
-        .socialfooter > .right > a {
-            margin: 15px;
-            font-size: 70%;
-        }
+    /* Bootstrap workaround */
+    .col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
 
-        /* general styling of pretty much all font-awesome icons */
-        .socialfooter {
-            border-top: 2px solid #ebebeb;
-            background:white;
-            padding-top:10px;
-        }
+    .col-sm-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
 
-        .socialfooter > a i {
-            color: black;
-            padding-top: 10px;
-            margin-left: 15px;
-            transition: all 0.2s ease-in-out;
-        }
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
 
-        .postdate i {
-            margin-right: 5px;
-        }
-
-        .postdate > a i {
-            border-radius: 10px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 3px;
-            margin-top: 3px;
-        }
-
-
-        .twitter-tweet {
-            margin-left:auto;
-            margin-right: auto;
-        }
-
-        i.fa.fa-twitter.fa-2x {
-            margin-left: 0px;
-        }
-
-        .fa-user-secret, .fa-twitter, .fa-facebook {
-            margin-left:20px;
-            margin-right:20px;
-        }
-
-        .fa-star, .fa-circle {
-            margin-right: 15px;
-        }
-
-        .fa-star {
-            color: #e59400;
-        }
-
-        .fa-circle, .fa-tag {
-            color: #d3d3d3;
-        }
-
-        .fa-tag {
-            margin-right: 8px;
-        }
-
-        .fa-calendar {
-            margin-left: 20px;
-        }
-
-        .fa-clock-o, .fa-user {
-            margin-right: 10px;
-        }
-
-        .fa-user {
-            margin-left: 10px;
-        }
-
-        .fa-bars {
-            color: black;
-        }
     </style>
 
     {{!-- The AMP boilerplate --}}
@@ -598,42 +550,53 @@
     <main class="content" role="main">
     {{#post}}
         <article class="post">
+
+
             <header class="post-header">
                 <section class="post-meta">
                 <span class="card-title">
                     <p class="posttitle center">{{title}}</p>
                 </span>
+                <div class="post-authors text-center">
+                        <a href="{{url}}" title="{{name}}">{{authors separator=" &bull; "}}</a> 
+                </div>
                 <div class="post-subitems">
-                    <i class="fa fa-clock-o"></i><time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
-                    <i class="fa fa-user" aria-hidden="true"></i>{{author}}
+                    <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time> <br />
+                    {{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
                 </div>
                 </section>
             </header>
-            {{#if feature_image}}
-            <figure class="post-image">
-                <amp-img src="{{img_url feature_image}}" width="600" height="400" layout="responsive"></amp-img>
-            </figure>
-            {{/if}}
             <section class="card-content">
 
                 {{amp_content}}
 
             </section>
-            {{> 'post/author-section'}}
+                {{#primary_author}}
+                <section class="author-profile">
+                <div class="row">
+                    <div class="col-sm-2 col-md-2">
+                        {{#if profile_image}}
+                            <amp-img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="responsive" height="150px" width="150px"></amp-img>
+                        {{else}}
+                            <amp-img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="responsive" height="150px" width="150px"></amp-img>  
+                        {{/if}}
+                    </div>
+                    <div class="col-sm-10 author-bio-text">
+                        <h3>{{name}}</h3>
+                    {{#if bio}}
+                        {{bio}}
+                    {{else}}
+                        {{t "Whoops...that's not looking good. People have no idea who you are?!"}}
+                
+                    {{/if}}
+                    </div>
+                </div>
+                </section>
+
+                {{/primary_author}}
+
         </article>
  {{/post}}
     </main>
-    <div class="socialfooter">
-            <a href="{{@blog.url}}/rss" target="_blank"><i class="fa fa-rss fa-2x"></i></a>
-            {{#if @blog.facebook}}
-            <a href="{{facebook_url}}" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-            {{/if}}
-            {{#if @blog.twitter}}
-            <a href="{{twitter_url}}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-            {{/if}}
-            <p class="right">
-            <a href="https://michaelboumann.info/collection/#canitiajr" target="_blank">{{t "powered by: Canitia Jr."}}</a>
-            </p>
-    </div>
 </body>
 </html>

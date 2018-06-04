@@ -1,0 +1,18 @@
+   {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
+
+   {{#is "post, page"}}
+
+<div class="related">
+   <h2>{{t "Related"}}</h2>       
+          <ul class="collection">
+            {{#get "posts" limit="5" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
+                    {{#foreach related}}
+                         <li class="collection-item"><a href="{{url}}">{{title}}</a></li>
+                    {{else}}
+                        <p>{{t "No related posts found"}}</p>
+                    {{/foreach}}
+            {{/get}}
+          </ul>
+  </div>
+  {{/is}}
+{{/if}}

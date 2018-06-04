@@ -1,15 +1,23 @@
-{{#author}}
-  <section class="author-profile">
-  {{#if profile_image}}<img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}"/>{{/if}}
-    <p class="author-bio">
-    <strong class="author-name">{{name}}</strong>
-  <br />
-    {{#if bio}}
-        {{bio}}
-    {{else}}
-    {{t "Whoops...that's not looking good. People have no idea who you are?!"}}
-    
-    {{/if}}
-  </p>
-  </section>
-{{/author}}
+{{#primary_author}}
+<section class="author-profile">
+<div class="row">
+    <div class="col-sm-2 col-md-2">
+        {{#if profile_image}}
+            <img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}"/>
+        {{else}}
+            <img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}"/>    
+        {{/if}}
+    </div>
+    <div class="col-sm-10 author-bio-text">
+      {{#if bio}}
+        <h3>{{name}}</h3>
+          {{bio}}
+      {{else}}
+          {{t "Whoops...that's not looking good. People have no idea who you are?!"}}
+  
+      {{/if}}
+    </div>
+</div>
+</section>
+
+{{/primary_author}}

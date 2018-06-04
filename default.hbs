@@ -1,64 +1,91 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html" lang="{{lang}}">
+<html lang="{{lang}}">
   <head>
-
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{@blog.description}}" />
-
     {{! Document Settings }}
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width" />
 
     {{! Responsive Meta Tags }}
     <!-- own stylesheet for general stuff -->
     <link rel="stylesheet" href="{{asset "css/style.css"}}">
     <!-- other used items -->
-    <link href='//fonts.googleapis.com/css?family=Slabo+27px:400,700' rel='stylesheet' type='text/css'>
-    <link href="//fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
 <!-- main navigation -->
 {{navigation}}
-<main class="{{body_class}}">
+<main class="{{body_class}}" style="background-image:url('{{asset "bgpattern.png"}}')">
 
-  {{#if @labs.publicAPI}}
-    {{#is "home"}}
-       {{> 'post/card-featured'}}
-    {{/is}}
-  {{/if}}
-  {{#post}}
-        <div class="post-image">
-          <img class="posthead-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
-        </div>
-  {{/post}}
+
+
+{{#is "index, home"}}
+{{#if @blog.cover_image}}
+    <div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap" >
+     <div class="tag_heading_home text-center" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
+
+      {{#if @blog.logo}}
+        {{#is "index, home"}}
+            <div class="logo-main">
+            <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{meta_title}}" title="{{meta_title}}" class="logo left" /></a>
+            </div>
+
+
+            <div class="text-main d-none d-sm-none d-md-none d-lg-none">
+          {{#if @blog.description}}
+            {{@blog.description}}
+          {{/if}}
+            </div>
+        {{/is}}
+      {{/if}}
+  </div>
+  </div>
+
+{{/if}}  
+{{/is}}
+
+
 
 {{#is "author"}}
+<div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#author}}
-  <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px">
-    <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/no-pic-available-user.jpg"}}{{/if}}" class="avatar-page center-align" title="Image of {{name}}" alt="Image of {{name}}" />
-    <p class="posttitle">{{name}}</p>
-      <div class="socialfooter-top text-center hide">
-      {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fa fa-facebook fa-2x"></i></a>{{/if}}
-      {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fa fa-twitter fa-2x"></i></a>{{/if}}
+  <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
+    <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/no-pic-available-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
+    <p class="posttitle posttitle-author">{{name}}</p>
+      <div class="socialfooter-top text-center socialfooter-top-author">
+      {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fab fa-facebook fa-facebook-author"></i></a>{{/if}}
+      {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter fa-twitter-author"></i></a>{{/if}}
       </div>
   </div>
   {{/author}}
+  </div>
 {{/is}}
 
 {{#is "tag"}}
+<div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#tag}}
-  <div class="tag_heading text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover; height: 282px;">
+  <div class="tag_heading text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}});">
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}
+</div>
 {{/is}}
 
 
 
+{{#is "post, page"}}
+<div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
+  {{#post}}
+    <div class="tag_heading tag_heading_post text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}});">
+    
+    </div>
+
+  {{/post}}
+  </div>
+{{/is}}
 <div class="container-fluid">
 
        {{{body}}}
@@ -66,23 +93,21 @@
 </div><!-- container fluid END! -->
 </main>
 
-<footer class="page-footer white">
-      <!-- social media icons in footer -> partials/social.hbs -->
+<footer class="page-footer"  style="background-image:url('{{asset "bgpattern.png"}}')">
+      <div class="top-socials">
+          <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
+          {{#if @blog.facebook}}
+            <a href="{{facebook_url @blog.facebook}}" target="_blank"><i class="fab fa-facebook"></i></a>
+          {{/if}}
+          {{#if @blog.twitter}}
+            <a href="{{twitter_url @blog.twitter}}" target="_blank"><i class="fab fa-twitter" ></i></a>
+          {{/if}}  
+    </div>
     {{> 'ui/footer'}}
 </footer>
 <!-- Compiled and minified JavaScript -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-<script type="text/javascript"> 
-      $(document).ready(function(){
-     
-        $('.carousel').carousel({
-          interval: 5000
-        })
-      
-      });
-        
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 {{ghost_foot}}
 </html>

@@ -14,7 +14,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme that derived from Canitia Jr.
 - Translation support!
 - Custom AMP, tag, author and error page designs.
 
-![Larua](https://github.com/Canitia/larua/blob/master/assets/screenshot-desktop.png)
+![Larua](https://gitlab.com/canitia/larua/blob/master/assets/screenshot-desktop.png)
 
 # Larua's base
 Larua uses the following libraries;

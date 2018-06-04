@@ -11,7 +11,7 @@
     "Most used tags": "Populaire tags",
     "Read": "Lees meer",
     "< 1 min read": "< 1 min leestijd",
-    "1 min read": "1 min leestijdread",
+    "1 min read": "1 min leestijd",
     "% min read": "% min leestijd",
     "Back": "Terug",
     "Newer Posts": "Nieuwere posts",
@@ -27,7 +27,6 @@
     "Get the latest posts delivered right to your inbox": "Krijg het laatste nieuws direct in je inbox",
     "Latest Posts": "Laatste Posts",
     "No posts": "Geen posts",
-    "Read More": "Lees meer",
     "See all % posts": "Zie alle % posts",
     "Share this": "Deel dit",
     "Stay up to date! Get all the latest & greatest posts delivered straight to your inbox": "Blijf up to date! Krijg alle recentste en beste posts in je inbox",
@@ -37,5 +36,10 @@
     "youremail@example.com": "jouwemail@voorbeeld.nl",
     "1 post": "1 post",
     "% posts": "% posts",
-    "powered by: Canitia Jr.": "Canitia Jr."
+    "Hello": "Hallo",
+    "No related posts found": "Geen gerelateerde berichten gevonden.",
+    "Written by": "Geschreven door",
+    "Please add a excerpt to this post.": "Voeg een korte samenvatting/excerpt toe aan uw post.",
+    "Made By": "Gemaakt door",
+    "Powered By": "Draait"
 }

@@ -3,25 +3,25 @@
 {{#foreach posts}}
 
 
-          <div class="card col col-sm-12 col-md-6">
-             <a href="{{url}}">
-                <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/no-pic-available.jpg"}}{{/if}}" class="homepage-image">          
-          </a>
+          <div class="card col col-sm-12 col-md-12 col-lg-6">
+                <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>         
             <div class="card-block">
               {{#if featured}}
                   <span class="badge-featured">
                     {{t "Featured"}}
                   </span>
               {{/if}}
-              <h2 class="card-title">{{title}}</h2>
-              <p class="card-text">{{excerpt words="20"}}...</p>
-                <div class="spacer"></div>
-                <div class="card-actions-bottom">
-                  <a href="{{url}}" class="btn btn-primary read-more-btn">{{t "Read"}}</a>
+              <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
+                <div class="card-actions-top">
+
+                    {{#foreach authors}}
+                        <a href="{{url}}" title="{{name}}"><img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="homepage-avatar" alt="{{t "Written by"}} {{name}}" title="{{t "Written by"}} {{name}}"></a> 
+                    {{/foreach}}
                     <small class="text-muted badge">
-                        <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+                        <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
                   </small>
                 </div>
+              <p class="card-text">{{excerpt words="21"}}</p>
             </div>
           </div>  
 

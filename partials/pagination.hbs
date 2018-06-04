@@ -1,10 +1,10 @@
-<ul class="pagination d-flex justify-content-center" role="pagination">
+<ul class="pagination d-flex justify-content-center">
     {{#if prev}}
-        <li><a href="{{page_url prev}}">{{prev}}</a></li>
+        <a href="{{page_url prev}}"><li>{{prev}}</li></a>
     {{/if}}
 
     <li class="active">{{page}}</li>
     {{#if next}}
-        <li><a href="{{page_url next}}">{{next}}</a></li>
+        <a href="{{page_url next}}"><li>{{next}}</li></a>
     {{/if}}
 </ul>

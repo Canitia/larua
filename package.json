@@ -1,8 +1,7 @@
 {
   "name": "larua",
-  "description": "A card-based feature-rich theme for Ghost bringing responsive design to the masses. ",
-  "demo": "https:/blog.canitia.nl",
-  "version": "1.0.7r",
+  "description": "A card-based feature-rich theme for Ghost bringing responsive design to the masses.",
+  "version": "1.0.8r",
   "engines": {
       "ghost": ">=1.22.0"
   },
@@ -12,15 +11,15 @@
     "mobile": "assets/screenshot-mobile.png"
   },
   "author": {
-    "name": "Michael B.",  
+    "name": "Michael Boumann",  
     "email": "support@canitia.nl",
     "url": "https://canitia.nl"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Canitia/larua.git"
+    "url": "https://git.canitia.nl/Canitia/larua.git"
   },
-  "bugs": "https://github.com/Canitia/larua/issues",
+  "bugs": "https://git.canitia.nl/Canitia/larua/issues",
  
   "config": {
       "posts_per_page": 15

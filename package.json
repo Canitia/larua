@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/canitia/larua.git"
+    "url": "https://git.canitia.nl/Canitia/larua.git"
   },
-  "bugs": "https://gitlab.com/canitia/larua/issues",
+  "bugs": "https://git.canitia.nl/Canitia/larua/issues",
  
   "config": {
       "posts_per_page": 15

@@ -547,6 +547,12 @@ POST/ARTICLE HEADERS
     align-items: center;
     max-width: 920px;
 }
+
+.kg-embed-card {
+    display: flex;
+    justify-content: center;
+}
+
  .post-full-content .kg-image {
     max-width: 100%;
 }
@@ -582,12 +588,6 @@ POST/ARTICLE HEADERS
     .post-full-content .kg-image-full + figcaption {
         padding: 0 4vw;
     }
-}
-
-
-
-p > img, .post-content img {
-    max-width: 100%;
 }
 
 .post-template {

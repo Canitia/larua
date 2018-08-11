@@ -526,6 +526,65 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
+ .kg-card-markdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 920px;
+}
+ .post-template .kg-card-markdown > p:first-child {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+/* ^ .kg-card-markdown will be deprecated */
+ .post-template .kg-post > p:first-child {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+ .kg-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 920px;
+}
+ .post-full-content .kg-image {
+    max-width: 100%;
+}
+ /* Preventing full-width image overlap with post image.  */
+.post-full-image + .post-full-content .kg-post *:first-child .kg-image {
+    width: 100%;
+}
+ .post-full-content .kg-image-wide {
+    max-width: 1040px;
+}
+ .post-full-content .kg-image-full {
+    max-width: 100vw;
+}
+ .kg-image-card figcaption {
+    font-size: 80%;
+    margin: -1.5em auto 3em;
+}
+ .post-full-content .kg-image-full + figcaption {
+    max-width: 840px;
+}
+ @media (max-width: 1040px) {
+    .post-full-content .kg-image-full {
+        width: 100vw;
+    }
+}
+ @media (max-width: 1170px) {
+    .post-full-content .kg-image-full + figcaption {
+        padding: 0 11vw;
+        max-width: 100vw;
+    }
+}
+ @media (max-width: 500px) {
+    .post-full-content .kg-image-full + figcaption {
+        padding: 0 4vw;
+    }
+}
+
+
 
 p > img, .post-content img {
     max-width: 100%;

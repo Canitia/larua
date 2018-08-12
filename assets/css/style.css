@@ -525,6 +525,10 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
+article {
+	width: 920px;
+}
+
  .kg-card-markdown {
     display: flex;
     flex-direction: column;

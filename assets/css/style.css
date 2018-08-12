@@ -126,7 +126,6 @@ p > a:focus, p > a:hover
 .container-fluid {
 	margin-left: auto;
 	margin-right: auto;
-	max-width:1200px;
 }
 
 .main-content {
@@ -438,7 +437,6 @@ POST/ARTICLE CARD UI - main
 }
 
 .page-row {
-	max-width: 1200px;
 	margin-left: auto !important;
 	margin-right: auto !important;
 	margin-top: 15px;
@@ -560,6 +558,7 @@ POST/ARTICLE HEADERS
 .post-full-image + .post-full-content .kg-post *:first-child .kg-image {
     width: 100%;
 }
+
  .post-full-content .kg-image-wide {
     max-width: 1040px;
 }

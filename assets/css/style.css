@@ -442,7 +442,9 @@ POST/ARTICLE CARD UI - main
 	margin-right: auto !important;
 	margin-top: 15px;
 	background: white;
-	max-width: 85vw;
+	max-width: 65vw;
+	position: relative;
+	box-shadow: 0 3px 1px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
 }
 
 .post-item-main > a {
@@ -526,10 +528,6 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-article {
-	width: 920px;
-}
-
  .kg-card-markdown {
     display: flex;
     flex-direction: column;
@@ -730,7 +728,6 @@ iframe {
 	padding: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
-	border: 2px solid #ebebeb;
 }
 
 .tag_head_wrap {

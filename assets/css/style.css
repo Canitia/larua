@@ -582,6 +582,13 @@ POST/ARTICLE HEADERS
     opacity: 0.8;
     text-align: center;
 }
+
+.kg-image-card.kg-width-full {
+	width: 90vw;
+    left: -15vw;
+    position: relative;
+}
+
  .post-full-content .kg-image-full + figcaption {
     max-width: 840px;
 }

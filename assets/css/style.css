@@ -1233,7 +1233,10 @@ footer {
 		padding: 15px;
 	}
 
-
+	.kg-image-card.kg-width-wide {
+		left: 0;
+		width: 100%;
+	}
 
 
 }

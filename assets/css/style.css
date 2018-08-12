@@ -591,6 +591,9 @@ POST/ARTICLE HEADERS
     max-width: 840px;
 }
 
+.kg-embed-card .fluid-width-video-wrapper {
+    margin: 0;
+}
 
 
 

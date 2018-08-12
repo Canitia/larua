@@ -581,11 +581,6 @@ POST/ARTICLE HEADERS
     max-width: 100%;
 }
  .kg-image-card figcaption {
-	margin: -1.5em auto 3em;
-    color: white;
-    width: 100%;
-    background: black;
-    opacity: 0.8;
     text-align: center;
 }
 

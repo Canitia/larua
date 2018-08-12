@@ -1397,6 +1397,15 @@ footer {
 
 }
 
+@media (max-width:820px) and (min-width:768px) {
+
+.kg-image-card.kg-width-wide {
+	width: 100% !important;
+	left: 0 !important;
+}
+
+}
+
 
 @media (max-width:991px) and (min-width:768px) {
 

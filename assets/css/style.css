@@ -22,7 +22,7 @@ p {
 	margin: 0 0 1.66667em;
 }
 
-p > a {
+p > a, p > em > a {
 	text-decoration: underline;
 }
 
@@ -80,11 +80,11 @@ strong {
   font-weight: 700 !important;
 }
 
-p > a, .collection .collection-item, .collection-item > a {
+p > a, .collection .collection-item, .collection-item > a, p > em > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover
+p > a:focus, p > a:hover, p > em > a:hover
 {
   color:#b5b5b5 !important;
 }

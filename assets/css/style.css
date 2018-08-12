@@ -1223,6 +1223,7 @@ footer {
 
 	.page-row {
 		margin-top: 0;
+		max-width: 100vw;
 	}
 
 	iframe {
@@ -1294,6 +1295,7 @@ footer {
 
 	.page-row {
 		margin-top: 0;
+		max-width: 100vw;
 	}
 
 	.headerurl, .nav-link {

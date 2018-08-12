@@ -443,7 +443,7 @@ POST/ARTICLE CARD UI - main
 	margin-right: auto !important;
 	margin-top: 15px;
 	background: white;
-	max-width: 65vw;
+	max-width: 1060px;
 	position: relative;
 	box-shadow: 0 3px 1px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
 }
@@ -573,8 +573,8 @@ POST/ARTICLE HEADERS
 }
 
 .kg-image-card.kg-width-full {
-	margin-left: calc(-100vw / 2 + 65vw / 2);
-	margin-right: calc(-100vw / 2 + 65vw / 2);
+	margin-left: calc(-100vw / 2 + 1060px / 2);
+	margin-right: calc(-100vw / 2 + 1060px / 2);
     position: relative;
 }
 
@@ -1227,17 +1227,7 @@ footer {
 		padding: 15px;
 	}
 
-	.kg-image-card.kg-width-wide {
-		position: relative;
-		width: 100%;
-		left:0%;
-	}
-	
-	.kg-image-card.kg-width-full {
-		width: 100%;
-		left:0%;
-		position: relative;
-	}
+
 
 
 }
@@ -1389,19 +1379,6 @@ footer {
 
 	iframe {
 		padding: 25px;
-	}
-
-	
-	.kg-image-card.kg-width-wide {
-		position: relative;
-		width: 100%;
-		left:0%;
-	}
-	
-	.kg-image-card.kg-width-full {
-		width: 100%;
-		position: relative;
-		left:0%;
 	}
 
 }

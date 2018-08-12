@@ -573,8 +573,8 @@ POST/ARTICLE HEADERS
 }
 
 .kg-image-card.kg-width-full {
-    width: 100vw;
-    left: -33%;
+	margin-left: calc(-100vw / 2 + 65vw / 2);
+	margin-right: calc(-100vw / 2 + 65vw / 2);
     position: relative;
 }
 

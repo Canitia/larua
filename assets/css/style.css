@@ -581,7 +581,8 @@ POST/ARTICLE HEADERS
     max-width: 100%;
 }
  .kg-image-card figcaption {
-    text-align: center;
+	text-align: center;
+	margin-bottom: 35px;
 }
 
  .post-full-content .kg-image-full + figcaption {

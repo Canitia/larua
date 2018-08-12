@@ -556,7 +556,10 @@ POST/ARTICLE HEADERS
 
 .kg-embed-card {
     display: flex;
-    justify-content: center;
+	justify-content: center;
+	align-items: center;
+    margin: 1.5em 0 3em;
+    min-width: 100%;
 }
 
  .post-full-content .kg-image {

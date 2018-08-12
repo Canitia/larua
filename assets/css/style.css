@@ -1380,10 +1380,6 @@ footer {
 
 
 @media (max-width:991px) and (min-width:768px) {
-	
-	.logo-nav {
-
-	}
 
 	header {
 		margin-top: -15px;
@@ -1391,10 +1387,6 @@ footer {
 
 	.container-fluid {
 		max-width: 760px;
-	}
-
-	.tag_head_wrap {
-
 	}
 
 	.tag_heading {

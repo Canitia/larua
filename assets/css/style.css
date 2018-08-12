@@ -37,6 +37,8 @@ hr {
 
 pre {
 	line-height: 30px;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 blockquote {
@@ -272,7 +274,6 @@ img.logo {
 	position: relative;
 	margin-left: 5px;
 	margin-right: 5px;
-	border-radius: 100px;
 	max-width: 100%;
 	width: auto;
 }

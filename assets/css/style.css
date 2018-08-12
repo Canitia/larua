@@ -573,7 +573,7 @@ POST/ARTICLE HEADERS
 }
 
 .kg-image-card.kg-width-full {
-    width: 164%;
+    width: 100vw;
     left: -33%;
     position: relative;
 }

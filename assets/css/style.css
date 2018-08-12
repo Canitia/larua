@@ -565,9 +565,12 @@ POST/ARTICLE HEADERS
     width: 100%;
 }
 
- .post-full-content .kg-image-wide {
-    max-width: 1040px;
+.kg-image-card.kg-width-wide {
+    position: relative;
+    left: -4vw;
+    width: 70vw;
 }
+
  .post-full-content .kg-image-full {
     max-width: 100vw;
 }

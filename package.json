@@ -1,7 +1,7 @@
 {
   "name": "larua",
   "description": "A card-based feature-rich theme for Ghost bringing responsive design to the masses.",
-  "version": "1.0.8r",
+  "version": "1.1.0r",
   "engines": {
       "ghost": ">=1.22.0"
   },

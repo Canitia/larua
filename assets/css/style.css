@@ -59,7 +59,7 @@ blockquote:before {
 blockquote:before, blockquote:after {
     color:black;
     content:'\f10d';
-    font-family:'FontAwesome';
+    font-family:'Font Awesome 5 Free';
     font-size:25px;
     position:absolute;
     display:block;

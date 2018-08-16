@@ -225,6 +225,10 @@ nav {
 	text-shadow: none;
 }
 
+.nav-link:hover {
+	background: white !important;
+}
+
 .headerurl:hover {
   text-decoration: none;
   color: #545454 !important;
@@ -271,7 +275,7 @@ img.logo {
 }
 
 .menu-item > a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .menu-item > ul > .menu-item {

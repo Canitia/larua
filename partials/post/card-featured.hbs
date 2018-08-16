@@ -1,5 +1,6 @@
 {{#get "posts" limit="5" filter="featured:true" order="published_at desc" as |featured| }}
 <div id="carousel" class="carousel slide" data-ride="carousel">
+
   <div class="carousel-inner" role="listbox">
        {{#foreach featured}}
             <div class="carousel-item {{#if @first}}active{{/if}}">

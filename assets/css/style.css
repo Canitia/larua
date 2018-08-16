@@ -390,16 +390,18 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title {
-	font-size: 135% !important;
+	font-size: 125% !important;
 	margin-top: 15px;
 	white-space: pre-wrap;
 	text-overflow: ellipsis;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
 .card-title a {
 	color: black;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
 .card-title a:hover {
@@ -414,6 +416,12 @@ POST/ARTICLE CARD UI - main
 .card-block {
 	background: white !important;
 	width: 100%;
+}
+
+.card-text {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	height: 85px;
 }
 
 .page-row {

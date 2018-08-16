@@ -1509,10 +1509,6 @@ footer {
 		overflow: hidden;
 	}
 
-	.card {
-		flex: 1 1 300px !important;
-	}
-
 	.card:nth-child(4n+4) {
 		flex: 1 1 100% !important;
 		-ms-flex-direction: row !important;

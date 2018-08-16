@@ -974,26 +974,12 @@ footer {
 		margin-top: 0;
 	}
 
-	.tag_head_wrap {
-		height: 300px;
-	}
-
-	.tag_heading {
-		margin-top: 0;
-	}
-
 	.logo-nav {
 		height: 25px;
 	}
 
 	.logo-main {
 		top: 50px;
-	}
-
-	.cover-image {
-		top: -125px;
-		position: relative;
-		height: 100%;
 	}
 
 	.card-block {
@@ -1074,10 +1060,6 @@ footer {
 	.post-image {
 		height: auto;
 		width: 100%;
-	}
-
-	.carousel {
-		display: none;
 	}
 
 	.card {

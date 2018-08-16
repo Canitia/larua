@@ -731,7 +731,6 @@ iframe {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	opacity: 0.8;
 }
 
 .tag_heading {
@@ -740,7 +739,6 @@ iframe {
 	object-fit: cover;
 	height: 100% !important;
 	position: relative;
-	opacity: 0.8;
 	height: 625px !important;
 	max-height: 625px !important;
 	background-size: cover;

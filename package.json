@@ -24,7 +24,9 @@
   "config": {
       "posts_per_page": 15
   },
-  "keywords": {
-    "ghost-theme"
-  }
+  "keywords": [
+    "ghost",
+    "blog",
+    "theme"
+  ]
 }

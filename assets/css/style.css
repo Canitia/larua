@@ -84,7 +84,7 @@ p > a, .collection .collection-item, .collection-item > a, p > em > a {
 
 p > a:focus, p > a:hover, p > em > a:hover
 {
-  color:#b5b5b5 !important;
+  color:#4285f4 !important;
 }
 
 
@@ -216,16 +216,15 @@ nav {
 	color: black !important;
 }
 
-.menu-item.active > .nav-link, .nav-link:hover {
-	color: black !important;
-	background: #ebebeb;
+.menu-item.active > .nav-link {
+	color: #4285f4 !important;
+}
+
+ .nav-link:hover {
+	color: #4285f4 !important;
 	border-radius: 15px;
 	text-decoration: none;
 	text-shadow: none;
-}
-
-.nav-link:hover {
-	background: white !important;
 }
 
 .headerurl:hover {
@@ -405,7 +404,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title a:hover {
-    color: #545454;
+    color: #4285f4;
     text-decoration: none;
 }
 
@@ -783,7 +782,7 @@ iframe {
 }
 
 .tagslist a:hover {
-	color: black;
+	color: #4285f4;
 	text-decoration: underline;
 }
 

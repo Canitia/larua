@@ -1046,6 +1046,14 @@ footer {
 		background-position: 50% 50%;
 	}
 
+	.navbar-collapse .navbar-nav .menu-item a:hover {
+		color: black !important;
+		background: #ebebeb;
+		border-radius: 15px;
+		text-decoration: none;
+		text-shadow: none;
+	}
+
 	.navbar-nav {
 		flex-direction: column !important;
 	}

@@ -3,7 +3,7 @@
   "description": "A card-based feature-rich theme for Ghost bringing responsive design to the masses.",
   "version": "1.1.0beta3",
   "engines": {
-      "ghost": ">=1.25.0"
+      "ghost": ">=2.0.0"
   },
   "license": "MIT",
   "screenshots": {

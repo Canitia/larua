@@ -5,7 +5,6 @@
 *****************************************/
 html body {
 	height: 100%;
-	font-size: 102.5%;
 	line-height: 1.66667;
 	min-width: 320px;
 }
@@ -203,6 +202,10 @@ nav {
 	flex-direction: row !important;
 }
 
+.navbar-collapse {
+	margin-top: 25px;
+}
+
 /* color of clickable header */
 .headerurl {
 	text-decoration: none;
@@ -320,7 +323,7 @@ img.logo {
 	object-fit: cover;
 	width: 100%;
 	max-width: 100%;
-	height: 170px;
+	height: 190px;
 	border-radius: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -390,12 +393,13 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title {
-	font-size: 125% !important;
+	font-size: 120% !important;
 	margin-top: 15px;
 	white-space: pre-wrap;
 	text-overflow: ellipsis;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	line-height: 1.3;
 }
 
 .card-title a {
@@ -1502,6 +1506,11 @@ footer {
 
 /* tablet devices */
 @media only screen and (min-width: 992px) {
+	.card-title {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
 
 	.ml-auto {
 		margin-right: auto !important;
@@ -1548,6 +1557,13 @@ footer {
 	}
 
 }
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1250px !important;
+	}
+}
+
 
 /* **************************************
 

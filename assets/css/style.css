@@ -202,10 +202,6 @@ nav {
 	flex-direction: row !important;
 }
 
-.navbar-collapse {
-	margin-top: 25px;
-}
-
 /* color of clickable header */
 .headerurl {
 	text-decoration: none;
@@ -1048,10 +1044,14 @@ footer {
 
 	.navbar-collapse .navbar-nav .menu-item a:hover {
 		color: black !important;
-		background: #ebebeb;
+		background: #ebebeb !important;
 		border-radius: 15px;
 		text-decoration: none;
 		text-shadow: none;
+	}
+
+	.navbar-collapse {
+		margin-top: 25px;
 	}
 
 	.navbar-nav {
@@ -1373,10 +1373,6 @@ footer {
 
 @media (max-width:991px) and (min-width:768px) {
 
-	header {
-		margin-top: -15px;
-	}
-
 	.container-fluid {
 		max-width: 760px;
 	}
@@ -1452,10 +1448,6 @@ footer {
 		color: #545454 !important;
 	}
 
-	.homepage-avatar {
-		width: 35px;
-	}
-
 	.posthead-image {
 		top: 0;
 		min-height: 300px;
@@ -1499,10 +1491,7 @@ footer {
 		margin-top: 30px;
 		width: 90px;
 	}
-	
-	.ml-auto {
-		margin-right: auto !important;
-	}
+
 
 	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
 		margin-left:0;
@@ -1518,10 +1507,6 @@ footer {
 		white-space: nowrap;
 		text-overflow: ellipsis;
 		overflow: hidden;
-	}
-
-	.ml-auto {
-		margin-right: auto !important;
 	}
 
 	.card {
@@ -1544,11 +1529,6 @@ footer {
 		color: white !important;
 	}
 
-	.logo-main {
-		top: 35vh;
-	}
-
-
 	.tag_heading_post {
 		background-size: cover;
 		height: 50vh !important;
@@ -1570,6 +1550,8 @@ footer {
 	.container {
 		max-width: 1250px !important;
 	}
+
+	.navbar
 }
 
 

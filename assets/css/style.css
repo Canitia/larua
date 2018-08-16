@@ -149,15 +149,13 @@ p > a:focus, p > a:hover, p > em > a:hover
   HEADER
 
 *****************************************/
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
+.sticky.is-sticky {
 	position: fixed;
+	left: 0;
+	right: 0;
 	top: 0;
+	z-index: 1000;
 	width: 100%;
-  }
-
-  .sticky + .content {
-	padding-top: 60px;
   }
 
 .logo-main {

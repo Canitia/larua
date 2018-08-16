@@ -1374,16 +1374,16 @@ footer {
 	.tag_heading_home {
 		top: 0px;
 		position: relative;
-		height: 350px;
-		min-height: 350px;
+		height: 35vh;
+		min-height: 35vh;
 	}
 
 	.tag_heading_post {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
-		height: 350px;
-		min-height: 350px;
+		height: 35vh;
+		min-height: 35vh;
 	}
 
 	.tag_heading > .posttitle.posttitle-author {
@@ -1516,17 +1516,17 @@ footer {
 
 	.tag_heading_post {
 		background-size: cover;
-		height: 50vh !important;
-		max-height: 50vh !important;
+		height: 35vh !important;
+		max-height: 35vh !important;
 	}
 
 	.tag_heading {
-		height: 50vh !important;
+		height: 35vh !important;
 	}
 
 	.tag_heading_home {
-		height: 50vh !important;
-		max-height: 50vh !important;
+		height: 35vh !important;
+		max-height: 35vh !important;
 	}
 
 }

@@ -10,7 +10,7 @@
     <!-- own stylesheet for general stuff -->
     <link rel="stylesheet" href="{{asset "css/style.css"}}">
     <!-- other used items -->
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         {{! Ghost outputs important style and meta data with this tag }}
@@ -18,9 +18,7 @@
 </head>
 <!-- main navigation -->
 {{navigation}}
-<main class="{{body_class}}" style="background-image:url('{{asset "bgpattern.png"}}')">
-
-
+<main class="{{body_class}}">
 
 {{#is "index, home"}}
 {{#if @blog.cover_image}}
@@ -29,11 +27,6 @@
 
       {{#if @blog.logo}}
         {{#is "index, home"}}
-            <div class="logo-main">
-            <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{meta_title}}" title="{{meta_title}}" class="logo left" /></a>
-            </div>
-
-
             <div class="text-main d-none d-sm-none d-md-none d-lg-none">
           {{#if @blog.description}}
             {{@blog.description}}
@@ -93,7 +86,7 @@
 </div><!-- container fluid END! -->
 </main>
 
-<footer class="page-footer"  style="background-image:url('{{asset "bgpattern.png"}}')">
+<footer class="page-footer">
       <div class="top-socials">
           <a href="{{@blog.url}}/rss" target="_blank"><i class="fas fa-rss"></i></a>
           {{#if @blog.facebook}}

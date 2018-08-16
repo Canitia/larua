@@ -5,8 +5,7 @@
 *****************************************/
 html body {
 	height: 100%;
-	font-size: 112.5%;
-	font-family: 'Karla', sans-serif !important;
+	font-size: 102.5%;
 	line-height: 1.66667;
 	min-width: 320px;
 }
@@ -101,6 +100,7 @@ p > a:focus, p > a:hover, p > em > a:hover
 
 .post-title {
 	margin-top: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .post-subitems {
@@ -200,17 +200,13 @@ main {
 	max-height: 500px;
 }
 
-header {
-	margin-bottom: -85px;
-}
-
 .navbar {
-	margin-bottom: -300px;
 	z-index: 10;
 }
 
 nav {
-	background: transparent !important;
+	background: white !important;
+	border-bottom: 1px solid #ebebeb !important;
 }
 
 .navbar-nav {
@@ -230,9 +226,7 @@ nav {
 }
 
 .nav-link {
-	color: #ebebeb !important;
-	text-shadow: 1px 1px black;
-	opacity: 0.8;
+	color: black !important;
 }
 
 .menu-item.active > .nav-link, .nav-link:hover {
@@ -279,8 +273,8 @@ img.logo {
 }
 
 .menu-item {
-	padding: 13px;
-	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .menu-item > a {
@@ -332,10 +326,11 @@ img.logo {
 *****************************************/
 .homepage-image {
 	object-fit: cover;
-	max-width: 100%;
 	width: 100%;
-	height: 250px;
-	border: 1px solid #ebebeb !important;
+	max-width: 100%;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 20px;
 }
 
 .collection {
@@ -394,28 +389,26 @@ POST/ARTICLE CARD UI - main
 
 .card {
 	border: 0 !important;
-	padding: 15px;
+	border-bottom: 1px solid #ebebeb !important;
+	padding: 0px;
 	height: 100% !important;
 	background-color: transparent !important;
-	transition: all .2s ease-in-out;
-}
-
-
-
-.card:hover {
-	transform: scale(1.02);
+	flex-direction: row-reverse !important;
 }
 
 .card-title {
 	font-size: 125% !important;
 	margin-top: 15px;
-	white-space: nowrap;
-	overflow: hidden;
+	white-space: pre-wrap;
 	text-overflow: ellipsis;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
 .card-title a {
 	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
 .card-title a:hover {
@@ -445,7 +438,6 @@ POST/ARTICLE CARD UI - main
 	background: white;
 	max-width: 1060px;
 	position: relative;
-	box-shadow: 0 3px 1px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
 }
 
 .post-item-main > a {
@@ -463,8 +455,9 @@ POST/ARTICLE CARD UI - main
 }
 
 .badge {
-	font-weight: 500;
+	font-weight: 400;
 	color: black;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .badge-featured {
@@ -479,6 +472,7 @@ POST/ARTICLE CARD UI - main
     color: black;
 	text-align: center;
 	border-radius: 15px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .post-featured {
@@ -1078,7 +1072,7 @@ footer {
 	}
 
 	.nav-link:hover {
-		color: #545454 !important;
+		color: #ebebeb !important;
 	}
 
 	.navbar {
@@ -1310,12 +1304,6 @@ footer {
 		text-shadow: none;
 	}
 
-	.navbar {
-		background: black !important;
-		opacity: 0.9;
-		margin-bottom: 85px;
-	}
-
 	.navbar-nav {
 		flex-direction: column !important;
 	}
@@ -1476,14 +1464,6 @@ footer {
 	}
 
 	.navbar-brand:hover {
-		color: #545454 !important;
-	}
-
-	.nav-link {
-		color: white !important;
-	}
-
-	.nav-link:hover {
 		color: #545454 !important;
 	}
 

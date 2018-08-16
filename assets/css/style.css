@@ -660,19 +660,31 @@ iframe {
   SLIDER LOOK-N-FEEL
 
 *****************************************/
+.carousel {
+	height: 35vh;
+}
+
+.carousel-inner {
+	height: 35vh;
+}
+
+.carousel-item {
+	height: 35vh;
+}
 
 .carousel:hover {
 	filter: brightness(90%) !important;
 }
 
-
 .carousel-caption {
-    bottom: 0 !important;
-    background: black;
-	opacity: 0.5;
-	left: 0 !important;
-	right: 0 !important;
-	padding: 5px;
+    z-index: 10;
+    padding: 10px !important;
+    background-color: #ebebeb !important;
+    font-weight: bold;
+    opacity: 0.9;
+    color: black !important;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .h-slider {

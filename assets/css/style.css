@@ -516,18 +516,7 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
- .kg-card-markdown {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-	max-width: 920px;
-	margin-left: auto;
-    margin-right: auto;
-}
- .post-template .kg-card-markdown > p:first-child {
-    font-size: 1.25em;
-    line-height: 1.5em;
-}
+
 /* ^ .kg-card-markdown will be deprecated */
  .post-template .kg-post > p:first-child {
     font-size: 1.25em;

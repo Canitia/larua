@@ -169,12 +169,6 @@ main {
 	height: 32px;
 }
 
-
-.logo-fixed {
-	opacity: 0.7;
-	position: absolute;
-}
-
 .text-main {
     position: relative;
 	top: 375px;
@@ -191,7 +185,6 @@ main {
 .cover-image {
     width: 100%;
 	object-fit: cover;
-	opacity: 0.8;
 	max-height: 500px;
 }
 

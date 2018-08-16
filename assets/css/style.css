@@ -562,6 +562,7 @@ POST/ARTICLE HEADERS
  .kg-image-card figcaption {
 	text-align: center;
 	margin-bottom: 35px;
+	font-style: italic;
 }
 
  .post-full-content .kg-image-full + figcaption {

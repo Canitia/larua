@@ -141,11 +141,6 @@ main {
 	flex-direction: column;
 }
 
-.row {
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-}
-
 .row.row-post {
   background-color: white !important;
 }
@@ -980,9 +975,15 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
 
-	.card:hover {
-		transform: scale(1);
+	.container-fluid {
+		padding: 0 !important;
 	}
+
+	.container {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
 
 	.avatar-page-author {
 		margin-top: 0;

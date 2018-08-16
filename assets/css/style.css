@@ -980,10 +980,8 @@ footer {
 	}
 
 	.container {
-		padding: 0 !important;
 		margin: 0 !important;
 	}
-
 
 	.avatar-page-author {
 		margin-top: 0;
@@ -999,6 +997,7 @@ footer {
 
 	.logo-nav {
 		height: 25px;
+		margin-left: 65px;
 	}
 
 	.logo-main {
@@ -1009,10 +1008,6 @@ footer {
 		top: -125px;
 		position: relative;
 		height: 100%;
-	}
-
-	.card {
-		border: 0 !important;
 	}
 
 	.card-block {
@@ -1050,14 +1045,6 @@ footer {
 		background-position: 50% 50%;
 	}
 
-	.text-main {
-		top: 275px;
-	}
-
-	.logo-main {
-		top: 275px;
-	}
-
 	.navbar-nav {
 		flex-direction: column !important;
 	}
@@ -1072,17 +1059,6 @@ footer {
 
 	.nav-link:hover {
 		color: #ebebeb !important;
-	}
-
-	.navbar {
-		background: black !important;
-		margin-bottom: 85px;
-		opacity: 0.9;
-	}
-
-	header {
-		margin-top: -20px;
-		padding-top: 15px;
 	}
 
 	.container-fluid {
@@ -1108,6 +1084,7 @@ footer {
 
 	.card {
 		padding-bottom: 30px;
+		flex-direction: column !important;
 	}
 	
 	.card-title {

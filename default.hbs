@@ -23,7 +23,7 @@
 {{#is "index, home"}}
 {{#if @blog.cover_image}}
     <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap" >
-     <div class="tag_heading_home text-center" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}); background-repeat: no-repeat; background-size: cover;">
+     <div class="tag_heading_home text-center" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
 
         {{#is "index, home"}}
             <div class="text-main d-none d-sm-none d-md-none d-lg-none">
@@ -109,9 +109,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 <script type="text/javascript"> 
-      $(document).ready(function(){
+      jQuery(document).ready(function(){
      
-        $('.carousel').carousel({
+        jQuery('.carousel').carousel({
           interval: 5000
         })
       

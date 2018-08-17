@@ -656,15 +656,15 @@ iframe {
 
 *****************************************/
 .carousel {
-	height: 35vh;
+	height: 300px;
 }
 
 .carousel-inner {
-	height: 35vh;
+	height: 300px;
 }
 
 .carousel-item {
-	height: 35vh;
+	height: 300px;
 }
 
 .carousel:hover {

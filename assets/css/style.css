@@ -1541,7 +1541,7 @@ footer {
 }
 
 .read-more-btn {
-	background-color: #ebebeb !important;
+	background-color: white !important;
 	color: black !important;
 	border: 1px solid grey !important;
 }
@@ -1549,6 +1549,7 @@ footer {
 .card-actions-bottom {
     display: block;
     text-align: center;
+	margin-bottom: 30px;
 }
 
 .fa-exclamation-triangle {

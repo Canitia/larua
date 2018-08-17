@@ -685,7 +685,6 @@ iframe {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	font-size: 1.7em !important;
 }
 
 /* **************************************
@@ -736,7 +735,7 @@ iframe {
 }
 
 .tag_heading > .posttitle {
-    font-size: 200%;
+    font-size: 2.5em;
 	text-shadow: none;
 	color: black !important;
 	background: white;

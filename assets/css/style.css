@@ -655,16 +655,20 @@ iframe {
 
 *****************************************/
 .carousel {
-	height: 350px;
+	height: 30vh;
 }
 
 .carousel-inner {
-	height: 350px;
+	height: 30vh;
 }
 
 .carousel-item {
-	height: 350px;
+	height: 30vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
+
 
 .carousel:hover {
 	filter: brightness(90%) !important;

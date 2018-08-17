@@ -1633,6 +1633,10 @@ EXTERNAL libraries look-n-feel
 	color: black;
 }
 
+i.fas.fa-exclamation-circle.fa-2x {
+    margin-right: 10px;
+}
+
 .fa-exclamation-triangle {
 	text-align: center;
     display: block !important;

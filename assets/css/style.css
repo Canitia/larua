@@ -685,8 +685,6 @@ iframe {
     color: black !important;
     border-radius: 15px;
 	font-family: 'Open Sans', sans-serif;
-	bottom: auto !important;
-	top: 42% !important;
 }
 
 .h-slider {

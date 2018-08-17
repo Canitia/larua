@@ -185,11 +185,6 @@ p > a:focus, p > a:hover, p > em > a:hover
 	z-index: 10;
 }
 
-nav {
-	background: white !important;
-	border-bottom: 1px solid #ebebeb !important;
-}
-
 .navbar-nav {
 	display: flex !important;
 	flex-wrap: nowrap !important;
@@ -888,7 +883,7 @@ img.avatar {
 	padding: 20px;
 	line-height: 8px; 
 	font-weight: 600;
-	background: #d3d3d3;
+	background: #ebebeb;
 	text-align: center;
 	border-radius: 50px;
 	width: 50px;

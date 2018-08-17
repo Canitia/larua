@@ -1546,6 +1546,10 @@ footer {
 	border: 1px solid grey !important;
 }
 
+.read-more-btn:hover {
+	border:1px solid #4285f4 !important;
+}
+
 .card-actions-bottom {
     display: block;
     text-align: center;

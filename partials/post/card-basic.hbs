@@ -5,12 +5,7 @@
 
           <div class="card">
                 <div class="col col-sm-5 col-md-6 col-lg-5">
-                    <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>  
-                        {{#if featured}}
-                            <span class="badge-featured">
-                              {{t "Featured"}}
-                            </span>
-                        {{/if}}       
+                    <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>   
                 </div>
 
                  <div class="col col-sm-7 col-md-6 col-lg-7">                     
@@ -24,6 +19,11 @@
                               <small class="text-muted badge">
                                   <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
                             </small>
+                            {{#if featured}}
+                            <span class="badge-featured">
+                              <i class="far fa-star"></i>
+                            </span>
+                        {{/if}}     
                           </div>
                         <p class="card-text">{{excerpt words="21"}}</p>
                       </div>

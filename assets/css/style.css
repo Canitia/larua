@@ -1194,6 +1194,9 @@ footer {
 		margin-right: 0;
 	}
 
+	.carousel {
+		display: none;
+	}
 
 }
 

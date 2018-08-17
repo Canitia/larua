@@ -990,6 +990,14 @@ footer {
 		max-width: 100% !important;
 	}
 
+	.card {
+		border: 0 !important;
+	}
+
+	.card-title {
+		margin-top: 0px;
+	}
+
 	.card-text {
 		height: auto;
 	}

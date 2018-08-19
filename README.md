@@ -23,8 +23,8 @@ Larua uses the following libraries;
 - JQuery (3.1.x)
 
 # Theme requirements
-- Larua **requires** Ghost version **1.20.0** to install and work as intended. 
-- Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
+- Larua **requires** Ghost version **2.0.0** to install and work as intended. 
+- In case it's not enabled: enable Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
 # Release
 This theme is currently marked 'stable'. Unless a new Ghost update introduces major new features or rewrites it's about as stable as can be ;).
@@ -35,14 +35,7 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 - Upload the theme .zip
 - Activate the theme
 
-# Tested on:
-The theme is tested on 
-
-## Platform 
-Larua **requires** Ghost 1.22.x as is stated in package.json. It's required because 1.22.x introduced the multiple-authors that are included in this theme.
-
-- Ghost 1.22.5
-
+# Tested:
 ## Browsers
 - Microsoft Edge (April 2018 Update)
 - Google Chrome 66.0.3359.139

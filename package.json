@@ -1,9 +1,9 @@
 {
   "name": "larua",
   "description": "A card-based feature-rich theme for Ghost bringing responsive design to the masses.",
-  "version": "1.0.8r",
+  "version": "1.0.9",
   "engines": {
-      "ghost": ">=1.22.0"
+      "ghost": ">=2.0.0"
   },
   "license": "MIT",
   "screenshots": {
@@ -11,7 +11,7 @@
     "mobile": "assets/screenshot-mobile.png"
   },
   "author": {
-    "name": "Michael Boumann",  
+    "name": "Canitia",  
     "email": "support@canitia.nl",
     "url": "https://canitia.nl"
   },

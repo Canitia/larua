@@ -557,8 +557,8 @@ POST/ARTICLE HEADERS
 
 .kg-image-card.kg-width-wide {
     position: relative;
-    margin-left: calc(-75vw / 2 + 1060px / 2);
-    margin-right: calc(-75vw / 2 + 1060px / 2);
+    margin-left: calc(-85vw / 2 + 1060px / 2);
+    margin-right: calc(-85vw / 2 + 1060px / 2);
 }
 
 .kg-image-card.kg-width-full {
@@ -1557,6 +1557,10 @@ footer {
 		margin-right: auto !important;
 	}
 
+	.kg-image-card.kg-width-wide {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 

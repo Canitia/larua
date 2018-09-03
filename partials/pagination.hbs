@@ -1,10 +1,19 @@
-<ul class="pagination d-flex justify-content-center">
-    {{#if prev}}
-        <a href="{{page_url prev}}"><li>{{prev}}</li></a>
-    {{/if}}
-
+<nav aria-label="Page navigation">
+    <ul class="pagination d-flex justify-content-center">
+        {{#if prev}}
+    <li>
+      <a href="{{page_url prev}}" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+        {{/if}}
     <li class="active">{{page}}</li>
-    {{#if next}}
-        <a href="{{page_url next}}"><li>{{next}}</li></a>
-    {{/if}}
-</ul>
+        {{#if next}}
+    <li>
+      <a href="{{page_url next}}" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+     {{/if}}
+  </ul>
+</nav>

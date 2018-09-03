@@ -1,10 +1,10 @@
-{{#get "posts" limit="5" filter="featured:true" order="published_at desc" as |featured| }}
+{{#get "posts" limit="3" filter="featured:true" order="published_at desc" as |featured| }}
 <div id="carousel" class="carousel slide" data-ride="carousel">
+
   <div class="carousel-inner" role="listbox">
        {{#foreach featured}}
-            <div class="carousel-item {{#if @first}}active{{/if}}">
+            <div class="carousel-item {{#if @first}}active{{/if}}" title="{{title}}" alt="Header image of {{title}}" style="background-image:url('{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}')">
             <a href="{{url}}" >
-                <img class="content-images-featured img-fluid" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" title="{{title}}" alt="Header image of {{title}}" />
                      <div class="carousel-caption d-none d-md-block">
                         <h1 class="h-slider">{{title}}</h1>
                     </div>

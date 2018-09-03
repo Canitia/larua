@@ -683,7 +683,6 @@ article {
 	margin-right:auto;
 	margin-bottom: 20px;
 	margin-top:20px;
-	padding: 50px;
 }
 
 .content-images-featured {
@@ -1246,10 +1245,6 @@ footer {
 		margin-top: 0;
 	}
 
-	.post-content img, .post-content p img {
-		padding: 15px;
-	}
-
 	iframe {
 		padding: 15px;
 	}
@@ -1404,10 +1399,6 @@ footer {
 	.avatar-page-author {
 		margin-top: 30px;
 		width: 90px;
-	}
-
-	.post-content img, .post-content p img {
-		padding: 25px;
 	}
 
 	iframe {

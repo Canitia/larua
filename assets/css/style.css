@@ -577,7 +577,7 @@ POST/ARTICLE HEADERS
     display: flex;
     flex-direction: column;
     margin: 1.5em auto;
-    max-width: 1040px;
+    max-width: 100%;
     width: 100vw;
 }
  .kg-gallery-row {

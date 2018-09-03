@@ -1,6 +1,6 @@
 {
   "name": "larua",
-  "description": "A minimalistic feature-rich theme for Ghost bringing responsive design to the masses.",
+  "description": "A card-based feature-rich theme for Ghost bringing responsive design to the masses.",
   "version": "1.1.0",
   "engines": {
       "ghost": ">=2.0.3"
@@ -11,7 +11,7 @@
     "mobile": "assets/screenshot-mobile.png"
   },
   "author": {
-    "name": "Canitia.nl",  
+    "name": "Canitia",  
     "email": "support@canitia.nl",
     "url": "https://canitia.nl"
   },
@@ -23,10 +23,5 @@
  
   "config": {
       "posts_per_page": 15
-  },
-  "keywords": [
-    "ghost",
-    "blog",
-    "theme"
-  ]
+  }
 }

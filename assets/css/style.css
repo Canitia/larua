@@ -42,32 +42,12 @@ pre {
 blockquote {
 	display: table;
 	position:relative;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding: 15px;
 	background-color: whitesmoke;
 	border: 2px solid #ebebeb !important;
-	width: 100%
-}
-
-blockquote:before {
-    top:-20px;
-    left:8px;
-}
-
-blockquote:before, blockquote:after {
-    color:black;
-    content:'\f10d';
-    font-family:'FontAwesome';
-    font-size:25px;
-    position:absolute;
-    display:block;
-}
-blockquote:after {
-    content:'\f10e';
-    right:8px;
-    top:auto;
-    left:auto;
-	bottom: -23px;
+	width: 100%;
+	text-align: center;
+	font-size: 110%;
 }
 
 blockquote > p {

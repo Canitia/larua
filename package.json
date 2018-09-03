@@ -1,9 +1,9 @@
 {
   "name": "larua",
-  "description": "A minimalistic feature-rich theme for Ghost bringing responsive design to the masses.",
-  "version": "1.1.0",
+  "description": "A card-based feature-rich theme for Ghost bringing responsive design to the masses.",
+  "version": "1.0.9",
   "engines": {
-      "ghost": ">=2.0.3"
+      "ghost": ">=2.0.0"
   },
   "license": "MIT",
   "screenshots": {
@@ -17,16 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/Canitia/larua.git"
+    "url": "https://git.canitia.nl/Canitia/larua.git"
   },
-  "bugs": "https://gitlab.com/Canitia/larua/issues",
+  "bugs": "https://git.canitia.nl/Canitia/larua/issues",
  
   "config": {
       "posts_per_page": 15
-  },
-  "keywords": [
-    "ghost",
-    "blog",
-    "theme"
-  ]
+  }
 }

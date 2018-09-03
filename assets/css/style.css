@@ -1593,18 +1593,14 @@ footer {
 
 	.tag_heading_post {
 		background-size: cover;
-		height: 75vh !important;
-		max-height: 75vh !important;
 	}
 
 	.tag_heading {
-		height: 75vh !important;
-		min-height: 600px;
+		height: 625px !important;
 	}
 
 	.tag_heading_home {
-		height: 75vh !important;
-		max-height: 75vh !important;
+		height: 625px !important;
 	}
 
 }

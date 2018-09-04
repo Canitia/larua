@@ -844,16 +844,13 @@ iframe {
 }
 
 img.avatar {
-	border-radius: 150px;
+	border-radius: 50px;
 	width: 100px;
-	max-width: 100%;
 	height: 100px;
 	margin-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	padding: 10px;
-	border: 2px solid #ebebeb;
 	z-index:200;
 }
 

@@ -856,6 +856,7 @@ img.avatar {
 
 .homepage-avatar {
 	width: 35px;
+	height: 35px;
 	border-radius: 25px;
 }
 
@@ -1180,6 +1181,7 @@ footer {
 	
 	.homepage-avatar {
 		width: 25px;
+		height: 25px;
 	}
 
 /* Smaller margins to the page gets fit to nearly the full screen */
@@ -1346,6 +1348,7 @@ footer {
 
 	.homepage-avatar {
 		width: 35px;
+		height: 35px;
 	}
 
 	.posthead-image {
@@ -1495,6 +1498,7 @@ footer {
 
 	.homepage-avatar {
 		width: 35px;
+		height: 35px;
 	}
 
 	.posthead-image {

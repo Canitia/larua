@@ -1010,10 +1010,6 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
 
-	main {
-		margin-top: 85px;
-	}
-
 	.card:hover {
 		transform: scale(1);
 	}
@@ -1267,10 +1263,6 @@ footer {
 
 
 @media (max-width:767px) and (min-width:576px) {
-
-	main {
-		margin-top: 85px;
-	}
 	
 	.container-fluid {
 		max-width: 760px;

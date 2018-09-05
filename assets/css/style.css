@@ -5,17 +5,14 @@
 *****************************************/
 html body {
 	height: 100%;
-	font-size: 112.5%;
-	font-family: 'Karla', sans-serif !important;
+	font-family: 'Caudex', serif !important;
 	line-height: 1.66667;
 	min-width: 320px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #2f313d;
-    font-weight: bold;
-    line-height: 1.2;
-    text-rendering: optimizeLegibility;
+	font-family: 'Lalezar', cursive;
 }
 
 p {
@@ -142,7 +139,6 @@ main {
 
 .logo-main {
 	position: relative;
-	top: 350px;
 	display: flex;
 	justify-content: center;
 	z-index: 1;
@@ -613,25 +609,25 @@ p > img, .post-content img {
 
 .post-content h1 {
   	font-size: 210%;
-	font-family: 'Karla', sans-serif !important;
+	font-family: 'Libre Franklin', sans-serif;
 	margin-top: 35px;
 }
 
 .post-content h2 {
 	font-size: 180%;
-	font-family: 'Karla', sans-serif !important;
+	font-family: 'Lalezar', cursive !important;
 	margin-top: 35px;
 }
 
 .post-content h3 {
 	font-size: 165%;
-	font-family: 'Karla', sans-serif !important;
+	font-family: 'Lalezar', cursive !important;
 	margin-top: 35px;
 }
 
 .post-content h4 {
 	font-size: 140%;
-	font-family: 'Karla', sans-serif !important;
+	font-family: 'Lalezar', cursive !important;
 	margin-top: 35px;
 }
 
@@ -1020,7 +1016,7 @@ footer {
 	}
 
 	.logo-main {
-		top: 50px;
+		top: 100px;
 	}
 
 	.cover-image {
@@ -1073,7 +1069,7 @@ footer {
 	}
 
 	.logo-main {
-		top: 275px;
+		top: 100px;
 	}
 
 	.navbar-nav {
@@ -1283,7 +1279,7 @@ footer {
 	}
 
 	.logo-main {
-		top: 50px;
+		top: 100px;
 	}
 
 	.img.logo {
@@ -1446,7 +1442,7 @@ footer {
 	}
 
 	.logo-main {
-		top: 12vh;
+		top: 100px;
 	}
 
 	.cover-image {
@@ -1583,7 +1579,7 @@ footer {
 	}
 
 	.logo-main {
-		top: 35vh;
+		top: 350px;
 	}
 
 

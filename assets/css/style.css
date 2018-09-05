@@ -255,7 +255,7 @@ ul#navbarNav {
 	margin-bottom: 0 !important;
 	height: 100vh;
 	transition-duration: 0.5s;
-	padding-left: 0;
+	padding-left: 0 !important;
 }
 
 .menu-item {

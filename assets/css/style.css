@@ -516,7 +516,6 @@ POST/ARTICLE HEADERS
 
 *****************************************/
 
-/* ^ .kg-card-markdown will be deprecated */
 .post-template .kg-post > p:first-child {
     font-size: 1.25em;
     line-height: 1.5em;

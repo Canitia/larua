@@ -253,8 +253,6 @@ img.logo {
 
 ul#navbarNav {
 	margin-bottom: 0 !important;
-	height: 100vh;
-	transition-duration: 0.5s;
 	padding-left: 0 !important;
 }
 
@@ -1105,6 +1103,13 @@ footer {
 		flex-wrap: wrap !important;
 	}
 
+	ul#navbarNav {
+		margin-bottom: 0 !important;
+		height: 100vh;
+		transition-duration: 0.5s;
+		padding-left: 0 !important;
+	}
+
 	header {
 		margin-top: -20px;
 		padding-top: 15px;
@@ -1329,6 +1334,7 @@ footer {
 
 	.navbar {
 		flex-wrap: wrap !important;
+		background: black !important;
 	}
 
 	.navbar-brand {
@@ -1337,6 +1343,13 @@ footer {
 
 	.navbar-brand:hover {
 		color: #545454 !important;
+	}
+
+	ul#navbarNav {
+		margin-bottom: 0 !important;
+		height: 100vh;
+		transition-duration: 0.5s;
+		padding-left: 0 !important;
 	}
 
 	.nav-link {

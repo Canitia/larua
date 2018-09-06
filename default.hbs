@@ -34,8 +34,9 @@
 
 
 {{#is "author"}}
+  {{#author}}
 <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
-  {{#primary_author}}
+
   <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
     <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
     <p class="posttitle posttitle-author">{{name}}</p>
@@ -44,8 +45,8 @@
       {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter fa-twitter-author"></i></a>{{/if}}
       </div>
   </div>
-  {{/primary_author}}
   </div>
+  {{/author}}
 {{/is}}
 
 {{#is "tag"}}

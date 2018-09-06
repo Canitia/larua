@@ -1101,6 +1101,7 @@ footer {
 		background: black !important;
 		margin-bottom: 85px;
 		flex-wrap: wrap !important;
+		padding-top: 0 !important;
 	}
 
 	ul#navbarNav {
@@ -1335,6 +1336,7 @@ footer {
 	.navbar {
 		flex-wrap: wrap !important;
 		background: black !important;
+		padding-top: 0 !important;
 	}
 
 	.navbar-brand {

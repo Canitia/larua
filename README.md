@@ -1,6 +1,6 @@
 # Larua
 
-A [Ghost](http://github.com/tryghost/ghost/) theme that derived from Canitia Jr. It features a new look and some added features. 
+A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh looks and fancy fonts. 
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
@@ -19,8 +19,9 @@ A [Ghost](http://github.com/tryghost/ghost/) theme that derived from Canitia Jr.
 # Larua's base
 Larua uses the following libraries;
 - Font Awesome 5
-- Bootstrap v4.1
+- Bootstrap 4
 - JQuery (3.1.x)
+- Webfontloader 1.6.28
 
 # Theme requirements
 - Larua **requires** Ghost version **2.0.0** to install and work as intended. 

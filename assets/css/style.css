@@ -1008,6 +1008,10 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
 
+	body {
+		min-width: 350px;
+	}
+
 	.card:hover {
 		transform: scale(1);
 	}
@@ -1059,8 +1063,8 @@ footer {
 		height: 80px;
 	}
 
-	.tag_heading >.posttitle {
-		margin-top: 140px;
+	.tag_heading > .posttitle {
+		width: 100%;
 	}
 
 	.tag_heading > .posttitle.posttitle-author {
@@ -1396,6 +1400,10 @@ footer {
 
 	.row-post {
 		margin-top: -15px;
+	}
+
+	.tag_heading > .posttitle {
+		width: 100%;
 	}
 
 	.tag_heading > .posttitle.posttitle-author {

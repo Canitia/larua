@@ -841,6 +841,19 @@ iframe {
 	ARTICLE: AUTHOR-section look-n-feel
 
 *****************************************/
+.author_wrap {
+	background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.author_wrap p {
+	color: black;
+	font-family: 'Montserrat Alternates', sans-serif !important;
+	font-weight: 700;
+	font-size: 125%;
+}
+
 .author-profile h4 a {
 	text-decoration: underline;
 }

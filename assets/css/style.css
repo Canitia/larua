@@ -1355,10 +1355,6 @@ footer {
 		transition-duration: 0.5s;
 	}
 
-	.navbar-collapse .navbar-nav .menu-item {
-
-	}
-
 	.navbar-collapse .navbar-nav .menu-item a {
 		font-size: 2em;
 		text-transform: uppercase;
@@ -1639,12 +1635,14 @@ footer {
   ERROR PAGE
 
 *****************************************/
-.error {
-	background-color: orangered;
+.error-row {
+	padding-top: 250px;
+	background: transparent;
 }
 
-.error-row {
-	padding-top: 290px;
+.error-row .card-title {
+    text-align: center;
+    font-size: 35px !important;
 }
 
 .read-more-btn {

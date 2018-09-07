@@ -550,7 +550,7 @@ POST/ARTICLE HEADERS
 .kg-image-card.kg-width-full {
     margin-left: calc(-93vw / 2 + 1060px / 2);
     margin-right: calc(-93vw / 2 + 1060px / 2);
-    position: relative;
+	position: relative;
 }
 
 .kg-image {
@@ -1273,9 +1273,9 @@ footer {
 		padding: 15px;
 	}
 
-	.kg-image-card.kg-width-wide {
-		margin-left: 0;
-		margin-right: 0;
+	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 
 
@@ -1448,9 +1448,9 @@ footer {
 		padding: 25px;
 	}
 
-	.kg-image-card.kg-width-wide {
-		margin-left: 0;
-		margin-right: 0;
+	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 }
 
@@ -1576,9 +1576,9 @@ footer {
 		height: 90px;
 	}
 
-	.kg-image-card.kg-width-wide {
-		margin-left: 0;
-		margin-right: 0;
+	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 }
 

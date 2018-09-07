@@ -1640,12 +1640,17 @@ footer {
 
 *****************************************/
 .error {
-	background-color: orangered;
+
 }
 
 .error-row {
 	padding-top: 250px;
 	background: transparent;
+}
+
+.error-row .card-title {
+    text-align: center;
+    font-size: 35px !important;
 }
 
 .read-more-btn {

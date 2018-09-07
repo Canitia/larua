@@ -1355,10 +1355,6 @@ footer {
 		transition-duration: 0.5s;
 	}
 
-	.navbar-collapse .navbar-nav .menu-item {
-
-	}
-
 	.navbar-collapse .navbar-nav .menu-item a {
 		font-size: 2em;
 		text-transform: uppercase;
@@ -1639,10 +1635,6 @@ footer {
   ERROR PAGE
 
 *****************************************/
-.error {
-
-}
-
 .error-row {
 	padding-top: 250px;
 	background: transparent;

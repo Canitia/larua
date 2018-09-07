@@ -553,6 +553,16 @@ POST/ARTICLE HEADERS
     position: relative;
 }
 
+/* Microsoft Edge Browser 12+ (All) - @supports method */
+
+@supports (-ms-ime-align:auto) {
+	.kg-image-card.kg-width-full {
+		margin-left: calc(530px + -47vw);
+		margin-right: calc(530px + -47vw);
+		position: relative;
+	}
+  }
+
 .kg-image {
     max-width: 100%;
 }

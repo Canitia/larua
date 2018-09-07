@@ -1644,7 +1644,8 @@ footer {
 }
 
 .error-row {
-	padding-top: 290px;
+	padding-top: 250px;
+	background: transparent;
 }
 
 .read-more-btn {

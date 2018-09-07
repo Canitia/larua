@@ -548,8 +548,8 @@ POST/ARTICLE HEADERS
 }
 
 .kg-image-card.kg-width-full {
-    margin-left: calc(-94vw / 2 + 1060px / 2);
-    margin-right: calc(-94vw / 2 + 1060px / 2);
+    margin-left: calc(-93vw / 2 + 1060px / 2);
+    margin-right: calc(-93vw / 2 + 1060px / 2);
     position: relative;
 }
 
@@ -597,7 +597,6 @@ POST/ARTICLE HEADERS
  .kg-gallery-image:not(:first-of-type) {
     margin: 0 0 0 0.75em;
 }
-
 
 p > img, .post-content img {
     max-width: 100%;

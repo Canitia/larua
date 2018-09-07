@@ -1116,7 +1116,7 @@ footer {
 		text-transform: uppercase;
 		text-decoration: none;
 		text-shadow: none;
-		color: #545454 !important;
+		color: black !important;
 	}
 
 	.navbar-collapse .navbar-nav .menu-item {
@@ -1126,6 +1126,11 @@ footer {
 	.navbar-collapse .navbar-nav .menu-item a {
 		font-size: 2em;
 		text-transform: uppercase;
+	}
+
+	.menu-item > a:hover {
+		color: black;
+		background: none;
 	}
 
 	.container-fluid {
@@ -1364,13 +1369,12 @@ footer {
 		text-transform: uppercase;
 		text-decoration: none;
 		text-shadow: none;
-		color: #545454 !important;
+		color: black !important;
 	}
 
 	.navbar-nav {
 		flex-direction: column !important;
 	}
-
 
 	.navbar-brand {
 		color: black !important;
@@ -1386,6 +1390,11 @@ footer {
 
 	.nav-link:hover {
 		color: #545454 !important;
+	}
+
+	.menu-item > a:hover {
+		background: none;
+		color: black;
 	}
 
 	.homepage-avatar {

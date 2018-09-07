@@ -23,40 +23,34 @@
             GENERAL FONT / ELEMENT
 
             *****************************************/
-            html body {
-                font-family: 'Roboto' ,sans-serif;
-            }
-
             .amp-template, .content {
                 background-image:url('{{asset "bgpattern.png"}}');
             }
 
             h1 {
                 font-size: 220%;
-                font-family:'Slabo 27px', serif;
             }
 
             h2 {
                 font-size: 195%;
-                font-family:'Slabo 27px', serif;
             }
 
             h3 {
                 font-size: 175%;
-                font-family:'Slabo 27px', serif;
+                margin: 0;
             }
 
             h4 {
                 font-size: 140%;
-                font-family:'Slabo 27px', serif;
             }
 
-            p {
-                text-rendering: geometricPrecision;
-            }
-
-            p > a {
+            p > a, a {
                 text-decoration: underline;
+                color: black;
+            }
+
+            p > a:hover, a:hover {
+                color: #979797;
             }
 
             hr {
@@ -74,28 +68,9 @@
 
             blockquote {
                 position:relative;
-                padding-top:20px;
-                padding-bottom:20px;
+                padding:20px;
                 background-color: whitesmoke;
                 border-left: 0;
-            }
-
-            blockquote:before, blockquote:after {
-                color:black;
-                content:'\f10d';
-                font-family:'FontAwesome';
-                font-size:30px;
-                position:absolute;
-                top:5px;
-                left:8px;
-                display:block;
-            }
-            blockquote:after {
-                content:'\f10e';
-                bottom:0;
-                right:8px;
-                top:auto;
-                left:auto;
             }
 
             blockquote > p {
@@ -117,21 +92,12 @@
             }
 
             p > a, .side-nav a, .pagination > a > i:hover, .collection .collection-item, .collection-item > a {
-                color: #FF4500;
+                color: black;
             }
 
             p > a:focus, p > a:hover, li.pagination-arrows a i:hover, .socialfooter > a > i:hover, .socialfooter a:hover
             {
-            color:#FF4500;
-            }
-
-            .postdate a, .tag_heading {
-                color: white;
-            }
-
-            .posttitle > a {
-            color: white;
-            text-decoration: none;
+            color:#979797;
             }
 
             .post-image amp-img {
@@ -140,7 +106,6 @@
                 height: auto;
                 width: auto;
                 max-width: 100%;
-                
             }
 
             .post-subitems {
@@ -412,18 +377,9 @@
         }
 
         img.avatar {
-            border-radius: 15px;
-            width: auto;
-            max-width: 100%;
-            height: auto;
             float:left;
             z-index:200;
             margin-top: 25px;
-        }
-
-        .homepage-avatar {
-            height: auto;
-            border-radius: 25px;
         }
 
         .post-authors {
@@ -439,20 +395,6 @@
             color: #979797;
         }
 
-        .post-avatar {
-            height: auto;
-            width: 50px;
-            border-radius: 50px;
-            margin-top: 20px;
-            text-align: center;
-            display: block;
-        }
-
-        .avatar-page {
-            width:150px;
-            border-radius: 150px;
-        }
-
         .author-name {
             font-size:200%;
             font-weight: 300;
@@ -462,22 +404,9 @@
             margin-top: 50px;
         }
 
-        .author-social > a > i {
-            color:black;
-            margin: 5px;
-        }
-
-        .socialauthor {
-            padding: 15px;
-        }
-
-        .socialauthor > ul > li {
-            margin-top: 10px;
-            margin-bottom:10px;
-        }
-
         .author-bio-text {
-
+            margin-left: 10px;
+            margin-right: -10px;
         }
 
         /* some mobile specific junk */
@@ -491,21 +420,6 @@
                 margin-right: auto;
             }
 
-           .post-avatar {
-                height: auto;
-                width: 48px;
-            }
-
-            img.avatar {
-                width: 100px;
-                text-align: center;
-                float: none;
-                margin-left: auto;
-                margin-right: auto;
-                display: block;
-                margin-top: 30px;
-                margin-bottom: 10px;
-            }
         }
 
     /* Bootstrap workaround */
@@ -558,7 +472,13 @@
                     <p class="posttitle center">{{title}}</p>
                 </span>
                 <div class="post-authors text-center">
-                        <a href="{{url}}" title="{{name}}">{{authors separator=" &bull; "}}</a> 
+                    {{#foreach authors}}
+                        {{#if profile_image}}
+                            <amp-img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="150px" width="150px"></amp-img>
+                        {{else}}
+                            <amp-img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="150px" width="150px"></amp-img>  
+                        {{/if}}
+                    {{/foreach}}
                 </div>
                 <div class="post-subitems">
                     <time datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time> <br />
@@ -587,7 +507,6 @@
                         {{bio}}
                     {{else}}
                         {{t "Whoops...that's not looking good. People have no idea who you are?!"}}
-                
                     {{/if}}
                     </div>
                 </div>

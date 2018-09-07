@@ -182,19 +182,6 @@
                  max-width: 1200px;
              }
 
-            .collection {
-                margin:0px;
-                border: 0;
-            }
-
-            .collection-item {
-                border-bottom: 1px solid #f0f0f0;
-            }
-
-            .collection .collection-item:hover {
-                background-color: #e0e0e0;
-            }
-
             .content > .text-left-title,  .postdate > a, .author-profile h4, .text-left-title a, article > h1, article > h2, article > h3, article > h4, .postdate a:hover, .author-url-post-head  {
                 color:#979797;
             }
@@ -254,12 +241,6 @@
                 z-index:1;
                 background-color:black;
                 color:white;
-            }
-
-            .content > .collection > .collection-item {
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
             }
 
             /* **************************************
@@ -474,9 +455,9 @@
                 <div class="post-authors text-center">
                     {{#foreach authors}}
                         {{#if profile_image}}
-                            <amp-img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="150px" width="150px"></amp-img>
+                            <amp-img src="{{img_url profile_image}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="80px" width="80px"></amp-img>
                         {{else}}
-                            <amp-img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="150px" width="150px"></amp-img>  
+                            <amp-img src="{{asset "images/fallback-user.jpg"}}" class="avatar" title="{{title}}" alt="Image of {{name}}" layout="fixed" height="80px" width="80px"></amp-img>  
                         {{/if}}
                     {{/foreach}}
                 </div>

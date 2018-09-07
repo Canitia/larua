@@ -1,20 +1,29 @@
 <header>
-<nav class="navbar navbar-expand-md navbar-dark">
-     {{#if @blog.logo}}
-       <a class="navbar-brand" href="{{@blog.url}}">
-        <img src="{{@blog.logo}}" alt="blog logo" class="logo-fixed">
-      </a>
-      {{/if}}
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <ul class="collapse navbar-collapse" id="navbarNav">
+
+<nav class="navbar navbar-expand-md navbar-dark justify-content-start" data-toggle="sticky-onscroll">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  {{#if @blog.logo}}
+
+        <div class="logo-fixed d-block d-sm-block d-md-block d-lg-block">
+          <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo-nav left" /></a>
+        </div>
+
+  {{else}}
+  <a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>
+  {{/if}}
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+
+                <!-- Loop through the navigation items -->
         {{#foreach navigation}}
         <li class="menu-item{{#if current}} active{{/if}}">
             <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
         </li>
         {{/foreach}}
-
+        <!-- End the loop -->
     </ul>
+  </div>
 </nav>
 </header>

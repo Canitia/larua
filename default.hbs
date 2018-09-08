@@ -26,15 +26,15 @@
 
 {{#is "index, home"}}
     <div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap" >
-        <div class="tag_heading_home text-center" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
+        <div class="tag_heading_home text-center" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
         </div>
   </div>
 {{/is}}
 
 {{#is "author"}}
 {{#author}}
-<div class="tag_head_wrap">
-  <div class="tag_heading text-center" style="background-image: url({{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-cover.jpg"}}{{/if}});">
+<div class="tag_head_wrap" style="background-image:url('{{asset "bgpattern.png"}}')">
+  <div class="tag_heading text-center">
     
     <div class="author_wrap">
     <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
@@ -53,7 +53,7 @@
 {{#is "tag"}}
 <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#tag}}
-  <div class="tag_heading text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-tag.jpg"}}{{/if}});">
+  <div class="tag_heading text-center" style="background-image: url(  {{#if feature_image}}{{img_url feature_image}}{{/if}});">
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}
@@ -63,10 +63,8 @@
 {{#is "post, page"}}
 <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#post}}
-    <div class="tag_heading tag_heading_post text-center" style="background-image: url({{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}});">
-    
+    <div class="tag_heading tag_heading_post text-center" style="background-image: url(  {{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}});">
     </div>
-
   {{/post}}
   </div>
 {{/is}}

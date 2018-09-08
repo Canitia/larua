@@ -738,10 +738,7 @@ iframe {
 }
 
 .tag_head_wrap {
-	background: black;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+
 }
 
 .tag_heading_home {
@@ -753,14 +750,11 @@ iframe {
 .tag_heading {
     padding: 20px;
 	width: 100%;
-	object-fit: cover;
 	height: 100% !important;
 	position: relative;
 	height: 625px !important;
 	max-height: 625px !important;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -777,13 +771,14 @@ iframe {
     font-size: 200%;
     font-weight: 300;
 	text-shadow: none;
-	color: black !important;
+	background-color: #f8f8f8 !important;
 	background: white;
 	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
 	text-transform: capitalize;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .tag_heading > .posttitle.posttitle-author {
@@ -833,14 +828,14 @@ iframe {
 
 *****************************************/
 .author_wrap {
-	background: rgba(255,255,255,0.8);
+	background-color: #f8f8f8;
     border-radius: 15px;
-    padding: 30px;
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .author_wrap p {
 	color: black;
-	font-family: 'Montserrat Alternates', sans-serif !important;
 	font-weight: 700;
 	font-size: 125%;
 }
@@ -1712,8 +1707,7 @@ EXTERNAL libraries look-n-feel
 
 .fa-twitter-author, .fa-facebook-author {
     color: black;
-    background: white;
-    border-radius: 50px;
+    background: transparent;
 }
 
 .fa-tag {

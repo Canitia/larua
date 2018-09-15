@@ -140,6 +140,7 @@ main {
 }
 
 .logo-nav {
+	max-width: 64px;
 	height: 48px;
 	border-radius: 50px;
 }

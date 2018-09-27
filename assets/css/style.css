@@ -164,9 +164,10 @@ header {
 }
 
 .logo-fixed {
-	width: 48px;
 	height: 48px;
 	border-radius: 50px;
+	justify-content: center;
+    align-items: center;
 }
 
 .navbar {
@@ -279,12 +280,6 @@ img.logo {
 
 img.logo-nav.navbar-brand {
     max-width: 100%;
-}
-
-.logo-fixed {
-	display: flex !important;
-    justify-content: center;
-    align-items: center;
 }
 
 a.nav-link {

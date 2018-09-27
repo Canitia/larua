@@ -139,19 +139,6 @@ main {
 	z-index: 1;
 }
 
-.logo-nav {
-	max-width: 64px;
-	height: 48px;
-	border-radius: 50px;
-}
-
-
-.logo-fixed {
-	margin-left: 15px;
-    margin-right: 25px;
-    position: relative;
-}
-
 .text-main {
     position: relative;
 	top: 375px;

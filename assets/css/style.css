@@ -281,6 +281,12 @@ img.logo-nav.navbar-brand {
     max-width: 100%;
 }
 
+.logo-fixed {
+	display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
 a.nav-link {
     padding-left: 15px !important;
     padding-right: 15px !important;

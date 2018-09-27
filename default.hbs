@@ -55,7 +55,7 @@
 {{#is "tag"}}
 <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#tag}}
-  <div class="tag_heading text-center" style="background-image: url(  {{#if feature_image}}{{img_url feature_image}}{{/if}}) !important;">
+  <div class="tag_heading text-center" style="{{#if feature_image}}background-image: url({{img_url feature_image}}) !important; {{else}}background: rgba(0,0,0,0.5); height: 325px !important; margin-top: 85px;{{/if}}">
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}

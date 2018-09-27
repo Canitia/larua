@@ -1575,14 +1575,6 @@ footer {
 		flex: 1 1 300px !important;
 	}
 
-	.card:nth-child(4n+4) {
-		flex: 1 1 100% !important;
-		-ms-flex-direction: row !important;
-		flex-direction: row !important;
-		max-width: 100% !important;
-		margin: 0;
-	}
-
 	.homepage-avatar {
 		width: 35px;
 	}

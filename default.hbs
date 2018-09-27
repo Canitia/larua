@@ -18,11 +18,11 @@
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
-<!-- main navigation -->
-{{navigation}}
 <main class="{{body_class}}" style="background-image:url('{{asset "bgpattern.png"}}')">
 
 <div class="container-fluid">
+<!-- main navigation -->
+{{navigation}}
 
 {{#is "index, home"}}
 {{#if @blog.cover_image}}

@@ -188,7 +188,7 @@ header {
 
 .navbar {
 	z-index: 10;
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,0.4);
 }
 
 ul#navbarNav {
@@ -676,7 +676,7 @@ article {
 	opacity: 0.8;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: 50% 20%;
 }
 
 .post-content img, .post-content  p  img {
@@ -769,7 +769,7 @@ iframe {
 .tag_heading_post {
 	background-size: unset;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: 50% 20%;
 }
 
 .tag_heading > .posttitle {
@@ -1081,7 +1081,7 @@ footer {
 	.tag_heading_post {
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 50% 50%;
+		background-position: 50% 20%;
 		height: 300px !important;
 	}
 
@@ -1308,7 +1308,7 @@ footer {
 	.tag_heading_post {
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 50% 50%;
+		background-position: 50% 20%;
 	}
 
 	.logo-main {
@@ -1488,7 +1488,7 @@ footer {
 	.tag_heading_post {
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 50% 50%;
+		background-position: 50% 20%;
 		height: 350px;
 		min-height: 350px;
 	}

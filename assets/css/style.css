@@ -427,7 +427,6 @@ POST/ARTICLE CARD UI - main
 	max-width: 1200px;
 	margin-left: auto !important;
 	margin-right: auto !important;
-	margin-top: 15px;
 	background: white;
 }
 
@@ -1265,10 +1264,6 @@ footer {
 		padding: 10px;
 	}
 
-	.page-row {
-		margin-top: 0;
-	}
-
 	iframe {
 		padding: 15px;
 	}
@@ -1339,10 +1334,6 @@ footer {
 
 	.card-text {
 		height: auto;
-	}
-
-	.page-row {
-		margin-top: 0;
 	}
 
 	.headerurl, .nav-link {
@@ -1517,10 +1508,6 @@ footer {
 
 	.card-text {
 		height: auto;
-	}
-
-	.page-row {
-		margin-top: 0;
 	}
 
 	.headerurl, .nav-link {

@@ -320,7 +320,7 @@ a.nav-link {
 	max-width: 100%;
 	width: 100%;
 	height: 250px;
-	border: 1px solid #ebebeb !important;
+	border-radius: 5px 5px 0px 0px;
 }
 
 .collection {
@@ -749,6 +749,7 @@ iframe {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	border-radius: 5px;
 }
 
 .tag_heading {
@@ -758,7 +759,7 @@ iframe {
 	position: relative;
 	height: 625px !important;
 	max-height: 625px !important;
-
+    border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -769,6 +770,7 @@ iframe {
 	background-size: unset;
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
+	border-radius: 5px;
 }
 
 .tag_heading > .posttitle {

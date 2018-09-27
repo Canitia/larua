@@ -188,7 +188,7 @@ header {
 
 .navbar {
 	z-index: 10;
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.7);
 }
 
 ul#navbarNav {
@@ -262,7 +262,7 @@ img.logo {
 }
 
 .menu-item {
-	padding: 13px;
+	padding: 10px;
 	list-style-type: none;
 }
 

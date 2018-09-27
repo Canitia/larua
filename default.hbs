@@ -18,17 +18,19 @@
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
-<!-- main navigation -->
-{{navigation}}
 <main class="{{body_class}}" style="background-image:url('{{asset "bgpattern.png"}}')">
 
-
+<div class="container-fluid">
+<!-- main navigation -->
+{{navigation}}
 
 {{#is "index, home"}}
-    <div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap" >
-        <div class="tag_heading_home text-center" style="background-image: url({{#if @blog.cover_image}}{{@blog.cover_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}); background-repeat: no-repeat; background-size: cover;">
+{{#if @blog.cover_image}}
+    <div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap">
+        <div class="tag_heading_home text-center" style="background-image: url({{@blog.cover_image}}); background-repeat: no-repeat; background-size: cover;">
         </div>
   </div>
+{{/if}}
 {{/is}}
 
 {{#is "author"}}
@@ -53,7 +55,7 @@
 {{#is "tag"}}
 <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#tag}}
-  <div class="tag_heading text-center" style="background-image: url(  {{#if feature_image}}{{img_url feature_image}}{{/if}}) !important;">
+  <div class="tag_heading text-center" style="{{#if feature_image}}background-image: url({{img_url feature_image}}) !important; {{else}}background: rgba(0,0,0,0.1); height: 225px !important; margin-top: 85px;{{/if}}">
   <p class="posttitle">{{name}}</p>
   </div>
   {{/tag}}
@@ -63,12 +65,13 @@
 {{#is "post, page"}}
 <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#post}}
-    <div class="tag_heading tag_heading_post text-center" style="background-image: url(  {{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}});">
+    {{#if feature_image}}
+    <div class="tag_heading tag_heading_post text-center" style="background-image: url( {{img_url feature_image}});">
     </div>
+    {{/if}}
   {{/post}}
   </div>
 {{/is}}
-<div class="container-fluid">
 
        {{{body}}}
 

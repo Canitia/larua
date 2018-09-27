@@ -277,6 +277,10 @@ img.logo {
     height: auto;
 }
 
+img.logo-nav.navbar-brand {
+    max-width: 100%;
+}
+
 a.nav-link {
     padding-left: 15px !important;
     padding-right: 15px !important;

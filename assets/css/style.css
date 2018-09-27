@@ -1021,6 +1021,10 @@ footer {
 		transform: scale(1);
 	}
 
+	.main-content {
+		margin-top: 0;
+	}
+
 	.avatar-page-author {
 		margin-top: 0;
 	}

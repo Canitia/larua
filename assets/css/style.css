@@ -755,7 +755,7 @@ iframe {
 	position: relative;
 	height: 625px !important;
 	max-height: 625px !important;
-    border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -766,7 +766,7 @@ iframe {
 	background-size: unset;
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
-	border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
 }
 
 .tag_heading > .posttitle {
@@ -778,9 +778,8 @@ iframe {
 	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 15px;
+	border-radius: 5px;
 	text-transform: capitalize;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .tag_heading > .posttitle.posttitle-author {
@@ -790,7 +789,7 @@ iframe {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 15px;
+	border-radius: 5px;
 }
 
 .cat-links-hr {

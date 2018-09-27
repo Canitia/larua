@@ -1,7 +1,7 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
-<div class="main-content">
+<div class="main-content {{#if @blog.cover_image}}main-content-head{{/if}}">
     {{> 'post/card-basic'}}
     {{#if pagination}}
         {{pagination}}

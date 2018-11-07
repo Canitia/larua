@@ -920,7 +920,7 @@ img.avatar {
     font-weight: 700;
 	background: #d3d3d3;
 	text-align: center;
-	border-radius: 50px;
+	border-radius: 5px;
 	width: 54px;
 	height: 54px;
 }

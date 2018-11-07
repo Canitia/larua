@@ -1048,7 +1048,8 @@ footer {
 		height: 100%;
 	}
 
-	.card {
+	.card,
+	.card-block {
 		border: 0 !important;
 	}
 

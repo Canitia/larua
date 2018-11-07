@@ -107,7 +107,7 @@ p > a:focus, p > a:hover
 }
 
 .main-content-head {
-	
+	margin-top: 80px;
 }
 
 main {

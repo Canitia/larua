@@ -263,7 +263,7 @@ img.logo {
 .menu-item > a:hover {
 	text-decoration: none;
 	background: rgba(255,255,255,0.8);
-	border-radius: 15px;
+	border-radius: 5px;
 }
 
 .menu-item > ul > .menu-item {

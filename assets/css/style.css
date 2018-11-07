@@ -859,13 +859,13 @@ img.avatar {
 .homepage-avatar {
 	width: 35px;
 	height: 35px;
-	border-radius: 25px;
+	border-radius: 5px;
 }
 
 .avatar-page {
 	width:100px;
 	height:100px;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .avatar-page-author {

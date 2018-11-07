@@ -983,7 +983,7 @@ footer {
 .page-footer {
 	padding-top: 15px;
 	bottom: 0;
-	background: #222;
+	background: #222 !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -996,7 +996,7 @@ footer {
 
 .footer a, .footer p {
 	font-size: 12px;
-	color: white;
+	color: white !important;
 	text-decoration: none;
 	font-weight: bold;
 }

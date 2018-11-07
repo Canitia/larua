@@ -30,6 +30,8 @@
         <div class="tag_heading_home text-center" style="background-image: url({{@blog.cover_image}}); background-repeat: no-repeat; background-size: cover;">
         </div>
   </div>
+{{else}}
+<div class="main-content-head"></div>
 {{/if}}
 {{/is}}
 
@@ -63,20 +65,20 @@
 {{/is}}
 
 {{#is "post, page"}}
-<div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#post}}
     {{#if feature_image}}
-    <div class="tag_heading tag_heading_post text-center" style="background-image: url( {{img_url feature_image}});">
+    <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
+      <div class="tag_heading tag_heading_post text-center" style="background-image: url( {{img_url feature_image}});">
+      </div>
     </div>
+    {{else}}
+        <div class="main-content-head"></div>
     {{/if}}
   {{/post}}
-  </div>
 {{/is}}
 
        {{{body}}}
 
-</div><!-- container fluid END! -->
-</main>
 
 <footer class="page-footer"  style="background-image:url('{{asset "bgpattern.png"}}')">
       <div class="top-socials">
@@ -90,6 +92,11 @@
     </div>
     {{> 'ui/footer'}}
 </footer>
+
+</div><!-- container fluid END! -->
+</main>
+
+
 <!-- Compiled and minified JavaScript -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

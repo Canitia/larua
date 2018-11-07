@@ -1680,7 +1680,7 @@ EXTERNAL libraries look-n-feel
 	font-size: 1.5em;
 	padding: 15px;
 	background: white;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .fa-twitter {
@@ -1688,7 +1688,7 @@ EXTERNAL libraries look-n-feel
 	font-size: 1.5em;
 	padding: 15px;
 	background: white;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .fa-facebook {
@@ -1696,7 +1696,7 @@ EXTERNAL libraries look-n-feel
 	font-size: 1.5em;
 	padding: 15px;
 	background: white;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .fa-twitter-author, .fa-facebook-author {

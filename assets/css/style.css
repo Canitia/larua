@@ -1506,7 +1506,8 @@ footer {
 		top: 65px;
 	}
 
-	.card {
+	.card,
+	.card-block {
 		border: 0 !important;
 	}
 

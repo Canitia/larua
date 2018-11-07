@@ -1669,10 +1669,12 @@ EXTERNAL libraries look-n-feel
 
 .fa-twitter:hover {
 	color: #1dcaff;
+	background: #ebebeb;
 }
 
 .fa-rss:hover {
 	color: #f26522;
+	background: #ebebeb;
 }
 
 .fa-rss {

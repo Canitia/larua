@@ -1121,7 +1121,7 @@ footer {
 		text-transform: uppercase;
 		text-decoration: none;
 		text-shadow: none;
-		color: black !important;
+		color: #979797 !important;
 	}
 
 	.navbar-collapse .navbar-nav .menu-item {
@@ -1362,7 +1362,7 @@ footer {
 		text-transform: uppercase;
 		text-decoration: none;
 		text-shadow: none;
-		color: black !important;
+		color: #979797 !important;
 	}
 
 	.navbar-nav {

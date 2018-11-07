@@ -65,16 +65,16 @@
 {{/is}}
 
 {{#is "post, page"}}
-<div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
   {{#post}}
     {{#if feature_image}}
-    <div class="tag_heading tag_heading_post text-center" style="background-image: url( {{img_url feature_image}});">
+    <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
+      <div class="tag_heading tag_heading_post text-center" style="background-image: url( {{img_url feature_image}});">
+      </div>
     </div>
     {{else}}
         <div class="main-content-head"></div>
     {{/if}}
   {{/post}}
-  </div>
 {{/is}}
 
        {{{body}}}

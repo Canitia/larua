@@ -1331,7 +1331,8 @@ footer {
 		text-overflow: ellipsis;
 	}
 
-	.card {
+	.card,
+	.card-block {
 		border: 0 !important;
 	}
 

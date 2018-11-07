@@ -1631,7 +1631,8 @@ footer {
 }
 
 .read-more-btn:hover {
-	background-color: #545454;
+	background-color: #545454 !important;
+    color: white !important;
 }
 
 .card-actions-bottom {

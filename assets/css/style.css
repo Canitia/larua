@@ -919,7 +919,7 @@ img.avatar {
 
 .pagination > a > li {
 	font-weight: 700;
-	border-radius: 50px;
+	border-radius: 5px;
 	width: 54px;
 	height: 54px;
 	line-height: 48px;

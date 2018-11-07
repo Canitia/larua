@@ -38,7 +38,7 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 
 # Tested:
 ## Browsers
-- Microsoft Edge (April 2018 Update)
+- Microsoft Edge (November 2018 Update)
 - Google Chrome 66.0.3359.139
 - Firefox Nightly 61.0-20180505
 

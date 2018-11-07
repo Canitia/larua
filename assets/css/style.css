@@ -402,7 +402,7 @@ POST/ARTICLE CARD UI - main
 
 .card-block {
 	border: 1px dotted #d3d3d3;
-	border-radius: 10px;
+	border-radius: 0 0 10px 10px;
 	background: white !important;
 }
 

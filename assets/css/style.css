@@ -1013,10 +1013,6 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
 
-	body {
-		min-width: 350px;
-	}
-
 	.main-content-head {
 		margin-top: 0 !important;
 	}

@@ -903,10 +903,11 @@ img.avatar {
 *****************************************/
 
 .pagination {
-	padding:15px;
+	padding:15px !important;
 	margin-bottom: 0px;
 	border-radius: 0 !important;
 	height: 100px;
+	padding-left: inherit !important;
 }
 
 .pagination > .active {

@@ -1017,6 +1017,10 @@ footer {
 		min-width: 350px;
 	}
 
+	.main-content-head {
+		margin-top: 0 !important;
+	}
+
 	header {
 		margin-bottom: 0px;
 	}

@@ -6,7 +6,6 @@
 html body {
 	height: 100%;
 	font-family: 'Caudex', serif !important;
-	line-height: 1.66667;
 	min-width: 320px;
 }
 
@@ -98,11 +97,16 @@ p > a:focus, p > a:hover
 }
 
 .main-content {
-	margin-top: 85px;
+	background: white;
+	border: 2px solid #ebebeb;
+	border-bottom: 0 !important;
+	padding-top: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .main-content-head {
-	margin-top: 10px !important;
+	margin-top: 80px;
 }
 
 main {
@@ -172,7 +176,7 @@ header {
 
 .navbar {
 	z-index: 10;
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,0.85);
 }
 
 ul#navbarNav {
@@ -258,7 +262,7 @@ img.logo {
 .menu-item > a:hover {
 	text-decoration: none;
 	background: rgba(255,255,255,0.8);
-	border-radius: 15px;
+	border-radius: 5px;
 }
 
 .menu-item > ul > .menu-item {
@@ -275,7 +279,8 @@ img.logo {
 	font-size: 16px !important;
 	font-weight: 600;
 	margin-left: 5px;
-    height: auto;
+	height: auto;
+	border-radius: 10px;
 }
 
 img.logo-nav.navbar-brand {
@@ -371,14 +376,7 @@ POST/ARTICLE CARD UI - main
 	border: 0 !important;
 	padding: 15px;
 	height: 100% !important;
-	background-color: transparent !important;
 	transition: all .2s ease-in-out;
-}
-
-
-
-.card:hover {
-	transform: scale(1.02);
 }
 
 .card-title {
@@ -403,7 +401,8 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-block {
-	border: 1px solid #d3d3d3;
+	border: 1px dotted #d3d3d3;
+	border-radius: 0 0 10px 10px;
 	background: white !important;
 }
 
@@ -450,7 +449,7 @@ POST/ARTICLE CARD UI - main
     opacity: 0.9;
     color: black;
 	text-align: center;
-	border-radius: 15px;
+	border-radius: 5px;
 }
 
 .post-featured {
@@ -728,18 +727,13 @@ iframe {
 .post-avatar {
 	height: 75px;
 	width: 75px;
-	border-radius: 50px;
-}
-
-.tag_head_wrap {
-
+	border-radius: 5px;
 }
 
 .tag_heading_home {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	border-radius: 5px;
 }
 
 .tag_heading {
@@ -749,7 +743,6 @@ iframe {
 	position: relative;
 	height: 625px !important;
 	max-height: 625px !important;
-	border-radius: 0px 0px 5px 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -760,7 +753,6 @@ iframe {
 	background-size: unset;
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
-	border-radius: 0px 0px 5px 5px;
 }
 
 .tag_heading > .posttitle {
@@ -846,7 +838,7 @@ iframe {
 }
 
 img.avatar {
-	border-radius: 50px;
+	border-radius: 5px;
 	width: 100px;
 	height: 100px;
 	margin-top: 25px;
@@ -859,13 +851,13 @@ img.avatar {
 .homepage-avatar {
 	width: 35px;
 	height: 35px;
-	border-radius: 25px;
+	border-radius: 5px;
 }
 
 .avatar-page {
 	width:100px;
 	height:100px;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .avatar-page-author {
@@ -907,26 +899,29 @@ img.avatar {
 *****************************************/
 
 .pagination {
-	padding:15px;
+	padding:15px !important;
 	margin-bottom: 0px;
+	border-radius: 0 !important;
+	height: 100px;
+	padding-left: inherit !important;
 }
 
 .pagination > .active {
 	padding: 20px;
-	line-height: 8px; 
-	font-weight: 600;
+	line-height: 14px;
+    font-weight: 700;
 	background: #d3d3d3;
 	text-align: center;
-	border-radius: 50px;
-	width: 50px;
-	height: 50px;
+	border-radius: 5px;
+	width: 54px;
+	height: 54px;
 }
 
 .pagination > a > li {
-	font-weight: 600;
+	font-weight: 700;
 	border-radius: 50px;
-	width: 50px;
-	height: 50px;
+	width: 54px;
+	height: 54px;
 	line-height: 48px;
 	border: 1px solid #d3d3d3;
 	text-align: center;
@@ -971,24 +966,39 @@ img.avatar {
 footer {
     width: 100%;
     overflow: hidden;
-    z-index: 999;
+	z-index: 999;
+	height: 200px;
 }
 
 
 .page-footer {
 	padding-top: 15px;
 	bottom: 0;
+	background: #222 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
-.footer a, .footer p {
-	font-size: 12px;
-	color: black;
+.footer p {
+	margin-top: 25px;
 	text-decoration: none;
+}
+
+.footer a, 
+.footer p {
+	font-size: 12px;
+	color: white !important;
 	font-weight: bold;
 }
 
+.footer a {
+	text-decoration: underline;
+}
+
 .footer a:hover {
-	color: #545454 !important;
+	color: #ebebeb !important;
 }
 
 /* **************************************
@@ -1000,16 +1010,12 @@ footer {
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
 
-	body {
-		min-width: 350px;
+	.main-content-head {
+		margin-top: 0 !important;
 	}
 
 	header {
 		margin-bottom: 0px;
-	}
-
-	.card:hover {
-		transform: scale(1);
 	}
 
 	.main-content {
@@ -1038,7 +1044,8 @@ footer {
 		height: 100%;
 	}
 
-	.card {
+	.card,
+	.card-block {
 		border: 0 !important;
 	}
 
@@ -1108,7 +1115,7 @@ footer {
 		text-transform: uppercase;
 		text-decoration: none;
 		text-shadow: none;
-		color: black !important;
+		color: #979797 !important;
 	}
 
 	.navbar-collapse .navbar-nav .menu-item {
@@ -1322,7 +1329,8 @@ footer {
 		text-overflow: ellipsis;
 	}
 
-	.card {
+	.card,
+	.card-block {
 		border: 0 !important;
 	}
 
@@ -1349,7 +1357,7 @@ footer {
 		text-transform: uppercase;
 		text-decoration: none;
 		text-shadow: none;
-		color: black !important;
+		color: #979797 !important;
 	}
 
 	.navbar-nav {
@@ -1417,10 +1425,6 @@ footer {
 
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 180% !important;
-	}
-	
-	.main-content {
-		margin-top: 60px;
 	}
 
 	.avatar-page-author {
@@ -1496,7 +1500,8 @@ footer {
 		top: 65px;
 	}
 
-	.card {
+	.card,
+	.card-block {
 		border: 0 !important;
 	}
 
@@ -1540,10 +1545,6 @@ footer {
 
 	.row-post {
 		margin-top: -15px;
-	}
-
-	.main-content {
-		margin-top: 30px;
 	}
 
 	img.logo {
@@ -1608,8 +1609,11 @@ footer {
 
 *****************************************/
 .error-row {
-	padding-top: 250px;
-	background: transparent;
+	padding-top: 95px;
+}
+
+.card-block-error {
+	border: 0 !important;
 }
 
 .error-row .card-title {
@@ -1623,13 +1627,14 @@ footer {
 	border: 1px solid grey !important;
 }
 
+.read-more-btn:hover {
+	background-color: #545454 !important;
+    color: white !important;
+}
+
 .card-actions-bottom {
     display: block;
     text-align: center;
-}
-
-.fa-exclamation-triangle {
-	margin-bottom: 50px;
 }
 
 /* **************************************
@@ -1653,10 +1658,12 @@ EXTERNAL libraries look-n-feel
 
 .fa-twitter:hover {
 	color: #1dcaff;
+	background: #ebebeb;
 }
 
 .fa-rss:hover {
 	color: #f26522;
+	background: #ebebeb;
 }
 
 .fa-rss {
@@ -1664,7 +1671,7 @@ EXTERNAL libraries look-n-feel
 	font-size: 1.5em;
 	padding: 15px;
 	background: white;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .fa-twitter {
@@ -1672,7 +1679,7 @@ EXTERNAL libraries look-n-feel
 	font-size: 1.5em;
 	padding: 15px;
 	background: white;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .fa-facebook {
@@ -1680,7 +1687,7 @@ EXTERNAL libraries look-n-feel
 	font-size: 1.5em;
 	padding: 15px;
 	background: white;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .fa-twitter-author, .fa-facebook-author {

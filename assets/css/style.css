@@ -1619,6 +1619,10 @@ footer {
 	padding-top: 95px;
 }
 
+.card-block-error {
+	border: 0 !important;
+}
+
 .error-row .card-title {
     text-align: center;
     font-size: 35px !important;

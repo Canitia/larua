@@ -24,7 +24,7 @@ Larua uses the following libraries;
 - Webfontloader 1.6.28
 
 # Theme requirements
-- Larua **requires** Ghost version **2.0.0** to install and work as intended. 
+- Larua **requires** Ghost version **2.1.0** to install and work as intended. 
 - In case it's not enabled: enable Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
 # Release

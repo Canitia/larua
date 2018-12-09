@@ -14,7 +14,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh l
 - Translation support!
 - Custom AMP, tag, author and error page designs.
 
-![Larua](https://gitlab.com/canitia/larua/raw/master/assets/screenshot-desktop.png)
+![Larua](https://git.canitia.nl/canitia/larua/raw/master/assets/screenshot-desktop.png)
 
 # Larua's base
 Larua uses the following libraries;

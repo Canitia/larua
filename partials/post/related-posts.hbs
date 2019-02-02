@@ -1,5 +1,4 @@
    {{#if @labs.publicAPI}} <!-- checks if the public API is active in the labs section as it's needed for this item -->
-
    {{#is "post, page"}}
       {{#get "posts" limit="5" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
       <div class="related">

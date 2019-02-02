@@ -28,46 +28,46 @@
         </div>
   </div>
 {{else}}
-<div class="main-content-head"></div>
+    <div class="main-content-head"></div>
 {{/if}}
 {{/is}}
 
 {{#is "author"}}
-{{#author}}
-<div class="tag_head_wrap" style="background-image:url('{{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "bgpattern.png"}}{{/if}}')">
-  <div class="tag_heading text-center">
-    
-    <div class="author_wrap">
-    <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
-    <p class="posttitle posttitle-author">{{name}}</p>
-      <div class="socialfooter-top text-center socialfooter-top-author">
-      {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fab fa-facebook fa-facebook-author"></i></a>{{/if}}
-      {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter fa-twitter-author"></i></a>{{/if}}
-      </div>
-      </div>
-  </div>
+  {{#author}}
+      <div class="tag_head_wrap" style="background-image:url('{{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "bgpattern.png"}}{{/if}}')">
+        <div class="tag_heading text-center">
+          
+          <div class="author_wrap">
+          <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
+          <p class="posttitle posttitle-author">{{name}}</p>
+            <div class="socialfooter-top text-center socialfooter-top-author">
+            {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fab fa-facebook fa-facebook-author"></i></a>{{/if}}
+            {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter fa-twitter-author"></i></a>{{/if}}
+            </div>
+            </div>
+        </div>
 
-  </div>
-{{/author}}
+        </div>
+  {{/author}}
 {{/is}}
 
 {{#is "tag"}}
-<div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
-  {{#tag}}
-  <div class="tag_heading text-center" style="{{#if feature_image}}background-image: url({{img_url feature_image}}) !important; {{else}}background: rgba(0,0,0,0.1); height: 225px !important; margin-top: 85px;{{/if}}">
-  <p class="posttitle">{{name}}</p>
-  </div>
-  {{/tag}}
-</div>
+    <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
+        {{#tag}}
+        <div class="tag_heading text-center" style="{{#if feature_image}}background-image: url({{img_url feature_image}}) !important; {{else}}background: rgba(0,0,0,0.1); height: 225px !important; margin-top: 85px;{{/if}}">
+        <p class="posttitle">{{name}}</p>
+        </div>
+        {{/tag}}
+    </div>
 {{/is}}
 
 {{#is "post, page"}}
   {{#post}}
     {{#if feature_image}}
-    <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
-      <div class="tag_heading tag_heading_post text-center" style="background-image: url( {{img_url feature_image}});">
-      </div>
-    </div>
+        <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
+          <div class="tag_heading tag_heading_post text-center" style="background-image: url( {{img_url feature_image}});">
+          </div>
+        </div>
     {{else}}
         <div class="main-content-head"></div>
     {{/if}}

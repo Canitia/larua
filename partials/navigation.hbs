@@ -4,14 +4,14 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  {{#if @blog.logo}}
+  {{#if @site.logo}}
 
         <div class="logo-fixed d-flex d-sm-flex d-md-flex d-lg-flex">
-          <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="blog logo" class="logo-nav navbar-brand" /></a>
+          <a href="{{@site.url}}"><img src="{{@site.logo}}" alt="blog logo" class="logo-nav navbar-brand" /></a>
         </div>
 
   {{else}}
-  <a href="{{@blog.url}}" class="navbar-brand headerurl">{{@blog.title}}</a>
+  <a href="{{@site.url}}" class="navbar-brand headerurl">{{@site.title}}</a>
   {{/if}}
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">

@@ -12,7 +12,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh l
 - Shows related posts (by primary tag) below a post.
 - Set social media links through Ghost settings panel (they will show in the header)
 - Translation support!
-- Custom AMP, tag, author and error page designs.
+- Custom tag, author and error page designs.
 
 ![Larua](https://github.com/canitia/larua/raw/master/assets/screenshot-desktop.png)
 
@@ -24,7 +24,7 @@ Larua uses the following libraries;
 - Webfontloader 1.6.28
 
 # Theme requirements
-- Larua **requires** Ghost version **2.1.0** to install and work as intended. 
+- Larua **requires** Ghost version **2.1.0** or higher to install and work as intended. 
 - In case it's not enabled: enable Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
 # Release
@@ -39,8 +39,8 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 # Tested:
 ## Browsers
 - Microsoft Edge (November 2018 Update)
-- Google Chrome 70
-- Firefox 63
+- Google Chrome 71
+- Firefox 65
 
 # Customization
 

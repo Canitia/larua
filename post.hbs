@@ -25,9 +25,9 @@
           {{#if tags}}
             <div class="tagslist">
               {{#foreach tags}}
-                  <a href="{{@site.url}}/tag/{{name}}">#{{name}}</a>
-                {{/foreach}}
-          </div>
+                <a href="{{@site.url}}/tag/{{name}}">#{{name}}</a>
+              {{/foreach}}
+            </div>
           {{/if}}<!-- end tags if -->
       </div><!-- end cat links -->
          {{> 'post/author-section'}}

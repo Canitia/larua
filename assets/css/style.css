@@ -1736,8 +1736,8 @@ EXTERNAL libraries look-n-feel
 
 /* add some styling to disqus */
 #disqus_thread {
-padding-left: 40px;
-padding-right: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 
@@ -1759,6 +1759,7 @@ Animations
 	-webkit-transition-property: transform;
 	transition-property: transform;
   }
+
   .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
 	-webkit-transform: rotate(15deg);
 	transform: rotate(15deg);

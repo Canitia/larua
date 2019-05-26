@@ -18,9 +18,9 @@ A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh l
 
 # Larua's base
 Larua uses the following libraries;
-- Font Awesome 5
 - Bootstrap 4
 - JQuery (3.1.x)
+- Font Awesome 5
 - Webfontloader 1.6.28
 
 # Theme requirements
@@ -39,8 +39,8 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 # Tested:
 ## Browsers
 - Microsoft Edge (November 2018 Update)
-- Google Chrome 71
-- Firefox 65
+- Google Chrome 73
+- Firefox 66
 
 # Customization
 

@@ -748,8 +748,8 @@ iframe {
 	width: 100%;
 	height: 100% !important;
 	position: relative;
-	height: 625px !important;
-	max-height: 625px !important;
+	height: 500px !important;
+	max-height: 500px !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1598,11 +1598,11 @@ footer {
 	}
 
 	.tag_heading {
-		height: 625px !important;
+		height: 500px !important;
 	}
 
 	.tag_heading_home {
-		height: 625px !important;
+		height: 500px !important;
 	}
 
 }

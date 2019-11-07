@@ -560,7 +560,8 @@ POST/ARTICLE HEADERS
 }
 
 .kg-image {
-    max-width: 100%;
+	max-width: 100%;
+	border: 2px solid #ebebeb;
 }
 
  .kg-image-card figcaption,

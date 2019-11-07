@@ -1232,6 +1232,10 @@ footer {
 	.card-title {
 		font-size: 110%;
 	}
+
+	.author_wrap { 
+		padding: 15px;
+	}
 	
 	h1 {
 		font-size: 2rem !important;
@@ -1499,14 +1503,13 @@ footer {
 		font-size: 180% !important;
 	}
 
-	.avatar-page-author {
-		margin-top: 45px;
-		width: 90px;
-		height: 90px;
-	}
-
 	iframe {
 		padding: 25px;
+	}
+
+	.author_wrap { 
+		margin-top: 45px;
+		padding: 15px;
 	}
 
 	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
@@ -1622,12 +1625,6 @@ footer {
 	img.logo {
 		height: 75px;
 		max-height: 75px;
-	}
-
-	.avatar-page-author {
-		margin-top: 45px;
-		width: 90px;
-		height: 90px;
 	}
 
 	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {

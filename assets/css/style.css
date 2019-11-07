@@ -742,7 +742,7 @@ article {
 	background-position: 50% 20%;
 }
 
-.post-content img, .post-content  p  img {
+.post-content  p  img {
 	max-width: 100%;
 	height:auto;
 	display:block;

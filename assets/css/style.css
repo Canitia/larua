@@ -604,7 +604,7 @@ POST/ARTICLE HEADERS
     flex-wrap: wrap;
     color: black;
     text-decoration: none;
-    border: 2px solid blue;
+    border: 2px solid #222;
 }
 
 .kg-bookmark-content {

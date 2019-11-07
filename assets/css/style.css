@@ -599,6 +599,14 @@ POST/ARTICLE HEADERS
     margin: 0 0 0 0.75em;
 }
 
+.kg-bookmark-card {
+	padding: 20px;
+}
+
+.kg-bookmark-publisher {
+	font-weight: bold;
+}
+
 .kg-bookmark-container {
     display: flex;
     flex-wrap: wrap;

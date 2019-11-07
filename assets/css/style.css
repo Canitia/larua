@@ -568,6 +568,10 @@ POST/ARTICLE HEADERS
 	text-align: center;
 	margin-bottom: 35px;
 	font-style: italic;
+	background:	#f8f8f8;
+	border: 2px solid #ebebeb;
+	border-radius: 0 0 5px 5px;
+	padding: 10px;
 }
 
  .post-full-content .kg-image-full + figcaption {

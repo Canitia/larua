@@ -183,12 +183,14 @@ header {
 
 .navbar {
 	z-index: 10;
-	background: rgba(0,0,0,0.85);
+	background: black;
 }
 
 ul#navbarNav {
+	z-index: 15;
 	margin-bottom: 0 !important;
 	padding-left: 0 !important;
+	background: black;
 }
 
 
@@ -1051,7 +1053,7 @@ footer {
 .page-footer {
 	padding-top: 15px;
 	bottom: 0;
-	background: #222 !important;
+	background: black !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;

@@ -35,7 +35,7 @@
 {{#is "tag"}}
     <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
         {{#tag}}
-        <div class="tag_heading text-center" style="{{#if feature_image}}background-image: url({{img_url feature_image}}) !important; {{else}}background: rgba(0,0,0,0.1);{{/if}}">
+        <div class="tag_heading text-center" style="{{#if feature_image}}background-image: url({{img_url feature_image}}) !important; {{else}} background-image: url({{asset "images/fallback-image.jpg"}});{{/if}}">
         <p class="posttitle">{{name}}</p>
         </div>
         {{/tag}}

@@ -2,7 +2,7 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
   {{#author}}
-      <div class="tag_head_wrap" style="background-image:url('{{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "bgpattern.png"}}{{/if}}')">
+      <div class="tag_head_wrap" style="background-image:url('{{#if cover_image}}{{img_url cover_image}}{{else}}{{asset "images/fallback-image.jpg"}} {{/if}}')">
         <div class="tag_heading text-center">
           
           <div class="author_wrap">

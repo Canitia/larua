@@ -1627,6 +1627,10 @@ footer {
 		max-height: 75px;
 	}
 
+	.author_wrap {
+		margin-top: 55px;
+	}
+
 	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
 		margin-left: 0 !important;
 		margin-right: 0 !important;

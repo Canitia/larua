@@ -27,9 +27,6 @@ Larua uses the following libraries;
 - Larua **requires** Ghost version **3.0** or higher to install and work as intended. 
 - In case it's not enabled: enable Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
-# Release
-This theme is currently marked 'stable'. Unless a new Ghost update introduces major new features or rewrites it's about as stable as can be ;).
-
 # Use
 - Download the package from the releases page
 - Go to your Ghost-panel and to the Design-tab
@@ -39,8 +36,8 @@ This theme is currently marked 'stable'. Unless a new Ghost update introduces ma
 # Tested:
 ## Browsers
 - Microsoft Edge (November 2018 Update)
-- Google Chrome 76
-- Firefox 70
+- Google Chromium 79.0.3945.130
+- Firefox 74.0a1
 
 # Customization
 

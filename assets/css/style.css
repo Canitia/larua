@@ -1118,6 +1118,10 @@ footer {
 		height: 100%;
 	}
 
+	.card {
+		padding: 0 !important;
+	}
+
 	.card,
 	.card-block {
 		border: 0 !important;

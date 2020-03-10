@@ -6,6 +6,9 @@
       <article>
         <div class="post-head">
               <h1 class="text-center post-title">{{title}}</h1>
+                <svg>
+                  <use xlink:href="#icon-{{visibility}}"></use>
+                </svg>
                 <div class="post-authors text-center">
                     {{#foreach authors}}
                         <a href="{{url}}"><img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="post-avatar" alt="{{t "Written by"}} {{name}}" title="{{t "Written by"}} {{name}}"></a> 
@@ -17,7 +20,7 @@
               </div>
         </div>
       <hr />
-      <div class="post-content">
+      <div class="post post-access-{{visibility}} post-content">
         {{content}}
       </div>
 

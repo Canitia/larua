@@ -18,22 +18,13 @@
         </div>
       <hr />
       <div class="post-content">
-        {{#if access}}
-        {{content}}
-         {{else}}
-            {{!-- if the user does not have access, show them an upgrade CTA --}}
-            <p>You don't have access to this post on <strong>{{@site.title}}</strong> at the moment, but if you upgrade your account you'll be able to see the whole thing, as well as all the other posts in the archive! Subscribing only takes a few seconds and will give you immediate access.</p>
-            <aside class="gh-upgrade-cta">
-                {{#if @member}}
-                    <h2>This post is for paying subscribers only</h2>
-                {{else}}
-                    <h2>This post is for subscribers only</h2>
-                {{/if}}
-                <a class="gh-button gh-button-large gh-button-primary" href="/signup/">Subscribe now</a>
-                <p><small>Already have an account? <a href="/signin/">Sign in</a></small></p>
-            </aside>
+          {{#if access}}
+            <p>Thanks for being a member...</p>
+          {{else}}
+            <p>You need to become a member in order to read this post... </p>
+          {{/if}}
 
-        {{/if}}
+          {{content}}
       </div>
 
       <div class="cat-links">

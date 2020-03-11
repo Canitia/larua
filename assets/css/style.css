@@ -1725,6 +1725,10 @@ footer {
 	border: 1px solid grey !important;
 }
 
+.plan-button {
+	margin-bottom: 25px;
+}
+
 .read-more-btn:hover,
 .plan-button:hover {
 	background-color: #545454 !important;

@@ -1705,13 +1705,15 @@ footer {
     font-size: 35px !important;
 }
 
-.read-more-btn {
+.read-more-btn,
+.plan-button {
 	background-color: #ebebeb !important;
 	color: black !important;
 	border: 1px solid grey !important;
 }
 
-.read-more-btn:hover {
+.read-more-btn:hover,
+.plan-button:hover {
 	background-color: #545454 !important;
     color: white !important;
 }

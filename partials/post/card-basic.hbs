@@ -4,7 +4,9 @@
 
   <div class="card col col-sm-12 col-md-12 col-lg-6">
         <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>   
-        <span class="post-visibility post-visibility-{{visibility}}">Free Post</span>    
+            {{#has visibility="paid"}}
+              <span class="premium-label">Premium</span>
+            {{/has}} 
     <div class="card-block">
       {{#if featured}}
           <span class="badge-featured">

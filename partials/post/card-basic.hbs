@@ -10,7 +10,11 @@
             {{t "Featured"}}
           </span>
       {{/if}}
-      <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{visibility}} - {{title}}</a></h2>
+      <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}
+          <svg>
+            <use xlink:href="#icon-{{visibility}}"></use>
+          </svg>
+      </a></h2>
         <div class="card-actions-top">
 
             {{#foreach authors}}

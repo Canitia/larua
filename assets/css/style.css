@@ -450,6 +450,7 @@ POST/ARTICLE CARD UI - main
 	border-radius: 5px;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-size: 13px;
 }
 
 .badge {

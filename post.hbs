@@ -18,7 +18,9 @@
         </div>
       <hr />
       <div class="post-content">
-          {{#if access}}
+          {{#if @member.paid}}
+            {{content}}
+          {{else if @member}}
             {{content}}
           {{else}}
             <p>You need to become a member in order to read this post... </p>

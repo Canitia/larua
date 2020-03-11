@@ -3,15 +3,15 @@
 {{#foreach posts visibility="all"}}
 
   <div class="card col col-sm-12 col-md-12 col-lg-6">
-        <div class="post-preview-heading">
-        <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>   
-            {{#has visibility="paid"}}
-              <span class="premium-label">Premium</span>
-            {{/has}} 
-            {{#has visibility="member"}}
-              <span class="member-label">Member-only</span>
-            {{/has}} 
-        </div>
+    <div class="post-preview-heading">
+        {{#has visibility="paid"}}
+          <span class="premium-label"><i class="far fa-star"></i> Premium</span>
+        {{/has}} 
+        {{#has visibility="member"}}
+          <span class="member-label">Member-only</span>
+        {{/has}} 
+          <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>   
+    </div>
     <div class="card-block">
       {{#if featured}}
           <span class="badge-featured">

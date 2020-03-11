@@ -1,6 +1,6 @@
 <div class="row">
 
-{{#foreach posts}}
+{{#foreach posts visibility="all"}}
 
   <div class="card col col-sm-12 col-md-12 col-lg-6">
         <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>         
@@ -10,11 +10,7 @@
             {{t "Featured"}}
           </span>
       {{/if}}
-      <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}
-          <svg>
-            <use xlink:href="#icon-{{visibility}}"></use>
-          </svg>
-      </a></h2>
+      <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
         <div class="card-actions-top">
 
             {{#foreach authors}}

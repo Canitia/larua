@@ -440,6 +440,18 @@ POST/ARTICLE CARD UI - main
 	height: 235px !important;
 }
 
+.premium-label {
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	color: #222;
+	background: rgba(235,235,235,0.95);
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 .badge {
 	font-weight: 500;
 	color: black;

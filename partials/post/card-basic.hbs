@@ -7,9 +7,9 @@
         {{#has visibility="paid"}}
           <span class="premium-label"><i class="far fa-star"></i> Premium</span>
         {{/has}} 
-        {{#has visibility="member"}}
+        {{#if @member}}
           <span class="member-label">Member-only</span>
-        {{/has}} 
+        {{/if}} 
           <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>   
     </div>
     <div class="card-block">
@@ -18,7 +18,7 @@
             {{t "Featured"}}
           </span>
       {{/if}}
-      <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}} {{visibility}}</a></h2>
+      <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
         <div class="card-actions-top">
 
             {{#foreach authors}}

@@ -22,9 +22,11 @@
             <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
         </li>
         {{/foreach}}
+        {{#if @labs.members}}
         <li class="menu-item">
-          <a class="nav-link" href="{{@site.url}}/signup">Signup</a>
+          <a class="nav-link" href="{{@site.url}}/signup">{{t "Signup"}}</a>
         </li>
+        {{/if}}
         
         <!-- End the loop -->
     </ul>

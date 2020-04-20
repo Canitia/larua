@@ -1872,3 +1872,1083 @@ Animations
 	-webkit-transform: rotate(5deg);
 	transform: rotate(5deg);
   }
+
+
+  /* ##################
+
+  Members
+
+  ################### */
+
+  /* 7.2. Members Subscribe Form
+/* ---------------------------------------------------------- */
+.subscribe-form {
+    margin: 1.5em 0;
+    padding: 6.5vw 7vw 8vw;
+    border: color(var(--lightgrey) l(+10%)) 1px solid;
+    text-align: center;
+    background: linear-gradient(color(var(--whitegrey) l(+6%)), color(var(--whitegrey) l(+4%)));
+    border-radius: 3px;
+}
+
+.subscribe-form-title {
+    margin: 0 0 3px 0;
+    padding: 0;
+    color: var(--darkgrey);
+    font-size: 3.5rem;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.subscribe-form-description {
+    margin-bottom: 0.2em 0 1em;
+    color: var(--midgrey);
+    font-size: 2.1rem;
+    line-height: 1.55em;
+}
+
+.subscribe-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 460px;
+}
+
+.subscribe-form .form-group {
+    align-self: stretch;
+    display: flex;
+}
+
+.subscribe-email {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: color(var(--lightgrey) l(+7%)) 1px solid;
+    color: var(--midgrey);
+    font-size: 1.8rem;
+    line-height: 1em;
+    font-weight: normal;
+    user-select: text;
+    border-radius: 5px;
+    transition: border-color 0.15s linear;
+
+    -webkit-appearance: none;
+}
+
+.subscribe-email:focus {
+    outline: 0;
+    border-color: color(var(--lightgrey) l(-2%));
+}
+
+.subscribe-form button {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding: 0 20px;
+    height: 43px;
+    outline: none;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 39px;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(
+    color(var(--blue) whiteness(+7%)),
+    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
+    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
+    color(var(--blue) lightness(-4%) saturation(-10%))
+    );
+    border-radius: 5px;
+
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.subscribe-form button:active,
+.subscribe-form button:focus {
+    background: color(var(--blue) lightness(-9%) saturation(-10%));
+}
+
+.subscribe-form .button-loader,
+.subscribe-form .message-success,
+.subscribe-form .message-error {
+    display: none;
+}
+
+.subscribe-form .loading .button-content {
+    visibility: hidden;
+}
+
+.subscribe-form .loading .button-loader {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: inline-block;
+    margin-left: -19px;
+    transform: scale(0.7);
+}
+
+.subscribe-form .button-loader svg path,
+.subscribe-form .button-loader svg rect {
+    fill: #fff;
+}
+
+.subscribe-form .success .message-success,
+.subscribe-form .invalid .message-error,
+.subscribe-form .error .message-error {
+    margin: 1em auto 0;
+    max-width: 400px;
+    color: var(--red);
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.subscribe-form .success .message-success {
+    display: block;
+    color: color(var(--green) l(-5%));
+}
+
+.subscribe-form .invalid .message-error,
+.subscribe-form .error .message-error {
+    display: block;
+}
+
+
+@media (max-width: 650px) {
+    .subscribe-form-title {
+        font-size: 2.4rem;
+    }
+
+    .subscribe-form-description {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .subscribe-form form {
+        flex-direction: column;
+    }
+
+    .subscribe-form .form-group {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subscribe-form button {
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* 10. Subscribe Message and Overlay
+/* ---------------------------------------------------------- */
+
+.notification {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9000;
+    padding: 22px 60px;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.3em;
+    font-weight: 500;
+    text-align: center;
+    background: color(var(--green) l(-5%));
+    transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    transform: translateY(-175%);
+}
+
+.subscribe-success .notification-subscribe {
+    visibility: visible;
+    transform: translateY(0);
+}
+.signup-success .notification-signup {
+    visibility: visible;
+    transform: translateY(0);
+}
+.signin-success .notification-signin {
+    visibility: visible;
+    transform: translateY(0);
+}
+.checkout-success .notification-checkout {
+    visibility: visible;
+    transform: translateY(0);
+}
+.billing-success .notification-billing-update {
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.billing-cancel .notification-billing-update-cancel {
+    visibility: visible;
+    background: color(var(--red) l(-5%));
+    transform: translateY(0);
+}
+
+.notification.closed {
+    visibility: hidden;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translateY(-175%);
+}
+
+.notification-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+.notification-close:before {
+    content: "";
+    position: absolute;
+    top: 29px;
+    right: 25px;
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    border-radius: 2px;
+    transform: rotate(45deg);
+}
+
+.notification-close:after {
+    content: "";
+    position: absolute;
+    top: 29px;
+    right: 25px;
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+
+.subscribe-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(9,10,11,0.97);
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    pointer-events: none;
+
+    backdrop-filter: blur(3px);
+}
+
+.subscribe-overlay .subscribe-close:before,
+.subscribe-overlay .subscribe-close:after {
+    top: 36px;
+    width: 30px;
+}
+
+.subscribe-overlay:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.subscribe-overlay-content {
+    position: relative;
+    z-index: 9999;
+    margin: 0 0 5vw 0;
+    padding: 4vw;
+    color: #fff;
+    text-align: center;
+}
+
+.subscribe-overlay .subscribe-form {
+    border: none;
+    color: #fff;
+    background: none;
+}
+
+.subscribe-overlay-logo {
+    position: fixed;
+    top: 23px;
+    left: 30px;
+    height: 30px;
+}
+
+.subscribe-overlay-title {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    font-size: 5.2rem;
+    line-height: 1.15em;
+}
+
+.subscribe-overlay-description {
+    margin: 0 auto 50px;
+    max-width: 650px;
+    color: #fff;
+    font-family: Georgia, serif;
+    font-size: 2.4rem;
+    line-height: 1.3em;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.subscribe-overlay form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 540px;
+}
+
+.subscribe-overlay .form-group {
+    flex-grow: 1;
+}
+
+.subscribe-overlay .subscribe-email {
+    display: block;
+    padding: 14px 20px;
+    width: 100%;
+    border: none;
+    color: var(--midgrey);
+    font-size: 2rem;
+    line-height: 1em;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    user-select: text;
+    border-radius: 8px;
+    transition: border-color 0.15s linear;
+
+    -webkit-appearance: none;
+}
+
+.subscribe-email:focus {
+    outline: 0;
+    border-color: color(var(--lightgrey) l(-2%));
+}
+
+.subscribe-overlay button {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    padding: 0 25px;
+    height: 52px;
+    outline: none;
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 38px;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(
+    color(var(--blue) whiteness(+7%)),
+    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
+    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
+    color(var(--blue) lightness(-4%) saturation(-10%))
+    );
+    border-radius: 8px;
+
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.subscribe-overlay button:active,
+.subscribe-overlay button:focus {
+    background: color(var(--blue) lightness(-9%) saturation(-10%));
+}
+
+.subscribe-overlay .loading .button-loader {
+    top: 5px;
+}
+
+
+
+
+
+/* 12. Members
+/* ---------------------------------------------------------- */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+select {
+    display: block;
+    padding: 0 0.6em;
+    width: 100%;
+    height: 44px;
+    outline: 0;
+    border: none;
+    border: solid 1px var(--lightgrey);
+    color: inherit;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus,
+select:focus,
+textarea:focus {
+    border-color: var(--blue);
+}
+
+.button {
+    display: inline-block;
+    padding: 0 1.8rem;
+    height: 44px;
+    border: 0;
+    font-size: 1.5rem;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+    appearance: none;
+}
+
+.button.fit {
+    width: 100%;
+}
+
+.button.small {
+    padding: 0 1.1rem;
+    height: 30px;
+    font-size: 1.4rem;
+    line-height: 30px;
+}
+
+.button.large {
+    padding: 0 3rem;
+    height: calc(44px * 1.14);
+    font-size: 1.6rem;
+    line-height: calc(44px * 1.14);
+}
+
+.button.disabled,
+.button:disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.button {
+    color: var(--blue);
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px var(--blue);
+}
+
+.button:hover {
+    color: color(var(--blue) l(-15%));
+    text-decoration: none;
+    box-shadow: inset 0 0 0 1px color(var(--blue) l(-10%));
+    transition: 0.2s ease;
+}
+
+.button.primary {
+    color: #fff;
+    background-color: var(--blue);
+    box-shadow: none;
+}
+
+.button.primary:hover {
+    background-color: color(var(--blue) l(-10%));
+}
+
+.site-signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form {
+    margin: 0 auto 10vw;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.signup-title {
+    margin: 0 0 0.1em;
+    font-size: 4.2rem;
+}
+
+.signup-form p {
+    color: var(--midgrey);
+    font-size: 1.3em;
+}
+
+.signup-form p small {
+    display: inline-block;
+    margin: 15px 0 0 0;
+    font-size: 1.4rem;
+}
+
+.signup-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-box .button {
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .signup-box {
+        flex-direction: column;
+    }
+    .signup-box .button {
+        margin: 15px 0 0 0;
+        width: 100%;
+    }
+}
+
+.site-signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-form {
+    margin: 0 auto 10vw;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.signin-title {
+    margin: 0 0 0.1em;
+    font-size: 4.2rem;
+}
+
+.signin-form p {
+    color: var(--midgrey);
+    font-size: 1.3em;
+}
+
+.signin-form p small {
+    display: inline-block;
+    margin: 15px 0 0 0;
+    font-size: 1.4rem;
+}
+
+.signin-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signin-box .button {
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .signin-box {
+        flex-direction: column;
+    }
+    .signin-box .button {
+        margin: 15px 0 0 0;
+        width: 100%;
+    }
+}
+
+.checkout-form {
+    margin: 0 auto 10vw;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.checkout-title {
+    margin: 0 auto 10px;
+    padding: 5vw 0 0;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+}
+
+.checkout-form p {
+    margin: 0 auto 60px;
+    max-width: 500px;
+    color: var(--midgrey);
+    font-size: 1.3em;
+}
+
+.checkout-box {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.checkout-plan {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-top: var(--blue) 6px solid;
+    color: color(var(--midgrey) l(-30%));
+    text-align: left;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(39,44,49,0.03), 0 0 3px rgba(39,44,49,0.05), 0 5px 22px -10px rgba(39,44,49,0.12), 0 25px 30px -25px rgba(39,44,49,0.05);
+}
+
+.checkout-plan + .checkout-plan {
+    margin-left: 30px;
+}
+
+.checkout-plan-header {
+    position: relative;
+    padding: 0 0 50px;
+    color: var(--midgrey);
+    text-align: center;
+}
+
+.checkout-plan-header:after {
+    content: "";
+    position: absolute;
+    right: 30%;
+    bottom: 25px;
+    left: 30%;
+    display: block;
+    height: 2px;
+    background: rgba(39,44,49,0.08);
+    border-radius: 2px;
+}
+
+.checkout-plan-header h3 {
+    margin: 0 0 25px 0;
+    color: var(--darkgrey);
+    font-size: 1.8rem;
+    line-height: 1.15em;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.checkout-plan-header span {
+    font-size: 2.6rem;
+    font-weight: 300;
+}
+
+.checkout-plan-header strong {
+    color: var(--darkgrey);
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+.checkout-plan-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.checkout-plan-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.checkout-plan-content li {
+    position: relative;
+    margin: 0;
+    padding: 0 0 15px 20px;
+    line-height: 1.4em;
+}
+
+.checkout-plan-content li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    display: block;
+    color: color(var(--green) l(-5%));
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.checkout-plan-content .button {
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 740px) {
+    .checkout-title {
+        margin-top: 50px;
+    }
+    .checkout-box {
+        flex-direction: column;
+    }
+    .checkout-plan + .checkout-plan {
+        margin: 5vw 0 0 0;
+    }
+}
+
+form[data-members-form] .button-loader,
+form[data-members-form] .message-success,
+form[data-members-form] .message-error {
+    display: none;
+}
+
+.message-success svg,
+.message-error svg {
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+.message-success svg {
+    fill: #fff;
+}
+.message-error svg {
+    fill: var(--red);
+}
+
+form[data-members-form].success .message-success,
+form[data-members-form].error .message-error {
+    position: fixed;
+    top: 84px;
+    right: 20px;
+    left: 20px;
+    z-index: 9999;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    background: color(var(--green) l(-5%));
+    border-radius: 5px;
+}
+form[data-members-form].success .message-success {
+    background: color(var(--green) l(-5%));
+}
+form[data-members-form].error .message-error {
+    color: var(--red);
+    background: #fff;
+    box-shadow: var(--red) 0 0 0 1px;
+}
+
+form[data-members-form] .button {
+    position: relative;
+}
+
+/*-- Loading --*/
+
+/* Hide button text */
+form[data-members-form].loading .button-content {
+    visibility: hidden;
+}
+
+/* Show loading spinner */
+form[data-members-form].loading .button-loader {
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    margin-left: -19px;
+    height: 31px;
+    transform: scale(0.7);
+}
+
+.button-loader svg path,
+.button-loader svg rect {
+    fill: #fff;
+}
+
+/*-- Show success message on success --*/
+form[data-members-form].success .message-success {
+    display: block;
+}
+
+/*-- Show error message on error --*/
+form[data-members-form].error .message-error {
+    display: block;
+}
+
+.site-account {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+}
+
+.subscriber-box {
+    margin: 0 auto;
+    max-width: 560px;
+    width: 100%;
+}
+
+.subscriber-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.subscription-title h1 {
+    margin-bottom: 12px;
+    font-size: 3.4rem;
+}
+
+.subscriber-avatar {
+    position: relative;
+    flex: 1 0 120px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid color(var(--lightgrey) l(+10%));
+    background: color(var(--lightgrey) l(+10%));
+    border-radius: 100%;
+
+    object-fit: cover;
+}
+
+.subscription .subscriber-avatar {
+    margin: 4px 0 0 20px;
+}
+
+.subscriber-avatar img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 100%;
+}
+
+.subscriber-box p {
+    line-height: 1.5em;
+}
+
+.subscription {
+    padding: 20px 0 40px;
+}
+
+.subscription-expiration-warning {
+    color: var(--red);
+}
+
+.subscriber-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding: 20px 0 0;
+    border-top: 1px solid color(var(--lightgrey) l(+10%));
+    border-bottom: 1px solid color(var(--lightgrey) l(+10%));
+}
+
+.subscriber-detail {
+    flex: 1 0 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px;
+    padding: 0 20px 0 0;
+}
+
+.subscriber-detail-label {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subscription-actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.subscription-actions li {
+    margin: 0 0.8rem 0 0;
+    padding: 0;
+}
+
+.subscription-actions li:last-of-type {
+    margin-right: 0;
+}
+
+.subscription-actions li a {
+    display: inline-block;
+    padding: 0 1.8rem;
+    height: 44px;
+    border: 0;
+    color: var(--blue);
+    font-size: 1.5rem;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px var(--blue);
+    cursor: pointer;
+    transition: 0.4s ease;
+
+    appearance: none;
+}
+
+.subscription-actions li a:hover {
+    color: color(var(--blue) l(-15%));
+    text-decoration: none;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 1px color(var(--blue) l(-10%));
+    transition: 0.2s ease;
+}
+
+.subscription-actions .gh-subscription-cancel {
+    color: color(var(--midgrey) l(+10%));
+    box-shadow: inset 0 0 0 1px color(var(--midgrey) l(+10%));
+}
+
+.subscription-actions .gh-subscription-cancel:hover {
+    color: var(--midgrey);
+    box-shadow: inset 0 0 0 1px var(--midgrey);
+}
+
+.gh-subscription-cancel[data-members-continue-subscription] {
+    color: #fff;
+    background-color: var(--blue);
+    box-shadow: none;
+}
+
+.gh-subscription-cancel[data-members-continue-subscription]:hover {
+    color: #fff;
+    background-color: color(var(--blue) l(-10%));
+    box-shadow: none;
+}
+
+.gh-error-subscription-cancel {
+    display: block;
+    margin-top: 10px;
+    color: var(--red);
+    font-size: 1.5rem;
+}
+
+.account-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 560px;
+    width: 100%;
+}
+
+.account-box-title {
+    margin-top: 20px;
+    font-size: 3.4rem;
+    text-align: center;
+}
+
+.account-box p {
+    text-align: center;
+}
+
+.header-cta {
+    margin-left: 20px;
+}
+
+.post-card-header-tags {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0.2em;
+}
+
+.post-visibility {
+    display: inline-block;
+    margin: 0 8px 1px 0;
+    padding: 1px 5px;
+    border: var(--lightgrey) 1px solid;
+    color: var(--midgrey);
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    border-radius: 4px;
+}
+
+.post-visibility-members,
+.post-visibility-paid {
+    display: none;
+}
+
+.post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-upgrade-cta-content {
+    margin: 0 5vw;
+    padding: 40px 30px;
+    max-width: 840px;
+    width: 90vw;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    background: color(var(--blue) l(-5%));
+    border-radius: 5px;
+}
+
+.post-upgrade-cta-content h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.post-upgrade-cta .button,
+.post-upgrade-cta .button:hover {
+    margin: 30px 0;
+    color: var(--blue);
+    text-decoration: none;
+    background: #fff;
+    box-shadow: none;
+}
+
+.post-upgrade-cta p {
+    margin: 0;
+}
+
+.post-upgrade-cta a,
+.post-upgrade-cta a:hover {
+    color: #fff;
+    text-decoration: underline;
+    box-shadow: none !important;
+}
+
+@media (max-width: 600px) {
+    .subscriber-details {
+        flex-direction: column;
+    }
+
+    .subscriber-avatar {
+        display: none;
+    }
+}

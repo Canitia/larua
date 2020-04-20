@@ -1,9 +1,5 @@
 # Larua
 
-![Master version](https://img.shields.io/github/package-json/v/Canitia/larua/master?style=flat-square)
-![Development version](https://img.shields.io/github/package-json/v/Canitia/larua/dev?style=flat-square)
-![License](https://img.shields.io/github/license/Canitia/larua?style=flat-square)
-
 A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh looks and fancy fonts. 
 
 # Main Features

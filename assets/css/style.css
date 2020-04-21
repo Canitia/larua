@@ -1702,11 +1702,7 @@ EXTERNAL libraries look-n-feel
 *****************************************/
 .fa-user-secret,
 .fa-tag {
-  color: #b5b5b5;
-}
-
-.fa-user-secret,
-.fa-tag {
+	color: #b5b5b5;
 	margin-left:20px;
 	margin-right:20px;
 }
@@ -1714,7 +1710,6 @@ EXTERNAL libraries look-n-feel
 .fa-facebook:hover {
 	color: #3b5998;
 }
-
 
 .fa-twitter:hover {
 	color: #1dcaff;

@@ -330,7 +330,7 @@ a.nav-link {
 }
 
 .collection {
-	margin:0px !important;
+	margin: 0 !important;
 	padding:0 !important;
 	border: 0 !important;
 }
@@ -1207,10 +1207,10 @@ footer {
 	.container-fluid {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
-		margin-top:0px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom:0px;
+		margin-top:0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
 	}
 
 	.posthead-image {
@@ -1265,8 +1265,8 @@ footer {
 	}
 
 	.main-content > .collection > .collection-item {
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	img.logo {
@@ -1373,7 +1373,7 @@ footer {
 	}
 
 	.tag_heading_home {
-		top: 0px;
+		top: 0;
 		position: relative;
 		height: 100%;
 	}

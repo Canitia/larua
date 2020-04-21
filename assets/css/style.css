@@ -1108,10 +1108,6 @@ footer {
 		height: 300px;
 	}
 
-	.tag_heading {
-		margin-top: 0;
-	}
-
 	.logo-main {
 		top: 100px;
 	}
@@ -1155,6 +1151,7 @@ footer {
 	}
 
 	.tag_heading {
+		margin-top: 0;
 		height: 300px !important;
 	}
 

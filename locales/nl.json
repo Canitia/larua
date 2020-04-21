@@ -53,5 +53,6 @@
     "Check your inbox and click the link to complete signin": "Ga naar je inbox en klik op de link om in te loggen",
     "Send login link": "Stuur login link",
     "Your account": "Jouw account",
-    "Your subscription will expire on {{date current_period_end format='DD MMM YYYY'}}. If you change your mind in the meantime you can turn auto-renew back on to continue your subscription.": "Je abonnement zal verstrijken op {{date current_period_end format='DD MMM YYYY'}}. Als je van gedachte bent veranderd kan je hem automatisch vernieuwen."
+    "Your subscription will expire on {{date current_period_end format='DD MMM YYYY'}}. If you change your mind in the meantime you can turn auto-renew back on to continue your subscription.": "Je abonnement zal verstrijken op {{date current_period_end format='DD MMM YYYY'}}. Als je van gedachte bent veranderd kan je hem automatisch vernieuwen.",
+    "Hey! You have an active {{@site.title}} account with access to all areas. Get in touch if have any problems or need some help getting things updated, and thanks for subscribing.": "Hey! Je hebt een actief premium account, bedankt! Een premium account geeft je toegang tot alle posts en content. Laat het ons weten als je problemen hebt met je abonnement of het bekijken van premium content."
 }

@@ -61,5 +61,6 @@
     "Edit billing info": "Edit billing info",
     "Your plan": "Your plan",
     "Email address": "Email address",
-    "Currently, you're not a subscriber": "Currently, you're not a subscriber"
+    "Currently, you're not a subscriber": "Currently, you're not a subscriber",
+    "Hey there! <strong>{{@member.email}}</strong> is subscribed to free updates from {{@site.title}}, but doesn't have a paid subscription to unlock full access.": "Hey there! <strong>{{@member.email}}</strong> is subscribed to free updates from {{@site.title}}, but doesn't have a paid subscription to unlock full access."
 }

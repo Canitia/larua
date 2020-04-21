@@ -36,6 +36,7 @@ Larua uses the following libraries;
 - Go to your Ghost-panel and to the Design-tab
 - Upload the theme .zip
 - Activate the theme
+- Upload the routes.yaml file in the Labs section 'routes' to enable member routes and such
 
 # Tested:
 ## Browsers

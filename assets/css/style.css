@@ -2385,7 +2385,7 @@ textarea:focus {
 
 .signup-form p small {
     display: inline-block;
-    margin: 15px 0 0 0;
+    margin: 15px 0 0;
     font-size: 1.4rem;
 }
 
@@ -2404,7 +2404,7 @@ textarea:focus {
         flex-direction: column;
     }
     .signup-box .button {
-        margin: 15px 0 0 0;
+        margin: 15px 0 0;
         width: 100%;
     }
 }
@@ -2435,7 +2435,7 @@ textarea:focus {
 
 .signin-form p small {
     display: inline-block;
-    margin: 15px 0 0 0;
+    margin: 15px 0 0;
     font-size: 1.4rem;
 }
 
@@ -2454,7 +2454,7 @@ textarea:focus {
         flex-direction: column;
     }
     .signin-box .button {
-        margin: 15px 0 0 0;
+        margin: 15px 0 0;
         width: 100%;
     }
 }

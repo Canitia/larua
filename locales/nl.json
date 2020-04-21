@@ -52,5 +52,6 @@
     "Don't have an account yet?": "Heb je nog geen account?",
     "Check your inbox and click the link to complete signin": "Ga naar je inbox en klik op de link om in te loggen",
     "Send login link": "Stuur login link",
-    "Your account": "Jouw account"
+    "Your account": "Jouw account",
+    "Your subscription will expire on {{date current_period_end format='DD MMM YYYY'}}. If you change your mind in the meantime you can turn auto-renew back on to continue your subscription.": "Je abonnement zal verstrijken op {{date current_period_end format='DD MMM YYYY'}}. Als je van gedachte bent veranderd kan je hem automatisch vernieuwen."
 }

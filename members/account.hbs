@@ -34,12 +34,12 @@
                     </div>
                     <div class="subscriber-details">
                         <div class="subscriber-detail">
-                            <label class="subscriber-detail-label">Email address</label>
+                            <label class="subscriber-detail-label">{{t "Email address"}}</label>
                             <span class="subscriber-detail-content">{{@member.email}}</span>
                         </div>
 
                         <div class="subscriber-detail">
-                            <label class="subscriber-detail-label">Your plan</label>
+                            <label class="subscriber-detail-label">{{t "Your plan"}}</label>
                             <span class="subscriber-detail-content">${{price plan.amount}}/{{plan.interval}}</span>
                         </div>
 
@@ -51,9 +51,9 @@
                         <div class="subscriber-detail">
                             <label class="subscriber-detail-label">
                                 {{#if cancel_at_period_end}}
-                                    Expires
+                                    {{t "Expires"}}
                                 {{else}}
-                                    Next bill date
+                                    {{t "Next bill date"}}
                                 {{/if}}
                             </label>
                             <span class="subscriber-detail-content">{{date current_period_end format="DD MMM YYYY"}}</span>
@@ -64,7 +64,7 @@
                         <li><a href="javascript:"
                                 data-members-edit-billing
                                 data-members-success="/account/?stripe=billing-update-success"
-                                data-members-cancel="/account/?stripe=billing-update-cancel">Edit billing info</a></li>
+                                data-members-cancel="/account/?stripe=billing-update-cancel">{{t "Edit billing info"}}</a></li>
                         <li>{{cancel_link}}</li>
                     </ul>
                 </div>

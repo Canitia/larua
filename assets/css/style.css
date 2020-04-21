@@ -1120,6 +1120,7 @@ footer {
 	.card {
 		padding: 0 !important;
 		border: 0 !important;
+		padding-bottom: 30px;
 	}
 
 	.card-block {
@@ -1230,10 +1231,6 @@ footer {
 		display: none;
 	}
 
-	.card {
-		padding-bottom: 30px;
-	}
-	
 	.card-title {
 		font-size: 110%;
 	}

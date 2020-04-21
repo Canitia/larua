@@ -1218,6 +1218,10 @@ footer {
 	.container-fluid {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
+		margin-top:0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom:0px;
 	}
 
 	.posthead-image {
@@ -1298,14 +1302,6 @@ footer {
 	.homepage-avatar {
 		width: 25px;
 		height: 25px;
-	}
-
-/* Smaller margins to the page gets fit to nearly the full screen */
-	.container-fluid {
-		margin-top:0px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom:0px;
 	}
 
 	p.text-justify {

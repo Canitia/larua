@@ -2568,6 +2568,7 @@ form[data-members-form].error .message-error {
     background: color(var(--green) l(-5%));
     border-radius: 5px;
 }
+
 form[data-members-form].success .message-success {
     background: color(var(--green) l(-5%));
 	display: block;

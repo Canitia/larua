@@ -738,10 +738,6 @@ article {
 }
 
 .posthead-image {
-	max-height: 500px;
-	width: 100%;
-	height: 100%;
-	top: 150px;
 	position: relative;
 	opacity: 0.8;
 	background-size: cover;
@@ -1455,13 +1451,6 @@ footer {
 		height: 35px;
 	}
 
-	.posthead-image {
-		top: 0;
-		min-height: 300px;
-		height: auto;
-		width: 100%;
-	}
-
 	.post-image {
 		height: auto;
 		width: 100%;
@@ -1573,13 +1562,6 @@ footer {
 		text-shadow: none;
 	}
 
-	.posthead-image {
-		top: 0;
-		min-height: 300px;
-		height: auto;
-		width: 100%;
-	}
-
 	.post-image {
 		height: auto;
 		width: 100%;
@@ -1611,6 +1593,13 @@ footer {
 	.kg-image-card.kg-width-full {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
+	}
+
+	.posthead-image {
+		max-height: 500px;
+		width: 100%;
+		height: 100%;
+		top: 150px;
 	}
 }
 
@@ -1875,6 +1864,18 @@ Animations
     -webkit-appearance: none;
 }
 
+.subscribe-form button,
+.subscribe-overlay button {
+	font-weight: 400;
+    text-align: center;
+    background: linear-gradient(
+    color(var(--blue) whiteness(+7%)),
+    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
+    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
+    color(var(--blue) lightness(-4%) saturation(-10%))
+    );
+}
+
 .subscribe-form button {
     position: relative;
     display: inline-block;
@@ -1885,14 +1886,6 @@ Animations
     color: #fff;
     font-size: 1.5rem;
     line-height: 39px;
-    font-weight: 400;
-    text-align: center;
-    background: linear-gradient(
-    color(var(--blue) whiteness(+7%)),
-    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-    color(var(--blue) lightness(-4%) saturation(-10%))
-    );
     border-radius: 5px;
 
     -webkit-font-smoothing: subpixel-antialiased;
@@ -2176,14 +2169,6 @@ Animations
     color: #fff;
     font-size: 1.7rem;
     line-height: 38px;
-    font-weight: 400;
-    text-align: center;
-    background: linear-gradient(
-    color(var(--blue) whiteness(+7%)),
-    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-    color(var(--blue) lightness(-4%) saturation(-10%))
-    );
     border-radius: 8px;
 
     -webkit-font-smoothing: subpixel-antialiased;

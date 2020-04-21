@@ -481,6 +481,7 @@ POST/ARTICLE HEADERS
 
 .post-image {
 	height: auto;
+	width: 100%;
 	background: black;
 }
 
@@ -1217,11 +1218,6 @@ footer {
 		width: 100%;
 	}
 
-	.post-image {
-		height: auto;
-		width: 100%;
-	}
-
 	.carousel {
 		display: none;
 	}
@@ -1451,11 +1447,6 @@ footer {
 		height: 35px;
 	}
 
-	.post-image {
-		height: auto;
-		width: 100%;
-	}
-
     h1 {
     	font-size: 120%;
     }
@@ -1560,11 +1551,6 @@ footer {
 	.headerurl,
 	.nav-link {
 		text-shadow: none;
-	}
-
-	.post-image {
-		height: auto;
-		width: 100%;
 	}
 
     h1 {

@@ -1294,7 +1294,7 @@ footer {
 	}
 
 	p.text-justify {
-		padding-top: 0px;
+		padding-top: 0;
 		padding-left:15px;
 		padding-right:15px;
 		padding-bottom:15px;
@@ -1519,8 +1519,8 @@ footer {
 	}
 
 	.navbar {
-		margin-bottom: 0px;
-		padding-bottom: 0px !important;
+		margin-bottom: 0;
+		padding-bottom: 0 !important;
 		background: rgba(0,0,0,0.85);
 	}
 
@@ -1540,7 +1540,7 @@ footer {
 	}
 
 	.tag_heading_home {
-		top: 0px;
+		top: 0;
 		position: relative;
 		height: 350px;
 		min-height: 350px;

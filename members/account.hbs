@@ -11,11 +11,11 @@
                     <div class="subscriber-header">
                         <div class="subscription-title">
                             {{#if @first}}
-                                <h1>Your account</h1>
+                                <h1>{{t "Your account"}}</h1>
                             {{/if}}
                             {{#if cancel_at_period_end}}
                                 <p>
-                                    <strong class="subscription-expiration-warning">Your subscription will expire on {{date current_period_end format="DD MMM YYYY"}}. If you change your mind in the meantime you can turn auto-renew back on to continue your subscription.
+                                    <strong class="subscription-expiration-warning">{{t "Your subscription will expire on {{date current_period_end format="DD MMM YYYY"}}. If you change your mind in the meantime you can turn auto-renew back on to continue your subscription."}}
                                 </p>
                             {{else}}
                                 <p>

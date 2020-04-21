@@ -1840,7 +1840,7 @@ Animations
 }
 
 .subscribe-form-description {
-    margin-bottom: 0.2em 0 1em;
+    margin-bottom: 1em;
     color: var(--midgrey);
     font-size: 2.1rem;
     line-height: 1.55em;

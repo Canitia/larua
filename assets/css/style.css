@@ -604,7 +604,7 @@ POST/ARTICLE HEADERS
     height: 100%;
 }
  .kg-gallery-row:not(:first-of-type) {
-    margin: 0.75em 0 0 0;
+    margin: 0.75em 0 0;
 }
  .kg-gallery-image:not(:first-of-type) {
     margin: 0 0 0 0.75em;
@@ -823,7 +823,6 @@ iframe {
 	height: 100% !important;
 	position: relative;
 	height: 500px !important;
-	max-height: 500px !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1875,7 +1874,7 @@ Animations
 }
 
 .subscribe-form-title {
-    margin: 0 0 3px 0;
+    margin: 0 0 3px;
     padding: 0;
     color: var(--darkgrey);
     font-size: 3.5rem;
@@ -2020,18 +2019,10 @@ Animations
     }
 
     .subscribe-form button {
-        margin: 10px 0 0 0;
+        margin: 10px 0 0;
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
 
 /* 10. Subscribe Message and Overlay
 /* ---------------------------------------------------------- */
@@ -2154,7 +2145,7 @@ Animations
 .subscribe-overlay-content {
     position: relative;
     z-index: 9999;
-    margin: 0 0 5vw 0;
+    margin: 0 0 5vw;
     padding: 4vw;
     color: #fff;
     text-align: center;
@@ -2175,7 +2166,7 @@ Animations
 
 .subscribe-overlay-title {
     display: inline-block;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
     font-size: 5.2rem;
     line-height: 1.15em;
 }

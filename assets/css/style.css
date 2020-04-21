@@ -2563,7 +2563,7 @@ textarea:focus {
         flex-direction: column;
     }
     .checkout-plan + .checkout-plan {
-        margin: 5vw 0 0 0;
+        margin: 5vw 0 0;
     }
 }
 

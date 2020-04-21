@@ -2501,7 +2501,7 @@ textarea:focus {
 }
 
 .checkout-plan-header h3 {
-    margin: 0 0 25px 0;
+    margin: 0 0 25px;
     color: var(--darkgrey);
     font-size: 1.8rem;
     line-height: 1.15em;
@@ -2552,7 +2552,7 @@ textarea:focus {
 }
 
 .checkout-plan-content .button {
-    margin: 20px 0 0 0;
+    margin: 20px 0 0;
 }
 
 @media (max-width: 740px) {

@@ -1124,15 +1124,12 @@ footer {
 
 	.card {
 		padding: 0 !important;
-	}
-
-	.card,
-	.card-block {
 		border: 0 !important;
 	}
 
 	.card-block {
 		max-width: 100% !important;
+		border: 0 !important;
 	}
 
 	.card-text {

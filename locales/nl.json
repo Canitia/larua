@@ -61,5 +61,6 @@
     "Edit billing info": "Wijzig betaalingsinformatie",
     "Your plan": "Jouw abonnement",
     "Email address": "Emailadres",
-    "Currently, you're not a subscriber": "Momenteel ben je geen lid"
+    "Currently, you're not a subscriber": "Momenteel ben je geen lid",
+    "Hey there! <strong>{{@member.email}}</strong> is subscribed to free updates from {{@site.title}}, but doesn't have a paid subscription to unlock full access.": "Hey! <strong>{{@member.email}}</strong> is geabbonneerd op gratis updates van {{@site.title}}, maar heeft momenteel geen premium (betalend) account."
 }

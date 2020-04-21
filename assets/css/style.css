@@ -1890,11 +1890,6 @@ Animations
     -webkit-appearance: none;
 }
 
-.subscribe-email:focus {
-    outline: 0;
-    border-color: color(var(--lightgrey) l(-2%));
-}
-
 .subscribe-form button {
     position: relative;
     display: inline-block;
@@ -2271,7 +2266,10 @@ textarea:focus {
     cursor: pointer;
     transition: 0.4s ease;
 
-    appearance: none;
+	appearance: none;
+	color: var(--blue);
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px var(--blue);
 }
 
 .button.fit {
@@ -2296,12 +2294,6 @@ textarea:focus {
 .button:disabled {
     opacity: 0.4;
     pointer-events: none;
-}
-
-.button {
-    color: var(--blue);
-    background-color: transparent;
-    box-shadow: inset 0 0 0 1px var(--blue);
 }
 
 .button:hover {

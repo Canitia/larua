@@ -51,5 +51,7 @@
     "Please enter a valid email address!": "Please enter a valid email address!",
     "Don't have an account yet?": "Don't have an account yet?",
     "Check your inbox and click the link to complete signin":  "Check your inbox and click the link to complete signin",
-    "Send login link": "Send login link"
+    "Send login link": "Send login link",
+    "Your account": "Your account",
+    "Your subscription will expire on {{date current_period_end format='DD MMM YYYY'}}. If you change your mind in the meantime you can turn auto-renew back on to continue your subscription.": "Your subscription will expire on {{date current_period_end format='DD MMM YYYY'}}. If you change your mind in the meantime you can turn auto-renew back on to continue your subscription."
 }

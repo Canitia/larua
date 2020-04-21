@@ -36,7 +36,6 @@ Larua uses the following libraries;
 - Go to your Ghost-panel and to the Design-tab
 - Upload the theme .zip
 - Activate the theme
-- Upload the routes.yaml file in the Labs section 'routes' to enable member routes and such
 
 # Tested:
 ## Browsers
@@ -48,3 +47,8 @@ Larua uses the following libraries;
 
 ## Google Analytics
 To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'.
+
+## Experimental: Members support
+- Upload the routes.yaml file in the Labs section 'routes'
+- Enable members option
+- **Members functionality is completely untested at this point**

@@ -4,7 +4,7 @@
   "version": "1.5.1",
   "engines": {
       "ghost": ">=3.0",
-      "ghost-api": "v3"
+      "ghost-api": "v2"
   },
   "license": "MIT",
   "screenshots": {

@@ -28,7 +28,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ededed !important;
-	margin-top: 0px;
+	margin-top: 0;
     padding: 0;
 }
 
@@ -1243,7 +1243,7 @@ footer {
 	
 	h1 {
 		font-size: 2rem !important;
-		margin-top: 0px;
+		margin-top: 0;
 	}
 
 	h2 {

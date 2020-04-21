@@ -1553,10 +1553,6 @@ footer {
 		text-shadow: none;
 	}
 
-    h1 {
-    	font-size: 120%;
-    }
-
 	.content-images,
 	.content-images-individual {
 		object-fit: cover;

@@ -2570,11 +2570,14 @@ form[data-members-form].error .message-error {
 }
 form[data-members-form].success .message-success {
     background: color(var(--green) l(-5%));
+	display: block;
 }
+
 form[data-members-form].error .message-error {
     color: var(--red);
     background: #fff;
     box-shadow: var(--red) 0 0 0 1px;
+	display: block;
 }
 
 form[data-members-form] .button {
@@ -2601,16 +2604,6 @@ form[data-members-form].loading .button-loader {
 .button-loader svg path,
 .button-loader svg rect {
     fill: #fff;
-}
-
-/*-- Show success message on success --*/
-form[data-members-form].success .message-success {
-    display: block;
-}
-
-/*-- Show error message on error --*/
-form[data-members-form].error .message-error {
-    display: block;
 }
 
 .site-account {

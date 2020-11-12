@@ -1489,7 +1489,6 @@ footer {
 	.navbar {
 		margin-bottom: 0;
 		padding-bottom: 0 !important;
-		background: rgba(0,0,0,0.85);
 	}
 
 	.menu-item {
@@ -1583,10 +1582,6 @@ footer {
 
 /* tablet devices */
 @media only screen and (min-width: 992px) {
-
-	.navbar {
-		background: rgba(0,0,0,0.85);
-	}
 	
 	.ml-auto {
 		margin-right: auto !important;

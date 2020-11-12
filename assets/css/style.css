@@ -1770,8 +1770,8 @@ Animations
   .hvr-rotate:hover,
   .hvr-rotate:focus,
   .hvr-rotate:active {
-	-webkit-transform: rotate(15deg);
-	transform: rotate(15deg);
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg);
   }
 
   /* ##################

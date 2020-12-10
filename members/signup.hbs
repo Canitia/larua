@@ -1,6 +1,11 @@
 {{!< ../default}}
-<div class="col col-xs-12 col-md-12 col-lg-12 main-content">
-    <div class="row">
+
+<header class="site-header">
+    {{> site-header}}
+</header>
+<main id="site-main" class="site-main site-signup outer">
+    <div class="inner">
+
     {{#if @member.paid}}
 
         {{!-- Logged in, paying member: Redirect home --}}
@@ -16,7 +21,7 @@
                 <div class="checkout-plan">
                     <header class="checkout-plan-header">
                         <h3>Monthly</h3>
-                        <span>$</span><strong>{{@price.monthly}}</strong> / month
+                        <span>{{@price.currency_symbol}}</span><strong>{{@price.monthly}}</strong> / month
                     </header>
                     <div class="checkout-plan-content">
                         <ul>
@@ -25,14 +30,13 @@
                             <li>Support independent publishing</li>
                             <li>Simple, secure card payment</li>
                         </ul>
-                        <a class="btn primary plan-button" href="javascript:" data-members-plan="Monthly">Choose this plan</a>
+                        <a class="button primary fit" href="javascript:" data-members-plan="Monthly">Choose this plan</a>
                     </div>
                 </div>
-                <hr />
                 <div class="checkout-plan">
                     <header class="checkout-plan-header">
                         <h3>Yearly</h3>
-                        <span>$</span><strong>{{@price.yearly}}</strong> / year
+                        <span>{{@price.currency_symbol}}</span><strong>{{@price.yearly}}</strong> / year
                     </header>
                     <div class="checkout-plan-content">
                         <ul>
@@ -42,7 +46,7 @@
                             <li>Simple, secure card payment</li>
                             <li>One easy payment instead of 12!</li>
                         </ul>
-                        <a class="btn primary plan-button" href="javascript:" data-members-plan="Yearly">Choose this plan</a>
+                        <a class="button primary fit" href="javascript:" data-members-plan="Yearly">Choose this plan</a>
                     </div>
                 </div>
             </div>
@@ -58,13 +62,15 @@
                 <input data-members-email type="email" placeholder="Type your email..." required="true" autocomplete="false" />
                 <button class="button primary" type="submit">
                     <span class="button-content">Continue</span>
+                    <span class="button-loader">{{> "icons/loader"}}</span>
                 </button>
             </div>
-            <p><small>Already have an account? <a href="/signin/">Sign in</a></small></p>
-            <div class="message-success">{{t "Check your inbox and click the link to confirm your subscription"}}</div>
-            <div class="message-error">{{t "Please enter a valid email address!"}}</div>
+            <p><small>Already have an account? <a href="{{@site.url}}/signin/">Sign in</a></small></p>
+            <div class="message-success"><strong>Great!</strong> Check your inbox and click the link to confirm your subscription</div>
+            <div class="message-error">Please enter a valid email address!</div>
         </form>
 
     {{/if}}
+
     </div>
-</div>
+</main>

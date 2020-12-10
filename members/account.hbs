@@ -1,6 +1,11 @@
 {{!< ../default}}
-<div class="col col-xs-12 col-md-12 col-lg-12 main-content">
-    <div class="row">
+
+<header class="site-header">
+    {{> site-header}}
+</header>
+<main id="site-main" class="site-main site-account outer">
+    <div class="inner">
+
     {{#if @member.paid}}
 
         {{!-- Logged in, paying member: Show account info --}}
@@ -11,15 +16,15 @@
                     <div class="subscriber-header">
                         <div class="subscription-title">
                             {{#if @first}}
-                                <h1>{{t "Your account"}}</h1>
+                                <h1>Your account</h1>
                             {{/if}}
                             {{#if cancel_at_period_end}}
                                 <p>
-                                    <strong class="subscription-expiration-warning">{{t "Your subscription will expire on {{date current_period_end format="DD MMM YYYY"}}. If you change your mind in the meantime you can turn auto-renew back on to continue your subscription."}}
+                                    <strong class="subscription-expiration-warning">Your subscription will expire on {{date current_period_end format="DD MMM YYYY"}}.</strong> If you change your mind in the meantime you can turn auto-renew back on to continue your subscription.
                                 </p>
                             {{else}}
                                 <p>
-                                    {{t "Hey! You have an active {{@site.title}} account with access to all areas. Get in touch if have any problems or need some help getting things updated, and thanks for subscribing." }}
+                                    Hey! You have an active <strong>{{@site.title}}</strong> account with access to all areas. Get in touch if have any problems or need some help getting things updated, and thanks for subscribing.
                                 </p>
                             {{/if}}
                         </div>
@@ -34,13 +39,13 @@
                     </div>
                     <div class="subscriber-details">
                         <div class="subscriber-detail">
-                            <label class="subscriber-detail-label">{{t "Email address"}}</label>
+                            <label class="subscriber-detail-label">Email address</label>
                             <span class="subscriber-detail-content">{{@member.email}}</span>
                         </div>
 
                         <div class="subscriber-detail">
-                            <label class="subscriber-detail-label">{{t "Your plan"}}</label>
-                            <span class="subscriber-detail-content">${{price plan.amount}}/{{plan.interval}}</span>
+                            <label class="subscriber-detail-label">Your plan</label>
+                                <span class="subscriber-detail-content">{{plan.currency_symbol}}{{price plan.amount}}/{{plan.interval}}</span>
                         </div>
 
                         <div class="subscriber-detail">
@@ -51,9 +56,9 @@
                         <div class="subscriber-detail">
                             <label class="subscriber-detail-label">
                                 {{#if cancel_at_period_end}}
-                                    {{t "Expires"}}
+                                    Expires
                                 {{else}}
-                                    {{t "Next bill date"}}
+                                    Next bill date
                                 {{/if}}
                             </label>
                             <span class="subscriber-detail-content">{{date current_period_end format="DD MMM YYYY"}}</span>
@@ -63,8 +68,8 @@
                     <ul class="subscription-actions">
                         <li><a href="javascript:"
                                 data-members-edit-billing
-                                data-members-success="/account/?stripe=billing-update-success"
-                                data-members-cancel="/account/?stripe=billing-update-cancel">{{t "Edit billing info"}}</a></li>
+                                data-members-success="{{@site.url}}/account/?stripe=billing-update-success"
+                                data-members-cancel="{{@site.url}}/account/?stripe=billing-update-cancel">Edit billing info</a></li>
                         <li>{{cancel_link}}</li>
                     </ul>
                 </div>
@@ -81,11 +86,11 @@
                     <img src="{{@member.avatar_image}}" />
                 {{/if}}
             </div>
-            <h1 class="account-box-title">{{t "Currently, you're not a subscriber"}}</h1>
-            <p>{{t "Hey there! <strong>{{@member.email}}</strong> is subscribed to free updates from {{@site.title}}, but doesn't have a paid subscription to unlock full access."}}</p>
+            <h1 class="account-box-title">Currently, you're not a subscriber</h1>
+            <p>Hey there! <strong>{{@member.email}}</strong> is subscribed to free updates from {{@site.title}}, but doesn't have a paid subscription to unlock full access.</p>
             <div class="authbox-signup">
-                <a class="button primary" href="/signup/">
-                    <span class="button-content">{{t "Subscribe now"}}</span>
+                <a class="button primary" href="{{@site.url}}/signup/">
+                    <span class="button-content">Subscribe now</span>
                 </a>
             </div>
         </div>
@@ -96,5 +101,6 @@
         <script>window.location = '{{@site.url}}/signin/';</script>
 
     {{/if}}
+
     </div>
-</div>
+</main>

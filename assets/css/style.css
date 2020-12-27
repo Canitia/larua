@@ -169,10 +169,6 @@ main {
 	max-height: 500px;
 }
 
-header {
-	margin-bottom: -85px;
-}
-
 .logo-fixed {
 	height: 48px;
 	border-radius: 50px;
@@ -285,7 +281,7 @@ img.logo {
 .navbar-brand {
 	font-size: 16px !important;
 	font-weight: 600;
-	margin-left: 5px;
+	margin-left: 10px;
 	height: auto;
 	border-radius: 10px;
 }
@@ -1493,7 +1489,6 @@ footer {
 	.navbar {
 		margin-bottom: 0;
 		padding-bottom: 0 !important;
-		background: rgba(0,0,0,0.85);
 	}
 
 	.menu-item {
@@ -1587,10 +1582,6 @@ footer {
 
 /* tablet devices */
 @media only screen and (min-width: 992px) {
-
-	.navbar {
-		background: rgba(0,0,0,0.85);
-	}
 	
 	.ml-auto {
 		margin-right: auto !important;
@@ -1779,8 +1770,8 @@ Animations
   .hvr-rotate:hover,
   .hvr-rotate:focus,
   .hvr-rotate:active {
-	-webkit-transform: rotate(15deg);
-	transform: rotate(15deg);
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg);
   }
 
   /* ##################

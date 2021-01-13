@@ -1,7 +1,7 @@
 {
   "name": "larua",
   "description": "A card-based feature-rich theme for Ghost bringing responsive design to the masses.",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "engines": {
       "ghost": ">=3.0",
       "ghost-api": "v3"
@@ -12,15 +12,15 @@
     "mobile": "assets/screenshot-mobile.png"
   },
   "author": {
-    "name": "CanitiaThemes",  
-    "email": "support@canitiathemes.com",
-    "url": "https://canitiathemes.com"
+    "name": "PixelatedDeveloper",  
+    "email": "support@pixelateddeveloper.com",
+    "url": "https://pixelateddeveloper.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Canitia/larua.git"
+    "url": "https://github.com/PixelatedDeveloper/larua.git"
   },
-  "bugs": "https://github.com/Canitia/larua/issues",
+  "bugs": "https://github.com/PixelatedDeveloper/larua/issues",
  
   "config": {
       "posts_per_page": 9

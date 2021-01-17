@@ -53,9 +53,11 @@ blockquote {
 	padding: 15px;
 	background-color: whitesmoke;
 	border: 2px solid var(--grey-accent2) !important;
-	width: 100%;
 	text-align: center;
 	font-size: 110%;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 blockquote > p {

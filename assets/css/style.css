@@ -1147,6 +1147,10 @@ footer {
 		top: 275px;
 	}
 
+	.navbar {
+		background: black;
+	}
+
 	.navbar-brand:hover {
 		color: #545454 !important;
 	}
@@ -1314,6 +1318,10 @@ footer {
 	.nav-link.dropdown-item {
 		text-align: center;
 	}
+
+	.main-content-head {
+		top: 0;
+	}
 }
 
 /* mobile devices */
@@ -1355,6 +1363,10 @@ footer {
 	.headerurl,
 	.nav-link {
 		text-shadow: none;
+	}
+
+	.navbar {
+		background: black;
 	}
 
 	.navbar-collapse {
@@ -1444,6 +1456,10 @@ footer {
 	.dropdown-menu.show,
 	.nav-link.dropdown-item {
 		text-align: center;
+	}
+
+	.main-content-head {
+		top: 0;
 	}
 }
 

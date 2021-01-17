@@ -813,7 +813,6 @@ iframe {
     padding: 20px;
 	width: 100%;
 	position: relative;
-	height: 250px !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;

@@ -7,6 +7,8 @@
 	--url-color: #000;
 	--url-hover-color: #767b8d;
 	--h-accent: #2f313d;
+
+	--accent-error-color: #cc0000;
 }
 
 /* **************************************
@@ -1132,16 +1134,10 @@ footer {
 		font-size: 135%;
 	}
 
-	.tag_heading {
-		margin-top: 0;
-		height: 300px !important;
-	}
-
 	.tag_heading_post {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50% 20%;
-		height: 300px !important;
 	}
 
 	.text-main {
@@ -1323,6 +1319,14 @@ footer {
 	.main-content-head {
 		top: 0;
 	}
+
+	.page-footer {
+		top: 0;
+	}
+
+	.post-template .page-footer {
+		top: -64px;
+	}
 }
 
 /* mobile devices */
@@ -1461,6 +1465,14 @@ footer {
 
 	.main-content-head {
 		top: 0;
+	}
+
+	.page-footer {
+		top: 0;
+	}
+
+	.post-template .page-footer {
+		top: -64px;
 	}
 }
 

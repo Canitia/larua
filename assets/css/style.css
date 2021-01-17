@@ -420,7 +420,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title {
-	font-size: 125% !important;
+	font-size: 2rem !important;
 	margin-top: 15px;
 	white-space: nowrap;
 	overflow: hidden;
@@ -1128,7 +1128,7 @@ footer {
 	.avatar-page-author {
 		margin-top: 0;
 	}
-	
+
 	.logo-main {
 		top: 100px;
 	}
@@ -1246,11 +1246,7 @@ footer {
 	.carousel {
 		display: none;
 	}
-
-	.card-title {
-		font-size: 110%;
-	}
-
+	
 	.author_wrap {
 		padding: 15px;
 	}

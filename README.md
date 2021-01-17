@@ -40,9 +40,8 @@ Larua uses the following libraries;
 
 # Tested:
 ## Browsers
-- Microsoft Edge (November 2018 Update)
-- Google Chromium 79.0.3945.130
-- Firefox 74.0a1
+- Google Chromium
+- Firefox
 
 # Customization
 

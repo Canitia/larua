@@ -47,11 +47,12 @@ pre {
 	line-height: 30px;
 	background: #f8f8f8;
     padding: 20px;
-    border-radius: 10px;
-    width: 700px;
+    border-radius: 5px;
+    width: 975px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #ebebeb;
+	border: 1px solid #ebebeb;
+	font-size: 110%;
 }
 
 blockquote {
@@ -62,7 +63,7 @@ blockquote {
 	border: 2px solid var(--grey-accent2) !important;
 	text-align: center;
 	font-size: 110%;
-	width: 600px;
+	width: 975px;
 	margin-left: auto;
 	margin-right: auto;
 }

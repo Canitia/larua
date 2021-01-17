@@ -710,25 +710,25 @@ p > img,
 }
 
 .post-content h1 {
-  	font-size: 210%;
+  	font-size: 3rem;
 	font-family: 'Libre Franklin', sans-serif;
 	margin-top: 35px;
 }
 
 .post-content h2 {
-	font-size: 180%;
+	font-size: 2rem;
 	font-family: 'Lalezar', cursive !important;
 	margin-top: 35px;
 }
 
 .post-content h3 {
-	font-size: 165%;
+	font-size: 1.8rem;
 	font-family: 'Lalezar', cursive !important;
 	margin-top: 35px;
 }
 
 .post-content h4 {
-	font-size: 140%;
+	font-size: 1.5rem;
 	font-family: 'Lalezar', cursive !important;
 	margin-top: 35px;
 }
@@ -1427,10 +1427,6 @@ footer {
 		width: 35px;
 		height: 35px;
 	}
-
-    h1 {
-    	font-size: 120%;
-    }
 
 	.content-images,
 	.content-images-individual {

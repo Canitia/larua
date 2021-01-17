@@ -120,7 +120,7 @@ p > a:hover {
 .container-fluid {
 	margin-left: auto;
 	margin-right: auto;
-	max-width:1200px;
+	max-width: 960px;
 }
 
 .main-content {
@@ -1090,10 +1090,6 @@ footer {
 		margin-top: 0 !important;
 	}
 
-	header {
-		margin-bottom: 0;
-	}
-
 	.main-content {
 		margin-top: 0;
 	}
@@ -1203,10 +1199,7 @@ footer {
 	.container-fluid {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
-		margin-top:0;
-		margin-left: 0;
-		margin-right: 0;
-		margin-bottom: 0;
+		margin: 0;
 	}
 
 	.posthead-image {
@@ -1338,12 +1331,6 @@ footer {
 
 @media (max-width:767px) and (min-width:576px) {
 	
-	.container-fluid {
-		max-width: 760px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	.logo-main {
 		top: 100px;
 	}
@@ -1472,23 +1459,8 @@ footer {
 
 @media (max-width:991px) and (min-width:768px) {
 
-	header {
-		margin-top: -15px;
-	}
-
-	.navbar {
-		margin-bottom: 0;
-		padding-bottom: 0 !important;
-	}
-
 	.menu-item {
 		margin-top: 5px;
-	}
-
-	.container-fluid {
-		max-width: 760px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 
 	.tag_heading > .posttitle.posttitle-author {

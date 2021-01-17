@@ -194,6 +194,11 @@ ul#navbarNav {
 	flex-direction: row !important;
 }
 
+.dropdown-menu.show,
+.nav-link.dropdown-item {
+    background: black;
+}
+
 /* color of clickable header */
 .headerurl {
 	text-decoration: none;

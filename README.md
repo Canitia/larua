@@ -12,7 +12,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh l
 - Ability to set your own publication icon and publication logo.
 - Set site cover.
 - Set cover- and featured-post images for tags, author and single post pages.
-- Navigation configurable via navigation-section in Ghost panel.
+- Navigation configurable via navigation-section in Ghost panel (including secondary navigation).
 - Author section at the bottom of each post includes avatar, user bio and socials.
 - Shows related posts (by primary tag) below a post.
 - Set social media links through Ghost settings panel (they will show in the header)
@@ -23,7 +23,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh l
 
 # Larua's base
 Larua uses the following libraries;
-- Bootstrap 4
+- Bootstrap 4.5.3
 - JQuery (3.1.x)
 - Font Awesome 5
 - Webfontloader 1.6.28
@@ -40,9 +40,8 @@ Larua uses the following libraries;
 
 # Tested:
 ## Browsers
-- Microsoft Edge (November 2018 Update)
-- Google Chromium 79.0.3945.130
-- Firefox 74.0a1
+- Google Chromium
+- Firefox
 
 # Customization
 

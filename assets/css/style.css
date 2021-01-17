@@ -477,8 +477,10 @@ POST/ARTICLE CARD UI - main
     right: 30px;
     z-index: 10;
     padding: 10px !important;
-    background-color: var(--grey-accent2) !important;
-    font-weight: bold;
+	background-color: var(--grey-accent2) !important;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
     opacity: 0.9;
     color: black;
 	text-align: center;

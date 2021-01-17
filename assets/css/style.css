@@ -1,3 +1,14 @@
+:root {
+	/* general accent colors */
+	--grey-accent: #aaa;
+	--grey-accent2: #ebebeb;
+
+	--text-color: #000;
+	--url-color: #000;
+	--url-hover-color: #767b8d;
+	--h-accent: #2f313d;
+}
+
 /* **************************************
 
   GENERAL FONT / ELEMENT
@@ -15,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #2f313d;
+    color: var(--h-accent);
 	font-family: 'Lalezar', cursive !important;
 }
 
@@ -470,7 +481,7 @@ POST/ARTICLE CARD UI - main
     color: black;
 	text-align: center;
 	border-radius: 5px;
-	border: 1px solid #aaa;
+	border: 1px solid var(--grey-accent);
 }
 
 .post-featured {

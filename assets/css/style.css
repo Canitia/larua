@@ -484,12 +484,6 @@ POST/ARTICLE CARD UI - main
 	border: 1px solid var(--grey-accent);
 }
 
-.post-featured {
-	filter: brightness(80%) !important;
-	border: 5px solid #E39B00 !important;
-	margin-top: -5px;
-}
-
 /* ######################################
 
 POST/ARTICLE HEADERS

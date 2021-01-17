@@ -795,32 +795,6 @@ iframe {
 
 /* **************************************
 
-  SLIDER LOOK-N-FEEL
-
-*****************************************/
-
-.carousel:hover {
-	filter: brightness(90%) !important;
-}
-
-.carousel-caption {
-    bottom: 0 !important;
-    background: black;
-	opacity: 0.5;
-	left: 0 !important;
-	right: 0 !important;
-	padding: 5px;
-}
-
-.h-slider {
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	font-size: 1.7em !important;
-}
-
-/* **************************************
-
   ARTICLE HEADING TAGS, AUTHOR AND PAGES look-n-feel
 
 *****************************************/
@@ -1243,10 +1217,6 @@ footer {
 		width: 100%;
 	}
 
-	.carousel {
-		display: none;
-	}
-	
 	.author_wrap {
 		padding: 15px;
 	}

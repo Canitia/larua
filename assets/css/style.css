@@ -1624,33 +1624,26 @@ footer {
   ERROR PAGE
 
 *****************************************/
-.error-row {
-	padding-top: 95px;
-}
-
-.card-block-error {
-	border: 0 !important;
-}
-
-.error-row .card-title {
-    text-align: center;
-    font-size: 35px !important;
-}
-
-.read-more-btn {
-	background-color: #ebebeb !important;
-	color: black !important;
-	border: 1px solid grey !important;
-}
-
-.read-more-btn:hover {
-	background-color: #545454 !important;
-    color: white !important;
-}
-
 .card-actions-bottom {
-    display: block;
-    text-align: center;
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+  }
+  
+.card-actions-bottom .post-options-url {
+	  padding: 20px;
+	  color: var(--accent-error-color) !important;
+}
+  
+.card-actions-bottom .post-options-url:hover {
+	  text-decoration: none;
+	  color: var(--url-color);
+}
+
+.error-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
 }
 
 /* **************************************

@@ -133,7 +133,13 @@ p > a:hover {
 }
 
 .main-content-head {
-	margin-top: 0;
+	top: -64px;
+	position: relative;
+}
+
+.tag_head_wrap {
+	top: -64px !important;
+	position: relative;
 }
 
 main {
@@ -199,7 +205,7 @@ main {
 
 .navbar {
 	z-index: 10;
-	background: black;
+	background: rgba(0,0,0,0.7);
 }
 
 ul#navbarNav {
@@ -1085,10 +1091,6 @@ footer {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width:575px) {
-
-	.main-content-head {
-		margin-top: 0 !important;
-	}
 
 	.main-content {
 		margin-top: 0;

@@ -205,25 +205,12 @@ main {
 
 .navbar {
 	z-index: 10;
-	background: rgba(0,0,0,0.7);
-}
-
-ul#navbarNav {
-	z-index: 15;
-	margin-bottom: 0 !important;
-	padding-left: 0 !important;
-	background: black;
-}
-
-.navbar-nav {
-	display: flex !important;
-	flex-wrap: nowrap !important;
-	flex-direction: row !important;
+	background: rgba(0,0,0,0.75);
 }
 
 .dropdown-menu.show,
 .nav-link.dropdown-item {
-    background: black;
+	background: rgba(0,0,0,0.75);
 }
 
 .nav-link.dropdown-item:hover {

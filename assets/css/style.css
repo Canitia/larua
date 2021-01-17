@@ -1362,7 +1362,14 @@ footer {
 		margin-right: 0 !important;
 	}
 
+	.dropdown-divider {
+		border-top: 0 !important;
+	}
 
+	.dropdown-menu.show,
+	.nav-link.dropdown-item {
+		text-align: center;
+	}
 }
 
 /* mobile devices */
@@ -1494,6 +1501,15 @@ footer {
 	.kg-image-card.kg-width-full {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
+	}
+
+	.dropdown-divider {
+		border-top: 0 !important;
+	}
+
+	.dropdown-menu.show,
+	.nav-link.dropdown-item {
+		text-align: center;
 	}
 }
 

@@ -52,7 +52,7 @@ blockquote {
 	position:relative;
 	padding: 15px;
 	background-color: whitesmoke;
-	border: 2px solid #ebebeb !important;
+	border: 2px solid var(--grey-accent2) !important;
 	width: 100%;
 	text-align: center;
 	font-size: 110%;
@@ -115,7 +115,7 @@ p > a:hover {
 
 .main-content {
 	background: white;
-	border: 2px solid #ebebeb;
+	border: 2px solid var(--grey-accent2);
 	border-bottom: 0 !important;
 	padding-top: 0;
 	border-bottom-left-radius: 5px;
@@ -225,11 +225,11 @@ ul#navbarNav {
 }
 
 .nav-link {
-	color: #ebebeb !important;
+    color: white !important;
 }
 
 .nav-link:hover {
-	color: white !important;
+	color: var(--grey-accent2) !important;
 	border-radius: 15px;
 	text-decoration: none;
 	text-shadow: none;
@@ -237,7 +237,7 @@ ul#navbarNav {
 
 .headerurl:hover {
   text-decoration: none;
-  color: white !important;
+  color: var(--grey-accent2) !important;
 }
 
 .brand-logo {
@@ -475,7 +475,7 @@ POST/ARTICLE CARD UI - main
     right: 30px;
     z-index: 10;
     padding: 10px !important;
-    background-color: #ebebeb !important;
+    background-color: var(--grey-accent2) !important;
     font-weight: bold;
     opacity: 0.9;
     color: black;
@@ -574,7 +574,7 @@ POST/ARTICLE HEADERS
 
 .kg-image {
 	max-width: 100%;
-	border: 1px solid #ebebeb;
+	border: 1px solid var(--grey-accent2);
 }
 
  .kg-image-card figcaption,
@@ -583,7 +583,7 @@ POST/ARTICLE HEADERS
 	margin-bottom: 35px;
 	font-style: italic;
 	background:	#f8f8f8;
-	border: 2px solid #ebebeb;
+	border: 2px solid var(--grey-accent2);
 	border-radius: 0 0 5px 5px;
 	padding: 10px;
 }
@@ -635,7 +635,7 @@ POST/ARTICLE HEADERS
     flex-wrap: wrap;
     color: black;
     text-decoration: none;
-	border: 2px solid #ebebeb;
+	border: 2px solid var(--grey-accent2);
 	border-radius: 5px;
 	padding: 25px;
 	background: #f8f8f8;
@@ -917,7 +917,7 @@ iframe {
 }
 
 .author-profile {
-	border-top: 1px solid #ebebeb;
+	border-top: 1px solid var(--grey-accent2);
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
@@ -1082,7 +1082,7 @@ footer {
 }
 
 .footer a:hover {
-	color: #ebebeb !important;
+	color: var(--grey-accent2) !important;
 }
 
 /* **************************************
@@ -1669,12 +1669,12 @@ EXTERNAL libraries look-n-feel
 
 .fa-twitter:hover {
 	color: #1dcaff;
-	background: #ebebeb;
+	background: var(--grey-accent2);
 }
 
 .fa-rss:hover {
 	color: #f26522;
-	background: #ebebeb;
+	background: var(--grey-accent2);
 }
 
 .fa-rss {

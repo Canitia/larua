@@ -130,6 +130,7 @@ p > a:hover {
 	padding-top: 0;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+	top: -64px;
 }
 
 .main-content-head {
@@ -1042,12 +1043,13 @@ footer {
 
 .page-footer {
 	padding-top: 15px;
-	bottom: 0;
 	background: black !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	top: -64px;
+	position: relative;
 }
 
 .footer p {

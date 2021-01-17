@@ -835,9 +835,14 @@ iframe {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	top: 0;
+	position: relative;
+	height: 250px;
+	min-height: 250px;
 }
 
 .tag_heading {
+	margin-top: 0;
     padding: 20px;
 	width: 100%;
 	position: relative;
@@ -849,9 +854,11 @@ iframe {
 }
 
 .tag_heading_post {
-	background-size: unset;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
+	height: 250px;
+	min-height: 250px;
 }
 
 .tag_heading > .posttitle {
@@ -1139,7 +1146,6 @@ footer {
 	.card {
 		padding: 0 !important;
 		border: 0 !important;
-		padding-bottom: 30px;
 	}
 
 	.card-block {
@@ -1370,27 +1376,6 @@ footer {
 		margin-right: auto;
 	}
 
-	.tag_head_wrap {
-		height: 300px;
-	}
-
-	.tag_heading {
-		margin-top: 0;
-		height: 350px !important;
-	}
-
-	.tag_heading_home {
-		top: 0;
-		position: relative;
-		height: 100%;
-	}
-
-	.tag_heading_post {
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 50% 20%;
-	}
-
 	.logo-main {
 		top: 100px;
 	}
@@ -1411,6 +1396,11 @@ footer {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+	}
+
+	.card {
+		padding: 0 !important;
+		border: 0 !important;
 	}
 
 	.card-text {
@@ -1526,26 +1516,6 @@ footer {
 		max-width: 760px;
 		margin-left: auto;
 		margin-right: auto;
-	}
-
-	.tag_heading {
-		margin-top: 0;
-		height: 350px !important;
-	}
-
-	.tag_heading_home {
-		top: 0;
-		position: relative;
-		height: 350px;
-		min-height: 350px;
-	}
-
-	.tag_heading_post {
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 50% 20%;
-		height: 350px;
-		min-height: 350px;
 	}
 
 	.tag_heading > .posttitle.posttitle-author {

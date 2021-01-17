@@ -206,12 +206,10 @@ ul#navbarNav {
     display: block;
 	font-size: 3em !important;
 	position: relative;
-	text-shadow: 1px 1px black;
 }
 
 .nav-link {
 	color: #ebebeb !important;
-	text-shadow: 1px 1px black;
 }
 
 .nav-link:hover {

@@ -199,6 +199,11 @@ ul#navbarNav {
     background: black;
 }
 
+.nav-link.dropdown-item:hover {
+	background: black !important;
+	color: #979797 !important;
+}
+
 /* color of clickable header */
 .headerurl {
 	text-decoration: none;

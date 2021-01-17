@@ -45,6 +45,13 @@ hr {
 
 pre {
 	line-height: 30px;
+	background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ebebeb;
 }
 
 blockquote {

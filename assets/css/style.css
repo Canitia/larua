@@ -462,6 +462,7 @@ POST/ARTICLE CARD UI - main
     color: black;
 	text-align: center;
 	border-radius: 5px;
+	border: 1px solid #aaa;
 }
 
 .post-featured {

@@ -215,7 +215,7 @@ ul#navbarNav {
 }
 
 .nav-link:hover {
-	color: #545454 !important;
+	color: white !important;
 	border-radius: 15px;
 	text-decoration: none;
 	text-shadow: none;

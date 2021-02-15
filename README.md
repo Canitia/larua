@@ -3,7 +3,6 @@
 ![Master version](https://img.shields.io/github/package-json/v/pixelateddeveloper/larua/master?style=flat-square)
 ![Development version](https://img.shields.io/github/package-json/v/pixelateddeveloper/larua/dev?style=flat-square)
 ![License](https://img.shields.io/github/license/pixelateddeveloper/larua?style=flat-square)
-[![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/larua/badge)](https://www.codefactor.io/repository/github/pixelateddeveloper/larua)
 
 A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh looks and fancy fonts. 
 

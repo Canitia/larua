@@ -172,13 +172,6 @@ main {
 
 *****************************************/
 
-.logo-main {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	z-index: 1;
-}
-
 .text-main {
     position: relative;
 	top: 375px;
@@ -1092,10 +1085,6 @@ footer {
 		margin-top: 0;
 	}
 
-	.logo-main {
-		top: 100px;
-	}
-
 	.cover-image {
 		top: -125px;
 		position: relative;
@@ -1334,10 +1323,6 @@ footer {
 
 
 @media (max-width:767px) and (min-width:576px) {
-	
-	.logo-main {
-		top: 100px;
-	}
 
 	.img.logo {
 		height: 75px;
@@ -1487,10 +1472,6 @@ footer {
 		font-size: 180% !important;
 	}
 
-	.logo-main {
-		top: 100px;
-	}
-
 	.cover-image {
 		top: -155px;
 		position: relative;
@@ -1560,11 +1541,6 @@ footer {
 	.headerurl {
 		color: white !important;
 	}
-
-	.logo-main {
-		top: 350px;
-	}
-
 
 	.tag_heading_post {
 		background-size: cover;

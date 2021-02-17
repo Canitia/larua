@@ -254,9 +254,9 @@ nav .brand-logo {
 }
 
 img.cover {
-	width:100%;
-	max-height:250px;
-	margin-bottom:15px;
+	width: 100%;
+	max-height: 350px;
+	margin-bottom: 15px;
 }
 
 img.logo {
@@ -340,7 +340,7 @@ a.nav-link {
 	object-fit: cover;
 	max-width: 100%;
 	width: 100%;
-	height: 250px;
+	height: 350px;
 	border-radius: 5 5 0 0;
 }
 
@@ -799,8 +799,8 @@ iframe {
 	background-repeat: no-repeat;
 	top: 0;
 	position: relative;
-	height: 250px;
-	min-height: 250px;
+	height: 350px;
+	min-height: 350px;
 }
 
 .tag_heading {
@@ -812,16 +812,16 @@ iframe {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 250px;
-	min-height: 250px;
+	height: 350px;
+	min-height: 350px;
 }
 
 .tag_heading_post {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
-	height: 250px;
-	min-height: 250px;
+	height: 350px;
+	min-height: 350px;
 }
 
 .tag_heading > .posttitle {

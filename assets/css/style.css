@@ -210,7 +210,7 @@ main {
 }
 
 .nav-link.dropdown-item:hover {
-	background: black !important;
+	background: rgba(0,0,0,0.75) !important;
 	color: #979797 !important;
 }
 

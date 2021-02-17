@@ -819,6 +819,8 @@ iframe {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	height: 250px;
+	min-height: 250px;
 }
 
 .tag_heading_post {

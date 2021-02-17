@@ -229,7 +229,6 @@ main {
 
 .nav-link:hover {
 	color: var(--grey-accent2) !important;
-	border-radius: 15px;
 	text-decoration: none;
 	text-shadow: none;
 }

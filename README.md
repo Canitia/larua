@@ -22,14 +22,13 @@ A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh l
 
 # Larua's base
 Larua uses the following libraries;
-- Bootstrap 4.5.3
+- Bootstrap 4.6.0
 - JQuery (3.1.x)
 - Font Awesome 5
 - Webfontloader 1.6.28
 
 # Theme requirements
-- Larua **requires** Ghost version **3.0** or higher to install and work as intended. 
-- In case it's not enabled: enable Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
+- Larua **requires** Ghost version **4.0** (as of version 1.6.0) or higher to install and work as intended. 
 
 # Use
 - Download the package from the releases page
@@ -50,4 +49,3 @@ To use Google Analytics, please parse the analytics code through Ghost's dashboa
 ## Experimental: Members support
 - Upload the routes.yaml file in the Labs section 'routes'
 - Enable members option
-- **Members functionality is completely untested at this point**

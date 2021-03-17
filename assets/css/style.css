@@ -122,7 +122,7 @@ p > a:hover {
 .container-fluid {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 960px;
+	max-width: 1060px;
 }
 
 .main-content {
@@ -339,7 +339,7 @@ a.nav-link {
 	object-fit: cover;
 	max-width: 100%;
 	width: 100%;
-	height: 350px;
+	height: auto;
 	border-radius: 5 5 0 0;
 }
 
@@ -430,8 +430,6 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-block {
-	border: 1px dotted #d3d3d3;
-	border-radius: 0 0 10px 10px;
 	background: white !important;
 }
 
@@ -915,8 +913,8 @@ img.avatar {
 }
 
 .homepage-avatar {
-	width: 35px;
-	height: 35px;
+	width: 25px;
+	height: 25px;
 	border-radius: 5px;
 }
 
@@ -1097,7 +1095,6 @@ footer {
 
 	.card-block {
 		max-width: 100% !important;
-		border: 0 !important;
 		padding: 10px;
 	}
 
@@ -1238,11 +1235,6 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-	}
-	
-	.homepage-avatar {
-		width: 25px;
-		height: 25px;
 	}
 
 	p.text-justify {
@@ -1402,11 +1394,6 @@ footer {
 		color: black;
 	}
 
-	.homepage-avatar {
-		width: 35px;
-		height: 35px;
-	}
-
 	.content-images,
 	.content-images-individual {
 		object-fit: cover;
@@ -1531,10 +1518,6 @@ footer {
 
 	.card {
 		flex: 1 1 300px !important;
-	}
-
-	.homepage-avatar {
-		width: 35px;
 	}
 
 	.headerurl {

@@ -430,8 +430,6 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-block {
-	border: 1px dotted #d3d3d3;
-	border-radius: 0 0 10px 10px;
 	background: white !important;
 }
 
@@ -1097,7 +1095,6 @@ footer {
 
 	.card-block {
 		max-width: 100% !important;
-		border: 0 !important;
 		padding: 10px;
 	}
 

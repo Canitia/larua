@@ -915,8 +915,8 @@ img.avatar {
 }
 
 .homepage-avatar {
-	width: 35px;
-	height: 35px;
+	width: 25px;
+	height: 25px;
 	border-radius: 5px;
 }
 
@@ -1239,11 +1239,6 @@ footer {
 		margin-right: auto;
 		text-align: center;
 	}
-	
-	.homepage-avatar {
-		width: 25px;
-		height: 25px;
-	}
 
 	p.text-justify {
 		padding-top: 0;
@@ -1402,11 +1397,6 @@ footer {
 		color: black;
 	}
 
-	.homepage-avatar {
-		width: 35px;
-		height: 35px;
-	}
-
 	.content-images,
 	.content-images-individual {
 		object-fit: cover;
@@ -1531,10 +1521,6 @@ footer {
 
 	.card {
 		flex: 1 1 300px !important;
-	}
-
-	.homepage-avatar {
-		width: 35px;
 	}
 
 	.headerurl {

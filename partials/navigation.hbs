@@ -28,14 +28,12 @@
                   {{t "More"}}
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  {{#if @labs.members}}
                     {{#if @member}}
                     <a class="nav-link dropdown-item" href="{{@site.url}}/#/portal/account">{{t "My Account"}}</a>
                     <a class="nav-link dropdown-item" href="javascript:" data-members-signout>{{t "Sign-out"}}</a>
                     {{else}}
                     <a class="nav-link dropdown-item" href="{{@site.url}}/#/portal/signin">{{t "Sign-in"}}</a>
                     {{/if}}
-                  {{/if}}
                   {{#foreach @site.secondary_navigation }}
                     <a class="nav-link dropdown-item" href="{{url absolute="true"}}">{{label}}</a>
                   {{/foreach}}

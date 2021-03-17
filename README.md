@@ -49,4 +49,3 @@ To use Google Analytics, please parse the analytics code through Ghost's dashboa
 ## Experimental: Members support
 - Upload the routes.yaml file in the Labs section 'routes'
 - Enable members option
-- **Members functionality is completely untested at this point**

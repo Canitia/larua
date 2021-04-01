@@ -12,15 +12,15 @@
     "mobile": "assets/screenshot-mobile.png"
   },
   "author": {
-    "name": "Michael Boumann",  
-    "email": "support@michaelboumann.com",
-    "url": "https://michaelboumann.com"
+    "name": "SpookThemes",  
+    "email": "support@spookthemes.com",
+    "url": "https://spookthemes.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PixelatedDeveloper/larua-ghost-theme.git"
+    "url": "https://github.com/SpookThemes/larua-ghost-theme.git"
   },
-  "bugs": "https://github.com/PixelatedDeveloper/larua-ghost-theme/issues",
+  "bugs": "https://github.com/SpookThemes/larua-ghost-theme/issues",
  
   "config": {
       "posts_per_page": 9

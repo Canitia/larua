@@ -21,7 +21,6 @@
     "url": "https://github.com/SpookThemes/larua-ghost-theme.git"
   },
   "bugs": "https://github.com/SpookThemes/larua-ghost-theme/issues",
- 
   "config": {
       "posts_per_page": 9
   },

@@ -15,13 +15,14 @@
   {{/if}}
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
+      {{#if @site.secondary_navigation}}
               <!-- Loop through the navigation items -->
               {{#foreach navigation}}
               <li class="nav-item{{#if current}} active{{/if}}">
                   <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
               </li>
               {{/foreach}}
-              
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {{t "More"}}
@@ -38,6 +39,16 @@
                   {{/foreach}}
                 </div>
               </li>
+
+      {{else}}
+              <!-- Loop through the navigation items -->
+              {{#foreach navigation}}
+              <li class="nav-item{{#if current}} active{{/if}}">
+                  <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
+              </li>
+              {{/foreach}}
+
+      {{/if}}
     </ul>
   </div>
 </nav>

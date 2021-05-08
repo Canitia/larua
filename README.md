@@ -22,8 +22,8 @@ A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh l
 
 # Larua's base
 Larua uses the following libraries;
-- Bootstrap 4.6.0
-- JQuery (3.1.x)
+- Bootstrap 5
+- JQuery Slim (3.6.x)
 - Font Awesome 5
 - Webfontloader 1.6.28
 
@@ -45,7 +45,3 @@ Larua uses the following libraries;
 
 ## Google Analytics
 To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'.
-
-## Experimental: Members support
-- Upload the routes.yaml file in the Labs section 'routes'
-- Enable members option

@@ -408,7 +408,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title {
-	font-size: 2rem !important;
+	font-size: 1.6rem !important;
 	margin-top: 15px;
 	white-space: nowrap;
 	overflow: hidden;

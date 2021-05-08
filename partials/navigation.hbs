@@ -23,11 +23,12 @@
               </li>
               {{/foreach}}
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  {{t "More"}}
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{t "More"}}
+            </a>
+            <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     {{#if @member}}
                     <a class="nav-link dropdown-item" href="{{@site.url}}/#/portal/account">{{t "My Account"}}</a>
                     <a class="nav-link dropdown-item" href="javascript:" data-members-signout>{{t "Sign-out"}}</a>
@@ -37,9 +38,8 @@
                   {{#foreach @site.secondary_navigation }}
                     <a class="nav-link dropdown-item" href="{{url absolute="true"}}">{{label}}</a>
                   {{/foreach}}
-                </div>
-              </li>
-
+            </ul>
+          </li>
       {{else}}
               <!-- Loop through the navigation items -->
               {{#foreach navigation}}

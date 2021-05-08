@@ -132,16 +132,13 @@ p > a:hover {
 	padding-top: 0;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	top: -64px;
 }
 
 .main-content-head {
-	top: -64px;
 	position: relative;
 }
 
 .tag_head_wrap {
-	top: -64px !important;
 	position: relative;
 }
 
@@ -443,7 +440,6 @@ POST/ARTICLE CARD UI - main
 	margin-left: auto !important;
 	margin-right: auto !important;
 	background: white;
-	top: -64px;
 	position: relative;
 }
 
@@ -1042,7 +1038,6 @@ footer {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	top: -64px;
 	position: relative;
 }
 
@@ -1305,10 +1300,6 @@ footer {
 	.page-footer {
 		top: 0;
 	}
-
-	.post-template .page-footer {
-		top: -64px;
-	}
 }
 
 /* mobile devices */
@@ -1442,10 +1433,6 @@ footer {
 
 	.page-footer {
 		top: 0;
-	}
-
-	.post-template .page-footer {
-		top: -64px;
 	}
 }
 

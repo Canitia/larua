@@ -417,6 +417,7 @@ POST/ARTICLE CARD UI - main
 
 .card-title a {
 	color: black;
+	text-decoration: none;
 }
 
 .card-title a:hover {

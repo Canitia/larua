@@ -11,7 +11,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme with a card based UI, fresh l
 - Ability to set your own publication icon and publication logo.
 - Set site cover.
 - Set cover- and featured-post images for tags, author and single post pages.
-- Navigation configurable via navigation-section in Ghost panel (including secondary navigation).
+- Navigation configurable via navigation-section in Ghost panel.
 - Author section at the bottom of each post includes avatar, user bio and socials.
 - Shows related posts (by primary tag) below a post.
 - Set social media links through Ghost settings panel (they will show in the header)

@@ -15,16 +15,13 @@
   {{/if}}
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      {{#if @site.secondary_navigation}}
               <!-- Loop through the navigation items -->
               {{#foreach navigation}}
               <li class="nav-item{{#if current}} active{{/if}}">
                   <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
               </li>
               {{/foreach}}
-
-
-          <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               {{t "More"}}
             </a>
@@ -35,20 +32,8 @@
                     {{else}}
                     <a class="nav-link dropdown-item" href="{{@site.url}}/#/portal/signin">{{t "Sign-in"}}</a>
                     {{/if}}
-                  {{#foreach @site.secondary_navigation }}
-                    <a class="nav-link dropdown-item" href="{{url absolute="true"}}">{{label}}</a>
-                  {{/foreach}}
             </ul>
           </li>
-      {{else}}
-              <!-- Loop through the navigation items -->
-              {{#foreach navigation}}
-              <li class="nav-item{{#if current}} active{{/if}}">
-                  <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
-              </li>
-              {{/foreach}}
-
-      {{/if}}
     </ul>
   </div>
 </nav>
